@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "plans": "Pläne",
+    "contracts": "Verträge",
+    "settings": "Einstellungen"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} Lieferintervalle",
+    "day": {
+      "one": "Jeden Tag",
+      "other": "Alle {count} Tage"
+    },
+    "week": {
+      "one": "Jede Woche",
+      "other": "Alle {count} Wochen"
+    },
+    "month": {
+      "one": "Jeden Monat",
+      "other": "Alle {count} Monate"
+    },
+    "year": {
+      "one": "Jedes Jahr",
+      "other": "Alle {count} Jahre"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Mehrere Zustellungsfrequenzen"
+  },
+  "productAndVariants": {
+    "noProduct": "Keine",
+    "productsCount": {
+      "one": "{count} Produkt",
+      "other": "{count} Produkte"
+    },
+    "noVariant": "Keine Variante",
+    "variantsCount": {
+      "one": "{count} Variante",
+      "other": "{count} Varianten"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Kein Rabatt",
+    "amountOff": "{amount} Rabatt",
+    "percentageOff": "{amount} % Rabatt",
+    "multipleDiscounts": "Mehrere Rabatte",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Aktiv",
+    "paused": "Pausiert",
+    "cancelled": "Abgebrochen",
+    "expired": "Abgelaufen",
+    "failed": "Fehlgeschlagen",
+    "stale": "Überholt"
+  },
+  "actions": {
+    "saveButtonText": "Speichern",
+    "edit": "Bearbeiten"
+  },
+  "footer": {
+    "learnMore": "Erhalte mehr Informationen über {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "Abonnements",
+    "contracts": "Abonnementverträge"
+  },
+  "errorBoundary": {
+    "title": "Abonnements",
+    "header": "Seite konnte nicht geladen werden",
+    "description": "Lade die Seite erneut oder versuche es später noch einmal. Wenn das Problem weiterhin besteht, wende dich bitte an {statusPageLink}.",
+    "statusPageLinkText": "Shopify Support",
+    "reloadAction": "Seite neu laden"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Sammelaktion abgeschlossen"
+  },
+  "missingScopes": {
+    "title": "Von Shopify genehmigte Bereiche fehlen",
+    "description": "Bevor du die Subscriptions-Referenz-App ausführen kannst, musst du bei Shopify die Genehmigung zur Verwendung dieser API-Bereiche beantragen:",
+    "link": "In der Dokumentation findest du weitere Informationen zu den {{link}} für diese App.",
+    "linkText": "von Shopify genehmigten Bereichen"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Еднократна покупка",
+      "subscription": "Абонамент"
+    }
+  },
+  "policy": {
+    "description": "Автоматично подновяване, прескачане или анулиране по всяко време.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Преглед за правилата за абонаменти</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "За да добавите към количката, отидете на страницата на продукта и изберете вариант за покупка"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "home": "Homepage",
+    "plans": "Piani",
+    "contracts": "Contratti",
+    "settings": "Impostazioni"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} frequenze di consegna",
+    "day": {
+      "one": "Ogni giorno",
+      "other": "Ogni {count} giorni",
+      "many": "Ogni {count} giorni"
+    },
+    "week": {
+      "one": "Ogni settimana",
+      "other": "Ogni {count} settimane",
+      "many": "Ogni {count} settimane"
+    },
+    "month": {
+      "one": "Ogni mese",
+      "other": "Ogni {count} mesi",
+      "many": "Ogni {count} mesi"
+    },
+    "year": {
+      "one": "Ogni anno",
+      "other": "Ogni {count} anni",
+      "many": "Ogni {count} anni"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Frequenze di consegna multiple"
+  },
+  "productAndVariants": {
+    "noProduct": "Nessuno",
+    "productsCount": {
+      "one": "{count} prodotto",
+      "other": "{count} prodotti",
+      "many": "{count} prodotti"
+    },
+    "noVariant": "Nessuna variante",
+    "variantsCount": {
+      "one": "{count} variante",
+      "other": "{count} varianti",
+      "many": "{count} varianti"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Nessuno sconto",
+    "amountOff": "{amount} di sconto",
+    "percentageOff": "{amount}% di sconto",
+    "multipleDiscounts": "Sconti multipli",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Attivo",
+    "paused": "In pausa",
+    "cancelled": "Annullato",
+    "expired": "Scaduto",
+    "failed": "Non riuscito",
+    "stale": "Non aggiornato"
+  },
+  "actions": {
+    "saveButtonText": "Salva",
+    "edit": "Modifica"
+  },
+  "footer": {
+    "learnMore": "Scopri di più sui {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "piani di abbonamento",
+    "contracts": "Contratti di abbonamento"
+  },
+  "errorBoundary": {
+    "title": "Abbonamenti",
+    "header": "Impossibile caricare la pagina",
+    "description": "Ricarica la pagina o riprova più tardi. Se i problemi persistono, contatta l'{statusPageLink}.",
+    "statusPageLinkText": "Assistenza Shopify",
+    "reloadAction": "Aggiorna la pagina"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Operazione in blocco completata"
+  },
+  "missingScopes": {
+    "title": "Ambiti approvati di Shopify mancanti",
+    "description": "Prima di poter eseguire l'app Subscriptions reference, è necessario richiedere l'approvazione di Shopify per l'utilizzo di questi ambiti API:",
+    "link": "Fai riferimento alla documentazione per maggiori informazioni sugli {{link}} per questa app.",
+    "linkText": "ambiti approvati di Shopify"
+  }
+}

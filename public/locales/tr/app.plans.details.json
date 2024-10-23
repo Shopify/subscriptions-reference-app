@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Abonelik planlarına dön",
+  "planTitle": "Plan başlığı",
+  "planTitleHelpText": "Müşteriler bunu görmez.",
+  "purchaseOptionTitle": "Satın alım seçeneği başlığı",
+  "purchaseOptionTitleHelpText": "Müşteriler bunu, abonelikleri içeren {{howToDisplayProductsLink}} görür.",
+  "defaultPurchaseOptionTitle": "Abone ol ve kaydet",
+  "saveButtonText": "Kaydet",
+  "create": {
+    "pageTitle": "Abonelik planı oluştur"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Geçersiz ürün seçildi",
+    "invalidVariant": "Geçersiz ürün varyasyonu seçildi",
+    "merchantCodeEmptyError": "Plan başlığı gereklidir",
+    "nameEmptyError": "Satın alım seçeneği başlığı gereklidir",
+    "createError": "Abonelik planı oluşturulurken bir hata oluştu",
+    "updateError": "Abonelik planı güncellenirken bir hata oluştu",
+    "deliveryFrequencyError": "Sıklık 0 değerinden büyük olmalıdır",
+    "deliveryFrequencyMaxError": "Sıklık değeri çok büyük",
+    "deliveryFrequencyFloatError": "Teslimat sıklığı bir tam sayı olmalıdır",
+    "discountValueMinError": "İndirim değeri, pozitif bir değer olmalıdır",
+    "discountValueMaxError": "İndirim değeri çok büyük",
+    "discountValueMaxPercentError": "İndirim değeri %100'den büyük olmamalıdır",
+    "updateSuccess": "Abonelik planı güncellendi",
+    "duplicateDeliveryFrequencyError": "Teslimat seçenekleri benzersiz olmalıdır",
+    "missingSellingPlanGroup": "Abonelik planı bulunamadı",
+    "createSuccess": "Abonelik planı oluşturuldu"
+  },
+  "productCard": {
+    "title": "Ürünler",
+    "browse": "Göz at",
+    "searchProducts": "Ürünleri ara",
+    "variantsSelected": "({total} varyasyondan {count} tanesi seçildi)",
+    "updateError": "Abonelik planı güncellenirken bir hata oluştu",
+    "maxProductsWarning": "Bir defada yalnızca {{count}} ürün eklenebilir. {{count}} adetten fazla ürününüz varsa bunları, bu planı kaydettikten sonra ekleyebilirsiniz."
+  },
+  "discountDeliveryCard": {
+    "title": "İndirim ve teslimat",
+    "offerDiscount": "İndirim sun",
+    "discountType": {
+      "percentageOff": "İndirim yüzdesi",
+      "amountOff": "İndirim tutarı",
+      "fixedPrice": "Sabit fiyat"
+    },
+    "deliveryFrequency": "Teslimat sıklığı",
+    "deliveryInterval": {
+      "label": "Teslimat aralığı",
+      "weeks": "hafta",
+      "months": "ay",
+      "years": "yıl"
+    },
+    "addOption": "Seçenek ekle",
+    "removeOption": "Seçeneği kaldır",
+    "discountValueFixedPriceHelpText": "Müşterilere bu fiyat gösterilir"
+  },
+  "deleteButtonText": "Sil",
+  "deleteSellingPlanGroupModal": {
+    "title": "Abonelik planı silinsin mi?",
+    "content": "Bu işlem geri alınamaz. İlgili sözleşmeler bu durumdan etkilenmez.",
+    "deleteButton": "Planı sil",
+    "cancelButton": "İptal",
+    "deleteError": "Abonelik planı silinirken bir hata oluştu"
+  },
+  "summaryCard": {
+    "cardTitle": "Özet",
+    "noPlanTitleYet": "Başlık yok",
+    "weeklyDelivery": {
+      "one": "Her hafta teslim et",
+      "other": "Her {intervalCount} haftada bir teslim et"
+    },
+    "monthlyDelivery": {
+      "one": "Her ay teslim et",
+      "other": "Her {intervalCount} ayda bir teslim et"
+    },
+    "yearlyDelivery": {
+      "one": "Her yıl teslim et",
+      "other": "Her {intervalCount} yılda bir teslim et"
+    },
+    "percentageOff": "%{amount} indirim",
+    "amountOff": "{amount} indirim",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} teslimat sıklığı",
+    "countProducts": {
+      "one": "{count} ürün",
+      "other": "{count} ürün"
+    },
+    "countVariants": {
+      "one": "{count} ürün varyasyonu",
+      "other": "{count} ürün varyasyonu"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "vitrin ürün sayfalarında",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Teslimat sıklığı"
+    }
+  }
+}

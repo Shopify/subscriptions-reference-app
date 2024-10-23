@@ -1,0 +1,68 @@
+{
+  "name": "Abonnements",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "merchantCode": {
+    "label": "Description interne",
+    "helpText": "Pour référence uniquement"
+  },
+  "planName": {
+    "label": "Titre",
+    "placeholder": "S’abonner et enregistrer",
+    "helpText": "Les clients verront cette information sur les pages de produit de la boutique en ligne qui comportent des abonnements"
+  },
+  "discountAndDelivery": "Réduction et livraison",
+  "offerDiscount": "Offrir une réduction",
+  "discountType": {
+    "percentageOff": "Pourcentage de réduction",
+    "amountOff": "Montant de réduction",
+    "fixedPrice": "Prix fixe"
+  },
+  "deliveryFrequency": "Fréquence de livraison",
+  "deliveryInterval": {
+    "label": "Intervalle de livraison",
+    "weeks": "semaines",
+    "months": "mois",
+    "years": "ans",
+    "day": {
+      "singular": "Livrez chaque jour",
+      "plural": "Livrez tous les {{count}} jours"
+    },
+    "week": {
+      "singular": "Livrez chaque semaine",
+      "plural": "Livrez toutes les {{count}} semaines"
+    },
+    "month": {
+      "singular": "Livrez chaque mois",
+      "plural": "Livrez tous les {{count}} mois"
+    },
+    "year": {
+      "singular": "Livrez chaque année",
+      "plural": "Livrez tous les {{count}} ans"
+    }
+  },
+  "addOptionButton": {
+    "label": "Option",
+    "accessibilityLabel": "Ajouter une option"
+  },
+  "removeOption": "Supprimer l’option",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % de réduction",
+    "amountOff": "Réduction de {{amount}}",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Forfait créé",
+    "update": "Forfait mis à jour"
+  },
+  "validator": {
+    "nameEmptyError": "Le titre est obligatoire",
+    "merchantCodeEmptyError": "La description interne est obligatoire",
+    "deliveryFrequencyError": "La fréquence de livraison est requise",
+    "deliveryFrequencyMaxError": "La fréquence de livraison doit être inférieure à 36 500 jours",
+    "deliveryFrequencyFloatError": "La fréquence de livraison doit être un nombre entier",
+    "discountValueMinError": "La valeur de la réduction doit être supérieure à 0",
+    "discountValueMaxError": "La valeur de la réduction est trop élevée",
+    "discountValueMaxPercentError": "La valeur de la réduction ne doit pas être supérieure à 100 %"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "구독",
+  "save": "저장",
+  "cancel": "취소",
+  "merchantCode": {
+    "label": "내부 설명",
+    "helpText": "참조용"
+  },
+  "planName": {
+    "label": "제목",
+    "placeholder": "구독 및 저장",
+    "helpText": "이 부분은 구독한 상점 제품 페이지에서 고객에게 표시됩니다"
+  },
+  "discountAndDelivery": "할인 및 배송",
+  "offerDiscount": "할인 제공",
+  "discountType": {
+    "percentageOff": "백분율 힐인",
+    "amountOff": "금액 할인",
+    "fixedPrice": "고정 가격"
+  },
+  "deliveryFrequency": "배송 빈도",
+  "deliveryInterval": {
+    "label": "배송 주기",
+    "weeks": "주",
+    "months": "개월",
+    "years": "년",
+    "day": {
+      "singular": "매일 배송",
+      "plural": "{{count}}일마다 배송"
+    },
+    "week": {
+      "singular": "매주 배송",
+      "plural": "{{count}}주마다 배송"
+    },
+    "month": {
+      "singular": "매달 배송",
+      "plural": "{{count}}개월마다 배송"
+    },
+    "year": {
+      "singular": "매년 배송",
+      "plural": "{{count}}년마다 배송"
+    }
+  },
+  "addOptionButton": {
+    "label": "옵션",
+    "accessibilityLabel": "옵션 추가"
+  },
+  "removeOption": "옵션 제거",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% 할인",
+    "amountOff": "{{amount}} 할인",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "가입 요금이 생성됨",
+    "update": "가입 요금이 업데이트됨"
+  },
+  "validator": {
+    "nameEmptyError": "제목은 필수입니다.",
+    "merchantCodeEmptyError": "내부 설명은 필수입니다.",
+    "deliveryFrequencyError": "배송 빈도는 필수입니다.",
+    "deliveryFrequencyMaxError": "배송 빈도는 36,500일 이내여야 합니다.",
+    "deliveryFrequencyFloatError": "배송 빈도는 정수여야 합니다.",
+    "discountValueMinError": "할인 금액은 0보다 커야 합니다",
+    "discountValueMaxError": "할인 금액이 너무 높습니다.",
+    "discountValueMaxPercentError": "할인 금액은 100%를 초과할 수 없습니다."
+  }
+}

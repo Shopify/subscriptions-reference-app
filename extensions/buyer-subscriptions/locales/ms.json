@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Langganan",
+  "manageSubscription": "Uruskan langganan",
+  "upcomingOrder": "Pesanan akan datang",
+  "skip": "Langkau",
+  "showUpcomingOrders": "Tunjukkan pesanan akan datang",
+  "nextOrder": "Pesanan seterusnya: {{date}}",
+  "lastUpdated": "Terakhir dikemas kini {{date}}",
+  "subscriptionDetails": "Butiran langganan",
+  "maxOrdersSkipped": "Bilangan pesanan maksimum telah dilangkau",
+  "skipOrderOverYear": "Tidak dapat melangkau kerana pesanan adalah lebih dari setahun akan datang",
+  "paymentMethodInvalidBanner": "{{brand}} yang berakhir dalam {{lastDigits}} adalah tidak sah. Kemas kini kaedah pembayaran di bawah untuk terus menerima pesanan akan datang",
+  "paymentMethodInvalidBannerGeneric": "Kad yang berakhir dalam {{lastDigits}} adalah tidak sah. Kemas kini kaedah pembayaran di bawah untuk terus menerima pesanan akan datang",
+  "paymentMethodInvalidBadge": "Kaedah pembayaran tidak sah",
+  "listItem": {
+    "multipleItemsName": "{{count}} item",
+    "accessibilityLabel": "Urus langganan: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktif",
+    "paused": "Dijeda",
+    "cancelled": "Dibatalkan",
+    "expired": "Tamat tempoh",
+    "failed": "Gagal",
+    "stale": "Luput"
+  },
+  "deliveryInterval": {
+    "day.one": "Penghantaran setiap hari",
+    "day.other": "Penghantaran setiap {{count}} hari",
+    "week.one": "Penghantaran setiap minggu",
+    "week.other": "Penghantaran setiap {{count}} minggu",
+    "month.one": "Penghantaran setiap bulan",
+    "month.other": "Penghantaran setiap {{count}} bulan",
+    "year.one": "Penghantaran setiap tahun",
+    "year.other": "Penghantaran setiap {{count}} tahun"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Kekerapan penghantaran",
+    "payment": "Pembayaran",
+    "billingAddress": "Alamat pengebilan",
+    "shippingAddress": "Alamat penghantaran",
+    "shippingMethod": "Cara penghantaran",
+    "pickupLocation": "Lokasi pengambilan",
+    "changePaymentMethodButtonLabel": "Ubah kaedah pembayaran",
+    "editShippingAddressButtonLabel": "Edit alamat penghantaran",
+    "editPickupAddressButtonLabel": "Edit alamat pengambilan",
+    "inventoryError": "Pesanan anda yang seterusnya mungkin lewat kerana produk kehabisan stok"
+  },
+  "paymentModal": {
+    "title": "Gantikan kaedah pembayaran",
+    "save": "Simpan",
+    "paymentMethod": "Kaedah pembayaran",
+    "edit": "Edit",
+    "close": "Tutup",
+    "errorBannerTitle": "Tidak dapat mengemas kini kaedah pembayaran"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Pesanan lalu",
+    "view": "Lihat"
+  },
+  "skipNextOrder": {
+    "text": "Langkau pesanan seterusnya",
+    "generic": "Adakah anda mahu melangkau pesanan seterusnya?",
+    "date": "Adakah anda mahu melangkau pesanan seterusnya? Langganan anda akan diteruskan pada {{date}}.",
+    "errorBannerTitle": "Tidak dapat melangkau pesanan seterusnya",
+    "close": "Tutup"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Jeda langganan",
+    "action": "Jeda langganan",
+    "close": "Tutup",
+    "description": "Langganan anda akan dijeda berkuat kuasa serta-merta dan anda tidak akan menerima sebarang caj lanjut atau pesanan akan datang. Anda boleh meneruskan langganan ini pada bila-bila masa.",
+    "errorBannerTitle": "Tidak dapat menjeda langganan"
+  },
+  "subscriptionActions": {
+    "pause": "Jeda",
+    "skip": "Langkau pesanan seterusnya",
+    "resume": "Sambung semula",
+    "cancel": "Batalkan",
+    "manage": "Urus",
+    "viewSubscriptionDetails": "Lihat butiran"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Jika anda meneruskan langganan ini, pengebilan akan diteruskan serta-merta.",
+    "descriptionWithDate": "Jika anda meneruskan langganan ini, pengebilan akan diteruskan pada {{date}}.",
+    "close": "Tutup",
+    "descriptionPriceChanged": "Harga untuk langganan ini telah berubah anda akan akan dicaj {{price}} bagi setiap pesanan yang akan datang.",
+    "continue": "Teruskan",
+    "title": "Teruskan langganan",
+    "errorBannerTitle": "Tidak dapat meneruskan langganan"
+  },
+  "priceSummary": {
+    "subtotal": "Subjumlah",
+    "shipping": "Penghantaran",
+    "taxes": "Cukai",
+    "total": "Jumlah",
+    "quantity": "{{quantity}}/satu"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Batalkan langganan",
+    "description": "Jika anda membatalkan langganan anda, pengebilan dan penghantaran akan ditamatkan serta-merta. Pembatalan langganan tidak dapat dibuat asal. Untuk berhenti menerima pesanan buat sementara waktu, jeda langganan anda.",
+    "action": "Batalkan langganan",
+    "close": "Tutup",
+    "errorBannerTitle": "Tidak dapat membatalkan langganan"
+  },
+  "errorBoundary": {
+    "content": "Sesuatu tidak kena, sila segar semula halaman"
+  },
+  "addressModal": {
+    "save": "Simpan",
+    "continue": "Teruskan",
+    "cancel": "Batal",
+    "title": "Edit alamat penghantaran",
+    "errorBannerTitle": "Tidak dapat mengemas kini kaedah penghantaran",
+    "noDeliveryOptions": "Langganan ini tidak dapat dihantar ke alamat yang anda masukkan. Semak alamat anda untuk memastikan bahawa semua medan telah diisi dengan betul dan cuba lagi."
+  },
+  "successBanner": {
+    "paused": "Langganan dijeda",
+    "resumed": "Langganan diteruskan",
+    "cancelled": "Langganan dibatalkan",
+    "skipped": "Pesanan seterusnya dilangkau",
+    "paymentUpdated": "Kaedah pembayaran dikemas kini",
+    "shippingUpdated": "Cara penghantaran dikemas kini",
+    "deliveryUpdated": "Kaedah penghantaran telah dikemas kini"
+  },
+  "upcomingOrdersModal": {
+    "title": "Pesanan akan datang",
+    "close": "Tutup",
+    "skipOrder": "Langkau",
+    "skipOrderAccessibilityLabel": "Langkau pesanan pada {{orderDate}}",
+    "unSkipOrder": "Nyahlangkau",
+    "unskipOrderAccessibilityLabel": "Nyahlangkau pada {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (dilangkau)",
+    "skippedSuccessMessage": "Pesanan pada {{orderDate}} telah dilangkau",
+    "unskippedSuccessMessage": "Pesanan pada {{orderDate}} telah dinyahlangkau",
+    "skippedErrorMessage": "Ralat melangkau pesanan",
+    "unskippedErrorMessage": "Ralat menyahlangkau pesanan"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Pilih kaedah penghantaran",
+    "free": "Percuma",
+    "localPickupOption": "Pengambilan: {{location}}",
+    "localDeliveryPhoneLabel": "Nombor telefon mudah alih",
+    "localDeliveryInstructionsLabel": "Arahan penghantaran (pilihan)",
+    "localDeliveryPhoneDetails": "Anda boleh dihubungi dengan perkembangan tentang penghantaran anda.",
+    "localDeliveryInstructionsDetails": "Masukkan maklumat yang diperlukan seperti kod pintu atau arahan meletakkan pakej."
+  },
+  "notFound": {
+    "title": "Langganan tidak ditemukan",
+    "description": "Langganan tidak wujud atau anda tiada kebenaran untuk melihatnya."
+  },
+  "emptyState": {
+    "title": "Tiada langganan dibeli",
+    "description": "Pergi ke kedai untuk membeli langganan"
+  }
+}

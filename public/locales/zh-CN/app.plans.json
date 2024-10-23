@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "订阅套餐",
+    "createPlan": "套餐",
+    "accessibilityLabel": "创建订阅套餐"
+  },
+  "emptyState": {
+    "title": "获得更多回头客",
+    "description": "允许客户定期购买产品或服务",
+    "action": "订阅套餐"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "套餐标题",
+      "products": "产品",
+      "deliveryFrequency": "配送频率",
+      "discount": "定价",
+      "view": "全部"
+    },
+    "resourceName": {
+      "singular": "订阅",
+      "plural": "订阅"
+    },
+    "resources": {
+      "allSelected": "所有"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "删除套餐",
+        "other": "删除套餐"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "此操作无法撤销。任何相关合同都不会受到影响。",
+          "other": "此操作无法撤销。任何相关合同都不会受到影响。"
+        },
+        "actions": {
+          "delete": {
+            "one": "删除套餐",
+            "other": "删除套餐"
+          },
+          "cancel": "取消"
+        },
+        "title": {
+          "one": "删除 1 个订阅套餐？",
+          "other": "删除 {count} 个订阅套餐？"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "已删除订阅套餐",
+          "other": "已删除订阅套餐"
+        },
+        "failed": {
+          "one": "删除订阅套餐失败",
+          "other": "删除订阅套餐失败"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "创建时间",
+        "ascendingLabel": "由旧到新",
+        "descendingLabel": "由新到旧"
+      },
+      "UPDATED_AT": {
+        "label": "更新时间",
+        "ascendingLabel": "由旧到新",
+        "descendingLabel": "由新到旧"
+      }
+    }
+  }
+}

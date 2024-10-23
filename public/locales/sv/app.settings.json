@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Spara",
+  "actions": {
+    "updateSuccess": "Inställningarna är uppdaterade"
+  },
+  "title": "Inställningar",
+  "billingFailureSettings": {
+    "title": "Faktureringsförsök",
+    "description": "Kontrollera när faktureringsförsök görs på nytt efter ett misslyckat försök",
+    "paymentFailureTitle": "Misslyckad betalningsmetod",
+    "inventoryFailureTitle": "Otillräckligt lager",
+    "retryAttempts": {
+      "label": "Antal omförsök",
+      "helpText": "Minst 0, max 10 omförsök",
+      "errors": {
+        "min": "Antalet omförsök måste vara fler än 0",
+        "max": "För många omförsök"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dagar mellan nya betalningsförsök",
+      "helpText": "Minst 1 dag, max 14 dagar",
+      "errors": {
+        "min": "Dagar mellan nya betalningsförsök måste vara fler än 1",
+        "max": "För många dagar mellan nya betalningsförsök"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Antalet nya lagerförsök måste vara fler än 0",
+        "max": "För många nya lagerförsök"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Antalet dagar mellan nya lagerförsök måste vara fler än 1",
+        "max": "För många dagar mellan nya lagerförsök"
+      }
+    },
+    "onFailure": {
+      "label": "Åtgärd när alla omförsök har misslyckats",
+      "options": {
+        "skip": "Hoppa över prenumerationen och skicka avisering",
+        "cancel": "Avbryt prenumerationen och skicka avisering",
+        "pause": "Pausa prenumerationen och skicka avisering"
+      }
+    },
+    "notifications": "Redigera aviseringar",
+    "staffNotificationFrequency": {
+      "label": "Frekvens av aviseringar till personal",
+      "options": {
+        "immediately": "Varje gång fakturering misslyckas",
+        "weekly": "Veckovis sammanfattning av faktureringsmisslyckanden",
+        "monthly": "Månadsvis sammanfattning av faktureringsmisslyckanden"
+      }
+    }
+  }
+}

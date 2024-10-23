@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Predplatné",
+  "manageSubscription": "Spravovať predplatné",
+  "upcomingOrder": "Nasledujúca objednávka",
+  "skip": "Preskočiť",
+  "showUpcomingOrders": "Zobraziť nasledujúce objednávky",
+  "nextOrder": "Nasledujúca objednávka: {{date}}",
+  "lastUpdated": "Posledná kontrola: {{date}}",
+  "subscriptionDetails": "Podrobnosti o predplatnom",
+  "maxOrdersSkipped": "Vynechal sa maximálny počet objednávok",
+  "skipOrderOverYear": "Nepodarilo sa preskočiť, pretože objednávka je dostupná až o viac ako rok",
+  "paymentMethodInvalidBanner": "Karta {{brand}} končiaca sa na {{lastDigits}} je neplatná. Aktualizujte nižšie uvedený spôsob platby, aby ste mohli prijímať nadchádzajúce objednávky.",
+  "paymentMethodInvalidBannerGeneric": "Karta končiaca sa na {{lastDigits}} je neplatná. Aktualizujte nižšie uvedený spôsob platby, aby ste mohli prijímať nadchádzajúce objednávky.",
+  "paymentMethodInvalidBadge": "Neplatný spôsob platby",
+  "listItem": {
+    "multipleItemsName": "Počet položiek: {{count}}",
+    "accessibilityLabel": "Spravovať predplatné: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktívne",
+    "paused": "Pozastavené",
+    "cancelled": "Zrušené",
+    "expired": "S uplynutou platnosťou",
+    "failed": "Neúspešné",
+    "stale": "Zastaralé"
+  },
+  "deliveryInterval": {
+    "day.one": "Doručenie každý deň",
+    "day.other": "Doručenie každý {{count}}. deň",
+    "week.one": "Doručenie každý týždeň",
+    "week.other": "Doručenie každý {{count}}. týždeň",
+    "month.one": "Doručenie každý mesiac",
+    "month.other": "Doručenie každý {{count}}. mesiac",
+    "year.one": "Doručenie každý rok",
+    "year.other": "Doručenie každý {{count}}. rok"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Frekvencia doručovania",
+    "payment": "Platba",
+    "billingAddress": "Fakturačná adresa",
+    "shippingAddress": "Dodacia adresa",
+    "shippingMethod": "Spôsob dopravy",
+    "pickupLocation": "Miesto vyzdvihnutia",
+    "changePaymentMethodButtonLabel": "Zmeniť spôsob platby",
+    "editShippingAddressButtonLabel": "Upraviť dodaciu adresu",
+    "editPickupAddressButtonLabel": "Upraviť adresu vyzdvihnutia",
+    "inventoryError": "Vaša ďalšia objednávka môže byť oneskorená, pretože produkty nie sú na sklade"
+  },
+  "paymentModal": {
+    "title": "Nahradiť spôsob platby",
+    "save": "Uložiť",
+    "paymentMethod": "Spôsob platby",
+    "edit": "Upraviť",
+    "close": "Zavrieť",
+    "errorBannerTitle": "Nepodarilo sa aktualizovať spôsob platby"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Predchádzajúce objednávky",
+    "view": "Zobraziť"
+  },
+  "skipNextOrder": {
+    "text": "Preskočenie nasledujúcej objednávky",
+    "generic": "Naozaj chcete preskočiť nasledujúcu objednávku?",
+    "date": "Naozaj chcete preskočiť nasledujúcu objednávku? Vaše predplatné sa obnoví {{date}}.",
+    "errorBannerTitle": "Nepodarilo sa preskočiť nasledujúcu objednávku",
+    "close": "Zavrieť"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pozastaviť predplatné",
+    "action": "Pozastaviť predplatné",
+    "close": "Zavrieť",
+    "description": "Vaše predplatné bude s okamžitou platnosťou pozastavené a nebudú sa vám účtovať žiadne ďalšie poplatky ani poplatky za nadchádzajúce objednávky. Toto predplatné môžete kedykoľvek obnoviť.",
+    "errorBannerTitle": "Nepodarilo sa pozastaviť predplatné"
+  },
+  "subscriptionActions": {
+    "pause": "Pozastaviť",
+    "skip": "Preskočenie nasledujúcej objednávky",
+    "resume": "Obnoviť",
+    "cancel": "Zrušiť",
+    "manage": "Spravovať",
+    "viewSubscriptionDetails": "Zobraziť podrobnosti"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Ak obnovíte toto predplatné, fakturácia sa obnoví okamžite.",
+    "descriptionWithDate": "Ak obnovíte toto predplatné, fakturácia sa obnoví {{date}}.",
+    "close": "Zavrieť",
+    "descriptionPriceChanged": "Cena tohto predplatného sa zmenila a za každú nadchádzajúcu objednávku sa vám bude účtovať suma {{price}}.",
+    "continue": "Pokračovať",
+    "title": "Obnoviť predplatné",
+    "errorBannerTitle": "Nepodarilo sa obnoviť predplatné"
+  },
+  "priceSummary": {
+    "subtotal": "Medzisúčet",
+    "shipping": "Doprava",
+    "taxes": "Dane",
+    "total": "Celkove",
+    "quantity": "{{quantity}}/ks"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Zrušiť predplatné",
+    "description": "Ak zrušíte svoje predplatné, fakturácia a doručovanie sa okamžite ukončí. Zrušenie predplatného sa nedá vrátiť späť. Ak chcete dočasne zastaviť prijímanie objednávok, predplatné pozastavte.",
+    "action": "Zrušiť predplatné",
+    "close": "Zavrieť",
+    "errorBannerTitle": "Nepodarilo sa zrušiť predplatné"
+  },
+  "errorBoundary": {
+    "content": "Vyskytla sa chyba, obnovte stránku"
+  },
+  "addressModal": {
+    "save": "Uložiť",
+    "continue": "Pokračovať",
+    "cancel": "Zrušiť",
+    "title": "Upraviť dodaciu adresu",
+    "errorBannerTitle": "Nepodarilo sa aktualizovať spôsob doručenia",
+    "noDeliveryOptions": "Toto predplatné nie je možné odoslať na uvedenú adresu. Skontrolujte, či sú všetky polia adresy vyplnené správne, a skúste to znova."
+  },
+  "successBanner": {
+    "paused": "Predplatné bolo pozastavené",
+    "resumed": "Predplatné bolo obnovené",
+    "cancelled": "Predplatné bolo zrušené",
+    "skipped": "Nasledujúca objednávka bola preskočená",
+    "paymentUpdated": "Spôsob platby bol aktualizovaný",
+    "shippingUpdated": "Spôsob dopravy bol aktualizovaný",
+    "deliveryUpdated": "Spôsob doručenia bol aktualizovaný"
+  },
+  "upcomingOrdersModal": {
+    "title": "Nadchádzajúce objednávky",
+    "close": "Zavrieť",
+    "skipOrder": "Preskočiť",
+    "skipOrderAccessibilityLabel": "Preskočiť objednávku ku dňu {{orderDate}}",
+    "unSkipOrder": "Zrušiť preskočenie",
+    "unskipOrderAccessibilityLabel": "Zrušiť preskočenie objednávky ku dňu {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (preskočené)",
+    "skippedSuccessMessage": "Objednávka ku dňu {{orderDate}} bola preskočená",
+    "unskippedSuccessMessage": "Preskočenie objednávky ku dňu {{orderDate}} bolo zrušené",
+    "skippedErrorMessage": "Pri preskakovaní objednávky sa vyskytla chyba",
+    "unskippedErrorMessage": "Pri zrušení preskakovania objednávky sa vyskytla chyba"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Vyberte spôsob doručenia",
+    "free": "Zadarmo",
+    "localPickupOption": "Miesto vyzdvihnutia: {{location}}",
+    "localDeliveryPhoneLabel": "Číslo mobilného telefónu",
+    "localDeliveryInstructionsLabel": "Pokyny na doručenie (voliteľné)",
+    "localDeliveryPhoneDetails": "Môžeme vás kontaktovať s aktuálnymi informáciami v súvislosti s doručením.",
+    "localDeliveryInstructionsDetails": "Zadajte potrebné informácie, ako napríklad kódy na otvorenie dverí alebo pokyny na podanie zásielky."
+  },
+  "notFound": {
+    "title": "Predplatné sa nenašlo",
+    "description": "Toto predplatné neexistuje alebo nemáte povolenie na jeho zobrazenie."
+  },
+  "emptyState": {
+    "title": "Nie je zakúpené žiadne predplatné",
+    "description": "Predplatné si môžete zakúpiť v obchode"
+  }
+}

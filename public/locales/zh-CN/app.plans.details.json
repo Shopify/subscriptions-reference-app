@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "返回订阅套餐",
+  "planTitle": "套餐标题",
+  "planTitleHelpText": "客户不会看到此内容。",
+  "purchaseOptionTitle": "购买选项标题",
+  "purchaseOptionTitleHelpText": "客户将在具有订阅的{{howToDisplayProductsLink}}上看到此内容。",
+  "defaultPurchaseOptionTitle": "订阅并保存",
+  "saveButtonText": "保存",
+  "create": {
+    "pageTitle": "创建订阅套餐"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "已选择无效产品",
+    "invalidVariant": "已选择无效产品多属性",
+    "merchantCodeEmptyError": "套餐标题必填",
+    "nameEmptyError": "购买选项标题必填",
+    "createError": "创建订阅套餐时出错",
+    "updateError": "更新订阅套餐时出错",
+    "deliveryFrequencyError": "频率必须大于 0",
+    "deliveryFrequencyMaxError": "频率值过大",
+    "deliveryFrequencyFloatError": "配送频率必须是整数",
+    "discountValueMinError": "折扣值必须是正数",
+    "discountValueMaxError": "折扣值过大",
+    "discountValueMaxPercentError": "折扣值不能超过 100%",
+    "updateSuccess": "已更新订阅套餐",
+    "duplicateDeliveryFrequencyError": "配送选项必须唯一",
+    "missingSellingPlanGroup": "找不到订阅套餐",
+    "createSuccess": "已创建订阅套餐"
+  },
+  "productCard": {
+    "title": "产品",
+    "browse": "浏览",
+    "searchProducts": "搜索产品",
+    "variantsSelected": "(已选择 {count}/{total} 个多属性)",
+    "updateError": "更新订阅套餐时出错",
+    "maxProductsWarning": "一次只能添加 {{count}} 件商品。如果您有超过 {{count}} 件商品，可在保存此套餐后进行添加。"
+  },
+  "discountDeliveryCard": {
+    "title": "折扣和配送",
+    "offerDiscount": "提供折扣",
+    "discountType": {
+      "percentageOff": "百分比折扣",
+      "amountOff": "金额折扣",
+      "fixedPrice": "固定价格"
+    },
+    "deliveryFrequency": "配送频率",
+    "deliveryInterval": {
+      "label": "配送间隔",
+      "weeks": "周",
+      "months": "月",
+      "years": "年"
+    },
+    "addOption": "添加选项",
+    "removeOption": "删除选项",
+    "discountValueFixedPriceHelpText": "这将是向客户显示的价格"
+  },
+  "deleteButtonText": "删除",
+  "deleteSellingPlanGroupModal": {
+    "title": "删除订阅套餐？",
+    "content": "此操作无法撤销。任何相关合同都不会受到影响。",
+    "deleteButton": "删除套餐",
+    "cancelButton": "取消",
+    "deleteError": "删除订阅套餐时出错"
+  },
+  "summaryCard": {
+    "cardTitle": "摘要",
+    "noPlanTitleYet": "无标题",
+    "weeklyDelivery": {
+      "one": "每周配送",
+      "other": "每 {intervalCount} 周配送"
+    },
+    "monthlyDelivery": {
+      "one": "每月配送",
+      "other": "每 {intervalCount} 个月配送"
+    },
+    "yearlyDelivery": {
+      "one": "每年配送",
+      "other": "每 {intervalCount} 年配送"
+    },
+    "percentageOff": "{amount}% 折扣",
+    "amountOff": "{amount} 折扣",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}，{discountText}",
+    "multipleDeliveryFrequencies": "{count} 种配送频率",
+    "countProducts": {
+      "one": "{count} 件产品",
+      "other": "{count} 件产品"
+    },
+    "countVariants": {
+      "one": "{count} 个产品多属性",
+      "other": "{count} 个产品多属性"
+    },
+    "productAndVariantTextSeparatedList": "{productText}，{variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "店面产品页面",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "配送频率"
+    }
+  }
+}

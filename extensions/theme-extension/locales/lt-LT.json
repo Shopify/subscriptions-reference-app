@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Vienkartinis pirkinys",
+      "subscription": "Prenumerata"
+    }
+  },
+  "policy": {
+    "description": "Automatinis atnaujinimas, galimybė bet kada praleisti ar atšaukti.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Peržiūrėti prenumeravimo politiką</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Norėdami pridėti į krepšelį, eikite į prekės puslapį ir pasirinkite pirkimo galimybę"
+  }
+}

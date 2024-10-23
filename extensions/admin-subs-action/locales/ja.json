@@ -1,0 +1,68 @@
+{
+  "name": "定期購入",
+  "save": "保存",
+  "cancel": "キャンセル",
+  "merchantCode": {
+    "label": "内部説明",
+    "helpText": "参照用"
+  },
+  "planName": {
+    "label": "タイトル",
+    "placeholder": "お得な定期購入",
+    "helpText": "お客様は、サブスクリプションを提供するストアフロントの商品ページでこれを見ることができます"
+  },
+  "discountAndDelivery": "ディスカウントと配送",
+  "offerDiscount": "ディスカウントを提供する",
+  "discountType": {
+    "percentageOff": "割合オフ",
+    "amountOff": "割引金額",
+    "fixedPrice": "定価"
+  },
+  "deliveryFrequency": "配送頻度",
+  "deliveryInterval": {
+    "label": "配送間隔",
+    "weeks": "週",
+    "months": "月",
+    "years": "年",
+    "day": {
+      "singular": "毎日配達",
+      "plural": "{{count}}日ごとに配達"
+    },
+    "week": {
+      "singular": "毎週配達",
+      "plural": "{{count}}週ごとに配達"
+    },
+    "month": {
+      "singular": "毎月配達",
+      "plural": "{{count}}か月ごとに配達"
+    },
+    "year": {
+      "singular": "毎年配達",
+      "plural": "{{count}}年ごとに配達"
+    }
+  },
+  "addOptionButton": {
+    "label": "オプション",
+    "accessibilityLabel": "オプションを追加する"
+  },
+  "removeOption": "オプションを削除する",
+  "discountDetails": {
+    "percentageOff": "{{amount}}%オフ",
+    "amountOff": "{{amount}}オフ",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "サブスクリプションプランが作成されました",
+    "update": "サブスクリプションが更新されました"
+  },
+  "validator": {
+    "nameEmptyError": "タイトルが必要です",
+    "merchantCodeEmptyError": "内部説明が必要です",
+    "deliveryFrequencyError": "配達頻度が必要です",
+    "deliveryFrequencyMaxError": "配達頻度は36500日未満にする必要があります",
+    "deliveryFrequencyFloatError": "配達頻度は整数にする必要があります",
+    "discountValueMinError": "ディスカウントの値は0より大きい数値にする必要があります",
+    "discountValueMaxError": "ディスカウントの値が高すぎます",
+    "discountValueMaxPercentError": "ディスカウントの値が100%を超えることはできません"
+  }
+}

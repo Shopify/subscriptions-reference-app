@@ -1,0 +1,68 @@
+{
+  "name": "Subscrições",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "merchantCode": {
+    "label": "Descrição interna",
+    "helpText": "Apenas para referência"
+  },
+  "planName": {
+    "label": "Título",
+    "placeholder": "Subscrever e guardar",
+    "helpText": "Os clientes verão isto nas páginas de produto da frente de loja que têm subscrições"
+  },
+  "discountAndDelivery": "Desconto e entrega",
+  "offerDiscount": "Oferecer desconto",
+  "discountType": {
+    "percentageOff": "Percentagem de desconto",
+    "amountOff": "Valor de desconto",
+    "fixedPrice": "Preço fixo"
+  },
+  "deliveryFrequency": "Frequência de entrega",
+  "deliveryInterval": {
+    "label": "Intervalo de entrega",
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "anos",
+    "day": {
+      "singular": "Entregar todos os dias",
+      "plural": "Entregar a cada {{count}} dias"
+    },
+    "week": {
+      "singular": "Entregar todas as semanas",
+      "plural": "Entregar a cada {{count}} semanas"
+    },
+    "month": {
+      "singular": "Entregar todos os meses",
+      "plural": "Entregar a cada {{count}} meses"
+    },
+    "year": {
+      "singular": "Entregar todos os anos",
+      "plural": "Entregar a cada {{count}} anos"
+    }
+  },
+  "addOptionButton": {
+    "label": "Opção",
+    "accessibilityLabel": "Adicionar opção"
+  },
+  "removeOption": "Remover opção",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% de desconto",
+    "amountOff": "{{amount}} de desconto",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Plano de subscrição criado",
+    "update": "Plano de subscrição atualizado"
+  },
+  "validator": {
+    "nameEmptyError": "O título é obrigatório",
+    "merchantCodeEmptyError": "A descrição interna é obrigatória",
+    "deliveryFrequencyError": "A frequência de entrega é obrigatória",
+    "deliveryFrequencyMaxError": "A frequência de entrega deve ser inferior a 36500 dias",
+    "deliveryFrequencyFloatError": "A frequência de entrega deve ser um número inteiro",
+    "discountValueMinError": "O valor de desconto tem de ser superior a 0",
+    "discountValueMaxError": "O valor de desconto é muito alto",
+    "discountValueMaxPercentError": "O valor de desconto não deve ser superior a 100%"
+  }
+}

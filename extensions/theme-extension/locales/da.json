@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Engangskøb",
+      "subscription": "Abonnement"
+    }
+  },
+  "policy": {
+    "description": "Fornys automatisk. Kan til enhver tid springes over eller annulleres.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Se abonnementspolitik</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Hvis du vil lægge i indkøbskurven, skal du gå til produktsiden og vælge en købsmulighed"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Abonnementswidgetten viser kun produkter, der har en abonnementsordning tilknyttet."
+  },
+  "no_app_block_found_banner": {
+    "message": "Hvis du vil redigere placeringen af din abonnementswidget, skal du føje følgende kodestykke til produktskabelonen på den ønskede placering.",
+    "copy_button_text": "Kopiér",
+    "copied_button_text": "Kopieret",
+    "button_text": "Se kodeeditor"
+  }
+}

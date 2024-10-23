@@ -1,0 +1,156 @@
+{
+  "subscriptions": "구독",
+  "manageSubscription": "구독 관리",
+  "upcomingOrder": "예정된 주문",
+  "skip": "건너뛰기",
+  "showUpcomingOrders": "예정된 주문 표시",
+  "nextOrder": "다음 주문: {{date}}",
+  "lastUpdated": "마지막 업데이트: {{date}}",
+  "subscriptionDetails": "구독 세부 정보",
+  "maxOrdersSkipped": "최대 주문 수 건너뜀",
+  "skipOrderOverYear": "주문이 1년 이상 남아있으므로 건너뛸 수 없음",
+  "paymentMethodInvalidBanner": "끝자리가 {{lastDigits}}인 {{brand}}은(는) 유효하지 않습니다. 향후 주문을 계속 받으려면 아래의 결제 방법을 업데이트하십시오.",
+  "paymentMethodInvalidBannerGeneric": "끝자리가 {{lastDigits}}인 카드는 유효하지 않습니다. 향후 주문을 계속 받으려면 아래의 결제 방법을 업데이트하십시오.",
+  "paymentMethodInvalidBadge": "잘못된 결제 방법",
+  "listItem": {
+    "multipleItemsName": "{{count}}개 품목",
+    "accessibilityLabel": "구독 관리: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "활성",
+    "paused": "일시 중지됨",
+    "cancelled": "취소됨",
+    "expired": "만료됨",
+    "failed": "실패",
+    "stale": "오래됨"
+  },
+  "deliveryInterval": {
+    "day.one": "매일 배송",
+    "day.other": "{{count}}일마다 배송",
+    "week.one": "매주 배송",
+    "week.other": "{{count}}주마다 배송",
+    "month.one": "매달 배송",
+    "month.other": "{{count}}개월마다 배송",
+    "year.one": "매년 배송",
+    "year.other": "{{count}}년마다 배송"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "배송 빈도",
+    "payment": "결제",
+    "billingAddress": "청구 주소",
+    "shippingAddress": "배송 주소",
+    "shippingMethod": "배송 방법",
+    "pickupLocation": "픽업 위치",
+    "changePaymentMethodButtonLabel": "결제 방법 변경",
+    "editShippingAddressButtonLabel": "배송 주소 편집",
+    "editPickupAddressButtonLabel": "픽업 주소 편집",
+    "inventoryError": "제품이 품절되어 다음 주문이 지연될 수 있습니다"
+  },
+  "paymentModal": {
+    "title": "결제 방법 교체",
+    "save": "저장",
+    "paymentMethod": "결제 방법",
+    "edit": "편집",
+    "close": "닫기",
+    "errorBannerTitle": "결제 방법을 업데이트할 수 없음"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "지난 주문",
+    "view": "보기"
+  },
+  "skipNextOrder": {
+    "text": "다음 주문 건너뛰기",
+    "generic": "다음 주문을 건너뛰시겠습니까?",
+    "date": "다음 주문을 건너뛰시겠습니까? 구독이 {{date}}에 다시 시작됩니다.",
+    "errorBannerTitle": "다음 주문을 건너뛸 수 없음",
+    "close": "닫기"
+  },
+  "pauseSubscriptionModal": {
+    "title": "구독 일시 중지",
+    "action": "구독 일시 중지",
+    "close": "닫기",
+    "description": "구독이 즉시 일시 중지되며 더 이상 요금이 청구되거나 예정된 주문을 받지 않습니다. 언제든지 이 구독을 다시 시작할 수 있습니다.",
+    "errorBannerTitle": "구독을 일시 중지할 수 없음"
+  },
+  "subscriptionActions": {
+    "pause": "일시 중지",
+    "skip": "다음 주문 건너뛰기",
+    "resume": "다시 시작",
+    "cancel": "취소",
+    "manage": "관리",
+    "viewSubscriptionDetails": "세부 정보 보기"
+  },
+  "resumeSubscriptionModal": {
+    "description": "이 구독을 다시 시작하면 청구가 즉시 다시 시작됩니다.",
+    "descriptionWithDate": "이 구독을 다시 시작하면 청구가 {{date}}에 다시 시작됩니다.",
+    "close": "닫기",
+    "descriptionPriceChanged": "이 구독의 가격이 변경되었으며 예정된 주문당 {{price}}이(가) 청구됩니다.",
+    "continue": "계속",
+    "title": "구독 다시 시작",
+    "errorBannerTitle": "구독을 다시 시작할 수 없음"
+  },
+  "priceSummary": {
+    "subtotal": "소계",
+    "shipping": "배송",
+    "taxes": "세금",
+    "total": "합계",
+    "quantity": "개당 {{quantity}}"
+  },
+  "cancelSubscriptionModal": {
+    "title": "구독 취소",
+    "description": "구독을 취소하면 청구 및 배송이 즉시 종료됩니다. 구독 취소는 되돌릴 수 없습니다. 일시적으로 주문을 받지 않으려면 구독을 일시 중지하십시오.",
+    "action": "구독 취소",
+    "close": "닫기",
+    "errorBannerTitle": "구독을 취소할 수 없음"
+  },
+  "errorBoundary": {
+    "content": "문제가 발생했습니다. 페이지를 새로 고치십시오"
+  },
+  "addressModal": {
+    "save": "저장",
+    "continue": "계속",
+    "cancel": "취소",
+    "title": "배송 주소 편집",
+    "errorBannerTitle": "배송 방법을 업데이트할 수 없음",
+    "noDeliveryOptions": "입력하신 주소로 구독 제품을 배송할 수 없습니다. 모든 필드가 정확하게 입력되었는지 확인한 후 다시 시도해 주십시오."
+  },
+  "successBanner": {
+    "paused": "구독이 일시 중지됨",
+    "resumed": "구독이 다시 시작됨",
+    "cancelled": "구독 취소됨",
+    "skipped": "다음 주문 건너뜀",
+    "paymentUpdated": "결제 방법 업데이트됨",
+    "shippingUpdated": "배송 방법 업데이트됨",
+    "deliveryUpdated": "배송 방법이 업데이트됨"
+  },
+  "upcomingOrdersModal": {
+    "title": "예정된 주문",
+    "close": "닫기",
+    "skipOrder": "건너뛰기",
+    "skipOrderAccessibilityLabel": "{{orderDate}}의 주문 건너뛰기",
+    "unSkipOrder": "건너뛰기 취소",
+    "unskipOrderAccessibilityLabel": "{{orderDate}}의 주문 건너뛰기 취소",
+    "skippedOrderLabel": "{{skippedOrderDate}}(건너뜀)",
+    "skippedSuccessMessage": "{{orderDate}}의 주문 건너뜀",
+    "unskippedSuccessMessage": "{{orderDate}}의 주문 건너뛰기 취소됨",
+    "skippedErrorMessage": "주문 건너뛰기 오류",
+    "unskippedErrorMessage": "주문 건너뛰기 취소 오류"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "배송 방법 선택",
+    "free": "무료",
+    "localPickupOption": "픽업: {{location}}",
+    "localDeliveryPhoneLabel": "휴대폰 번호",
+    "localDeliveryInstructionsLabel": "배송 지침(선택 사항)",
+    "localDeliveryPhoneDetails": "배송과 관련된 업데이트에 대해 연락을 받을 수 있습니다.",
+    "localDeliveryInstructionsDetails": "공동 현관 비밀번호나 방문 접수 지침과 같이 필요한 정보를 입력합니다."
+  },
+  "notFound": {
+    "title": "구독을 찾을 수 없음",
+    "description": "구독이 없거나 구독을 볼 수 있는 권한이 없습니다."
+  },
+  "emptyState": {
+    "title": "구입한 구독 없음",
+    "description": "구독을 구입하려면 스토어로 이동하세요"
+  }
+}

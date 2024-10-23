@@ -1,0 +1,156 @@
+{
+  "subscriptions": "サブスクリプション",
+  "manageSubscription": "サブスクリプションを管理",
+  "upcomingOrder": "次回の注文",
+  "skip": "スキップ",
+  "showUpcomingOrders": "次回の注文を表示する",
+  "nextOrder": "次回の注文：{{date}}",
+  "lastUpdated": "最終更新日：{{date}}",
+  "subscriptionDetails": "サブスクリプションの詳細",
+  "maxOrdersSkipped": "最大注文数がスキップされました",
+  "skipOrderOverYear": "注文が1年以上先のためスキップはできません",
+  "paymentMethodInvalidBanner": "末尾が{{lastDigits}}で終わる{{brand}}は、無効です。今後の注文を引き続き受け付けるには、以下の決済方法を更新してください",
+  "paymentMethodInvalidBannerGeneric": "末尾が{{lastDigits}}で終わるカードは、無効です。今後の注文を引き続き受け付けるには、以下の決済方法を更新してください",
+  "paymentMethodInvalidBadge": "無効な決済方法",
+  "listItem": {
+    "multipleItemsName": "{{count}}個のアイテム",
+    "accessibilityLabel": "{{title}}のサブスクリプションを管理"
+  },
+  "subscriptionStatus": {
+    "active": "有効",
+    "paused": "一時停止",
+    "cancelled": "キャンセル済み",
+    "expired": "期限切れ",
+    "failed": "失敗",
+    "stale": "最新"
+  },
+  "deliveryInterval": {
+    "day.one": "毎日配達",
+    "day.other": "{{count}}日ごとに配達",
+    "week.one": "毎週配達",
+    "week.other": "{{count}}週ごとに配達",
+    "month.one": "毎月配達",
+    "month.other": "{{count}}か月ごとに配達",
+    "year.one": "毎年配達",
+    "year.other": "{{count}}年ごとに配達"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "配達頻度",
+    "payment": "決済",
+    "billingAddress": "請求先住所",
+    "shippingAddress": "配送先住所",
+    "shippingMethod": "配送方法",
+    "pickupLocation": "受取ロケーション",
+    "changePaymentMethodButtonLabel": "決済方法を変更",
+    "editShippingAddressButtonLabel": "配送先住所を編集",
+    "editPickupAddressButtonLabel": "受取住所を編集",
+    "inventoryError": "在庫切れのため、次回の注文が遅れる可能性があります"
+  },
+  "paymentModal": {
+    "title": "決済方法を変更する",
+    "save": "保存",
+    "paymentMethod": "決済方法",
+    "edit": "編集",
+    "close": "閉じる",
+    "errorBannerTitle": "決済方法を更新できません"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "過去の注文",
+    "view": "表示"
+  },
+  "skipNextOrder": {
+    "text": "次の注文をスキップ",
+    "generic": "次の注文をスキップしますか？",
+    "date": "次の注文をスキップしますか？サブスクリプションは{{date}}に再開されます。",
+    "errorBannerTitle": "次の注文をスキップできません",
+    "close": "閉じる"
+  },
+  "pauseSubscriptionModal": {
+    "title": "サブスクリプションを一時停止",
+    "action": "サブスクリプションを一時停止",
+    "close": "閉じる",
+    "description": "サブスクリプションはすぐに一時停止され、これ以上の請求や今後の注文はありません。このサブスクリプションはいつでも再開できます。",
+    "errorBannerTitle": "サブスクリプションを一時停止できません"
+  },
+  "subscriptionActions": {
+    "pause": "一時停止",
+    "skip": "次の注文をスキップ",
+    "resume": "再開",
+    "cancel": "キャンセル",
+    "manage": "管理する",
+    "viewSubscriptionDetails": "詳細を表示"
+  },
+  "resumeSubscriptionModal": {
+    "description": "このサブスクリプションを再開すると、請求はすぐに再開されます。",
+    "descriptionWithDate": "このサブスクリプションを再開すると、請求は{{date}}に再開されます。",
+    "close": "閉じる",
+    "descriptionPriceChanged": "このサブスクリプションの価格が変更され、今後の注文ごとに{{price}}が請求されます。",
+    "continue": "続行",
+    "title": "サブスクリプションを再開する",
+    "errorBannerTitle": "サブスクリプションを再開できません"
+  },
+  "priceSummary": {
+    "subtotal": "小計",
+    "shipping": "配送",
+    "taxes": "税",
+    "total": "合計",
+    "quantity": "{{quantity}}/ユニット"
+  },
+  "cancelSubscriptionModal": {
+    "title": "サブスクリプションをキャンセルする",
+    "description": "サブスクリプションをキャンセルすると、請求と配達はすぐに終了します。サブスクリプションをキャンセルすると、元に戻すことはできません。注文の受け取りを一時的に停止するには、サブスクリプションを一時停止します。",
+    "action": "サブスクリプションをキャンセル",
+    "close": "閉じる",
+    "errorBannerTitle": "サブスクリプションをキャンセルできません"
+  },
+  "errorBoundary": {
+    "content": "問題が発生しました。ページを更新してください"
+  },
+  "addressModal": {
+    "save": "保存",
+    "continue": "続行",
+    "cancel": "キャンセル",
+    "title": "配送先住所を編集する",
+    "errorBannerTitle": "配達方法の更新ができません",
+    "noDeliveryOptions": "このサブスクリプションは入力した住所に配送できません。住所を確認して、すべてのフィールドが正しく入力されていることを確認して、もう一度お試しください。"
+  },
+  "successBanner": {
+    "paused": "サブスクリプションが一時停止されました",
+    "resumed": "サブスクリプションが再開されました",
+    "cancelled": "サブスクリプションがキャンセルされました",
+    "skipped": "次の注文がスキップされました",
+    "paymentUpdated": "決済方法が更新されました",
+    "shippingUpdated": "配送方法が更新されました",
+    "deliveryUpdated": "配達方法が更新されました"
+  },
+  "upcomingOrdersModal": {
+    "title": "次回の注文",
+    "close": "閉じる",
+    "skipOrder": "スキップ",
+    "skipOrderAccessibilityLabel": "{{orderDate}}に注文をスキップ",
+    "unSkipOrder": "スキップを中止する",
+    "unskipOrderAccessibilityLabel": "{{orderDate}}に注文のスキップを中止",
+    "skippedOrderLabel": "{{skippedOrderDate}} (スキップ済み)",
+    "skippedSuccessMessage": "{{orderDate}}に注文がスキップされました",
+    "unskippedSuccessMessage": "{{orderDate}}に注文のスキップが中止されました",
+    "skippedErrorMessage": "注文のスキップの際にエラーが発生しました",
+    "unskippedErrorMessage": "注文のスキップを中止する際にエラーが発生しました"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "配達方法を選択する",
+    "free": "無料",
+    "localPickupOption": "集荷：{{location}}",
+    "localDeliveryPhoneLabel": "携帯電話番号",
+    "localDeliveryInstructionsLabel": "配達手順 (任意)",
+    "localDeliveryPhoneDetails": "配達の最新情報について連絡を受ける場合があります。",
+    "localDeliveryInstructionsDetails": "ドアコードやドロップオフの指示など、必要な情報を入力してください。"
+  },
+  "notFound": {
+    "title": "サブスクリプションが見つかりません",
+    "description": "このサブスクリプションは存在しないか、サブスクリプションを表示する権限がありません。"
+  },
+  "emptyState": {
+    "title": "購入したサブスクリプションはありません",
+    "description": "ストアに移動してサブスクリプションを購入する"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Guardar",
+  "actions": {
+    "updateSuccess": "Configuración actualizada"
+  },
+  "title": "Configuración",
+  "billingFailureSettings": {
+    "title": "Intentos de facturación",
+    "description": "Controla cuándo se vuelven a realizar intentos de facturación luego de un intento fallido",
+    "paymentFailureTitle": "Error en la forma de pago",
+    "inventoryFailureTitle": "Inventario insuficiente",
+    "retryAttempts": {
+      "label": "Número de reintentos",
+      "helpText": "Mín. 0, máx. 10 reintentos",
+      "errors": {
+        "min": "El número de reintentos debe ser superior a 0",
+        "max": "El número de reintentos es demasiado elevado"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Días entre un intento de pago y el siguiente",
+      "helpText": "Mín. 1, máx. 14 días",
+      "errors": {
+        "min": "El número de días entre reintentos de pago debe ser superior a 1",
+        "max": "El número de días entre reintentos de pago es demasiado elevado"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "El número de reintentos del inventario debe ser superior a 0",
+        "max": "El número de reintentos del inventario es demasiado elevado"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "El número de días transcurridos entre los reintentos del inventario debe ser superior a 1",
+        "max": "El número de días transcurridos entre los reintentos del inventario es demasiado elevado"
+      }
+    },
+    "onFailure": {
+      "label": "Acción cuando todos los reintentos fallaron",
+      "options": {
+        "skip": "Omitir suscripción y enviar notificación",
+        "cancel": "Cancelar suscripción y enviar notificación",
+        "pause": "Pausar suscripción y enviar notificación"
+      }
+    },
+    "notifications": "Editar notificaciones",
+    "staffNotificationFrequency": {
+      "label": "Frecuencia de las notificaciones a los empleados",
+      "options": {
+        "immediately": "Cada vez que falle la facturación",
+        "weekly": "Resumen semanal de errores de facturación",
+        "monthly": "Resumen mensual de errores de facturación"
+      }
+    }
+  }
+}

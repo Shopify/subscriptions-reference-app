@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Etusivu",
+    "plans": "Sopimukset",
+    "contracts": "Sopimukset",
+    "settings": "Asetukset"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} toimitusväliä",
+    "day": {
+      "one": "Joka päivä",
+      "other": "{count} päivän välein"
+    },
+    "week": {
+      "one": "Joka viikko",
+      "other": "{count} viikon välein"
+    },
+    "month": {
+      "one": "Joka kuukausi",
+      "other": "{count} kuukauden välein"
+    },
+    "year": {
+      "one": "Joka vuosi",
+      "other": "{count} vuoden välein"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Useita toimitusvälejä"
+  },
+  "productAndVariants": {
+    "noProduct": "Ei mitään",
+    "productsCount": {
+      "one": "{count} tuote",
+      "other": "{count} tuotetta"
+    },
+    "noVariant": "Ei versiota",
+    "variantsCount": {
+      "one": "{count} versio",
+      "other": "{count} versiota"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Ei alennusta",
+    "amountOff": "{amount} alennusta",
+    "percentageOff": "{amount} % alennusta",
+    "multipleDiscounts": "Useita alennuksia",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Aktiivinen",
+    "paused": "Keskeytetty",
+    "cancelled": "Peruutettu",
+    "expired": "Vanhentunut",
+    "failed": "Epäonnistunut",
+    "stale": "Vanhentunut"
+  },
+  "actions": {
+    "saveButtonText": "Tallenna",
+    "edit": "Muokkaa"
+  },
+  "footer": {
+    "learnMore": "Lue lisää aiheesta {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "toistuvan tilauksen sopimukset",
+    "contracts": "toistuvien tilausten sopimukset"
+  },
+  "errorBoundary": {
+    "title": "Toistuvat tilaukset",
+    "header": "Sivun lataus ei onnistu",
+    "description": "Lataa sivu uudelleen tai tarkista tilanne myöhemmin. Näet tämänhetkiset ongelmat ottamalla yhteyttä {statusPageLink}.",
+    "statusPageLinkText": "Shopify-tukeen",
+    "reloadAction": "Lataa sivu uudelleen"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Joukkotoiminto valmis"
+  },
+  "missingScopes": {
+    "title": "Puuttuvat Shopifyn hyväksymät laajuudet",
+    "description": "Ennen kuin voit ajaa Subscriptions Reference -sovellusta, sinun on pyydettävä Shopifylta hyväksyntä seuraavien API-laajuuksien käyttämiseen:",
+    "link": "Katso dokumentaatiosta lisätietoja tämän sovelluksen {{link}}.",
+    "linkText": "Shopifyn hyväksymistä laajuuksista"
+  }
+}

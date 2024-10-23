@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Předplatná",
+  "manageSubscription": "Správa předplatného",
+  "upcomingOrder": "Nadcházející objednávka",
+  "skip": "Přeskočit",
+  "showUpcomingOrders": "Zobrazit nadcházející objednávky",
+  "nextOrder": "Další objednávka: {{date}}",
+  "lastUpdated": "Poslední aktualizace: {{date}}",
+  "subscriptionDetails": "Podrobnosti předplatného",
+  "maxOrdersSkipped": "Byl přeskočen maximální počet objednávek",
+  "skipOrderOverYear": "Nelze přeskočit, protože datum objednávky je delší než rok",
+  "paymentMethodInvalidBanner": "{{brand}} s koncovými číslicemi {{lastDigits}} je neplatná. Pokud chcete dál dostávat další objednávky, aktualizujte si platební metodu",
+  "paymentMethodInvalidBannerGeneric": "Karta s koncovými číslicemi {{lastDigits}} je neplatná. Pokud chcete dál dostávat další objednávky, aktualizujte si platební metodu",
+  "paymentMethodInvalidBadge": "Neplatná platební metoda",
+  "listItem": {
+    "multipleItemsName": "{{count}} polož.",
+    "accessibilityLabel": "Spravovat předplatné {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktivní",
+    "paused": "Pozastaveno",
+    "cancelled": "Zrušeno",
+    "expired": "Po konci platnosti",
+    "failed": "Neúspěch",
+    "stale": "Zastaralé"
+  },
+  "deliveryInterval": {
+    "day.one": "Doručení každý den",
+    "day.other": "Doručení každý {{count}}. den",
+    "week.one": "Doručení každý týden",
+    "week.other": "Doručení každý {{count}}. týden",
+    "month.one": "Doručení každý měsíc",
+    "month.other": "Doručení každý {{count}}. měsíc",
+    "year.one": "Doručení každý rok",
+    "year.other": "Doručení každý {{count}}. rok"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Četnost doručování",
+    "payment": "Platba",
+    "billingAddress": "Fakturační adresa",
+    "shippingAddress": "Dodací adresa",
+    "shippingMethod": "Metoda dopravy",
+    "pickupLocation": "Místo vyzvednutí",
+    "changePaymentMethodButtonLabel": "Změnit platební metodu",
+    "editShippingAddressButtonLabel": "Upravit dodací adresu",
+    "editPickupAddressButtonLabel": "Upravit adresu vyzvednutí",
+    "inventoryError": "Vaše příští objednávka se pravděpodobně zpozdí, protože produkty nejsou skladem"
+  },
+  "paymentModal": {
+    "title": "Nahraďte platební metodu",
+    "save": "Uložit",
+    "paymentMethod": "Platební metoda",
+    "edit": "Upravit",
+    "close": "Zavřít",
+    "errorBannerTitle": "Není možné aktualizovat platební metodu"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Minulé objednávky",
+    "view": "Zobrazit"
+  },
+  "skipNextOrder": {
+    "text": "Vynechat příští objednávku",
+    "generic": "Chcete příští objednávku vynechat?",
+    "date": "Chcete příští objednávku vynechat? Vaše předplatné se obnoví dne: {{date}}.",
+    "errorBannerTitle": "Není možné vynechat příští objednávku",
+    "close": "Zavřít"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pozastavení předplatného",
+    "action": "Pozastavit předplatné",
+    "close": "Zavřít",
+    "description": "Vaše předplatné se s okamžitou platností pozastaví, takže se vám nebudou účtovat žádné další platby ani nebudete dostávat další objednávky. Předplatné můžete kdykoli obnovit.",
+    "errorBannerTitle": "Není možné pozastavit předplatné"
+  },
+  "subscriptionActions": {
+    "pause": "Pozastavit",
+    "skip": "Vynechat příští objednávku",
+    "resume": "Obnovit",
+    "cancel": "Zrušit",
+    "manage": "Spravovat",
+    "viewSubscriptionDetails": "Zobrazit podrobnosti"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Pokud dané předplatné obnovíte, obnoví se okamžitě i fakturace.",
+    "descriptionWithDate": "Pokud dané předplatné obnovíte, fakturace se obnoví dne: {{date}}.",
+    "close": "Zavřít",
+    "descriptionPriceChanged": "Cena za toto předplatné se změnila, takže se vám za nadcházející objednávku bude účtovat částka {{price}}.",
+    "continue": "Pokračovat",
+    "title": "Obnovení předplatného",
+    "errorBannerTitle": "Není možné obnovit předplatné"
+  },
+  "priceSummary": {
+    "subtotal": "Mezisoučet",
+    "shipping": "Doprava",
+    "taxes": "Daně",
+    "total": "Celkem",
+    "quantity": "{{quantity}} / ks"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Zrušení předplatného",
+    "description": "Jestliže předplatné zrušíte, ukončí se okamžitě fakturace i doručování. Zrušení předplatného není možné vrátit zpět. Pokud chcete doručování objednávek zastavit dočasně, pozastavte předplatné.",
+    "action": "Zrušit předplatné",
+    "close": "Zavřít",
+    "errorBannerTitle": "Není možné zrušit předplatné"
+  },
+  "errorBoundary": {
+    "content": "Došlo k nějaké chybě, aktualizujte prosím stránku"
+  },
+  "addressModal": {
+    "save": "Uložit",
+    "continue": "Pokračovat",
+    "cancel": "Zrušit",
+    "title": "Upravte dodací adresu",
+    "errorBannerTitle": "Není možné aktualizovat metodu doručení",
+    "noDeliveryOptions": "Toto předplatné není možné na zadanou adresu odeslat. Zkontrolujte danou adresu a zajistěte, aby všechna pole obsahovala správné informace. Pak to zkuste znovu."
+  },
+  "successBanner": {
+    "paused": "Předplatné bylo pozastaveno",
+    "resumed": "Předplatné bylo obnoveno",
+    "cancelled": "Předplatné bylo zrušeno",
+    "skipped": "Příští objednávka byla vynechána",
+    "paymentUpdated": "Platební metoda se aktualizovala",
+    "shippingUpdated": "Metoda dopravy se aktualizovala",
+    "deliveryUpdated": "Metoda doručení byla aktualizována"
+  },
+  "upcomingOrdersModal": {
+    "title": "Nadcházející objednávky",
+    "close": "Zavřít",
+    "skipOrder": "Vynechat",
+    "skipOrderAccessibilityLabel": "Vynechat objednávku dne: {{orderDate}}",
+    "unSkipOrder": "Zrušit vynechání",
+    "unskipOrderAccessibilityLabel": "Zrušit vynechání objednávky dne: {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (vynecháno)",
+    "skippedSuccessMessage": "Objednávka byla dne: {{orderDate}} vynechána",
+    "unskippedSuccessMessage": "Vynechání objednávky bylo dne: {{orderDate}} zrušeno",
+    "skippedErrorMessage": "Chyba při vynechání objednávky",
+    "unskippedErrorMessage": "Chyba při zrušení vynechání objednávky"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Výběr metody doručení",
+    "free": "Zdarma",
+    "localPickupOption": "Vyzvednutí: {{location}}",
+    "localDeliveryPhoneLabel": "Číslo mobilního telefonu",
+    "localDeliveryInstructionsLabel": "Pokyny k doručení (volitelné)",
+    "localDeliveryPhoneDetails": "Někdo vás pravděpodobně bude kontaktovat s aktuálními informacemi o doručení.",
+    "localDeliveryInstructionsDetails": "Zadejte potřebné informace, jako jsou dveřní kódy nebo pokyny ke svozu."
+  },
+  "notFound": {
+    "title": "Předplatné nebylo nalezeno",
+    "description": "Toto předplatné neexistuje nebo nemáte oprávnění k jeho zobrazení."
+  },
+  "emptyState": {
+    "title": "Nekoupili jste žádná předplatná",
+    "description": "Přejděte do obchodu, kde si je můžete koupit"
+  }
+}

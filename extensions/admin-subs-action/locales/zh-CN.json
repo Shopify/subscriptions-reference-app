@@ -1,0 +1,68 @@
+{
+  "name": "订阅",
+  "save": "保存",
+  "cancel": "取消",
+  "merchantCode": {
+    "label": "内部描述",
+    "helpText": "仅供参考"
+  },
+  "planName": {
+    "label": "标题",
+    "placeholder": "订阅并保存",
+    "helpText": "客户将在具有订阅的店面产品页面上看到此内容"
+  },
+  "discountAndDelivery": "折扣和配送",
+  "offerDiscount": "提供折扣",
+  "discountType": {
+    "percentageOff": "百分比折扣",
+    "amountOff": "金额折扣",
+    "fixedPrice": "固定价格"
+  },
+  "deliveryFrequency": "配送频率",
+  "deliveryInterval": {
+    "label": "配送间隔",
+    "weeks": "周",
+    "months": "月",
+    "years": "年",
+    "day": {
+      "singular": "每天配送",
+      "plural": "每 {{count}} 天配送"
+    },
+    "week": {
+      "singular": "每周配送",
+      "plural": "每 {{count}} 周配送"
+    },
+    "month": {
+      "singular": "每月配送",
+      "plural": "每 {{count}} 个月配送"
+    },
+    "year": {
+      "singular": "每年配送",
+      "plural": "每 {{count}} 年配送"
+    }
+  },
+  "addOptionButton": {
+    "label": "选项",
+    "accessibilityLabel": "添加选项"
+  },
+  "removeOption": "删除选项",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% 折扣",
+    "amountOff": "{{amount}} 折扣",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "已创建订阅套餐",
+    "update": "已更新订阅套餐"
+  },
+  "validator": {
+    "nameEmptyError": "标题必填",
+    "merchantCodeEmptyError": "内部描述必填",
+    "deliveryFrequencyError": "配送频率必填",
+    "deliveryFrequencyMaxError": "配送频率必须少于 36500 天",
+    "deliveryFrequencyFloatError": "配送频率必须是整数",
+    "discountValueMinError": "折扣额必须大于 0",
+    "discountValueMaxError": "折扣值过大",
+    "discountValueMaxPercentError": "折扣值不能超过 100%"
+  }
+}

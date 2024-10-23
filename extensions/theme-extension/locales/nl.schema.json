@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Abonnementsbeleid",
+    "subscription_policy_url": "Link abonnementsbeleid",
+    "subscription_policy_url_info": "Selecter een bestaande pagina of kopieer een externe link om je abonnementsbeleid weer te geven.",
+    "description": "De abonnementswidget wordt alleen weergegeven bij producten die zijn gekoppeld aan een abonnement. [Lees meer over thema-instellingen voor abonnementen](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "De instellingen hierboven bevatten opties voor het geselecteerde product. Het product dat op dit moment is geselecteerd, bevat een abonnement. ",
+    "colors_title": "Kleur",
+    "title": "Abonnement-widget",
+    "product_title": "Product",
+    "border_title": "Rand",
+    "border_thickness": "Dikte",
+    "border_radius": "Hoekradius",
+    "colors_text_title": "Titel",
+    "colors_text_body": "Hoofdtekst",
+    "colors_background_border_title": "Achtergronden en randen",
+    "colors_background": "Achtergrond",
+    "colors_dividers": "Scheidingslijnen",
+    "supporting_text_title": "Ondersteunende tekst",
+    "supporting_text_subtitle": "Titel",
+    "supporting_text_input_default": "Aankoopopties"
+  }
+}

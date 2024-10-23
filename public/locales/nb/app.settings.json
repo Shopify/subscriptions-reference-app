@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Lagre",
+  "actions": {
+    "updateSuccess": "Innstillingene er oppdatert"
+  },
+  "title": "Innstillinger",
+  "billingFailureSettings": {
+    "title": "Faktureringsforsøk",
+    "description": "Kontroller når faktureringsforsøk gjøres på nytt etter et mislykket forsøk",
+    "paymentFailureTitle": "Feil med betalingsmåte",
+    "inventoryFailureTitle": "Utilstrekkelig lagerbeholdning",
+    "retryAttempts": {
+      "label": "Antall forsøk på å prøve igjen",
+      "helpText": "Min. 0, maks 10 forsøk",
+      "errors": {
+        "min": "Antall forsøk må være høyere enn 0",
+        "max": "Antall forsøk er for høyt"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dager mellom forsøk på å prøve innbetaling igjen",
+      "helpText": "Min. 1, maks 14 dager",
+      "errors": {
+        "min": "Dager mellom nye betalingsforsøk må være høyere enn 1",
+        "max": "Dager mellom nye betalingsforsøk er for høyt"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Antall forsøk for lagerbeholdning må være høyere enn 0",
+        "max": "Antall forsøk for lagerbeholdning er for høyt"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Dager mellom forsøk på lagerbeholdning må være høyere enn 1",
+        "max": "Dager mellom forsøk på lagerbeholdning er for høyt"
+      }
+    },
+    "onFailure": {
+      "label": "Handling når alle forsøk på å prøve igjen har mislyktes",
+      "options": {
+        "skip": "Hopp over abonnement og send varsel",
+        "cancel": "Avbryt abonnement og send varsel",
+        "pause": "Pause abonnement midlertidig og send varsel"
+      }
+    },
+    "notifications": "Rediger varsler",
+    "staffNotificationFrequency": {
+      "label": "Frekvens for varslinger til personale",
+      "options": {
+        "immediately": "Hver gang faktureringen mislykkes",
+        "weekly": "Ukentlig sammendrag av mislykkede faktureringer",
+        "monthly": "Månedlig sammendrag av mislykkede faktureringer"
+      }
+    }
+  }
+}

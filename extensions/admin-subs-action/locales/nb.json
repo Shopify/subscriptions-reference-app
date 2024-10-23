@@ -1,0 +1,68 @@
+{
+  "name": "Abonnementer",
+  "save": "Lagre",
+  "cancel": "Avbryt",
+  "merchantCode": {
+    "label": "Intern beskrivelse",
+    "helpText": "Bare for referanse"
+  },
+  "planName": {
+    "label": "Tittel",
+    "placeholder": "Abonner og lagre",
+    "helpText": "Kundene ser dette på produktsider på butikkfronten hvis de har abonnementer"
+  },
+  "discountAndDelivery": "Rabatt og leveranse",
+  "offerDiscount": "Tilby rabatt",
+  "discountType": {
+    "percentageOff": "Prosentvis rabatt",
+    "amountOff": "Rabattbeløp",
+    "fixedPrice": "Fast pris"
+  },
+  "deliveryFrequency": "Leveringsfrekvens",
+  "deliveryInterval": {
+    "label": "Leveringsintervall",
+    "weeks": "uker",
+    "months": "måneder",
+    "years": "år",
+    "day": {
+      "singular": "Lever hver dag",
+      "plural": "Lever hver {{count}}. dag"
+    },
+    "week": {
+      "singular": "Lever hver uke",
+      "plural": "Lever hver {{count}}. uke"
+    },
+    "month": {
+      "singular": "Lever hver måned",
+      "plural": "Lever hver {{count}}. måned"
+    },
+    "year": {
+      "singular": "Lever hvert år",
+      "plural": "Lever hvert {{count}}. år"
+    }
+  },
+  "addOptionButton": {
+    "label": "Alternativ",
+    "accessibilityLabel": "Legg til alternativ"
+  },
+  "removeOption": "Fjern alternativ",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % rabatt",
+    "amountOff": "{{amount}} rabatt",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Abonnementstype opprettet",
+    "update": "Abonnementstype oppdatert"
+  },
+  "validator": {
+    "nameEmptyError": "Tittel kreves",
+    "merchantCodeEmptyError": "Intern beskrivelse kreves",
+    "deliveryFrequencyError": "Leveransehyppighet kreves",
+    "deliveryFrequencyMaxError": "Leveransehyppighet må være mindre enn 36500 dager",
+    "deliveryFrequencyFloatError": "Leveransefrekvensen må være et heltall",
+    "discountValueMinError": "Rabattverdien må være større enn 0",
+    "discountValueMaxError": "Rabattverdier er for høy",
+    "discountValueMaxPercentError": "Rabattverdien må ikke være over 100 %"
+  }
+}

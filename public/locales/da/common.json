@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Start",
+    "plans": "Abonnementer",
+    "contracts": "Kontrakter",
+    "settings": "Indstillinger"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} hyppigheder af levering",
+    "day": {
+      "one": "Hver dag",
+      "other": "Hver {count}. dag"
+    },
+    "week": {
+      "one": "Hver uge",
+      "other": "Hver {count}. uge"
+    },
+    "month": {
+      "one": "Hver måned",
+      "other": "Hver {count}. måned"
+    },
+    "year": {
+      "one": "Hvert år",
+      "other": "Hvert {count}. år"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Flere leveringshyppigheder"
+  },
+  "productAndVariants": {
+    "noProduct": "Ingen",
+    "productsCount": {
+      "one": "{count} produkt",
+      "other": "{count} produkter"
+    },
+    "noVariant": "Ingen variant",
+    "variantsCount": {
+      "one": "{count} variant",
+      "other": "{count} varianter"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Ingen rabat",
+    "amountOff": "{amount} rabat",
+    "percentageOff": "{amount} % i rabat",
+    "multipleDiscounts": "Flere rabatter",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Aktiv",
+    "paused": "Midlertidigt afbrudt",
+    "cancelled": "Annulleret",
+    "expired": "Udløbet",
+    "failed": "Mislykket",
+    "stale": "Forældet"
+  },
+  "actions": {
+    "saveButtonText": "Gem",
+    "edit": "Rediger"
+  },
+  "footer": {
+    "learnMore": "Få mere at vide om {topicName}",
+    "home": "Shopify-abonnementer",
+    "plans": "abonnementsordninger",
+    "contracts": "abonnementskontrakter"
+  },
+  "errorBoundary": {
+    "title": "Abonnementer",
+    "header": "Kunne ikke indlæse siden",
+    "description": "Genindlæs siden, eller prøv igen senere. Kontakt {statusPageLink}, hvis problemet fortsætter.",
+    "statusPageLinkText": "Shopify Support",
+    "reloadAction": "Genindlæs side"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Massehandlingen blev udført"
+  },
+  "missingScopes": {
+    "title": "Manglende omfang af Shopify-godkendelse",
+    "description": "Inden du kan køre Subscriptions-referenceappen, skal du anmode om godkendelse fra Shopify til at bruge disse API-omfang:",
+    "link": "Se dokumentationen for at få mere at vide om {{link}} for denne app.",
+    "linkText": "Shopify-godkendte omfang"
+  }
+}

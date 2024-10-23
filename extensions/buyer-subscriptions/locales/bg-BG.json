@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Абонаменти",
+  "manageSubscription": "Управление на абонамента",
+  "upcomingOrder": "Предстояща поръчка",
+  "skip": "Прескочи",
+  "showUpcomingOrders": "Показване на предстоящи поръчка",
+  "nextOrder": "Следваща поръчка: {{date}}",
+  "lastUpdated": "Последна актуализация: {{date}}",
+  "subscriptionDetails": "Информация за абонамента",
+  "maxOrdersSkipped": "Прескочени са максимален брой поръчки",
+  "skipOrderOverYear": "Не може да се прескочи, тъй като до момента на поръчката остава повече от година",
+  "paymentMethodInvalidBanner": "{{brand}}, завършваща на {{lastDigits}} е невалидна. Актуализирайте начина на плащане, за да продължите да получавате предстоящите поръчки.",
+  "paymentMethodInvalidBannerGeneric": "Картата, завършваща на {{lastDigits}} е невалидна. Актуализирайте начина на плащане, за да продължите да получавате предстоящите поръчки.",
+  "paymentMethodInvalidBadge": "Невалиден начин на плащане",
+  "listItem": {
+    "multipleItemsName": "{{count}} артикула",
+    "accessibilityLabel": "Управление на абонамент: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Активен",
+    "paused": "На пауза",
+    "cancelled": "Анулиран",
+    "expired": "Изтекъл",
+    "failed": "Неуспешен",
+    "stale": "Остарял"
+  },
+  "deliveryInterval": {
+    "day.one": "Доставка всеки ден",
+    "day.other": "Доставка на всеки {{count}} дни",
+    "week.one": "Доставка всяка седмица",
+    "week.other": "Доставка на всеки {{count}} седмици",
+    "month.one": "Доставка всеки месец",
+    "month.other": "Доставка на всеки {{count}} месеца",
+    "year.one": "Доставка всяка година",
+    "year.other": "Доставка на всеки {{count}} години"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Честота на доставка",
+    "payment": "Плащане",
+    "billingAddress": "Адрес за фактуриране",
+    "shippingAddress": "Адрес за доставка",
+    "shippingMethod": "Начин на доставка",
+    "pickupLocation": "Място за взимане",
+    "changePaymentMethodButtonLabel": "Промяна на начина на плащане",
+    "editShippingAddressButtonLabel": "Редактиране на адрес за доставка",
+    "editPickupAddressButtonLabel": "Редактиране на адрес за взимане",
+    "inventoryError": "Възможно е следващата ви поръчка да се забави, защото някои продукти са изчерпани."
+  },
+  "paymentModal": {
+    "title": "Смяна на начина на плащане",
+    "save": "Запиши",
+    "paymentMethod": "Начин на плащане",
+    "edit": "Редактиране",
+    "close": "Затваряне",
+    "errorBannerTitle": "Начинът на плащане не може да се възобнови"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Предишни поръчки",
+    "view": "Изглед"
+  },
+  "skipNextOrder": {
+    "text": "Прескачане на следващата поръчка",
+    "generic": "Искате ли да прескочите следващата поръчка?",
+    "date": "Искате ли да прескочите следващата поръчка? Абонаментът ще се възобнови на {{date}}.",
+    "errorBannerTitle": "Следващата поръчка не може да бъде прескочена",
+    "close": "Затваряне"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Поставяне на абонамента на пауза",
+    "action": "Поставяне на абонамента на пауза",
+    "close": "Затваряне",
+    "description": "Вашият абонамент ще бъде поставен на пауза незабавно и няма повече да бъдете таксувани и да получавате поръчки. Можете да възобновите абонамента по всяко време.",
+    "errorBannerTitle": "Абонаментът не може да се постави на пауза"
+  },
+  "subscriptionActions": {
+    "pause": "Пауза",
+    "skip": "Прескачане на следващата поръчка",
+    "resume": "Възобновяване",
+    "cancel": "Отказ",
+    "manage": "Управление",
+    "viewSubscriptionDetails": "Покажи подробности"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Ако възстановите този абонамент, фактурирането ще се възстанови веднага.",
+    "descriptionWithDate": "Ако възобновите този абонамент, фактурирането ще се продължи на {{date}}.",
+    "close": "Затваряне",
+    "descriptionPriceChanged": "Цената на този абонамент е променена и вече ще бъдете таксувани с {{price}} за всяка следваща поръчка.",
+    "continue": "Продължи",
+    "title": "Възстановяване на абонамент",
+    "errorBannerTitle": "Абонаментът не може да се възобнови"
+  },
+  "priceSummary": {
+    "subtotal": "Междинна сума",
+    "shipping": "Изпращане",
+    "taxes": "Данъци",
+    "total": "Обща сума",
+    "quantity": "{{quantity}}/бр."
+  },
+  "cancelSubscriptionModal": {
+    "title": "Анулиране на абонамент",
+    "description": "Ако анулирате този абонамент, фактурирането и доставките ще бъдат прекратени веднага. Анулирането на абонамент не може да бъде отменено. Ако искате временно да спрете получаването на поръчки, поставете абонамента на пауза.",
+    "action": "Анулиране на абонамент",
+    "close": "Затваряне",
+    "errorBannerTitle": "Абонаментът не може да се анулира"
+  },
+  "errorBoundary": {
+    "content": "Нещо се обърка, обновете страницата"
+  },
+  "addressModal": {
+    "save": "Запиши",
+    "continue": "Продължи",
+    "cancel": "Отказ",
+    "title": "Редактиране на адрес за доставка",
+    "errorBannerTitle": "Начинът на плащане не може да се актуализира",
+    "noDeliveryOptions": "Тази поръчка с абонамент не може да бъде изпратена до въведения адрес. Прегледайте адреса, за да се уверите, че всички полета са въведени правилно, и опитайте отново."
+  },
+  "successBanner": {
+    "paused": "Абонаментът е поставен на пауза",
+    "resumed": "Абонаментът е възобновен",
+    "cancelled": "Абонаментът е анулиран",
+    "skipped": "Следващата поръчка е прескочена",
+    "paymentUpdated": "Начинът на плащане е актуализиран",
+    "shippingUpdated": "Начинът на доставка е актуализиран",
+    "deliveryUpdated": "Начинът на доставка е актуализиран"
+  },
+  "upcomingOrdersModal": {
+    "title": "Предстоящи поръчки",
+    "close": "Затваряне",
+    "skipOrder": "Прескочи",
+    "skipOrderAccessibilityLabel": "Прескачане на поръчката на {{orderDate}}",
+    "unSkipOrder": "Отмяна на прескачане",
+    "unskipOrderAccessibilityLabel": "Отмяна на прескачане на поръчката на {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (прескочена)",
+    "skippedSuccessMessage": "Поръчката на {{orderDate}} е прескочена",
+    "unskippedSuccessMessage": "Поръчката на {{orderDate}} – прескачането е отменено",
+    "skippedErrorMessage": "Грешка при прескачането на поръчка",
+    "unskippedErrorMessage": "Грешка при отмяната на прескачане на поръчка"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Изберете начин на доставка",
+    "free": "Безплатно",
+    "localPickupOption": "Взимане: {{location}}",
+    "localDeliveryPhoneLabel": "Номер на мобилен телефон",
+    "localDeliveryInstructionsLabel": "Инструкции за доставка (незадължително)",
+    "localDeliveryPhoneDetails": "Може също да получавате новини относно доставката.",
+    "localDeliveryInstructionsDetails": "Въведете нужната информация, например код за вратата или инструкции за оставяне."
+  },
+  "notFound": {
+    "title": "Абонаментът не е открит",
+    "description": "Този абонамент не съществува или нямате разрешение да го видите."
+  },
+  "emptyState": {
+    "title": "Не са закупени абонаменти",
+    "description": "Посетете магазина, за да купите абонаменти"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "title": "Subscription widget",
+    "description": "Subscription widget will only show on products that have a subscription plan attached to them. [Learn more about theme settings for subscriptions](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_title": "Product",
+    "product_description": "The settings above show options for the selected product. The current product selected has a subscription plan. ",
+    "border_title": "Border",
+    "border_thickness": "Thickness",
+    "border_radius": "Corner radius",
+    "colors_title": "Color",
+    "colors_text_title": "Title",
+    "colors_text_body": "Body",
+    "colors_background_border_title": "Backgrounds & Borders",
+    "colors_background": "Background",
+    "colors_dividers": "Dividers",
+    "supporting_text_title": "Supporting text",
+    "supporting_text_subtitle": "Title",
+    "subscription_policy_title": "Subscription policy",
+    "subscription_policy_url": "Subscription policy link",
+    "subscription_policy_url_info": "Select an existing page or paste an external link to display subscription policy.",
+    "supporting_text_input_default": "Purchase options"
+  }
+}

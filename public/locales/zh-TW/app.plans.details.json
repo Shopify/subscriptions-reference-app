@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "返回訂閱方案",
+  "planTitle": "方案名稱",
+  "planTitleHelpText": "系統不會向顧客顯示此資訊。",
+  "purchaseOptionTitle": "購買選項名稱",
+  "purchaseOptionTitleHelpText": "顧客會在提供訂閱方案的{{howToDisplayProductsLink}}上看到此資訊。",
+  "defaultPurchaseOptionTitle": "訂閱省多多",
+  "saveButtonText": "儲存",
+  "create": {
+    "pageTitle": "建立訂閱方案"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "選擇的商品無效",
+    "invalidVariant": "選擇的商品子類選項無效",
+    "merchantCodeEmptyError": "方案名稱為必填項目",
+    "nameEmptyError": "購買選項名稱為必填項目",
+    "createError": "建立訂閱方案時發生錯誤",
+    "updateError": "更新訂閱方案時發生錯誤",
+    "deliveryFrequencyError": "頻率必須大於 0",
+    "deliveryFrequencyMaxError": "頻率過高",
+    "deliveryFrequencyFloatError": "配送頻率必須為整數",
+    "discountValueMinError": "折扣值必須為正數",
+    "discountValueMaxError": "折扣值太大",
+    "discountValueMaxPercentError": "折扣值不得超過 100%",
+    "updateSuccess": "已更新訂閱方案",
+    "duplicateDeliveryFrequencyError": "配送選項不可重複",
+    "missingSellingPlanGroup": "找不到訂閱方案",
+    "createSuccess": "已建立訂閱方案"
+  },
+  "productCard": {
+    "title": "商品",
+    "browse": "瀏覽",
+    "searchProducts": "搜尋商品",
+    "variantsSelected": "(已選擇 {count} 個子類，共 {total} 個)",
+    "updateError": "更新訂閱方案時發生錯誤",
+    "maxProductsWarning": "一次只能新增 {{count}} 個品項。如果您的品項超過 {{count}} 個，可以在儲存此方案之後再新增。"
+  },
+  "discountDeliveryCard": {
+    "title": "折扣與配送",
+    "offerDiscount": "提供折扣",
+    "discountType": {
+      "percentageOff": "打折",
+      "amountOff": "折扣金額",
+      "fixedPrice": "固定價格"
+    },
+    "deliveryFrequency": "配送頻率",
+    "deliveryInterval": {
+      "label": "配送間隔",
+      "weeks": "週別",
+      "months": "月份",
+      "years": "年"
+    },
+    "addOption": "新增選項",
+    "removeOption": "移除選項",
+    "discountValueFixedPriceHelpText": "系統會向顧客顯示此價格"
+  },
+  "deleteButtonText": "刪除",
+  "deleteSellingPlanGroupModal": {
+    "title": "是否要刪除訂閱方案？",
+    "content": "此動作無法復原。此動作不會影響到任何相關的合約。",
+    "deleteButton": "刪除方案",
+    "cancelButton": "取消",
+    "deleteError": "刪除訂閱方案時發生錯誤"
+  },
+  "summaryCard": {
+    "cardTitle": "摘要",
+    "noPlanTitleYet": "無標題",
+    "weeklyDelivery": {
+      "one": "每週配送",
+      "other": "每 {intervalCount} 週配送"
+    },
+    "monthlyDelivery": {
+      "one": "每月配送",
+      "other": "每 {intervalCount} 個月配送"
+    },
+    "yearlyDelivery": {
+      "one": "每年配送",
+      "other": "每 {intervalCount} 年配送"
+    },
+    "percentageOff": "{amount}% 折扣",
+    "amountOff": "{amount} 折扣",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}，{discountText}",
+    "multipleDeliveryFrequencies": "配送頻率：{count} 次",
+    "countProducts": {
+      "one": "{count} 項商品",
+      "other": "{count} 項商品"
+    },
+    "countVariants": {
+      "one": "{count} 個商品子類選項",
+      "other": "{count} 個商品子類選項"
+    },
+    "productAndVariantTextSeparatedList": "{productText}，{variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "店面商品頁面",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "配送頻率"
+    }
+  }
+}

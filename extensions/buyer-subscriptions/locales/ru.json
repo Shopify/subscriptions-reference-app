@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Подписки",
+  "manageSubscription": "Управлять подпиской",
+  "upcomingOrder": "Следующий заказ",
+  "skip": "Пропустить",
+  "showUpcomingOrders": "Показать следующие заказы",
+  "nextOrder": "Следующий заказ: {{date}}",
+  "lastUpdated": "Последнее обновление: {{date}}",
+  "subscriptionDetails": "Сведения о подписке",
+  "maxOrdersSkipped": "Вы пропустили максимально допустимое количество заказов",
+  "skipOrderOverYear": "Не удается пропустить заказ, так как он размещен больше года назад",
+  "paymentMethodInvalidBanner": "Карта {{brand}}, которая заканчивается на {{lastDigits}}, не действительна. Замените ее другим способом оплаты, чтобы получать новые заказы",
+  "paymentMethodInvalidBannerGeneric": "Карта, которая заканчивается на {{lastDigits}}, не действительна. Замените ее другим способом оплаты, чтобы получать новые заказы",
+  "paymentMethodInvalidBadge": "Недействительный способ оплаты",
+  "listItem": {
+    "multipleItemsName": "Позиций: {{count}}",
+    "accessibilityLabel": "Управлять подпиской {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Активна",
+    "paused": "Приостановлена",
+    "cancelled": "Отменена",
+    "expired": "Срок действия истек",
+    "failed": "Не настроена",
+    "stale": "Устарела"
+  },
+  "deliveryInterval": {
+    "day.one": "Доставка каждый день",
+    "day.other": "Доставка кажд. {{count}} дн.",
+    "week.one": "Доставка каждую неделю",
+    "week.other": "Доставка кажд. {{count}} нед.",
+    "month.one": "Доставка каждый месяц",
+    "month.other": "Доставка кажд. {{count}} мес.",
+    "year.one": "Доставка каждый год",
+    "year.other": "Доставка кажд. {{count}} год/года/лет"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Частота доставки",
+    "payment": "Платеж",
+    "billingAddress": "Адрес для выставления счета",
+    "shippingAddress": "Адрес доставки",
+    "shippingMethod": "Способ доставки",
+    "pickupLocation": "Точка самовывоза",
+    "changePaymentMethodButtonLabel": "Изменение способа оплаты",
+    "editShippingAddressButtonLabel": "Изменить адрес доставки",
+    "editPickupAddressButtonLabel": "Изменить адрес точки самовывоза",
+    "inventoryError": "Ваш следующий заказ может задержаться, так как товаров нет в наличии"
+  },
+  "paymentModal": {
+    "title": "Замена способа оплаты",
+    "save": "Сохранить",
+    "paymentMethod": "Способ оплаты",
+    "edit": "Изменить",
+    "close": "Закрыть",
+    "errorBannerTitle": "Не удалось обновить способ оплаты"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Предыдущие заказы",
+    "view": "Просмотреть"
+  },
+  "skipNextOrder": {
+    "text": "Пропустить следующий заказ",
+    "generic": "Пропустить следующий заказ?",
+    "date": "Пропустить следующий заказ? Подписка будет возобновлена {{date}}.",
+    "errorBannerTitle": "Не удалось пропустить следующий заказ",
+    "close": "Закрыть"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Приостановка подписки",
+    "action": "Приостановить подписку",
+    "close": "Закрыть",
+    "description": "Ваша подписка будет немедленно приостановлена, и вы больше не будете получать новые заказы, а оплата не будет взиматься. Вы можете возобновить подписку в любое время.",
+    "errorBannerTitle": "Не удалось приостановить подписку"
+  },
+  "subscriptionActions": {
+    "pause": "Приостановить",
+    "skip": "Пропустить следующий заказ",
+    "resume": "Продолжить",
+    "cancel": "Отмена",
+    "manage": "Изменить",
+    "viewSubscriptionDetails": "Открыть сведения"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Если вы возобновите подписку, отчисления за ее использование немедленно возобновятся.",
+    "descriptionWithDate": "Если вы возобновите подписку, отчисления за ее использование возобновятся {{date}}.",
+    "close": "Закрыть",
+    "descriptionPriceChanged": "Стоимость этой подписки изменилась. С вашего счета будет списана оплата в размере {{price}}. Она будет включена в общую сумму вашего следующего заказа.",
+    "continue": "Продолжить",
+    "title": "Возобновление подписки",
+    "errorBannerTitle": "Не удалось возобновить подписку"
+  },
+  "priceSummary": {
+    "subtotal": "Промежуточный итог",
+    "shipping": "Доставка",
+    "taxes": "Налоги",
+    "total": "Всего",
+    "quantity": "{{quantity}}/кажд."
+  },
+  "cancelSubscriptionModal": {
+    "title": "Отмена подписки",
+    "description": "Если вы отмените подписку, отчисления за ее использование и доставка немедленно прекратятся. Это действие невозможно отменить. Чтобы прекратить получать заказы на некоторое время, приостановите подписку.",
+    "action": "Отменить подписку",
+    "close": "Закрыть",
+    "errorBannerTitle": "Не удалось отменить подписку"
+  },
+  "errorBoundary": {
+    "content": "Произошла ошибка. Обновите страницу"
+  },
+  "addressModal": {
+    "save": "Сохранить",
+    "continue": "Продолжить",
+    "cancel": "Отмена",
+    "title": "Изменение адреса доставки",
+    "errorBannerTitle": "Не удалось обновить способ доставки",
+    "noDeliveryOptions": "Заказы по этой подписке не доставляются по указанному адресу. Проверьте, все ли поля с данными об адресе заполнены верно, и повторите попытку."
+  },
+  "successBanner": {
+    "paused": "Подписка приостановлена",
+    "resumed": "Подписка возобновлена",
+    "cancelled": "Подписка отменена",
+    "skipped": "Следующий заказ пропущен",
+    "paymentUpdated": "Способ оплаты изменен",
+    "shippingUpdated": "Способ доставки изменен",
+    "deliveryUpdated": "Способ доставки обновлен"
+  },
+  "upcomingOrdersModal": {
+    "title": "Следующие заказы",
+    "close": "Закрыть",
+    "skipOrder": "Пропустить",
+    "skipOrderAccessibilityLabel": "Пропустить заказ {{orderDate}}",
+    "unSkipOrder": "Отменить пропуск",
+    "unskipOrderAccessibilityLabel": "Отменить пропуск заказа {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (пропущено)",
+    "skippedSuccessMessage": "Заказ {{orderDate}} пропущен",
+    "unskippedSuccessMessage": "Пропуск заказа {{orderDate}} отменен",
+    "skippedErrorMessage": "При пропуске заказа произошла ошибка",
+    "unskippedErrorMessage": "При отмене пропуска заказа произошла ошибка"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Выбор способа доставки",
+    "free": "Бесплатно",
+    "localPickupOption": "Получение: {{location}}",
+    "localDeliveryPhoneLabel": "Номер мобильного телефона",
+    "localDeliveryInstructionsLabel": "Инструкции по доставке (необязательно)",
+    "localDeliveryPhoneDetails": "Вам могут сообщить новые данные о вашей доставке.",
+    "localDeliveryInstructionsDetails": "Введите полезную информацию, например код домофона или инструкции, где оставить посылку."
+  },
+  "notFound": {
+    "title": "Подписка не найдена",
+    "description": "Подписка не существует или у вас нет разрешения на ее просмотр."
+  },
+  "emptyState": {
+    "title": "У вас нет купленных подписок",
+    "description": "Чтобы приобрести подписку, перейдите в магазин"
+  }
+}

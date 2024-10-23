@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Tilaussopimukset",
+    "createPlan": "Sopimus",
+    "accessibilityLabel": "Luo toistuvan tilauksen sopimus"
+  },
+  "emptyState": {
+    "title": "Hanki lisää toistuvia ostoja",
+    "description": "Mahdollista tuotteiden tai palveluiden ostaminen toistuvasti.",
+    "action": "Toistuvan tilauksen sopimus"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Sopimuksen otsikko",
+      "products": "Tuotteet",
+      "deliveryFrequency": "Toimitusväli",
+      "discount": "Hinnoittelu",
+      "view": "Kaikki"
+    },
+    "resourceName": {
+      "singular": "Tilaus",
+      "plural": "Tilaus"
+    },
+    "resources": {
+      "allSelected": "Kaikki"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Poista sopimus",
+        "other": "Poista sopimukset"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Tätä ei voi kumota. Ei vaikuta asiaan liittyviin sopimuksiin.",
+          "other": "Tätä ei voi kumota. Ei vaikuta asiaan liittyviin sopimuksiin."
+        },
+        "actions": {
+          "delete": {
+            "one": "Poista sopimus",
+            "other": "Poista sopimukset"
+          },
+          "cancel": "Peruuta"
+        },
+        "title": {
+          "one": "Haluatko poistaa yhden tilaussopimuksen?",
+          "other": "Haluatko poistaa {count} tilaussopimusta?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Tilaussopimus poistettu",
+          "other": "Tilaussopimukset poistettu"
+        },
+        "failed": {
+          "one": "Tilaussopimuksen poistaminen epäonnistui",
+          "other": "Tilaussopimusten poistaminen epäonnistui"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Luonut",
+        "ascendingLabel": "Vanhin ensin",
+        "descendingLabel": "Uusin ensin"
+      },
+      "UPDATED_AT": {
+        "label": "Päivitetty",
+        "ascendingLabel": "Vanhin ensin",
+        "descendingLabel": "Uusin ensin"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "サブスクリプションポリシー",
+    "subscription_policy_url": "サブスクリプションポリシーのリンク",
+    "subscription_policy_url_info": "サブスクリプションポリシーを表示するには、既存のページを選択するか、外部リンクを貼りつけてください。",
+    "description": "サブスクリプションウィジェットは、サブスクリプションプランが設定されている商品にのみ表示されます。 [サブスクリプションのテーマ設定について詳しくはこちら](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "上記の設定は、選択された商品のオプションを示しています。現在選択されている商品にはサブスクリプションプランがあります。 ",
+    "colors_title": "色",
+    "title": "サブスクリプションウィジェット",
+    "product_title": "商品",
+    "border_title": "罫線",
+    "border_thickness": "太さ",
+    "border_radius": "角の半径",
+    "colors_text_title": "タイトル",
+    "colors_text_body": "本文",
+    "colors_background_border_title": "背景と罫線",
+    "colors_background": "背景",
+    "colors_dividers": "区切り線",
+    "supporting_text_title": "サポートテキスト",
+    "supporting_text_subtitle": "タイトル",
+    "supporting_text_input_default": "購入オプション"
+  }
+}

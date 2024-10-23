@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "サブスクリプションプランに戻る",
+  "planTitle": "プラン名",
+  "planTitleHelpText": "お客様にはこちらが表示されません。",
+  "purchaseOptionTitle": "購入オプション名",
+  "purchaseOptionTitleHelpText": "お客様は、サブスクリプションを提供する{{howToDisplayProductsLink}}でこれを見ることができます。",
+  "defaultPurchaseOptionTitle": "お得な定期購入",
+  "saveButtonText": "保存",
+  "create": {
+    "pageTitle": "サブスクリプションプランを作成する"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "無効な商品が選択されました",
+    "invalidVariant": "無効な商品バリエーションが選択されました",
+    "merchantCodeEmptyError": "プラン名が必要です",
+    "nameEmptyError": "購入オプション名が必要です",
+    "createError": "サブスクリプションプランの作成中にエラーが発生しました",
+    "updateError": "サブスクリプションプランの更新中にエラーが発生しました",
+    "deliveryFrequencyError": "頻度は0より多い必要があります",
+    "deliveryFrequencyMaxError": "頻度が多すぎます",
+    "deliveryFrequencyFloatError": "配達頻度は整数にする必要があります",
+    "discountValueMinError": "ディスカウント価格は正の値にする必要があります",
+    "discountValueMaxError": "ディスカウント価格が大きすぎます",
+    "discountValueMaxPercentError": "ディスカウント額が100%を超えることはできません",
+    "updateSuccess": "サブスクリプションが更新されました",
+    "duplicateDeliveryFrequencyError": "配達オプションは固有のものにしてください",
+    "missingSellingPlanGroup": "サブスクリプションプランが見つかりません",
+    "createSuccess": "サブスクリプションプランが作成されました"
+  },
+  "productCard": {
+    "title": "商品",
+    "browse": "閲覧",
+    "searchProducts": "商品を検索",
+    "variantsSelected": "({total}個中{count}個のバリエーションが選択されました)",
+    "updateError": "サブスクリプションプランの更新中にエラーが発生しました",
+    "maxProductsWarning": "一度に編集できるのは{{count}}個のアイテムのみです。{{count}}個以上のアイテムがある場合は、このプランを保存した後で追加できます。"
+  },
+  "discountDeliveryCard": {
+    "title": "ディスカウントと配達",
+    "offerDiscount": "ディスカウントを提供する",
+    "discountType": {
+      "percentageOff": "割合オフ",
+      "amountOff": "割引金額",
+      "fixedPrice": "定価"
+    },
+    "deliveryFrequency": "配達頻度",
+    "deliveryInterval": {
+      "label": "配達間隔",
+      "weeks": "週",
+      "months": "月",
+      "years": "年"
+    },
+    "addOption": "オプションを追加する",
+    "removeOption": "オプションを削除する",
+    "discountValueFixedPriceHelpText": "この価格はお客様に表示されます"
+  },
+  "deleteButtonText": "削除",
+  "deleteSellingPlanGroupModal": {
+    "title": "サブスクリプションプランを削除しますか？",
+    "content": "この操作は元に戻せません。関連する契約は影響を受けません。",
+    "deleteButton": "プランを削除",
+    "cancelButton": "キャンセル",
+    "deleteError": "サブスクリプションプランの削除中にエラーが発生しました"
+  },
+  "summaryCard": {
+    "cardTitle": "サマリー",
+    "noPlanTitleYet": "タイトルなし",
+    "weeklyDelivery": {
+      "one": "毎週配達",
+      "other": "{intervalCount}週ごとに配達"
+    },
+    "monthlyDelivery": {
+      "one": "毎月配達",
+      "other": "{intervalCount}か月ごとに配達"
+    },
+    "yearlyDelivery": {
+      "one": "毎年配達",
+      "other": "{intervalCount}年ごとに配達"
+    },
+    "percentageOff": "{amount}%オフ",
+    "amountOff": "{amount}オフ",
+    "deliveryFrequenciesWithDiscount": "{discountText}、{deliveryText}",
+    "multipleDeliveryFrequencies": "{count}回の配達頻度",
+    "countProducts": {
+      "one": "{count}個の商品",
+      "other": "{count}個の商品"
+    },
+    "countVariants": {
+      "one": "{count}個の商品バリエーション",
+      "other": "{count}個の商品バリエーション"
+    },
+    "productAndVariantTextSeparatedList": "{variantText}、{productText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "ストアフロントの商品ページ",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "配送頻度"
+    }
+  }
+}

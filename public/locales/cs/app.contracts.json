@@ -1,0 +1,362 @@
+{
+  "page": {
+    "title": "Smlouvy o předplatném"
+  },
+  "emptyState": {
+    "title": "Spravujte smlouvy o předplatném",
+    "description": "Když si zákazník ve vašem obchodě koupí předplatné, zobrazí se tady příslušná smlouva."
+  },
+  "table": {
+    "headings": {
+      "contract": "Smlouva",
+      "customer": "Zákazník",
+      "product": "Produkt",
+      "price": "Cena",
+      "deliveryFrequency": "Četnost doručování",
+      "status": "Stav",
+      "warning": "Varování"
+    },
+    "resourceName": {
+      "singular": "Smlouva",
+      "plural": "Smlouvy",
+      "warningToolTipContent": "Pokus o fakturaci se nepovedl, protože produkt není skladem."
+    },
+    "tabs": {
+      "all": "Vše",
+      "active": "Aktivní",
+      "paused": "Pozastaveno",
+      "cancelled": "Zrušeno"
+    },
+    "emptyState": {
+      "title": "Žádné smlouvy s tímto stavem",
+      "description": "Tady se zobrazí smlouvy o předplatném se stavem {status}."
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Koupeno",
+      "sortByUpdatedDateLabel": "Aktualizováno",
+      "newestFirstDirectionLabel": "Od nejnovějších",
+      "oldestFirstDirectionLabel": "Od nejstarších"
+    },
+    "pauseBulkActionModal": {
+      "content": "Fakturace a nadcházející objednávky se pozastaví. Pozastavené smlouvy je možné kdykoli obnovit.",
+      "cancel": "Zrušit",
+      "title": {
+        "one": "Nastavit {count} smlouvu jako pozastavenou?",
+        "other": "Nastavit smlouvy (celkem {count}) jako pozastavené?",
+        "few": "Nastavit smlouvy (celkem {count}) jako pozastavené?",
+        "many": "Nastavit smlouvy (celkem {count}) jako pozastavené?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Smlouva o předplatném se pozastavuje...",
+        "other": "Smlouvy o předplatném se pozastavují...",
+        "few": "Smlouvy o předplatném se pozastavují...",
+        "many": "Smlouvy o předplatném se pozastavují..."
+      },
+      "errorToast": {
+        "one": "Smlouvu není možné pozastavit.",
+        "other": "Smlouvy není možné pozastavit.",
+        "few": "Smlouvy není možné pozastavit.",
+        "many": "Smlouvy není možné pozastavit."
+      },
+      "action": "Nastavit na pozastavení"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Pozastavit smlouvu",
+        "other": "Pozastavit smlouvy",
+        "few": "Pozastavit smlouvy",
+        "many": "Pozastavit smlouvy"
+      },
+      "activate": {
+        "one": "Obnovit smlouvu",
+        "other": "Obnovit smlouvy",
+        "few": "Obnovit smlouvy",
+        "many": "Obnovit smlouvy"
+      },
+      "cancel": {
+        "one": "Zrušit smlouvu",
+        "other": "Zrušit smlouvy",
+        "few": "Zrušit smlouvy",
+        "many": "Zrušit smlouvy"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "Fakturace a nadcházející objednávky se obnoví. Aktivní smlouvy se budou fakturovat jako obvykle.",
+      "cancel": "Zrušit",
+      "title": {
+        "one": "Chcete obnovit {count} smlouvu?",
+        "other": "Chcete obnovit tento počet smluv: {count}?",
+        "few": "Chcete obnovit tento počet smluv: {count}?",
+        "many": "Chcete obnovit tento počet smluv: {count}?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Obnovuje se smlouva o předplatném...",
+        "other": "Obnovují se smlouvy o předplatném...",
+        "few": "Obnovují se smlouvy o předplatném...",
+        "many": "Obnovují se smlouvy o předplatném..."
+      },
+      "errorToast": {
+        "one": "Smlouvu není možné obnovit",
+        "other": "Smlouvy není možné obnovit",
+        "few": "Smlouvy není možné obnovit",
+        "many": "Smlouvy není možné obnovit"
+      },
+      "action": {
+        "one": "Obnovit smlouvu",
+        "other": "Obnovit smlouvy",
+        "few": "Obnovit smlouvy",
+        "many": "Obnovit smlouvy"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "Fakturace a nadcházející objednávky se okamžitě ukončí. Zrušené smlouvy není možné obnovit.",
+      "action": "Nastavit na zrušení",
+      "cancel": "Zrušit",
+      "title": {
+        "one": "Chcete nastavit {count} smlouvu jako zrušenou?",
+        "other": "Chcete nastavit smlouvy ({count}) jako zrušené?",
+        "few": "Chcete nastavit smlouvy ({count}) jako zrušené?",
+        "many": "Chcete nastavit smlouvy ({count}) jako zrušené?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Smlouva o předplatném se ruší...",
+        "other": "Smlouvy o předplatném se ruší...",
+        "few": "Smlouvy o předplatném se ruší...",
+        "many": "Smlouvy o předplatném se ruší..."
+      },
+      "errorToast": {
+        "one": "Smlouvu není možné zrušit",
+        "other": "Smlouvy není možné zrušit",
+        "few": "Smlouvy není možné zrušit",
+        "many": "Smlouvy není možné zrušit"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "Hromadnou akci není možné provést",
+        "other": "Hromadnou akci není možné provést",
+        "few": "Hromadnou akci není možné provést",
+        "many": "Hromadnou akci není možné provést"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pozastavit",
+      "accessibilityLabel": "Pozastavit smlouvu",
+      "success": "Smlouvu se povedlo úspěšně pozastavit.",
+      "error": "Smlouvu není možné pozastavit."
+    },
+    "cancel": {
+      "title": "Zrušení předplatného",
+      "accessibilityLabel": "Zrušit předplatné",
+      "success": "Smlouvu se povedlo úspěšně zrušit",
+      "error": "Smlouvu není možné zrušit.",
+      "modalTitle": "Zrušení předplatného",
+      "modalCancel": "Zachovat smlouvu",
+      "modalContent": "Fakturace a nadcházející objednávky se okamžitě ukončí. Zrušené smlouvy není možné obnovit."
+    },
+    "resume": {
+      "title": "Obnovit",
+      "accessibilityLabel": "Obnovit smlouvu",
+      "success": "Smlouva byla úspěšně obnovena.",
+      "error": "Smlouvu není možné obnovit."
+    },
+    "billContract": {
+      "title": "Fakturovat smlouvu",
+      "accessibilityLabel": "Fakturovat smlouvu",
+      "success": "Zahájil se pokus o fakturaci",
+      "error": "Smlouvu není možné fakturovat"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Nadcházející objednávky",
+    "subscription": "Podrobnosti předplatného",
+    "price": "Cena",
+    "purchaseDate": "Datum nákupu",
+    "quantity": "Množství",
+    "orderNumber": "Objednávka {number}",
+    "edit": "Upravit",
+    "nextOrders": {
+      "title": "Další objednávky",
+      "skip": "Vynechat",
+      "skipped": "Vynecháno",
+      "resume": "Obnovit",
+      "showMore": "Zobrazit {number} další(ch)",
+      "skipError": "Objednávku není možné vynechat/obnovit.",
+      "skipSuccess": "Objednávku se povedlo úspěšně vynechat.",
+      "showMoreNoCount": "Zobrazit více",
+      "resumeSuccess": "Objednávka byla úspěšně obnovena."
+    },
+    "paymentMethods": {
+      "title": "Platební metody"
+    },
+    "customer": {
+      "title": "Zákazník"
+    },
+    "discount": "Sleva",
+    "discountValue": {
+      "multipleDiscounts": "Více slev",
+      "percentageOff": "Sleva {{value}} %",
+      "amountOff": "Sleva {{value}}",
+      "fixedPrice": "Fixní cena ({{value}})"
+    },
+    "delivery": "Doručení",
+    "pastOrders": "Minulé objednávky",
+    "viewOrder": "Zobrazit",
+    "localPickup": "{{value}}, místní vyzvednutí",
+    "orderNotCreated": "Objednávka nebyla vytvořena"
+  },
+  "paymentMethodDetails": {
+    "title": "Platební metoda",
+    "expires": "Konec platnosti: {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Odeslat odkaz pro aktualizaci karty",
+      "managePayment": "Spravovat platbu na stránce zákazníka"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Odešlete odkaz pro aktualizaci karty",
+      "descriptionCreditCard": "Odešlete zákazníkovi {customerName} odkaz, aby si aktualizoval kreditní kartu s koncovými číslicemi: {lastDigits}.",
+      "descriptionOther": "Odešlete zákazníkovi {customerName} odkaz pro aktualizaci platební metody.",
+      "fromField": "Od:",
+      "toField": "Komu:",
+      "subjectField": "Předmět:",
+      "subjectMessage": "Aktualizujte si platební metodu pro obchod {shopName}",
+      "errorMessage": "E-mail pro aktualizaci platební metody není možné zákazníkovi odeslat.",
+      "successMessage": "E-mail byl odeslán.",
+      "actions": {
+        "sendEmail": "Odeslat e-mail",
+        "cancel": "Zrušit"
+      }
+    },
+    "revoked": "Platební metoda byla zákazníkem odebrána dne: {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Zákazník",
+    "contactInformation": "Kontaktní informace",
+    "shippingAddress": "Dodací adresa",
+    "actions": {
+      "selectAddress": "Vybrat jinou adresu",
+      "manageAddress": "Spravovat adresy na stránce zákazníka"
+    },
+    "addressModal": {
+      "title": "Vybrat jinou adresu",
+      "actions": {
+        "cancel": "Zrušit",
+        "update": "Aktualizovat"
+      }
+    }
+  },
+  "edit": {
+    "title": "Upravte předplatné",
+    "details": {
+      "title": "Podrobnosti předplatného",
+      "searchProducts": "Vyhledejte produkty",
+      "browse": "Procházet",
+      "removeLine": "Odebrat řádek předplatného",
+      "oneTimePurchasePrice": "Cena jednorázového nákupu: {price}",
+      "quantity": "Množství",
+      "deliveryFrequency": {
+        "title": "Četnost doručování",
+        "warning": "Aktualizací četnosti doručování se automaticky aktualizuje frekvence fakturace.",
+        "interval": "Interval",
+        "intervalCount": "Počet v rámci intervalu"
+      },
+      "deliveryInterval": {
+        "weeks": "týd.",
+        "months": "měs.",
+        "years": "r."
+      },
+      "paymentSummary": "Shrnutí platby",
+      "subtotal": "Mezisoučet",
+      "shipping": "Doprava",
+      "tax": "Daň",
+      "total": "Celkem",
+      "oneTimePurchasePriceChanged": "Cena jednorázového nákupu se změnila",
+      "outOfStock": "Žádné jednotky skladem"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Návrh smlouvy o předplatném není možné vytvořit."
+      },
+      "updateDraft": {
+        "error": "Návrh smlouvy o předplatném není možné aktualizovat.",
+        "quantityTooLargeError": "Množství je příliš velké.",
+        "deliveryFrequencyTooLargeError": "Četnost doručování je příliš velká.",
+        "deliveryFrequencyIntegerError": "Četnost doručování musí být celé číslo."
+      },
+      "updateContract": {
+        "error": "Smlouvu o předplatném není možné aktualizovat.",
+        "success": "Smlouva byla aktualizována."
+      },
+      "selectProducts": {
+        "lineCountError": "Smlouvy o předplatném musí obsahovat nejméně 1 samostatnou položku."
+      },
+      "updateAddress": {
+        "error": "Adresu není možné aktualizovat.",
+        "success": "Adresa byla aktualizována."
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Cena jednorázového nákupu zboží {{title}} se změnila a aktuálně představuje: {{newPrice}}.",
+      "updateSubscriptionPrice": "Aktualizujte cenu předplatného pro: {{title}}",
+      "title": "Upravte cenu",
+      "subscriptionPriceLabel": "Cena předplatného",
+      "discountLabel": "Sleva předplatného ({{discountAmount}}) se uplatnila u nové ceny položky {{lineTitle}}.",
+      "amountTooLargeError": "Částka je příliš velká.",
+      "amountNegativeError": "Částka se musí rovnat 0 nebo musí být větší.",
+      "actions": {
+        "update": "Aktualizovat",
+        "cancel": "Zrušit"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "Objednávku ze dne: {date} se nepovedlo vytvořit",
+      "inProgressTitle": "Právě probíhá pokus o fakturaci. Tato stránka se po jeho dokončení aktualizuje.",
+      "description": "Během posledního pokusu o fakturaci nebylo k dispozici dostatek skladových zásob. Pokud je zboží na cestě do skladu a vy chcete další opakování pokusů obejít, vytvořte objednávku hned a proveďte nadprodej skladových zásob. V případě významnějšího zdržení raději proces pozastavte, vynechejte nebo zrušte.",
+      "button": "Vytvořit objednávku hned"
+    },
+    "modal": {
+      "title": "Chcete pokračovat a vytvořit objednávku?",
+      "inventoryWarning": "Nadprodej skladových zásob proveďte jen v případě, že skladové zásoby jsou skutečně na cestě",
+      "actions": {
+        "ignoreAndCreate": "Vytvořit objednávku hned",
+        "cancel": "Zrušit"
+      },
+      "outOfStock": {
+        "one": "Následující zboží není skladem a u této objednávky dojde k jeho nadprodeji:",
+        "other": "Následující zboží není skladem a u této objednávky dojde k jeho nadprodeji:",
+        "few": "Následující zboží není skladem a u této objednávky dojde k jeho nadprodeji:",
+        "many": "Následující zboží není skladem a u této objednávky dojde k jeho nadprodeji:"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Zurück zu Abonnements",
+  "planTitle": "Plantitel",
+  "planTitleHelpText": "Kunden können diese Eingabe nicht sehen.",
+  "purchaseOptionTitle": "Titel der Kaufoption",
+  "purchaseOptionTitleHelpText": "Kunden sehen dies auf {{howToDisplayProductsLink}}, auf denen es Abonnements gibt.",
+  "defaultPurchaseOptionTitle": "Im Abo kaufen und sparen",
+  "saveButtonText": "Speichern",
+  "create": {
+    "pageTitle": "Abonnement erstellen"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Ungültiges Produkt ausgewählt",
+    "invalidVariant": "Ungültige Produktvariante ausgewählt",
+    "merchantCodeEmptyError": "Plantitel ist erforderlich",
+    "nameEmptyError": "Titel für Verkaufsoption ist erforderlich",
+    "createError": "Fehler beim Erstellen des Abonnements",
+    "updateError": "Fehler beim Aktualisieren des Abonnements",
+    "deliveryFrequencyError": "Frequenz muss höher als 0 sein",
+    "deliveryFrequencyMaxError": "Frequenz ist zu groß",
+    "deliveryFrequencyFloatError": "Zustellfrequenz muss eine ganze Zahl sein",
+    "discountValueMinError": "Rabattwert muss ein positiver Wert sein",
+    "discountValueMaxError": "Rabattwert ist zu groß",
+    "discountValueMaxPercentError": "Rabattwert darf nicht größer als 100 % sein",
+    "updateSuccess": "Abonnement aktualisiert",
+    "duplicateDeliveryFrequencyError": "Zustellungsoptionen müssen eindeutig sein",
+    "missingSellingPlanGroup": "Abonnement nicht gefunden",
+    "createSuccess": "Abonnement erstellt"
+  },
+  "productCard": {
+    "title": "Produkte",
+    "browse": "Durchsuchen",
+    "searchProducts": "Produkte suchen",
+    "variantsSelected": "({count} von {total} Varianten ausgewählt)",
+    "updateError": "Fehler beim Aktualisieren des Abonnements",
+    "maxProductsWarning": "Nur {{count}} Artikel können gleichzeitig hinzugefügt werden. Wenn du mehr als {{count}} Artikel hast, kannst du ihn nach dem Speichern des Plans hinzufügen."
+  },
+  "discountDeliveryCard": {
+    "title": "Rabatt und Zustellung",
+    "offerDiscount": "Rabatt anbieten",
+    "discountType": {
+      "percentageOff": "Rabattprozentsatz",
+      "amountOff": "Rabattbetrag",
+      "fixedPrice": "Fester Preis"
+    },
+    "deliveryFrequency": "Zustellungsfrequenz",
+    "deliveryInterval": {
+      "label": "Zustellungsintervall",
+      "weeks": "Wochen",
+      "months": "Monate",
+      "years": "Jahre"
+    },
+    "addOption": "Option hinzufügen",
+    "removeOption": "Option entfernen",
+    "discountValueFixedPriceHelpText": "Das ist der Preis, der den Kunden angezeigt wird"
+  },
+  "deleteButtonText": "Löschen",
+  "deleteSellingPlanGroupModal": {
+    "title": "Abonnement löschen?",
+    "content": "Dies kann nicht rückgängig gemacht werden. Verbundene Verträge sind davon nicht betroffen.",
+    "deleteButton": "Plan löschen",
+    "cancelButton": "Abbrechen",
+    "deleteError": "Fehler beim Löschen des Abonnements"
+  },
+  "summaryCard": {
+    "cardTitle": "Übersicht",
+    "noPlanTitleYet": "Kein Titel",
+    "weeklyDelivery": {
+      "one": "Jede Woche liefern",
+      "other": "Alle {intervalCount} Wochen liefern"
+    },
+    "monthlyDelivery": {
+      "one": "Jeden Monat liefern",
+      "other": "Alle {intervalCount} Monate liefern"
+    },
+    "yearlyDelivery": {
+      "one": "Jedes Jahr liefern",
+      "other": "Alle {intervalCount} Jahre liefern"
+    },
+    "percentageOff": "{amount} % Rabatt",
+    "amountOff": "{amount} Rabatt",
+    "fixedPrice": "{amount}",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} Lieferintervalle",
+    "countProducts": {
+      "one": "{count} Produkt",
+      "other": "{count} Produkte"
+    },
+    "countVariants": {
+      "one": "{count} Produktvariante",
+      "other": "{count} Produktvarianten"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}"
+  },
+  "purchaseOptionTitleHelpLinkText": "Storefront-Produktseiten",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Zustellungsintervall"
+    }
+  }
+}

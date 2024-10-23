@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Guardar",
+  "actions": {
+    "updateSuccess": "Definições atualizadas"
+  },
+  "title": "Definições",
+  "billingFailureSettings": {
+    "title": "Tentativas de faturação",
+    "description": "Controle quando são realizadas novas tentativas de faturação após uma tentativa falhada",
+    "paymentFailureTitle": "Falha do método de pagamento",
+    "inventoryFailureTitle": "Inventário insuficiente",
+    "retryAttempts": {
+      "label": "Número de tentativas de repetição",
+      "helpText": "Mín. 0, máx. 10 repetições",
+      "errors": {
+        "min": "O número de tentativas de repetição tem de ser superior a 0",
+        "max": "O número de tentativas de repetição é demasiado elevado"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dias entre tentativas de repetição de pagamento",
+      "helpText": "Mín. 1, máx. 14 dias",
+      "errors": {
+        "min": "O número de dias entre as tentativas de repetição de pagamento tem de ser superior a 1",
+        "max": "O número de dias entre as tentativas de repetição de pagamento é demasiado elevado"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "O número de novas tentativas de inventário tem de ser superior a 0",
+        "max": "O número de novas tentativas de inventário é demasiado elevado"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "O número de dias entre novas tentativas de inventário tem de ser superior a 1",
+        "max": "O número de dias entre novas tentativas de inventário é demasiado elevado"
+      }
+    },
+    "onFailure": {
+      "label": "Ação quando todas as tentativas de repetição falharem",
+      "options": {
+        "skip": "Ignorar subscrição e enviar notificação",
+        "cancel": "Cancelar subscrição e enviar notificação",
+        "pause": "Suspender a subscrição e enviar notificação"
+      }
+    },
+    "notifications": "Editar notificações",
+    "staffNotificationFrequency": {
+      "label": "Frequência das notificações para a equipa",
+      "options": {
+        "immediately": "Sempre que uma faturação falha",
+        "weekly": "Resumo semanal das falhas de faturação",
+        "monthly": "Resumo mensal de falhas de faturação"
+      }
+    }
+  }
+}

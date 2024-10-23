@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "ホーム",
+    "plans": "プラン",
+    "contracts": "契約",
+    "settings": "設定"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count}回の配達頻度",
+    "day": {
+      "one": "毎日",
+      "other": "{count}日ごと"
+    },
+    "week": {
+      "one": "毎週",
+      "other": "{count}週ごと"
+    },
+    "month": {
+      "one": "毎月",
+      "other": "{count}か月ごと"
+    },
+    "year": {
+      "one": "毎年",
+      "other": "{count}年ごと"
+    },
+    "multipleDeliveryFrequenciesNoCount": "複数配達の頻度"
+  },
+  "productAndVariants": {
+    "noProduct": "なし",
+    "productsCount": {
+      "one": "{count}個の商品",
+      "other": "{count}個の商品"
+    },
+    "noVariant": "バリエーションなし",
+    "variantsCount": {
+      "one": "{count}個のバリエーション",
+      "other": "{count}個のバリエーション"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "ディスカウントなし",
+    "amountOff": "{amount}オフ",
+    "percentageOff": "{amount}%オフ",
+    "multipleDiscounts": "複数のディスカウント",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "有効",
+    "paused": "一時停止",
+    "cancelled": "キャンセル済み",
+    "expired": "期限切れ",
+    "failed": "失敗",
+    "stale": "失効"
+  },
+  "actions": {
+    "saveButtonText": "保存",
+    "edit": "編集"
+  },
+  "footer": {
+    "learnMore": "{topicName}について詳しくはこちら",
+    "home": "Shopify Subscriptions",
+    "plans": "サブスクリプションプラン",
+    "contracts": "サブスクリプション契約"
+  },
+  "errorBoundary": {
+    "title": "定期購入",
+    "header": "ページを読み込むことができません",
+    "description": "ページを再読み込みするか、後でもう一度お試しください。問題が続く場合は{statusPageLink}にご連絡ください。",
+    "statusPageLinkText": "Shopifyサポート",
+    "reloadAction": "ページを再度読み込む"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "一括操作が完了しました"
+  },
+  "missingScopes": {
+    "title": "Shopifyの承認済みスコープが見つかりません",
+    "description": "サブスクリプションリファレンスアプリを実行する前に、以下のAPIスコープを使用するためにShopifyに承認をリクエストする必要があります。",
+    "link": "このアプリの{{link}}に関する詳細は、ドキュメントを参照してください。",
+    "linkText": "Shopifyの承認済みスコープ"
+  }
+}

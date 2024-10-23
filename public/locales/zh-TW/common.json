@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "首頁",
+    "plans": "方案",
+    "contracts": "合約",
+    "settings": "設定"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "配送頻率：{count} 次",
+    "day": {
+      "one": "每天",
+      "other": "每 {count} 天"
+    },
+    "week": {
+      "one": "每週",
+      "other": "每 {count} 週"
+    },
+    "month": {
+      "one": "每個月",
+      "other": "每 {count} 個月"
+    },
+    "year": {
+      "one": "每年",
+      "other": "每 {count} 年"
+    },
+    "multipleDeliveryFrequenciesNoCount": "多種配送頻率"
+  },
+  "productAndVariants": {
+    "noProduct": "無",
+    "productsCount": {
+      "one": "{count} 項商品",
+      "other": "{count} 項商品"
+    },
+    "noVariant": "暫無子類",
+    "variantsCount": {
+      "one": "{count} 個子類",
+      "other": "{count} 個子類"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "沒有折扣",
+    "amountOff": "{amount} 折扣",
+    "percentageOff": "{amount}% 折扣",
+    "multipleDiscounts": "多項折扣",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "啟用",
+    "paused": "已暫停",
+    "cancelled": "已取消",
+    "expired": "已過期",
+    "failed": "失敗",
+    "stale": "過時"
+  },
+  "actions": {
+    "saveButtonText": "儲存",
+    "edit": "編輯"
+  },
+  "footer": {
+    "learnMore": "深入瞭解{topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "訂閱方案",
+    "contracts": "訂閱合約"
+  },
+  "errorBoundary": {
+    "title": "訂閱",
+    "header": "無法載入頁面",
+    "description": "請重新載入頁面或稍後重試。對於持續出現的問題，請聯絡 {statusPageLink}。",
+    "statusPageLinkText": "Shopify 支援服務",
+    "reloadAction": "重新載入頁面"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "已完成大量操作"
+  },
+  "missingScopes": {
+    "title": "缺少 Shopify 核准的範圍",
+    "description": "執行 Subscriptions 參考應用程式前，您需取得 Shopify 的核准才能使用下列 API 範圍：",
+    "link": "請參閱說明文件，深入瞭解更多關於此應用程式的 {{link}}。",
+    "linkText": "Shopify 核准的範圍"
+  }
+}

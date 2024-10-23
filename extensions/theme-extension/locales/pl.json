@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Zakup jednorazowy",
+      "subscription": "Subskrypcja"
+    }
+  },
+  "policy": {
+    "description": "Automatyczne odnawianie, pomiń lub anuluj w dowolnym momencie.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Wyświetl politykę subskrypcji</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Aby dodać do koszyka, przejdź do strony produktu i wybierz opcję zakupu"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Widżet subskrypcji będzie wyświetlany tylko na produktach, które mają dołączony plan subskrypcji."
+  },
+  "no_app_block_found_banner": {
+    "message": "Aby edytować położenie widżetu subskrypcji, dodaj poniższy fragment kodu do szablonu produktu w żądanym miejscu.",
+    "copy_button_text": "Kopiuj",
+    "copied_button_text": "Skopiowano",
+    "button_text": "Wyświetl edytor kodu"
+  }
+}

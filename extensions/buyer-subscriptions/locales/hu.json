@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Előfizetések",
+  "manageSubscription": "Előfizetés kezelése",
+  "upcomingOrder": "Közelgő megrendelés",
+  "skip": "Kihagyás",
+  "showUpcomingOrders": "Közelgő megrendelések mutatása",
+  "nextOrder": "Következő megrendelés: {{date}}",
+  "lastUpdated": "Legutóbb frissítve: {{date}}",
+  "subscriptionDetails": "Az előfizetés részletei",
+  "maxOrdersSkipped": "A megrendelések maximális száma kihagyva",
+  "skipOrderOverYear": "Nem sikerült kihagyni, mivel a megrendelés dátuma egy évnél távolabbi",
+  "paymentMethodInvalidBanner": "A(z) {{lastDigits}} végződésű {{brand}} érvénytelen. Módosítsd alább a fizetési módot, hogy ezentúl is megkapd a közelgő megrendeléseket",
+  "paymentMethodInvalidBannerGeneric": "A(z) {{lastDigits}} végződésű kártya érvénytelen. Módosítsd alább a fizetési módot, hogy ezentúl is megkapd a közelgő megrendeléseket",
+  "paymentMethodInvalidBadge": "Érvénytelen fizetési mód",
+  "listItem": {
+    "multipleItemsName": "{{count}} termék",
+    "accessibilityLabel": "Előfizetés kezelése: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktív",
+    "paused": "Felfüggesztett",
+    "cancelled": "Törölt",
+    "expired": "Lejárt",
+    "failed": "Sikertelen",
+    "stale": "Elévült"
+  },
+  "deliveryInterval": {
+    "day.one": "Kézbesítés naponta",
+    "day.other": "Kézbesítés {{count}} naponta",
+    "week.one": "Kézbesítés hetente",
+    "week.other": "Kézbesítés {{count}} hetente",
+    "month.one": "Kézbesítés havonta",
+    "month.other": "Kézbesítés {{count}} havonta",
+    "year.one": "Kézbesítés évente",
+    "year.other": "Kézbesítés {{count}} évente"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Kézbesítési gyakoriság",
+    "payment": "Fizetés",
+    "billingAddress": "Számlázási cím",
+    "shippingAddress": "Szállítási cím",
+    "shippingMethod": "Szállítási mód",
+    "pickupLocation": "Átvételi pont",
+    "changePaymentMethodButtonLabel": "Váltás másik fizetési módra",
+    "editShippingAddressButtonLabel": "Szállítási cím szerkesztése",
+    "editPickupAddressButtonLabel": "Átvevőhely címének szerkesztése",
+    "inventoryError": "Előfordulhat, hogy a következő rendelésed késni fog, mert a termékek jelenleg nincsenek készleten"
+  },
+  "paymentModal": {
+    "title": "Fizetési mód cseréje",
+    "save": "Mentés",
+    "paymentMethod": "Fizetési mód",
+    "edit": "Szerkesztés",
+    "close": "Bezárás",
+    "errorBannerTitle": "Nem sikerült frissíteni a fizetési módot"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Korábbi megrendelések",
+    "view": "Megtekintés"
+  },
+  "skipNextOrder": {
+    "text": "A következő megrendelés kihagyása",
+    "generic": "Ki szeretnéd hagyni a következő megrendelést?",
+    "date": "Ki szeretnéd hagyni a következő megrendelést? Az előfizetésed ekkor folytatódik: {{date}}.",
+    "errorBannerTitle": "Nem sikerült kihagyni a következő megrendelést",
+    "close": "Bezárás"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Előfizetés felfüggesztése",
+    "action": "Előfizetés felfüggesztése",
+    "close": "Bezárás",
+    "description": "Az előfizetésedet haladéktalanul felfüggesztjük, így a továbbiakban nem számítjuk fel a díját, és nem kapod meg a közelgő megrendeléseket. Az előfizetést bármikor újraindíthatod.",
+    "errorBannerTitle": "Nem sikerült szüneteltetni az előfizetést"
+  },
+  "subscriptionActions": {
+    "pause": "Szünet",
+    "skip": "A következő megrendelés kihagyása",
+    "resume": "Folytatás",
+    "cancel": "Mégse",
+    "manage": "Kezelés",
+    "viewSubscriptionDetails": "Részletek megtekintése"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Az előfizetés újraindításával a számlázás is azonnal folytatódik.",
+    "descriptionWithDate": "Ha újraindítod az előfizetést, ekkor fog folytatódni a számlázás: {{date}}.",
+    "close": "Bezárás",
+    "descriptionPriceChanged": "Ennek az előfizetésnek az ára megváltozott, ezért a következő rendeléstől már {{price}} összeget kell fizetned.",
+    "continue": "Folytatás",
+    "title": "Előfizetés újraindítása",
+    "errorBannerTitle": "Nem sikerült újraindítani az előfizetést"
+  },
+  "priceSummary": {
+    "subtotal": "Részösszeg:",
+    "shipping": "Szállítás",
+    "taxes": "Adók",
+    "total": "Végösszeg",
+    "quantity": "{{quantity}}/db"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Előfizetés lemondása",
+    "description": "Ha lemondod az előfizetést, azonnal leállítjuk a számlázást és a kézbesítést. Az előfizetés lemondása nem vonható vissza. Ha csak ideiglenesen szeretnéd leállítani a megrendeléseket, válaszd az előfizetés felfüggesztését.",
+    "action": "Előfizetés lemondása",
+    "close": "Bezárás",
+    "errorBannerTitle": "Nem sikerült lemondani az előfizetést"
+  },
+  "errorBoundary": {
+    "content": "Hiba történt. Kérjük, frissítsd az oldalt"
+  },
+  "addressModal": {
+    "save": "Mentés",
+    "continue": "Folytatás",
+    "cancel": "Mégse",
+    "title": "Szállítási cím szerkesztése",
+    "errorBannerTitle": "Nem sikerült megváltoztatni a szállítási módot",
+    "noDeliveryOptions": "Ez az előfizetés nem szállítható az általad megadott címre. Ellenőrizd a beírt címet, és hogy minden mezőt helyesen töltöttél-e ki, majd próbáld meg újra."
+  },
+  "successBanner": {
+    "paused": "Az előfizetés szüneteltetve",
+    "resumed": "Az előfizetés újraindítva",
+    "cancelled": "Az előfizetés lemondva",
+    "skipped": "A következő megrendelés átugorva",
+    "paymentUpdated": "Fizetési mód frissítve",
+    "shippingUpdated": "Szállítási mód frissítve",
+    "deliveryUpdated": "A szállítási mód megváltozott"
+  },
+  "upcomingOrdersModal": {
+    "title": "Közelgő megrendelések",
+    "close": "Bezárás",
+    "skipOrder": "Kihagyás",
+    "skipOrderAccessibilityLabel": "Az ekkori rendelés kihagyása: {{orderDate}}",
+    "unSkipOrder": "Kihagyás visszavonása",
+    "unskipOrderAccessibilityLabel": "Az ekkori rendelés kihagyásának visszavonása: {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (kihagyva)",
+    "skippedSuccessMessage": "Az ekkori rendelés kihagyva: {{orderDate}}",
+    "unskippedSuccessMessage": "Az ekkori rendelés kihagyása visszavonva: {{orderDate}}",
+    "skippedErrorMessage": "Hiba történt a rendelés kihagyásakor",
+    "unskippedErrorMessage": "Hiba történt a rendelés kihagyásának visszavonásakor"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Szállítási mód kiválasztása",
+    "free": "Ingyenes",
+    "localPickupOption": "Átvétel: {{location}}",
+    "localDeliveryPhoneLabel": "Mobiltelefonszám",
+    "localDeliveryInstructionsLabel": "Közlemény a futárnak (nem kötelező beírni)",
+    "localDeliveryPhoneDetails": "A kézbesítéssel kapcsolatos tájékoztatás ügyében felvehetjük veled a kapcsolatot.",
+    "localDeliveryInstructionsDetails": "Ide írhatod be az egyéb információkat, például a kapukódot vagy azt, hogy kinél hagyhatja a futár a küldeményt."
+  },
+  "notFound": {
+    "title": "Nem található előfizetés",
+    "description": "Nem létezik az előfizetés, vagy nincs engedélyed a megtekintésére."
+  },
+  "emptyState": {
+    "title": "Nincs megvásárolt előfizetés",
+    "description": "Látogass el az üzletbe az előfizetéshez"
+  }
+}

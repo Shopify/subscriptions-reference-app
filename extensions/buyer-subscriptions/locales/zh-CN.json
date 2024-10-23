@@ -1,0 +1,156 @@
+{
+  "subscriptions": "订阅",
+  "manageSubscription": "管理订阅",
+  "upcomingOrder": "后续订单",
+  "skip": "跳过",
+  "showUpcomingOrders": "显示后续订单",
+  "nextOrder": "下一个订单：{{date}}",
+  "lastUpdated": "最后更新时间：{{date}}",
+  "subscriptionDetails": "订阅详细信息",
+  "maxOrdersSkipped": "已跳过最大订单数",
+  "skipOrderOverYear": "无法跳过，因为下单时间已超过一年",
+  "paymentMethodInvalidBanner": "以 {{lastDigits}} 结尾的 {{brand}} 无效。请更新下方的付款方式以继续接收后续订单。",
+  "paymentMethodInvalidBannerGeneric": "以 {{lastDigits}} 结尾的卡无效。请更新下方的付款方式以继续接收后续订单。",
+  "paymentMethodInvalidBadge": "付款方式无效",
+  "listItem": {
+    "multipleItemsName": "{{count}} 件商品",
+    "accessibilityLabel": "管理订阅：{{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "活跃",
+    "paused": "已暂停",
+    "cancelled": "已取消",
+    "expired": "已过期",
+    "failed": "失败",
+    "stale": "过时"
+  },
+  "deliveryInterval": {
+    "day.one": "每天配送",
+    "day.other": "每 {{count}} 天配送",
+    "week.one": "每周配送",
+    "week.other": "每 {{count}} 周配送",
+    "month.one": "每月配送",
+    "month.other": "每 {{count}} 个月配送",
+    "year.one": "每年配送",
+    "year.other": "每 {{count}} 年配送"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "配送频率",
+    "payment": "支付",
+    "billingAddress": "账单地址",
+    "shippingAddress": "收货地址",
+    "shippingMethod": "发货方式",
+    "pickupLocation": "取货地点",
+    "changePaymentMethodButtonLabel": "更改付款方式",
+    "editShippingAddressButtonLabel": "编辑收货地址",
+    "editPickupAddressButtonLabel": "编辑取货地址",
+    "inventoryError": "由于产品缺货，您的下笔订单可能会延迟"
+  },
+  "paymentModal": {
+    "title": "更换付款方式",
+    "save": "保存",
+    "paymentMethod": "付款方式",
+    "edit": "编辑",
+    "close": "关闭",
+    "errorBannerTitle": "无法更新付款方式"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "过去的订单",
+    "view": "查看"
+  },
+  "skipNextOrder": {
+    "text": "跳过下一个订单",
+    "generic": "是否要跳过下一个订单？",
+    "date": "是否要跳过下一个订单？您的订阅将于 {{date}} 恢复。",
+    "errorBannerTitle": "无法跳过下一个订单",
+    "close": "关闭"
+  },
+  "pauseSubscriptionModal": {
+    "title": "暂停订阅",
+    "action": "暂停订阅",
+    "close": "关闭",
+    "description": "您的订阅将立即暂停，您无需支付任何后续费用，也不会收到后续订单。您可以随时恢复此订阅。",
+    "errorBannerTitle": "无法暂停订阅"
+  },
+  "subscriptionActions": {
+    "pause": "暂停",
+    "skip": "跳过下一个订单",
+    "resume": "恢复",
+    "cancel": "取消",
+    "manage": "管理",
+    "viewSubscriptionDetails": "查看详细信息"
+  },
+  "resumeSubscriptionModal": {
+    "description": "如果您恢复此订阅，则系统将立即开始计费。",
+    "descriptionWithDate": "如果您恢复此订阅，则系统将于 {{date}} 恢复计费。",
+    "close": "关闭",
+    "descriptionPriceChanged": "此订阅的价格已更改，您将需要为之后的每个订单支付 {{price}}。",
+    "continue": "继续",
+    "title": "恢复订阅",
+    "errorBannerTitle": "无法恢复订阅"
+  },
+  "priceSummary": {
+    "subtotal": "小计",
+    "shipping": "运费",
+    "taxes": "税费",
+    "total": "总计",
+    "quantity": "{{quantity}}/件"
+  },
+  "cancelSubscriptionModal": {
+    "title": "取消订阅",
+    "description": "如果您取消订阅，则计费和配送将立刻停止。取消订阅则无法撤销。若要暂时停止接收订单，请将订阅暂停。",
+    "action": "取消订阅",
+    "close": "关闭",
+    "errorBannerTitle": "无法取消订阅"
+  },
+  "errorBoundary": {
+    "content": "出现错误，请刷新页面"
+  },
+  "addressModal": {
+    "save": "保存",
+    "continue": "继续",
+    "cancel": "取消",
+    "title": "编辑收货地址",
+    "errorBannerTitle": "无法更新配送方式",
+    "noDeliveryOptions": "无法将此订阅配送到您输入的地址。请查看您的地址，确保所有字段均已输入正确内容，然后重试。"
+  },
+  "successBanner": {
+    "paused": "订阅已暂停",
+    "resumed": "订阅已恢复",
+    "cancelled": "订阅已取消",
+    "skipped": "已跳过下一个订单",
+    "paymentUpdated": "付款方式已更新",
+    "shippingUpdated": "发货方式已更新",
+    "deliveryUpdated": "配送方式已更新"
+  },
+  "upcomingOrdersModal": {
+    "title": "后续订单",
+    "close": "关闭",
+    "skipOrder": "跳过",
+    "skipOrderAccessibilityLabel": "跳过 {{orderDate}} 的订单",
+    "unSkipOrder": "取消跳过",
+    "unskipOrderAccessibilityLabel": "取消跳过 {{orderDate}} 的订单",
+    "skippedOrderLabel": "{{skippedOrderDate}}（已跳过）",
+    "skippedSuccessMessage": "已跳过 {{orderDate}} 的订单",
+    "unskippedSuccessMessage": "已取消跳过 {{orderDate}} 的订单",
+    "skippedErrorMessage": "跳过订单时出错",
+    "unskippedErrorMessage": "取消跳过订单时出错"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "选择配送方式",
+    "free": "免费",
+    "localPickupOption": "取货：{{location}}",
+    "localDeliveryPhoneLabel": "手机号码",
+    "localDeliveryInstructionsLabel": "配送说明（选填）",
+    "localDeliveryPhoneDetails": "工作人员可能会与您联系以提供配送更新信息。",
+    "localDeliveryInstructionsDetails": "请输入必要的信息，例如门牌号或投递说明。"
+  },
+  "notFound": {
+    "title": "找不到订阅",
+    "description": "此订阅不存在，或者您没有查看权限。"
+  },
+  "emptyState": {
+    "title": "未购买订阅",
+    "description": "请前往商店购买订阅"
+  }
+}

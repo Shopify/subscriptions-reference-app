@@ -1,0 +1,68 @@
+{
+  "name": "訂閱",
+  "save": "儲存",
+  "cancel": "取消",
+  "merchantCode": {
+    "label": "內部說明",
+    "helpText": "僅供參考"
+  },
+  "planName": {
+    "label": "標題",
+    "placeholder": "訂閱省多多",
+    "helpText": "顧客會在提供訂閱方案的店面商品頁面上看到此資訊"
+  },
+  "discountAndDelivery": "折扣與配送",
+  "offerDiscount": "提供折扣",
+  "discountType": {
+    "percentageOff": "打折",
+    "amountOff": "折扣金額",
+    "fixedPrice": "固定價格"
+  },
+  "deliveryFrequency": "配送頻率",
+  "deliveryInterval": {
+    "label": "配送間隔",
+    "weeks": "週",
+    "months": "月",
+    "years": "年",
+    "day": {
+      "singular": "每天配送",
+      "plural": "每 {{count}} 天配送"
+    },
+    "week": {
+      "singular": "每週配送",
+      "plural": "每 {{count}} 週配送"
+    },
+    "month": {
+      "singular": "每月配送",
+      "plural": "每 {{count}} 個月配送"
+    },
+    "year": {
+      "singular": "每年配送",
+      "plural": "每 {{count}} 年配送"
+    }
+  },
+  "addOptionButton": {
+    "label": "選項",
+    "accessibilityLabel": "新增選項"
+  },
+  "removeOption": "移除選項",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% 折扣",
+    "amountOff": "{{amount}} 折扣",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "已建立訂閱方案",
+    "update": "已更新訂閱方案"
+  },
+  "validator": {
+    "nameEmptyError": "標題為必填項目",
+    "merchantCodeEmptyError": "內部說明為必填項目",
+    "deliveryFrequencyError": "配送頻率為必填項目",
+    "deliveryFrequencyMaxError": "配送頻率必須小於 36500 天",
+    "deliveryFrequencyFloatError": "配送頻率必須為整數",
+    "discountValueMinError": "折扣值必須大於 0",
+    "discountValueMaxError": "折扣值太高",
+    "discountValueMaxPercentError": "折扣值不得超過 100%"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Polityka subskrypcji",
+    "subscription_policy_url": "Link do polityki subskrypcji",
+    "subscription_policy_url_info": "Wybierz istniejącą stronę lub wklej link zewnętrzny, aby wyświetlić politykę subskrypcji.",
+    "description": "Widżet subskrypcji będzie wyświetlany tylko na produktach, które mają dołączony plan subskrypcji. [Dowiedz się więcej o ustawieniach szablonu dla subskrypcji](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Powyższe ustawienia pokazują opcje dla wybranego produktu. Aktualnie wybrany produkt posiada plan subskrypcji. ",
+    "colors_title": "Kolor",
+    "title": "Widżet subskrypcji",
+    "product_title": "Produkt",
+    "border_title": "Obramowanie",
+    "border_thickness": "Grubość",
+    "border_radius": "Promień narożnika",
+    "colors_text_title": "Tytuł",
+    "colors_text_body": "Tekst podstawowy",
+    "colors_background_border_title": "Tła i obramowania",
+    "colors_background": "Tło",
+    "colors_dividers": "Rozdzielacze",
+    "supporting_text_title": "Tekst pomocniczy",
+    "supporting_text_subtitle": "Tytuł",
+    "supporting_text_input_default": "Opcje zakupu"
+  }
+}

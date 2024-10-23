@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Home",
+    "plans": "Plans",
+    "contracts": "Contracts",
+    "settings": "Settings"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} delivery frequencies",
+    "multipleDeliveryFrequenciesNoCount": "Multiple delivery frequencies",
+    "day": {
+      "one": "Every day",
+      "other": "Every {count} days"
+    },
+    "week": {
+      "one": "Every week",
+      "other": "Every {count} weeks"
+    },
+    "month": {
+      "one": "Every month",
+      "other": "Every {count} months"
+    },
+    "year": {
+      "one": "Every year",
+      "other": "Every {count} years"
+    }
+  },
+  "productAndVariants": {
+    "noProduct": "None",
+    "productsCount": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "noVariant": "No variant",
+    "variantsCount": {
+      "one": "{count} variant",
+      "other": "{count} variants"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "No discount",
+    "amountOff": "{amount} off",
+    "percentageOff": "{amount}% off",
+    "fixedPrice": "{amount}",
+    "multipleDiscounts": "Multiple discounts"
+  },
+  "statusBadge": {
+    "active": "Active",
+    "paused": "Paused",
+    "cancelled": "Canceled",
+    "failed": "Failed",
+    "expired": "Expired",
+    "stale": "Stale"
+  },
+  "actions": {
+    "saveButtonText": "Save",
+    "edit": "Edit"
+  },
+  "footer": {
+    "learnMore": "Learn more about {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "subscription plans",
+    "contracts": "subscription contracts"
+  },
+  "errorBoundary": {
+    "title": "Subscriptions",
+    "header": "Unable to load page",
+    "description": "Reload the page or try again later. For ongoing issues, contact {statusPageLink}.",
+    "statusPageLinkText": "Shopify Support",
+    "reloadAction": "Reload page"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Bulk operation completed"
+  },
+  "missingScopes": {
+    "title": "Missing Shopify approved scopes",
+    "description": "Before you can run the Subscriptions reference app, you'll need to request approval from Shopify to use these API scopes:",
+    "link": "Refer to the documentation to learn more about {{link}} for this app.",
+    "linkText": "Shopify approved scopes"
+  }
+}

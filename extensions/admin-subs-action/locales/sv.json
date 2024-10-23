@@ -1,0 +1,68 @@
+{
+  "name": "Prenumerationer",
+  "save": "Spara",
+  "cancel": "Avbryt",
+  "merchantCode": {
+    "label": "Intern beskrivning",
+    "helpText": "Endast som referens för dig"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Prenumerera och spara",
+    "helpText": "Kunderna ser detta på produktsidor i skyltfönster, som har prenumerationer"
+  },
+  "discountAndDelivery": "Rabatt och leverans",
+  "offerDiscount": "Erbjud rabatt",
+  "discountType": {
+    "percentageOff": "Procentuell rabatt",
+    "amountOff": "Rabatt",
+    "fixedPrice": "Fast pris"
+  },
+  "deliveryFrequency": "Leveransfrekvens",
+  "deliveryInterval": {
+    "label": "Leveransintervall",
+    "weeks": "veckor",
+    "months": "månader",
+    "years": "år",
+    "day": {
+      "singular": "Leverera varje dag",
+      "plural": "Leverera var {{count}}:e dag"
+    },
+    "week": {
+      "singular": "Leverera varje vecka",
+      "plural": "Leverera var {{count}}:e vecka"
+    },
+    "month": {
+      "singular": "Leverera varje månad",
+      "plural": "Leverera var {{count}}:e månad"
+    },
+    "year": {
+      "singular": "Leverera varje år",
+      "plural": "Leverera vart {{count}}:e år"
+    }
+  },
+  "addOptionButton": {
+    "label": "Alternativ",
+    "accessibilityLabel": "Lägg till alternativ"
+  },
+  "removeOption": "Ta bort alternativ",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % rabatt",
+    "amountOff": "{{amount}} rabatt",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Prenumerationsplan har skapats",
+    "update": "Prenumerationsplanen har uppdaterats"
+  },
+  "validator": {
+    "nameEmptyError": "Titel krävs",
+    "merchantCodeEmptyError": "Det krävs en intern beskrivning",
+    "deliveryFrequencyError": "Leveransfrekvens krävs",
+    "deliveryFrequencyMaxError": "Leveransfrekvens måste vara mindre än 36 500 dagar",
+    "deliveryFrequencyFloatError": "Leveransfrekvensen måste vara ett heltal",
+    "discountValueMinError": "Rabattvärdet måste vara större än 0",
+    "discountValueMaxError": "Rabattvärdet är för högt",
+    "discountValueMaxPercentError": "Rabattvärdet får inte överstiga 100 %"
+  }
+}

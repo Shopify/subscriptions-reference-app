@@ -1,0 +1,106 @@
+{
+  "backButtonLabel": "Voltar para planos de assinatura",
+  "planTitle": "Título do plano",
+  "planTitleHelpText": "Informação não exibida a clientes.",
+  "purchaseOptionTitle": "Título da opção de compra",
+  "purchaseOptionTitleHelpText": "Informação exibida aos clientes nas {{howToDisplayProductsLink}} que têm assinaturas.",
+  "defaultPurchaseOptionTitle": "Assinar e salvar",
+  "saveButtonText": "Salvar",
+  "create": {
+    "pageTitle": "Criar plano de assinatura"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Produto inválido selecionado",
+    "invalidVariant": "Variante de produto inválida selecionada",
+    "merchantCodeEmptyError": "O título do plano é obrigatório",
+    "nameEmptyError": "Título da opção de compra obrigatório",
+    "createError": "Erro ao criar plano de assinatura",
+    "updateError": "Erro ao atualizar plano de assinatura",
+    "deliveryFrequencyError": "A frequência precisa ser maior que 0",
+    "deliveryFrequencyMaxError": "A frequência é grande demais",
+    "deliveryFrequencyFloatError": "A frequência de entrega precisa ser um número inteiro",
+    "discountValueMinError": "O valor do desconto precisa ser positivo",
+    "discountValueMaxError": "O valor do desconto é grande demais",
+    "discountValueMaxPercentError": "O valor do desconto não pode ser maior que 100%",
+    "updateSuccess": "Plano de assinatura atualizado",
+    "duplicateDeliveryFrequencyError": "As opções de entrega precisam ser exclusivas",
+    "missingSellingPlanGroup": "Plano de assinatura não encontrado",
+    "createSuccess": "Plano de assinatura criado"
+  },
+  "productCard": {
+    "title": "Produtos",
+    "browse": "Procurar",
+    "searchProducts": "Pesquisar produtos",
+    "variantsSelected": "({count} de {total} variantes selecionadas)",
+    "updateError": "Erro ao atualizar plano de assinatura",
+    "maxProductsWarning": "Só é possível adicionar {{count}} itens por vez. Caso você tenha mais de {{count}} itens, inclua-os depois de salvar este plano."
+  },
+  "discountDeliveryCard": {
+    "title": "Desconto e entrega",
+    "offerDiscount": "Oferecer desconto",
+    "discountType": {
+      "percentageOff": "Porcentagem de desconto",
+      "amountOff": "Valor do desconto",
+      "fixedPrice": "Preço fixo"
+    },
+    "deliveryFrequency": "Frequência de entrega",
+    "deliveryInterval": {
+      "label": "Intervalo de entrega",
+      "weeks": "semanas",
+      "months": "meses",
+      "years": "anos"
+    },
+    "addOption": "Adicionar opção",
+    "removeOption": "Remover opção",
+    "discountValueFixedPriceHelpText": "Este será o preço exibido aos clientes"
+  },
+  "deleteButtonText": "Excluir",
+  "deleteSellingPlanGroupModal": {
+    "title": "Excluir plano de assinatura?",
+    "content": "Não é possível desfazer a ação. Os contratos associados não serão afetados.",
+    "deleteButton": "Excluir plano",
+    "cancelButton": "Cancelar",
+    "deleteError": "Erro ao excluir plano de assinatura"
+  },
+  "summaryCard": {
+    "cardTitle": "Resumo",
+    "noPlanTitleYet": "Sem título",
+    "weeklyDelivery": {
+      "one": "Entrega semanal",
+      "other": "Entrega a cada {intervalCount} semanas",
+      "many": "Entrega a cada {intervalCount} semanas"
+    },
+    "monthlyDelivery": {
+      "one": "Entrega mensal",
+      "other": "Entrega a cada {intervalCount} meses",
+      "many": "Entrega a cada {intervalCount} meses"
+    },
+    "yearlyDelivery": {
+      "one": "Entrega anual",
+      "other": "Entrega a cada {intervalCount} anos",
+      "many": "Entrega a cada {intervalCount} anos"
+    },
+    "percentageOff": "{amount}% de desconto",
+    "amountOff": "Desconto de {amount}",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} frequências de entrega",
+    "countProducts": {
+      "one": "{count} produto",
+      "other": "{count} produtos",
+      "many": "{count} produtos"
+    },
+    "countVariants": {
+      "one": "{count} variante de produto",
+      "other": "{count} variantes de produto",
+      "many": "{count} variantes de produto"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "páginas de produto da vitrine",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Frequência de entrega"
+    }
+  }
+}

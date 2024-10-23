@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Prenumerationsplaner",
+    "createPlan": "Plan",
+    "accessibilityLabel": "Skapa prenumerationsplan"
+  },
+  "emptyState": {
+    "title": "Få fler upprepade affärer",
+    "description": "Låt kunder köpa produkt eller tjänster på en återkommande basis",
+    "action": "Prenumerationsplan"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Plantitel",
+      "products": "Produkter",
+      "deliveryFrequency": "Leveransfrekvens",
+      "discount": "Prissättning",
+      "view": "Alla"
+    },
+    "resourceName": {
+      "singular": "Prenumeration",
+      "plural": "Prenumeration"
+    },
+    "resources": {
+      "allSelected": "Alla"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Radera plan",
+        "other": "Radera planer"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Detta kan inte ångras. Associerade kontrakt påverkas inte.",
+          "other": "Detta kan inte ångras. Associerade kontrakt påverkas inte."
+        },
+        "actions": {
+          "delete": {
+            "one": "Radera plan",
+            "other": "Radera planer"
+          },
+          "cancel": "Avbryt"
+        },
+        "title": {
+          "one": "Radera prenumerationsplan?",
+          "other": "Vill du ta bort {count} prenumerationsplaner?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Prenumerationsplanen har raderats",
+          "other": "Prenumerationsplanerna har raderats"
+        },
+        "failed": {
+          "one": "Det gick inte att radera prenumerationsplanen",
+          "other": "Det gick inte att radera prenumerationsplanerna"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Skapad",
+        "ascendingLabel": "Äldsta först",
+        "descendingLabel": "Nyaste först"
+      },
+      "UPDATED_AT": {
+        "label": "Uppdaterad",
+        "ascendingLabel": "Äldsta först",
+        "descendingLabel": "Nyaste först"
+      }
+    }
+  }
+}

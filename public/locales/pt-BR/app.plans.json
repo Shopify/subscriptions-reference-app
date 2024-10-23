@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Planos de assinatura",
+    "createPlan": "Plano",
+    "accessibilityLabel": "Criar plano de assinatura"
+  },
+  "emptyState": {
+    "title": "Consiga mais compras recorrentes",
+    "description": "Permita que os clientes comprem produtos ou serviços de maneira recorrente",
+    "action": "Plano de assinatura"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Título do plano",
+      "products": "Produtos",
+      "deliveryFrequency": "Frequência de entrega",
+      "discount": "Preços",
+      "view": "Todos"
+    },
+    "resourceName": {
+      "singular": "Assinatura",
+      "plural": "Assinatura"
+    },
+    "resources": {
+      "allSelected": "Todos"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Excluir plano",
+        "other": "Excluir planos",
+        "many": "Excluir planos"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Não é possível desfazer a ação. Os contratos associados não serão afetados.",
+          "other": "Não é possível desfazer a ação. Os contratos associados não serão afetados.",
+          "many": "Não é possível desfazer a ação. Os contratos associados não serão afetados."
+        },
+        "actions": {
+          "delete": {
+            "one": "Excluir plano",
+            "other": "Excluir planos",
+            "many": "Excluir planos"
+          },
+          "cancel": "Cancelar"
+        },
+        "title": {
+          "one": "Excluir 1 plano de assinatura?",
+          "other": "Excluir {count} planos de assinatura?",
+          "many": "Excluir {count} planos de assinatura?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Plano de assinatura excluído",
+          "other": "Planos de assinatura excluídos",
+          "many": "Planos de assinatura excluídos"
+        },
+        "failed": {
+          "one": "Falha ao excluir o plano de assinatura",
+          "other": "Falha ao excluir planos de assinatura",
+          "many": "Falha ao excluir planos de assinatura"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Criado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      },
+      "UPDATED_AT": {
+        "label": "Atualizado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      }
+    }
+  }
+}

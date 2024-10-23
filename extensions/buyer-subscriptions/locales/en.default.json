@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Subscriptions",
+  "manageSubscription": "Manage subscription",
+  "subscriptionDetails": "Subscription details",
+  "upcomingOrder": "Upcoming order",
+  "skip": "Skip",
+  "listItem": {
+    "multipleItemsName": "{{count}} items",
+    "accessibilityLabel": "Manage subscription: {{title}}"
+  },
+  "showUpcomingOrders": "Show upcoming orders",
+  "maxOrdersSkipped": "The maximum number of orders have been skipped",
+  "skipOrderOverYear": "Unable to skip due to order being more than a year away",
+  "subscriptionStatus": {
+    "active": "Active",
+    "paused": "Paused",
+    "cancelled": "Canceled",
+    "expired": "Expired",
+    "failed": "Failed",
+    "stale": "Stale"
+  },
+  "nextOrder": "Next order: {{date}}",
+  "lastUpdated": "Last updated {{date}}",
+  "deliveryInterval": {
+    "day.one": "Deliver every day",
+    "day.other": "Deliver every {{count}} days",
+    "week.one": "Deliver every week",
+    "week.other": "Deliver every {{count}} weeks",
+    "month.one": "Deliver every month",
+    "month.other": "Deliver every {{count}} months",
+    "year.one": "Deliver every year",
+    "year.other": "Deliver every {{count}} years"
+  },
+  "overviewCard": {
+    "inventoryError": "Your next order may be delayed because products are out of stock",
+    "deliveryFrequency": "Delivery frequency",
+    "payment": "Payment",
+    "billingAddress": "Billing address",
+    "shippingAddress": "Shipping address",
+    "shippingMethod": "Shipping method",
+    "pickupLocation": "Pickup location",
+    "changePaymentMethodButtonLabel": "Change payment method",
+    "editShippingAddressButtonLabel": "Edit shipping address",
+    "editPickupAddressButtonLabel": "Edit pickup address"
+  },
+  "paymentModal": {
+    "title": "Replace payment method",
+    "save": "Save",
+    "paymentMethod": "Payment method",
+    "edit": "Edit",
+    "close": "Close",
+    "errorBannerTitle": "Unable to update payment method"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Past orders",
+    "view": "View"
+  },
+  "skipNextOrder": {
+    "text": "Skip next order",
+    "generic": "Do you want to skip the next order?",
+    "date": "Do you want to skip the next order? Your subscription will resume on {{date}}.",
+    "errorBannerTitle": "Unable to skip next order",
+    "close": "Close"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pause subscription",
+    "action": "Pause subscription",
+    "close": "Close",
+    "description": "Your subscription will be paused effective immediately and you will not receive any further charges or upcoming orders. You can resume this subscription at any time.",
+    "errorBannerTitle": "Unable to pause subscription"
+  },
+  "subscriptionActions": {
+    "pause": "Pause",
+    "skip": "Skip next order",
+    "resume": "Resume",
+    "cancel": "Cancel",
+    "manage": "Manage",
+    "viewSubscriptionDetails": "View details"
+  },
+  "resumeSubscriptionModal": {
+    "description": "If you resume this subscription, billing will resume immediately.",
+    "descriptionWithDate": "If you resume this subscription, billing will resume on {{date}}.",
+    "close": "Close",
+    "descriptionPriceChanged": "The price for this subscription has changed and you will be charged {{price}} per upcoming order.",
+    "continue": "Continue",
+    "title": "Resume subscription",
+    "errorBannerTitle": "Unable to resume subscription"
+  },
+  "priceSummary": {
+    "quantity": "{{quantity}}/ea",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "taxes": "Taxes",
+    "total": "Total"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Cancel subscription",
+    "description": "If you cancel your subscription, billing and delivery will end immediately. Canceling a subscription cannot be undone. To temporarily stop receiving orders, pause your subscription.",
+    "action": "Cancel subscription",
+    "close": "Close",
+    "errorBannerTitle": "Unable to cancel subscription"
+  },
+  "errorBoundary": {
+    "content": "Something went wrong, please refresh the page"
+  },
+  "addressModal": {
+    "save": "Save",
+    "continue": "Continue",
+    "cancel": "Cancel",
+    "title": "Edit shipping address",
+    "errorBannerTitle": "Unable to update delivery method",
+    "noDeliveryOptions": "This subscription can't be shipped to the address you entered. Review your address to ensure that all fields have been entered correctly and try again."
+  },
+  "successBanner": {
+    "paused": "Subscription paused",
+    "resumed": "Subscription resumed",
+    "cancelled": "Subscription cancelled",
+    "skipped": "Next order skipped",
+    "paymentUpdated": "Payment method updated",
+    "shippingUpdated": "Shipping method updated",
+    "deliveryUpdated": "Delivery method updated"
+  },
+  "paymentMethodInvalidBanner": "{{brand}} ending in {{lastDigits}} is invalid. Update the payment method below to continue receiving upcoming orders",
+  "paymentMethodInvalidBannerGeneric": "Card ending in {{lastDigits}} is invalid. Update the payment method below to continue receiving upcoming orders",
+  "paymentMethodInvalidBadge": "Invalid payment method",
+  "upcomingOrdersModal": {
+    "title": "Upcoming orders",
+    "close": "Close",
+    "skipOrder": "Skip",
+    "skipOrderAccessibilityLabel": "Skip order on {{orderDate}}",
+    "unSkipOrder": "Unskip",
+    "unskipOrderAccessibilityLabel": "Unskip order on {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (skipped)",
+    "skippedSuccessMessage": "Order on {{orderDate}} skipped",
+    "unskippedSuccessMessage": "Order on {{orderDate}} unskipped",
+    "skippedErrorMessage": "Error skipping order",
+    "unskippedErrorMessage": "Error unskipping order"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Select delivery method",
+    "free": "Free",
+    "localPickupOption": "Pick up: {{location}}",
+    "localDeliveryPhoneLabel": "Mobile phone number",
+    "localDeliveryInstructionsLabel": "Delivery instructions (optional)",
+    "localDeliveryPhoneDetails": "You may be contacted with updates on your delivery.",
+    "localDeliveryInstructionsDetails": "Enter necessary information like door codes or drop-off instructions."
+  },
+  "notFound": {
+    "title": "Subscription not found",
+    "description": "This subscription doesn't exist or you don't have permission to view it."
+  },
+  "emptyState": {
+    "title": "No subscriptions purchased",
+    "description": "Go to store to shop for subscriptions"
+  }
+}

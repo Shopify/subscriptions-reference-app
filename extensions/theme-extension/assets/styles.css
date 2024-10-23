@@ -1,0 +1,136 @@
+.shopify_subscriptions_app__title {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+}
+
+.shopify_subscriptions_app_block_label {
+  border: 0;
+  margin: 0;
+  padding: 1rem 1.4rem;
+}
+
+.shopify_subscriptions_purchase_option_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopify_subscriptions_in_widget_price {
+  margin: 0;
+  white-space: nowrap;
+  padding-left: 1rem;
+}
+
+.shopify_subscriptions_app_block_label_children {
+  padding-bottom: 0;
+  padding-top: 0;
+  padding-left: 2rem;
+}
+
+.shopify_subscriptions_app_block_label ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 2rem;
+}
+
+.shopify_subscriptions_app_policy {
+  margin-top: 2rem;
+  color: inherit;
+}
+
+.shopify_subscriptions_app_policy a {
+  color: inherit;
+}
+
+.shopify_subscriptions_app_block--hidden {
+  display: none;
+}
+
+/* App embed block styles */
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_purchase_options {
+  text-align: left;
+}
+
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_label_children {
+  margin-top: 10px;
+}
+
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_label_children
+  ul
+  li
+  label {
+  margin-bottom: 10px;
+}
+
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_label
+  label,
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_label_children
+  ul
+  li:last-child
+  label {
+  margin-bottom: 0;
+}
+
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_label
+  label
+  input,
+.shopify_subscriptions_app_block_container
+  .shopify_subscriptions_app_block_label_children
+  ul
+  li
+  label
+  input {
+  min-height: auto;
+  margin: 0 3px;
+}
+
+.shopify_subscriptions_fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.shopify_subscriptions_warning_banner {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 15px 0px;
+  background: #ffffff;
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    'San Francisco',
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    sans-serif;
+  box-shadow:
+    0px 3px 1px -1px rgba(26, 26, 26, 0.07),
+    0px 1px 0px 0px rgba(204, 204, 204, 0.5) inset,
+    0px -1px 0px 0px rgba(0, 0, 0, 0.17) inset,
+    -1px 0px 0px 0px rgba(0, 0, 0, 0.13) inset,
+    1px 0px 0px 0px rgba(0, 0, 0, 0.13) inset;
+}
+
+.shopify_subscriptions_warning_banner_icon {
+  border-radius: 8px;
+  background: #ffb800;
+  display: flex;
+  padding: 4px;
+  align-items: center;
+}
+
+.shopify_subscriptions_warning_banner_text {
+  font: inherit;
+  color: #303030;
+  font-size: 13px;
+  padding: 0px 10px;
+  margin: 0;
+}

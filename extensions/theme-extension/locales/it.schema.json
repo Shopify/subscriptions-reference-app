@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Informativa sugli abbonamenti",
+    "subscription_policy_url": "Link all'informativa sull'iscrizione",
+    "subscription_policy_url_info": "Seleziona una pagina esistente o incolla un link esterno per mostrare l'informativa sull'iscrizione.",
+    "description": "Il widget per l'abbonamento apparirà solo sui prodotti a cui è applicato un piano di abbonamento. [Scopri di più sulle impostazioni dei temi per gli abbonamenti](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Le impostazioni precedenti mostrano le opzioni per il prodotto selezionato. Il prodotto attualmente selezionato ha un piano di abbonamento. ",
+    "colors_title": "Colore",
+    "title": "Widget di abbonamento",
+    "product_title": "Prodotto",
+    "border_title": "Bordo",
+    "border_thickness": "Spessore",
+    "border_radius": "Raggio angolo",
+    "colors_text_title": "Titolo",
+    "colors_text_body": "Corpo",
+    "colors_background_border_title": "Sfondi e bordi",
+    "colors_background": "Sfondo",
+    "colors_dividers": "Divisori",
+    "supporting_text_title": "Testo di supporto",
+    "supporting_text_subtitle": "Titolo",
+    "supporting_text_input_default": "Opzioni di acquisto"
+  }
+}

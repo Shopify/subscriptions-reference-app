@@ -1,0 +1,347 @@
+{
+  "page": {
+    "title": "Contrats d’abonnement"
+  },
+  "emptyState": {
+    "title": "Gérer vos contrats d’abonnement",
+    "description": "Lorsqu’un(e) client(e) achètera un abonnement dans votre boutique, le contrat s’affichera ici."
+  },
+  "table": {
+    "headings": {
+      "contract": "Contrat",
+      "customer": "Client",
+      "product": "Produit",
+      "price": "Prix",
+      "deliveryFrequency": "Fréquence de livraison",
+      "status": "Statut",
+      "warning": "Avertissement"
+    },
+    "resourceName": {
+      "singular": "Contrat",
+      "plural": "Contrats",
+      "warningToolTipContent": "La tentative de facturation a échoué parce qu’un produit est en rupture de stock."
+    },
+    "tabs": {
+      "all": "Tous",
+      "active": "Actif",
+      "paused": "Suspendu",
+      "cancelled": "Annulé"
+    },
+    "emptyState": {
+      "title": "Aucun contrat avec ce statut",
+      "description": "Les contrats d’abonnement {status} s’afficheront ici"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Acheté",
+      "sortByUpdatedDateLabel": "Mis à jour",
+      "newestFirstDirectionLabel": "Le plus récent d’abord",
+      "oldestFirstDirectionLabel": "Le plus ancien d’abord"
+    },
+    "pauseBulkActionModal": {
+      "content": "La facturation et les prochaines commandes seront suspendues. Les contrats suspendus peuvent être repris à tout moment.",
+      "cancel": "Annuler",
+      "title": {
+        "one": "Définir {count} contrat comme suspendu ?",
+        "other": "Définir {count} contrats comme suspendus ?",
+        "many": "Définir {count} contrats comme suspendus ?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Suspension du contrat d’abonnement…",
+        "other": "Suspension des contrats d’abonnement…",
+        "many": "Suspension des contrats d’abonnement…"
+      },
+      "errorToast": {
+        "one": "Impossible de suspendre le contrat",
+        "other": "Impossible de suspendre les contrats",
+        "many": "Impossible de suspendre les contrats"
+      },
+      "action": "Définir comme suspendu"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Suspendre le contrat",
+        "other": "Suspendre les contrats",
+        "many": "Suspendre les contrats"
+      },
+      "activate": {
+        "one": "Reprendre le contrat",
+        "other": "Reprendre les contrats",
+        "many": "Reprendre les contrats"
+      },
+      "cancel": {
+        "one": "Résilier le contrat",
+        "other": "Résilier les contrats",
+        "many": "Résilier les contrats"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "La facturation et les prochaines commandes reprendront. Les contrats actifs seront facturés normalement.",
+      "cancel": "Annuler",
+      "title": {
+        "one": "Reprendre {count} contrat ?",
+        "other": "Reprendre {count} contrats ?",
+        "many": "Reprendre {count} contrats ?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Reprise du contrat d’abonnement…",
+        "other": "Reprise des contrats d’abonnement…",
+        "many": "Reprise des contrats d’abonnement…"
+      },
+      "errorToast": {
+        "one": "Impossible de reprendre le contrat",
+        "other": "Impossible de reprendre les contrats",
+        "many": "Impossible de reprendre les contrats"
+      },
+      "action": {
+        "one": "Reprendre le contrat",
+        "other": "Reprendre les contrats",
+        "many": "Reprendre les contrats"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "La facturation et les prochaines commandes cesseront immédiatement. Il n’est pas possible de reprendre les contrats annulés.",
+      "action": "Définir comme annulé",
+      "cancel": "Annuler",
+      "title": {
+        "one": "Définir {count} contrat comme annulé ?",
+        "other": "Définir {count} contrats comme annulés ?",
+        "many": "Définir {count} contrats comme annulés ?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Annulation du contrat d’abonnement…",
+        "other": "Annulation des contrats d’abonnement…",
+        "many": "Annulation des contrats d’abonnement…"
+      },
+      "errorToast": {
+        "one": "Impossible de résilier le contrat",
+        "other": "Impossible de résilier les contrats",
+        "many": "Impossible de résilier les contrats"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "Impossible d’effectuer une action en bloc",
+        "other": "Impossible d’effectuer une action en bloc",
+        "many": "Impossible d’effectuer une action en bloc"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Suspendre",
+      "accessibilityLabel": "Suspendre le contrat",
+      "success": "Contrat suspendu avec succès",
+      "error": "Impossible de suspendre le contrat"
+    },
+    "cancel": {
+      "title": "Annuler l’abonnement",
+      "accessibilityLabel": "Annuler l’abonnement",
+      "success": "Contrat annulé avec succès",
+      "error": "Impossible de résilier le contrat",
+      "modalTitle": "Annuler l’abonnement",
+      "modalCancel": "Garder le contrat",
+      "modalContent": "La facturation et les prochaines commandes cesseront immédiatement. Il n’est pas possible de reprendre les contrats annulés."
+    },
+    "resume": {
+      "title": "Reprendre",
+      "accessibilityLabel": "Reprendre le contrat",
+      "success": "Contrat repris avec succès",
+      "error": "Impossible de reprendre le contrat"
+    },
+    "billContract": {
+      "title": "Facturer le contrat",
+      "accessibilityLabel": "Facturer le contrat",
+      "success": "Tentative de facturation commencée",
+      "error": "Impossible de facturer le contrat"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Commandes à venir",
+    "subscription": "Détails de l’abonnement",
+    "price": "Prix",
+    "purchaseDate": "Date d’achat",
+    "quantity": "Quantité",
+    "orderNumber": "Commande {number}",
+    "edit": "Modifier",
+    "nextOrders": {
+      "title": "Commandes suivantes",
+      "skip": "Ignorer",
+      "skipped": "Ignoré",
+      "resume": "Reprendre",
+      "showMore": "Afficher {number} de plus",
+      "skipError": "Impossible d’ignorer / reprendre la commande",
+      "skipSuccess": "Commande ignorée avec succès",
+      "showMoreNoCount": "Afficher plus",
+      "resumeSuccess": "Commande reprise avec succès"
+    },
+    "paymentMethods": {
+      "title": "Moyens de paiement"
+    },
+    "customer": {
+      "title": "Client"
+    },
+    "discount": "Réduction",
+    "discountValue": {
+      "multipleDiscounts": "Réductions multiples",
+      "percentageOff": "{{value}} % de réduction",
+      "amountOff": "Réduction de {{value}}",
+      "fixedPrice": "{{value}} prix fixe"
+    },
+    "delivery": "Livraison",
+    "pastOrders": "Commandes précédentes",
+    "viewOrder": "Afficher",
+    "localPickup": "{{value}}, retrait en magasin",
+    "orderNotCreated": "Commande non créée"
+  },
+  "paymentMethodDetails": {
+    "title": "Moyen de paiement",
+    "expires": "Expire en {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Envoyer un lien pour mettre à jour la carte",
+      "managePayment": "Gérer le paiement sur la page du client"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Fictif",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Envoyer un lien pour mettre à jour la carte",
+      "descriptionCreditCard": "Envoyez à {customerName} un lien lui permettant de mettre à jour sa carte de crédit se terminant par {lastDigits}",
+      "descriptionOther": "Envoyez à {customerName} un lien lui permettant de mettre à jour son moyen de paiement.",
+      "fromField": "De :",
+      "toField": "À :",
+      "subjectField": "Objet :",
+      "subjectMessage": "Mettez à jour le moyen de paiement de votre boutique {shopName}",
+      "errorMessage": "Impossible d’envoyer un e-mail de mise à jour du moyen de paiement du/de la client(e)",
+      "successMessage": "E-mail envoyé",
+      "actions": {
+        "sendEmail": "Envoyer un e-mail",
+        "cancel": "Annuler"
+      }
+    },
+    "revoked": "Le moyen de paiement a été supprimé par le client le {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Client",
+    "contactInformation": "Coordonnées",
+    "shippingAddress": "Adresse d’expédition",
+    "actions": {
+      "selectAddress": "Sélectionner une adresse différente",
+      "manageAddress": "Gérer les adresses sur la page du/de la client(e)"
+    },
+    "addressModal": {
+      "title": "Sélectionner une adresse différente",
+      "actions": {
+        "cancel": "Annuler",
+        "update": "Mettre à jour"
+      }
+    }
+  },
+  "edit": {
+    "title": "Modifier l’abonnement",
+    "details": {
+      "title": "Détails de l’abonnement",
+      "searchProducts": "Rechercher des produits",
+      "browse": "Parcourir",
+      "removeLine": "Supprimer la ligne d’abonnement",
+      "oneTimePurchasePrice": "Prix d’achat ponctuel : {price}",
+      "quantity": "Quantité",
+      "deliveryFrequency": {
+        "title": "Fréquence de livraison",
+        "warning": "La mise à jour de la fréquence de livraison entraînera automatiquement la mise à jour de la fréquence de facturation.",
+        "interval": "Intervalle",
+        "intervalCount": "Nombre d’intervalles"
+      },
+      "deliveryInterval": {
+        "weeks": "semaines",
+        "months": "mois",
+        "years": "ans"
+      },
+      "paymentSummary": "Résumé du paiement",
+      "subtotal": "Sous‑total",
+      "shipping": "Expédition",
+      "tax": "Taxe",
+      "total": "Total",
+      "oneTimePurchasePriceChanged": "Le prix de l’achat ponctuel a changé",
+      "outOfStock": "Aucune unité en stock"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Impossible de créer le brouillon du contrat d’abonnement"
+      },
+      "updateDraft": {
+        "error": "Impossible de mettre à jour le brouillon du contrat d’abonnement",
+        "quantityTooLargeError": "La quantité est trop grande",
+        "deliveryFrequencyTooLargeError": "La fréquence de livraison est trop élevée",
+        "deliveryFrequencyIntegerError": "La fréquence de livraison doit être un nombre entier"
+      },
+      "updateContract": {
+        "error": "Impossible de mettre à jour le contrat d’abonnement",
+        "success": "Contrat mis à jour"
+      },
+      "selectProducts": {
+        "lineCountError": "Les contrats d’abonnement doivent avoir au moins une rubrique"
+      },
+      "updateAddress": {
+        "error": "Impossible de mettre à jour l’adresse",
+        "success": "Adresse mise à jour"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Le prix de l’achat ponctuel de {{title}} a changé et est maintenant de {{newPrice}}",
+      "updateSubscriptionPrice": "Mettre à jour le prix d’abonnement de {{title}}",
+      "title": "Modifier le prix",
+      "subscriptionPriceLabel": "Prix de l’abonnement",
+      "discountLabel": "Une réduction de {{discountAmount}} sur l’abonnement s’applique au nouveau prix de{{lineTitle}}",
+      "amountTooLargeError": "Le montant est trop important",
+      "amountNegativeError": "Le montant doit être supérieur ou égal à 0",
+      "actions": {
+        "update": "Mettre à jour",
+        "cancel": "Annuler"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "La commande du {date} n’a pas pu être créée",
+      "inProgressTitle": "Une tentative de facturation est en cours. Cette page sera actualisée lorsque la tentative de facturation sera terminée.",
+      "description": "Le stock était insuffisant lors de la dernière tentative de facturation. Si le stock est sur le point d’arriver et que vous voulez éviter d’autres tentatives de facturation, créez la commande maintenant et survendez le stock. En cas de retard plus important, il est préférable de suspendre, d’ignorer ou d’annuler la commande.",
+      "button": "Créer une commande maintenant"
+    },
+    "modal": {
+      "title": "Continuer à créer la commande ?",
+      "inventoryWarning": "Survendez votre stock uniquement si vous êtes certain(e) que le stock est en route",
+      "actions": {
+        "ignoreAndCreate": "Créer une commande maintenant",
+        "cancel": "Annuler"
+      },
+      "outOfStock": {
+        "one": "Le produit suivant est en rupture de stock et sera survendu pour cette commande :",
+        "other": "Les produits suivants sont en rupture de stock et seront survendus pour cette commande :",
+        "many": "Les produits suivants sont en rupture de stock et seront survendus pour cette commande :"
+      }
+    }
+  }
+}

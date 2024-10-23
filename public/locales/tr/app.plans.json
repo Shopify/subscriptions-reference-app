@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Abonelik planları",
+    "createPlan": "Plan",
+    "accessibilityLabel": "Abonelik planı oluştur"
+  },
+  "emptyState": {
+    "title": "Daha fazla sürekli iş kazanın",
+    "description": "Müşterilerin tekrarlanan şekilde ürün veya hizmet satın almasına izin verin",
+    "action": "Abonelik planı"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Plan başlığı",
+      "products": "Ürünler",
+      "deliveryFrequency": "Teslimat sıklığı",
+      "discount": "Fiyatlandırma",
+      "view": "Tümü"
+    },
+    "resourceName": {
+      "singular": "Abonelik",
+      "plural": "Abonelik"
+    },
+    "resources": {
+      "allSelected": "Tümü"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Planı sil",
+        "other": "Planları sil"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Bu işlem geri alınamaz. İlgili sözleşmeler bu durumdan etkilenmez.",
+          "other": "Bu işlem geri alınamaz. İlgili sözleşmeler bu durumdan etkilenmez."
+        },
+        "actions": {
+          "delete": {
+            "one": "Planı sil",
+            "other": "Planları sil"
+          },
+          "cancel": "İptal"
+        },
+        "title": {
+          "one": "1 abonelik planı silinsin mi?",
+          "other": "{count} abonelik planı silinsin mi?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonelik planı silindi",
+          "other": "Abonelik planları silindi"
+        },
+        "failed": {
+          "one": "Abonelik planı silinemedi",
+          "other": "Abonelik planları silinemedi"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Oluşturulma tarihi",
+        "ascendingLabel": "Eskiden yeniye",
+        "descendingLabel": "Yeniden eskiye"
+      },
+      "UPDATED_AT": {
+        "label": "Güncellenme tarihi",
+        "ascendingLabel": "Eskiden yeniye",
+        "descendingLabel": "Yeniden eskiye"
+      }
+    }
+  }
+}

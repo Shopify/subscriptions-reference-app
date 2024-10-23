@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Opslaan",
+  "actions": {
+    "updateSuccess": "Instellingen bijgewerkt"
+  },
+  "title": "Instellingen",
+  "billingFailureSettings": {
+    "title": "Factureringspogingen",
+    "description": "Controle wanneer nieuwe factureringspogingen zijn ondernomen na een mislukte poging",
+    "paymentFailureTitle": "Fout bij betaalmethode",
+    "inventoryFailureTitle": "Onvoldoende voorraad",
+    "retryAttempts": {
+      "label": "Aantal nieuwe pogingen",
+      "helpText": "Min. 0, max. 10 nieuwe pogingen",
+      "errors": {
+        "min": "Aantal nieuwe pogingen dient hoger te zijn dan 0",
+        "max": "Aantal nieuwe pogingen is te hoog"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dagen tussen pogingen om opnieuw te betalen",
+      "helpText": "Min. 1, max. 14 dagen",
+      "errors": {
+        "min": "Dagen tussen pogingen om opnieuw te betalen dient hoger te zijn dan 1",
+        "max": "Dagen tussen pogingen om opnieuw te betalen is te hoog"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Aantal nieuwe voorraadpogingen dient hoger te zijn dan 0",
+        "max": "Aantal nieuwe voorraadpogingen is te hoog"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Aantal dagen tussen nieuwe betaalpogingen vanwege voorraadfouten dient hoger te zijn dan 1",
+        "max": "Aantal dagen tussen nieuwe voorraadpogingen is te hoog"
+      }
+    },
+    "onFailure": {
+      "label": "Actie wanneer alle nieuwe pogingen zijn mislukt",
+      "options": {
+        "skip": "Abonnement overslaan en melding sturen",
+        "cancel": "Abonnement opzeggen en melding sturen",
+        "pause": "Abonnement pauzeren en melding sturen"
+      }
+    },
+    "notifications": "Meldingen bewerken",
+    "staffNotificationFrequency": {
+      "label": "Frequentie van meldingen aan medewerkers",
+      "options": {
+        "immediately": "Telkens wanneer een facturering mislukt",
+        "weekly": "Wekelijks overzicht van mislukte factureringen",
+        "monthly": "Maandelijks overzicht van mislukte factureringen"
+      }
+    }
+  }
+}

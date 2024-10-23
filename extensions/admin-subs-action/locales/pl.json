@@ -1,0 +1,68 @@
+{
+  "name": "Subskrypcje",
+  "save": "Zapisz",
+  "cancel": "Anuluj",
+  "merchantCode": {
+    "label": "Opis wewnętrzny",
+    "helpText": "Tylko dla referencji"
+  },
+  "planName": {
+    "label": "Tytuł",
+    "placeholder": "Subskrybuj i zapisz",
+    "helpText": "Będzie to widoczne dla klientów w witrynie sklepu na stronach produktów z subskrypcją"
+  },
+  "discountAndDelivery": "Rabat i dostawa",
+  "offerDiscount": "Oferuj rabat",
+  "discountType": {
+    "percentageOff": "Procent zniżki",
+    "amountOff": "Kwota zniżki",
+    "fixedPrice": "Stała cena"
+  },
+  "deliveryFrequency": "Częstotliwość dostaw",
+  "deliveryInterval": {
+    "label": "Interwał dostaw",
+    "weeks": "tygodnie",
+    "months": "miesiące(-ęcy)",
+    "years": "lata",
+    "day": {
+      "singular": "Dostarczaj codziennie",
+      "plural": "Dostarczaj co {{count}} dni"
+    },
+    "week": {
+      "singular": "Dostarczaj co tydzień",
+      "plural": "Dostarczaj co {{count}} tygodnie"
+    },
+    "month": {
+      "singular": "Dostarczaj co miesiąc",
+      "plural": "Dostarczaj co {{count}} mies."
+    },
+    "year": {
+      "singular": "Dostarczaj co rok",
+      "plural": "Dostarczaj co {{count}} lat(a)"
+    }
+  },
+  "addOptionButton": {
+    "label": "Opcja",
+    "accessibilityLabel": "Dodaj opcję"
+  },
+  "removeOption": "Usuń opcję",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% zniżki",
+    "amountOff": "{{amount}} zniżki",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Utworzono plan subskrypcji",
+    "update": "Plan subskrypcji został zaktualizowany"
+  },
+  "validator": {
+    "nameEmptyError": "Tytuł jest wymagany",
+    "merchantCodeEmptyError": "Opis wewnętrzny jest wymagany",
+    "deliveryFrequencyError": "Wymagana jest częstotliwość dostaw",
+    "deliveryFrequencyMaxError": "Częstotliwość dostaw musi liczyć poniżej 36 500 dni.",
+    "deliveryFrequencyFloatError": "Częstotliwość dostaw musi być liczbą całkowitą",
+    "discountValueMinError": "Wartość rabatu musi być większa niż 0",
+    "discountValueMaxError": "Wartość rabatu jest zbyt duża",
+    "discountValueMaxPercentError": "Wartość rabatu nie może przekraczać 100%"
+  }
+}

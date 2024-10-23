@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "นโยบายการซื้อแบบเหมาจ่ายล่วงหน้า",
+    "subscription_policy_url": "ลิงก์นโยบายการซื้อแบบเหมาจ่ายล่วงหน้า",
+    "subscription_policy_url_info": "เลือกหน้าที่มีอยู่หรือวางลิงก์ภายนอกเพื่อแสดงนโยบายการซื้อแบบเหมาจ่ายล่วงหน้า",
+    "description": "วิดเจ็ตการซื้อแบบเหมาจ่ายล่วงหน้าจะแสดงเฉพาะกับสินค้าที่มีแผนการซื้อแบบเหมาจ่ายล่วงหน้า [ดูข้อมูลเพิ่มเติมเกี่ยวกับการตั้งค่าธีมสำหรับการสมัครใช้งาน](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "การตั้งค่าด้านบนแสดงตัวเลือกสำหรับสินค้าที่เลือก สินค้าปัจจุบันที่เลือกมีแผนการซื้อแบบเหมาจ่ายล่วงหน้า ",
+    "colors_title": "สี",
+    "title": "วิดเจ็ตการสมัครใช้งาน",
+    "product_title": "สินค้า",
+    "border_title": "ขอบ",
+    "border_thickness": "ความหนา",
+    "border_radius": "รัศมีมุม",
+    "colors_text_title": "ชื่อ",
+    "colors_text_body": "เนื้อหา",
+    "colors_background_border_title": "พื้นหลังและขอบ",
+    "colors_background": "พื้นหลัง",
+    "colors_dividers": "ดิไวเดอร์",
+    "supporting_text_title": "ข้อความสนับสนุน",
+    "supporting_text_subtitle": "ชื่อ",
+    "supporting_text_input_default": "ตัวเลือกการซื้อ"
+  }
+}

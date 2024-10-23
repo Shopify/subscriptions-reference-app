@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Tillbaka till prenumerationsplaner",
+  "planTitle": "Plannamn",
+  "planTitleHelpText": "Kunderna ser inte detta.",
+  "purchaseOptionTitle": "Namn på inköpsalternativ",
+  "purchaseOptionTitleHelpText": "Kunder ser detta på {{howToDisplayProductsLink}} som har prenumerationer.",
+  "defaultPurchaseOptionTitle": "Prenumerera och spara",
+  "saveButtonText": "Spara",
+  "create": {
+    "pageTitle": "Skapa prenumerationsplan"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Ogiltig produkt har valts",
+    "invalidVariant": "Ogiltig produktvariant har valts",
+    "merchantCodeEmptyError": "Plannamn krävs",
+    "nameEmptyError": "Namn på inköpsalternativ krävs",
+    "createError": "Det gick inte att skapa prenumerationsplan",
+    "updateError": "Det uppstod ett fel vid uppdateringen av prenumerationsplanen",
+    "deliveryFrequencyError": "Frekvensen måste vara större än 0",
+    "deliveryFrequencyMaxError": "Frekvensen är för stor",
+    "deliveryFrequencyFloatError": "Leveransfrekvensen måste vara ett heltal",
+    "discountValueMinError": "Rabattvärdet måste vara positivt",
+    "discountValueMaxError": "Rabattvärdet är för stort",
+    "discountValueMaxPercentError": "Rabattvärdet får inte överstiga 100 %",
+    "updateSuccess": "Prenumerationsplanen har uppdaterats",
+    "duplicateDeliveryFrequencyError": "Leveransalternativ måste vara unika",
+    "missingSellingPlanGroup": "Prenumerationsplanen hittades inte",
+    "createSuccess": "Prenumerationsplan har skapats"
+  },
+  "productCard": {
+    "title": "Produkter",
+    "browse": "Bläddra",
+    "searchProducts": "Sök produkter",
+    "variantsSelected": "({count} av {total} varianter har valts)",
+    "updateError": "Det uppstod ett fel vid uppdateringen av prenumerationsplanen",
+    "maxProductsWarning": "Endast {{count}} artiklar kan läggas till åt gången. Om du har fler än {{count}} artiklar kan du lägga till dem när du har sparat planen."
+  },
+  "discountDeliveryCard": {
+    "title": "Rabatt och leverans",
+    "offerDiscount": "Erbjud rabatt",
+    "discountType": {
+      "percentageOff": "Procentuell rabatt",
+      "amountOff": "Rabatt",
+      "fixedPrice": "Fast pris"
+    },
+    "deliveryFrequency": "Leveransfrekvens",
+    "deliveryInterval": {
+      "label": "Leveransintervall",
+      "weeks": "veckor",
+      "months": "månader",
+      "years": "år"
+    },
+    "addOption": "Lägg till alternativ",
+    "removeOption": "Ta bort alternativ",
+    "discountValueFixedPriceHelpText": "Detta är priset som visas för kunder"
+  },
+  "deleteButtonText": "Radera",
+  "deleteSellingPlanGroupModal": {
+    "title": "Vill du ta bort prenumerationsplanen?",
+    "content": "Detta kan inte ångras. Associerade kontrakt påverkas inte.",
+    "deleteButton": "Radera plan",
+    "cancelButton": "Avbryt",
+    "deleteError": "Det gick inte att radera prenumerationsplanen"
+  },
+  "summaryCard": {
+    "cardTitle": "Sammanfattning",
+    "noPlanTitleYet": "Ingen titel",
+    "weeklyDelivery": {
+      "one": "Leverera varje vecka",
+      "other": "Leverera var {intervalCount}:e vecka"
+    },
+    "monthlyDelivery": {
+      "one": "Leverera varje månad",
+      "other": "Leverera var {intervalCount}:e månad"
+    },
+    "yearlyDelivery": {
+      "one": "Leverera varje år",
+      "other": "Leverera vart {intervalCount}:e år"
+    },
+    "percentageOff": "{amount} % rabatt",
+    "amountOff": "{amount} rabatt",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} leveransfrekvenser",
+    "countProducts": {
+      "one": "{count} produkt",
+      "other": "{count} produkter"
+    },
+    "countVariants": {
+      "one": "{count} produktvariant",
+      "other": "{count} produktvarianter"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "produktsidor i skyltfönster",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Leveransfrekvens"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Tilauskäytäntö",
+    "subscription_policy_url": "Linkki tilauskäytäntöön",
+    "subscription_policy_url_info": "Näytä tilauskäytäntö valitsemalla olemassa oleva sivu tai liitä ulkopuolinen linkki.",
+    "description": "Tilausten pienohjelma näyttää vain tuotteet, joihin on liitetty tilaussopimus. [Lisätietoja tilausten teema-asetuksista]](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Yllä olevat asetukset sisältävät valittua tuotetta koskevia vaihtoehtoja. Tällä hetkellä valittuna olevalla tuotteella on tilaussopimus. ",
+    "colors_title": "Väri",
+    "title": "Tilausten pienohjelma",
+    "product_title": "Tuote",
+    "border_title": "Reuna",
+    "border_thickness": "Paksuus",
+    "border_radius": "Kulman säde",
+    "colors_text_title": "Nimi",
+    "colors_text_body": "Leipäteksti",
+    "colors_background_border_title": "Tausta ja reunat",
+    "colors_background": "Tausta",
+    "colors_dividers": "Jakajat",
+    "supporting_text_title": "Täydentävä teksti",
+    "supporting_text_subtitle": "Nimi",
+    "supporting_text_input_default": "Ostovaihtoehdot"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Salva",
+  "actions": {
+    "updateSuccess": "Impostazioni aggiornate"
+  },
+  "title": "Impostazioni",
+  "billingFailureSettings": {
+    "title": "Tentativi di fatturazione",
+    "description": "Controllo quando i tentativi di fatturazione vengono ripetuti dopo un tentativo fallito",
+    "paymentFailureTitle": "Metodo di pagamento non riuscito",
+    "inventoryFailureTitle": "Scorte insufficienti",
+    "retryAttempts": {
+      "label": "Numero di tentativi",
+      "helpText": "Min 0, max 10 tentativi",
+      "errors": {
+        "min": "Il numero di tentativi deve essere maggiore di 0",
+        "max": "Il numero di tentativi è troppo alto"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Giorni tra i tentativi di pagamento",
+      "helpText": "Min 1, max 14 giorni",
+      "errors": {
+        "min": "Il numero di giorni tra i tentativi di pagamento deve essere maggiore di 1",
+        "max": "Il numero di giorni tra i tentativi di pagamento è troppo alto"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Il numero di tentativi delle scorte deve essere maggiore di 0",
+        "max": "Il numero di tentativi delle scorte è troppo alto"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Il numero di giorni tra i tentativi delle scorte deve essere maggiore di 1",
+        "max": "Il numero di giorni tra i tentativi delle scorte è troppo alto"
+      }
+    },
+    "onFailure": {
+      "label": "Azione quando tutti i tentativi non sono andati a buon fine",
+      "options": {
+        "skip": "Salta l'abbonamento e invia la notifica",
+        "cancel": "Annulla l'abbonamento e invia la notifica",
+        "pause": "Metti in pausa l'abbonamento e invia la notifica"
+      }
+    },
+    "notifications": "Modifica le notifiche",
+    "staffNotificationFrequency": {
+      "label": "Frequenza delle notifiche allo staff",
+      "options": {
+        "immediately": "Ogni volta che la fatturazione non va a buon fine",
+        "weekly": "Riepilogo settimanale delle fatturazioni non andate a buon fine",
+        "monthly": "Riepilogo mensile delle fatturazioni non andate a buon fine"
+      }
+    }
+  }
+}

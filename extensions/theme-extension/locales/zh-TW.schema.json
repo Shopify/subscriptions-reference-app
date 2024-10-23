@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "訂閱政策",
+    "subscription_policy_url": "訂閱政策連結",
+    "subscription_policy_url_info": "選擇現有頁面，或者貼上外部連結，以顯示訂閱政策。",
+    "description": "訂閱小工具只會顯示已連結訂閱方案的商品。 [深入瞭解訂閱方案的佈景主題設定](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "上方設定顯示的是所選商品的選項。目前所選商品有一個訂閱方案。 ",
+    "colors_title": "顏色",
+    "title": "訂閱小工具",
+    "product_title": "商品",
+    "border_title": "邊框",
+    "border_thickness": "粗細",
+    "border_radius": "圓角半徑",
+    "colors_text_title": "名稱",
+    "colors_text_body": "內文",
+    "colors_background_border_title": "背景和邊框",
+    "colors_background": "背景",
+    "colors_dividers": "分隔線",
+    "supporting_text_title": "說明文字",
+    "supporting_text_subtitle": "名稱",
+    "supporting_text_input_default": "購買選項"
+  }
+}

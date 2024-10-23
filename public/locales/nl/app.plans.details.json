@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Terug naar abonnementen",
+  "planTitle": "Titel abonnement",
+  "planTitleHelpText": "Klanten krijgen dit niet te zien.",
+  "purchaseOptionTitle": "Titel aankoopoptie",
+  "purchaseOptionTitleHelpText": "Klanten zien dit op {{howToDisplayProductsLink}} met abonnementen.",
+  "defaultPurchaseOptionTitle": "Abonneren en opslaan",
+  "saveButtonText": "Opslaan",
+  "create": {
+    "pageTitle": "Abonnement aanmaken"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Ongeldig product geselecteerd",
+    "invalidVariant": "Ongeldige productvariant geselecteerd",
+    "merchantCodeEmptyError": "Titel abonnement is vereist",
+    "nameEmptyError": "Titel aankoopoptie is vereist",
+    "createError": "Fout bij het aanmaken van het abonnement",
+    "updateError": "Fout bij het bijwerken van het abonnement",
+    "deliveryFrequencyError": "Frequentie dient groter te zijn dan nul",
+    "deliveryFrequencyMaxError": "Frequentie is te groot",
+    "deliveryFrequencyFloatError": "Bezorgfrequentie moet een geheel getal zijn",
+    "discountValueMinError": "Kortingswaarde mag geen negatief getal zijn",
+    "discountValueMaxError": "Kortingswaarde is te groot",
+    "discountValueMaxPercentError": "Kortingswaarde mag niet meer dan 100% zijn",
+    "updateSuccess": "Abonnement bijgewerkt",
+    "duplicateDeliveryFrequencyError": "Bezorgopties dienen uniek te zijn",
+    "missingSellingPlanGroup": "Abonnement niet gevonden",
+    "createSuccess": "Abonnement aangemaakt"
+  },
+  "productCard": {
+    "title": "Producten",
+    "browse": "Bladeren",
+    "searchProducts": "Producten zoeken",
+    "variantsSelected": "({count} van {total} varianten geselecteerd)",
+    "updateError": "Fout bij het bijwerken van het abonnement",
+    "maxProductsWarning": "Je kunt maar {{count}} artikelen tegelijkertijd worden toegevoegd. Als je meer dan {{count}} artikelen hebt, kun je deze toevoegen nadat je dit plan hebt opgeslagen."
+  },
+  "discountDeliveryCard": {
+    "title": "Korting en bezorging",
+    "offerDiscount": "Korting bieden",
+    "discountType": {
+      "percentageOff": "Kortingspercentage",
+      "amountOff": "Kortingsbedrag",
+      "fixedPrice": "Vaste prijs"
+    },
+    "deliveryFrequency": "Bezorgfrequentie",
+    "deliveryInterval": {
+      "label": "Bezorginterval",
+      "weeks": "weken",
+      "months": "maanden",
+      "years": "jaar"
+    },
+    "addOption": "Optie toevoegen",
+    "removeOption": "Optie verwijderen",
+    "discountValueFixedPriceHelpText": "Deze prijs wordt aan klanten getoond"
+  },
+  "deleteButtonText": "Verwijderen",
+  "deleteSellingPlanGroupModal": {
+    "title": "Abonnement verwijderen?",
+    "content": "Dit kan niet ongedaan worden gemaakt. Daaraan gekoppelde contracten blijven bestaan.",
+    "deleteButton": "Abonnement verwijderen",
+    "cancelButton": "Annuleren",
+    "deleteError": "Fout bij het verwijderen van abonnement"
+  },
+  "summaryCard": {
+    "cardTitle": "Overzicht",
+    "noPlanTitleYet": "Geen titel",
+    "weeklyDelivery": {
+      "one": "Elke week bezorgen",
+      "other": "Elke {intervalCount} weken bezorgen"
+    },
+    "monthlyDelivery": {
+      "one": "Elke maand bezorgen",
+      "other": "Elke {intervalCount} maanden bezorgen"
+    },
+    "yearlyDelivery": {
+      "one": "Elk jaar bezorgen",
+      "other": "Elke {intervalCount} jaar bezorgen"
+    },
+    "percentageOff": "{amount}% korting",
+    "amountOff": "{amount} korting",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} bezorgfrequenties",
+    "countProducts": {
+      "one": "{count} product",
+      "other": "{count} producten"
+    },
+    "countVariants": {
+      "one": "{count} productvariant",
+      "other": "{count} productvarianten"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "productpagina's in de webshop",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Bezorgfrequentie"
+    }
+  }
+}

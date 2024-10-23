@@ -1,0 +1,111 @@
+{
+  "backButtonLabel": "Powrót do planów subskrypcji",
+  "planTitle": "Tytuł planu",
+  "planTitleHelpText": "Ta informacja nie będzie widoczna dla klientów.",
+  "purchaseOptionTitle": "Tytuł opcji zakupu",
+  "purchaseOptionTitleHelpText": "Będzie to widoczne dla klientów na stronach {{howToDisplayProductsLink}} z subskrypcją.",
+  "defaultPurchaseOptionTitle": "Subskrybuj i zapisz",
+  "saveButtonText": "Zapisz",
+  "create": {
+    "pageTitle": "Utwórz plan subskrypcji"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Wybrano nieprawidłowy produkt",
+    "invalidVariant": "Wybrano nieprawidłowy wariant produktu",
+    "merchantCodeEmptyError": "Tytuł planu jest wymagany",
+    "nameEmptyError": "Tytuł opcji zakupu jest wymagany",
+    "createError": "Błąd tworzenia planu subskrypcji",
+    "updateError": "Błąd aktualizacji planu subskrypcji",
+    "deliveryFrequencyError": "Częstotliwość musi wynosić powyżej 0",
+    "deliveryFrequencyMaxError": "Częstotliwość jest zbyt duża",
+    "deliveryFrequencyFloatError": "Częstotliwość dostaw musi być liczbą całkowitą",
+    "discountValueMinError": "Wartość rabatu musi być liczbą dodatnią",
+    "discountValueMaxError": "Wartość rabatu jest zbyt duża",
+    "discountValueMaxPercentError": "Wartość rabatu nie może przekraczać 100%",
+    "updateSuccess": "Plan subskrypcji został zaktualizowany",
+    "duplicateDeliveryFrequencyError": "Opcje dostawy muszą być unikalne",
+    "missingSellingPlanGroup": "Nie znaleziono planu subskrypcji",
+    "createSuccess": "Utworzono plan subskrypcji"
+  },
+  "productCard": {
+    "title": "Produkty",
+    "browse": "Przeglądaj",
+    "searchProducts": "Szukaj produktów",
+    "variantsSelected": "(Liczba wybranych wariantów {count} z {total})",
+    "updateError": "Błąd aktualizacji planu subskrypcji",
+    "maxProductsWarning": "Jednocześnie można dodać tylko {{count}} pozycje(-i). Jeśli masz więcej pozycji niż {{count}}, możesz dodać je po zapisaniu tego planu."
+  },
+  "discountDeliveryCard": {
+    "title": "Rabat i dostawa",
+    "offerDiscount": "Oferuj rabat",
+    "discountType": {
+      "percentageOff": "Procent zniżki",
+      "amountOff": "Kwota zniżki",
+      "fixedPrice": "Stała cena"
+    },
+    "deliveryFrequency": "Częstotliwość dostaw",
+    "deliveryInterval": {
+      "label": "Interwał dostaw",
+      "weeks": "tygodnie",
+      "months": "miesiące",
+      "years": "lata"
+    },
+    "addOption": "Dodaj opcję",
+    "removeOption": "Usuń opcję",
+    "discountValueFixedPriceHelpText": "Będzie to cena wyświetlana klientom"
+  },
+  "deleteButtonText": "Usuń",
+  "deleteSellingPlanGroupModal": {
+    "title": "Usunąć plan subskrypcji?",
+    "content": "Nie można tego cofnąć. Nie wpłynie to na żadne powiązane umowy.",
+    "deleteButton": "Usuń plan",
+    "cancelButton": "Anuluj",
+    "deleteError": "Błąd usuwania planu subskrypcji"
+  },
+  "summaryCard": {
+    "cardTitle": "Podsumowanie",
+    "noPlanTitleYet": "Bez tytułu",
+    "weeklyDelivery": {
+      "one": "Dostarczaj co tydzień",
+      "other": "Dostarczaj co {intervalCount} tygodnie",
+      "few": "Dostarczaj co {intervalCount} tygodnie",
+      "many": "Dostarczaj co {intervalCount} tygodnie"
+    },
+    "monthlyDelivery": {
+      "one": "Dostarczaj co miesiąc",
+      "other": "Dostarczaj co {intervalCount} mies.",
+      "few": "Dostarczaj co {intervalCount} mies.",
+      "many": "Dostarczaj co {intervalCount} mies."
+    },
+    "yearlyDelivery": {
+      "one": "Dostarczaj co rok",
+      "other": "Dostarczaj co {intervalCount} lat(a)",
+      "few": "Dostarczaj co {intervalCount} lat(a)",
+      "many": "Dostarczaj co {intervalCount} lat(a)"
+    },
+    "percentageOff": "{amount}% zniżki",
+    "amountOff": "{amount} zniżki",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} częstotliwości dostaw",
+    "countProducts": {
+      "one": "{count} produkt",
+      "other": "{count} produkty(-ów)",
+      "few": "{count} produkty(-ów)",
+      "many": "{count} produkty(-ów)"
+    },
+    "countVariants": {
+      "one": "{count} wariant produktu",
+      "other": "{count} warianty(-ów) produktu",
+      "few": "{count} warianty(-ów) produktu",
+      "many": "{count} warianty(-ów) produktu"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "w witrynie sklepu na stronach produktów",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Częstotliwość dostaw"
+    }
+  }
+}

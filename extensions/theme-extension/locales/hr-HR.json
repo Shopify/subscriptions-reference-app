@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Jednokratna kupnja",
+      "subscription": "Pretplata"
+    }
+  },
+  "policy": {
+    "description": "Automatsko obnavljanje, preskakanje ili otkazivanje dostupni su u svakom trenutku.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Prikaži pravila pretplate</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Da biste proizvod dodali u košaricu, otvorite stranicu proizvoda i odaberite opciju kupnje"
+  }
+}

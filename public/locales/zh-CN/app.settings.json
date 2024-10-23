@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "保存",
+  "actions": {
+    "updateSuccess": "设置已更新"
+  },
+  "title": "设置",
+  "billingFailureSettings": {
+    "title": "结算尝试",
+    "description": "控制在失败尝试后何时再进行结算尝试",
+    "paymentFailureTitle": "付款方式失败",
+    "inventoryFailureTitle": "库存不足",
+    "retryAttempts": {
+      "label": "重试次数",
+      "helpText": "最少 0 次、最多 10 次重试",
+      "errors": {
+        "min": "重试次数必须大于 0",
+        "max": "重试尝试次数过多"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "付款重试尝试的间隔天数",
+      "helpText": "最少 1 天，最多 14 天",
+      "errors": {
+        "min": "付款重试尝试的间隔天数必须大于 1",
+        "max": "付款重试尝试的间隔天数过多"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "库存重试尝试次数必须大于 0",
+        "max": "库存重试尝试次数过多"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "库存重试尝试的间隔天数必须大于 1",
+        "max": "库存重试尝试的间隔天数过多"
+      }
+    },
+    "onFailure": {
+      "label": "所有重试尝试均失败时的操作",
+      "options": {
+        "skip": "跳过订阅并发送通知",
+        "cancel": "取消订阅并发送通知",
+        "pause": "暂停订阅并发送通知"
+      }
+    },
+    "notifications": "编辑通知",
+    "staffNotificationFrequency": {
+      "label": "向员工发送通知的频率",
+      "options": {
+        "immediately": "每次结算失败",
+        "weekly": "结算失败每周摘要",
+        "monthly": "结算失败每月摘要"
+      }
+    }
+  }
+}

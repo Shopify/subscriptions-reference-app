@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "1회성 구매",
+      "subscription": "구독"
+    }
+  },
+  "policy": {
+    "description": "언제든지 자동 갱신하거나 건너뛰거나 취소할 수 있습니다.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>구독 정책 보기</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "카트에 추가하려면 제품 페이지로 이동하여 구매 옵션을 선택하세요"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "구독 위젯은 구독 플랜이 연결된 제품에만 표시됩니다."
+  },
+  "no_app_block_found_banner": {
+    "message": "구독 위젯 위치를 편집하려면 다음 코드 조각을 제품 템플릿의 원하는 위치에 추가하십시오.",
+    "copy_button_text": "복사",
+    "copied_button_text": "복사됨",
+    "button_text": "코드 편집기 보기"
+  }
+}

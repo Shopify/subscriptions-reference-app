@@ -1,0 +1,93 @@
+{
+  "navigation": {
+    "home": "Domů",
+    "plans": "Plány",
+    "contracts": "Smlouvy",
+    "settings": "Nastavení"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "Četnosti doručování: {count}",
+    "day": {
+      "one": "Každý den",
+      "other": "Každý {count}. den",
+      "few": "Každý {count}. den",
+      "many": "Každý {count}. den"
+    },
+    "week": {
+      "one": "Každý týden",
+      "other": "Každý {count}. týden",
+      "few": "Každý {count}. týden",
+      "many": "Každý {count}. týden"
+    },
+    "month": {
+      "one": "Každý měsíc",
+      "other": "Každý {count}. měsíc",
+      "few": "Každý {count}. měsíc",
+      "many": "Každý {count}. měsíc"
+    },
+    "year": {
+      "one": "Každý rok",
+      "other": "Každý {count}. rok",
+      "few": "Každý {count}. rok",
+      "many": "Každý {count}. rok"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Více četností doručování"
+  },
+  "productAndVariants": {
+    "noProduct": "Žádné",
+    "productsCount": {
+      "one": "{count} produkt",
+      "other": "{count} prod.",
+      "few": "{count} prod.",
+      "many": "{count} prod."
+    },
+    "noVariant": "Žádná varianta",
+    "variantsCount": {
+      "one": "{count} varianta",
+      "other": "{count} variant(y)",
+      "few": "{count} variant(y)",
+      "many": "{count} variant(y)"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Bez slevy",
+    "amountOff": "Sleva {amount}",
+    "percentageOff": "Sleva {amount} %",
+    "multipleDiscounts": "Více slev",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Aktivní",
+    "paused": "Pozastaveno",
+    "cancelled": "Zrušeno",
+    "expired": "Po konci platnosti",
+    "failed": "Neúspěch",
+    "stale": "Zastaralé"
+  },
+  "actions": {
+    "saveButtonText": "Uložit",
+    "edit": "Upravit"
+  },
+  "footer": {
+    "learnMore": "Zjistěte více o {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "plánech předplatného",
+    "contracts": "smlouvách o předplatném"
+  },
+  "errorBoundary": {
+    "title": "Předplatná",
+    "header": "Stránku není možné načíst",
+    "description": "Načtěte ji ještě jednou nebo to zkuste znovu později. V případě trvalých problémů kontaktujte {statusPageLink}.",
+    "statusPageLinkText": "podporu Shopify",
+    "reloadAction": "Znovu načíst stránku"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Hromadná operace se dokončila"
+  },
+  "missingScopes": {
+    "title": "Chybí rozsahy schválené Shopify",
+    "description": "Než budete moct spustit aplikaci Subscriptions reference, musíte požádat Shopify o schválení používání následujících rozsahů API:",
+    "link": "Další informace o {{link}} pro tuto aplikaci získáte v dokumentaci.",
+    "linkText": "rozsazích schválených Shopify"
+  }
+}

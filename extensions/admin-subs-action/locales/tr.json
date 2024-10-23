@@ -1,0 +1,68 @@
+{
+  "name": "Abonelikler",
+  "save": "Kaydet",
+  "cancel": "İptal",
+  "merchantCode": {
+    "label": "Dahili açıklama",
+    "helpText": "Yalnızca sizin referansınız için"
+  },
+  "planName": {
+    "label": "Başlık",
+    "placeholder": "Abone ol ve kaydet",
+    "helpText": "Müşteriler bunu, abonelikleri içeren vitrin ürün sayfalarında görür"
+  },
+  "discountAndDelivery": "İndirim ve teslimat",
+  "offerDiscount": "İndirim sun",
+  "discountType": {
+    "percentageOff": "İndirim yüzdesi",
+    "amountOff": "İndirim tutarı",
+    "fixedPrice": "Sabit fiyat"
+  },
+  "deliveryFrequency": "Teslimat sıklığı",
+  "deliveryInterval": {
+    "label": "Teslimat aralığı",
+    "weeks": "hafta",
+    "months": "ay",
+    "years": "yıl",
+    "day": {
+      "singular": "Her gün teslim et",
+      "plural": "{{count}} günde bir teslim et"
+    },
+    "week": {
+      "singular": "Her hafta teslim et",
+      "plural": "{{count}} haftada bir teslim et"
+    },
+    "month": {
+      "singular": "Her ay teslim et",
+      "plural": "Her {{count}} ayda bir teslim et"
+    },
+    "year": {
+      "singular": "Her yıl teslim et",
+      "plural": "Her {{count}} yılda bir teslim et"
+    }
+  },
+  "addOptionButton": {
+    "label": "Seçenek",
+    "accessibilityLabel": "Seçenek ekle"
+  },
+  "removeOption": "Seçeneği kaldır",
+  "discountDetails": {
+    "percentageOff": "%{{amount}} indirim",
+    "amountOff": "{{amount}} indirim",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Abonelik planı oluşturuldu",
+    "update": "Abonelik planı güncellendi"
+  },
+  "validator": {
+    "nameEmptyError": "Başlık gerekli",
+    "merchantCodeEmptyError": "Dahili açıklama gerekli",
+    "deliveryFrequencyError": "Teslimat sıklığı gereklidir",
+    "deliveryFrequencyMaxError": "Teslimat sıklığı 36500 günden az olmalıdır",
+    "deliveryFrequencyFloatError": "Teslimat sıklığı bir tam sayı olmalıdır",
+    "discountValueMinError": "İndirim değeri 0'dan büyük olmalıdır",
+    "discountValueMaxError": "İndirim değeri çok yüksek",
+    "discountValueMaxPercentError": "İndirim değeri %100'den büyük olmamalıdır"
+  }
+}

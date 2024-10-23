@@ -1,0 +1,106 @@
+{
+  "backButtonLabel": "Retour aux forfaits",
+  "planTitle": "Titre du forfait",
+  "planTitleHelpText": "Les clients ne verront pas cette information.",
+  "purchaseOptionTitle": "Titre de l’option d’achat",
+  "purchaseOptionTitleHelpText": "Les clients verront ceci sur les {{howToDisplayProductsLink}} qui comportent des abonnements.",
+  "defaultPurchaseOptionTitle": "S’abonner et économiser",
+  "saveButtonText": "Enregistrer",
+  "create": {
+    "pageTitle": "Créer un forfait"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Produit sélectionné non valide",
+    "invalidVariant": "Variante de produit sélectionnée non valide",
+    "merchantCodeEmptyError": "Le titre du forfait est obligatoire",
+    "nameEmptyError": "Le titre de l’option d’achat est obligatoire",
+    "createError": "Erreur lors de la création du forfait",
+    "updateError": "Erreur lors de la mise à jour du forfait",
+    "deliveryFrequencyError": "La fréquence doit être supérieure à 0",
+    "deliveryFrequencyMaxError": "La fréquence est trop élevée",
+    "deliveryFrequencyFloatError": "La fréquence de livraison doit être un nombre entier",
+    "discountValueMinError": "La valeur de la réduction doit être positive",
+    "discountValueMaxError": "La valeur de la réduction est trop élevée",
+    "discountValueMaxPercentError": "La valeur de la réduction ne doit pas être supérieure à 100 %",
+    "updateSuccess": "Forfait mis à jour",
+    "duplicateDeliveryFrequencyError": "Les options de livraison doivent être uniques",
+    "missingSellingPlanGroup": "Forfait d’abonnement non trouvé",
+    "createSuccess": "Forfait créé"
+  },
+  "productCard": {
+    "title": "Produits",
+    "browse": "Parcourir",
+    "searchProducts": "Rechercher des produits",
+    "variantsSelected": "({count} variantes sélectionnées sur {total})",
+    "updateError": "Erreur lors de la mise à jour du forfait",
+    "maxProductsWarning": "Seuls {{count}} éléments peuvent être ajoutés à la fois. Si vous comptez plus de {{count}} éléments, vous pouvez les ajouter après avoir sauvegardé ce plan."
+  },
+  "discountDeliveryCard": {
+    "title": "Réduction et livraison",
+    "offerDiscount": "Offrir une réduction",
+    "discountType": {
+      "percentageOff": "Pourcentage de réduction",
+      "amountOff": "Montant de réduction",
+      "fixedPrice": "Prix fixe"
+    },
+    "deliveryFrequency": "Fréquence de livraison",
+    "deliveryInterval": {
+      "label": "Intervalle de livraison",
+      "weeks": "semaines",
+      "months": "mois",
+      "years": "ans"
+    },
+    "addOption": "Ajouter une option",
+    "removeOption": "Supprimer l’option",
+    "discountValueFixedPriceHelpText": "C’est le prix que verront les clients"
+  },
+  "deleteButtonText": "Supprimer",
+  "deleteSellingPlanGroupModal": {
+    "title": "Supprimer le forfait ?",
+    "content": "Cette opération est irréversible. Les contrats associés ne seront pas affectés.",
+    "deleteButton": "Supprimer le forfait",
+    "cancelButton": "Annuler",
+    "deleteError": "Erreur lors de la suppression du forfait d’abonnement"
+  },
+  "summaryCard": {
+    "cardTitle": "Résumé",
+    "noPlanTitleYet": "Sans titre",
+    "weeklyDelivery": {
+      "one": "Livrez chaque semaine",
+      "other": "Livrez toutes les {intervalCount} semaines",
+      "many": "Livrez toutes les {intervalCount} semaines"
+    },
+    "monthlyDelivery": {
+      "one": "Livrez chaque mois",
+      "other": "Livrez tous les {intervalCount} mois",
+      "many": "Livrez tous les {intervalCount} mois"
+    },
+    "yearlyDelivery": {
+      "one": "Livrez chaque année",
+      "other": "Livrez tous les {intervalCount} ans",
+      "many": "Livrez tous les {intervalCount} ans"
+    },
+    "percentageOff": "{amount} % de réduction",
+    "amountOff": "Réduction de {amount}",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} fréquences de livraison",
+    "countProducts": {
+      "one": "{count} produit",
+      "other": "{count} produits",
+      "many": "{count} produits"
+    },
+    "countVariants": {
+      "one": "{count} variante de produit",
+      "other": "{count} variantes de produit",
+      "many": "{count} variantes de produit"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "pages de produit de la boutique en ligne",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Fréquence de livraison"
+    }
+  }
+}

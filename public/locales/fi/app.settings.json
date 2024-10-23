@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Tallenna",
+  "actions": {
+    "updateSuccess": "Asetukset päivitetty"
+  },
+  "title": "Asetukset",
+  "billingFailureSettings": {
+    "title": "Laskutusyritykset",
+    "description": "Hallinnoi, milloin laskutusta yritetään uudelleen epäonnistuneen yrityksen jälkeen",
+    "paymentFailureTitle": "Maksun epäonnistuminen",
+    "inventoryFailureTitle": "Varasto ei riitä",
+    "retryAttempts": {
+      "label": "Uudelleenyritysten määrä",
+      "helpText": "Vähintään 0, enintään 10 uudelleenyritystä",
+      "errors": {
+        "min": "Uudelleenyritysten määrän on oltava enemmän kuin 0",
+        "max": "Uudelleenyritysten määrä on liian suuri"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Uudelleenyritysten välillä olevien päivien määrä",
+      "helpText": "Vähintään 1, enintään 14 päivää",
+      "errors": {
+        "min": "Uudelleenyritysten välillä olevien päivien määrän on oltava enemmän kuin 1",
+        "max": "Uudelleenyritysten välillä olevien päivien määrä on liian suuri"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Varaston uudelleenyritysten määrän on oltava enemmän kuin 0",
+        "max": "Varaston uudelleenyritysten määrä on liian suuri"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Varastoon liittyvien uudelleenyritysten välillä olevien päivien määrän on oltava enemmän kuin 1",
+        "max": "Varaston uudelleenyritysten välillä olevien päivien määrä on liian suuri"
+      }
+    },
+    "onFailure": {
+      "label": "Toiminto, kun kaikki uudelleenyritykset ovat epäonnistuneet",
+      "options": {
+        "skip": "Ohita toistuva tilaus ja lähetä ilmoitus",
+        "cancel": "Peruuta toistuva tilaus ja lähetä ilmoitus",
+        "pause": "Keskeytä toistuva tilaus ja lähetä ilmoitus"
+      }
+    },
+    "notifications": "Muokkaa ilmoituksia",
+    "staffNotificationFrequency": {
+      "label": "Henkilöstöllä lähetettävien ilmoitusten toistoväli",
+      "options": {
+        "immediately": "Aina, kun laskutus epäonnistuu",
+        "weekly": "Epäonnistuneiden laskutusten viikoittainen yhteenveto",
+        "monthly": "Epäonnistuneiden laskutusten kuukausittainen yhteenveto"
+      }
+    }
+  }
+}

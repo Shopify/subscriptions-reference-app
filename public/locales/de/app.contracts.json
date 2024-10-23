@@ -1,0 +1,332 @@
+{
+  "page": {
+    "title": "Abonnement-Verträge"
+  },
+  "emptyState": {
+    "title": "Verwalte deine Abonnementverträge",
+    "description": "Wenn ein Kunde ein Abonnement in deinem Shop erwirbt, wird der Vertrag hier angezeigt."
+  },
+  "table": {
+    "headings": {
+      "contract": "Vertrag",
+      "customer": "Kunde",
+      "product": "Produkt",
+      "price": "Preis",
+      "deliveryFrequency": "Lieferintervall",
+      "status": "Status",
+      "warning": "Warnung"
+    },
+    "resourceName": {
+      "singular": "Vertrag",
+      "plural": "Verträge",
+      "warningToolTipContent": "Abrechnungsversuch fehlgeschlagen, da ein Projekt nicht vorrätig ist."
+    },
+    "tabs": {
+      "all": "Alle",
+      "active": "Aktive",
+      "paused": "Pausierte",
+      "cancelled": "Abgebrochen"
+    },
+    "emptyState": {
+      "title": "Keine Verträge mit diesem Status",
+      "description": "{status} Abonnements werden hier angezeigt"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Gekauft",
+      "sortByUpdatedDateLabel": "Aktualisiert",
+      "newestFirstDirectionLabel": "Neueste zuerst",
+      "oldestFirstDirectionLabel": "Älteste zuerst"
+    },
+    "pauseBulkActionModal": {
+      "content": "Abrechnung und anstehende Bestellungen werden pausiert. Pausierte Verträge können jederzeit fortgesetzt werden.",
+      "cancel": "Schließen",
+      "title": {
+        "one": "{count} Vertrag auf pausiert setzen?",
+        "other": "{count} Verträge auf pausiert setzen?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonnement-Vertrag wird pausiert …",
+        "other": "Abonnement-Verträge werden pausiert …"
+      },
+      "errorToast": {
+        "one": "Vertrag kann nicht pausiert werden",
+        "other": "Verträge können nict pausiert werden"
+      },
+      "action": "Als Pausiert festlegen"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Vertrag pausieren",
+        "other": "Verträge pausieren"
+      },
+      "activate": {
+        "one": "Vertrag fortsetzen",
+        "other": "Verträge fortsetzen"
+      },
+      "cancel": {
+        "one": "Vertrag kündigen",
+        "other": "Verträge kündigen"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "Abrechnung und anstehende Bestellungen werden fortgesetzt. Aktive Verträge werden wie gewohnt abgerechnet.",
+      "cancel": "Abbrechen",
+      "title": {
+        "one": "{count} Vertrag fortsetzen?",
+        "other": "{count} Verträge fortsetzen?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonnementvertrag wird fortgesetzt …",
+        "other": "Abonnementverträge werden fortgesetzt …"
+      },
+      "errorToast": {
+        "one": "Vertrag kann nicht fortgesetzt werden",
+        "other": "Verträge können nicht fortgesetzt werden"
+      },
+      "action": {
+        "one": "Vertrag fortsetzen",
+        "other": "Verträge fortsetzen"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "Abrechnung und anstehende Bestellungen werden umgehend beendet. Gekündigte Verträge können nicht fortgesetzt werden.",
+      "action": "Auf gekündigt setzen",
+      "cancel": "Abbrechen",
+      "title": {
+        "one": "{count} Vertrag auf gekündigt setzen?",
+        "other": "{count} Verträge auf gekündigt setzen?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonnementvertrag wird gekündigt …",
+        "other": "Abonnementverträge werden gekündigt …"
+      },
+      "errorToast": {
+        "one": "Vertrag kann nicht gekündigt werden",
+        "other": "Verträge können nicht gekündigt werden"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "Sammelaktion kann nicht durchgeführt werden",
+        "other": "Sammelaktion kann nicht durchgeführt werden"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pausieren",
+      "accessibilityLabel": "Vertrag pausieren",
+      "success": "Vertrag erfolgreich pausiert",
+      "error": "Vertrag kann nicht pausiert werden"
+    },
+    "cancel": {
+      "title": "Abonnement stornieren",
+      "accessibilityLabel": "Abonnement stornieren",
+      "success": "Vertrag erfolgreich gekündigt",
+      "error": "Vertrag kann nicht gekündigt werden",
+      "modalTitle": "Abonnement stornieren",
+      "modalCancel": "Vertrag beibehalten",
+      "modalContent": "Abrechnung und anstehende Bestellungen werden umgehend beendet. Gekündigte Verträge können nicht fortgesetzt werden."
+    },
+    "resume": {
+      "title": "Fortsetzen",
+      "accessibilityLabel": "Vertrag fortsetzen",
+      "success": "Vertrag erfolgreich fortgesetzt",
+      "error": "Vertrag kann nicht fortgesetzt werden"
+    },
+    "billContract": {
+      "title": "Vertrag abrechnen",
+      "accessibilityLabel": "Vertrag abrechnen",
+      "success": "Abrechnungsversuch gestartet",
+      "error": "Vertrag konnte nicht abgerechnet werden"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Anstehende Bestellung",
+    "subscription": "Abonnementdetails",
+    "price": "Preis",
+    "purchaseDate": "Datum des Kaufs",
+    "quantity": "Menge",
+    "orderNumber": "Bestellung {number}",
+    "edit": "Bearbeiten",
+    "nextOrders": {
+      "title": "Nächste Bestellungen",
+      "skip": "Überspringen",
+      "skipped": "Übersprungen",
+      "resume": "Fortsetzen",
+      "showMore": "{number} weitere anzeigen",
+      "skipError": "Bestellung kann nicht übersprungen/wiederaufgenommen werden",
+      "skipSuccess": "Bestellung erfolgreich übersprungen",
+      "showMoreNoCount": "Mehr anzeigen",
+      "resumeSuccess": "Bestellung erfolgreich fortgesetzt"
+    },
+    "paymentMethods": {
+      "title": "Zahlungsmethoden"
+    },
+    "customer": {
+      "title": "Kunde"
+    },
+    "discount": "Rabatt",
+    "discountValue": {
+      "multipleDiscounts": "Mehrere Rabatte",
+      "percentageOff": "{{value}} % Rabatt",
+      "amountOff": "{{value}} Rabatt",
+      "fixedPrice": "{{value}} fester Preis"
+    },
+    "delivery": "Lieferung",
+    "pastOrders": "Vergangene Bestellungen",
+    "viewOrder": "Anzeigen",
+    "localPickup": "{{value}}, lokale Abholung",
+    "orderNotCreated": "Bestellung nicht erstellt"
+  },
+  "paymentMethodDetails": {
+    "title": "Zahlungsmethode",
+    "expires": "Gültig bis {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Link zur Aktualisierung der Karte senden",
+      "managePayment": "Zahlung auf der Kundenseite verwalten"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Link zur Aktualisierung der Karte senden",
+      "descriptionCreditCard": "Sende einen Link an {customerName}, damit die Kreditkarte mit den Endziffern {lastDigits} aktualisiert wird",
+      "descriptionOther": "Sende einen Link an {customerName}, um die Zahlungsmethode zu aktualisieren.",
+      "fromField": "Von:",
+      "toField": "An:",
+      "subjectField": "Betreff:",
+      "subjectMessage": "Aktualisiere deine Zahlungsmethode für {shopName}",
+      "errorMessage": "E-Mail zur Aktualisierung der Zahlungsmethode des Kunden kann nicht gesendet werden",
+      "successMessage": "E-Mail gesendet",
+      "actions": {
+        "sendEmail": "E-Mail senden",
+        "cancel": "Abbrechen"
+      }
+    },
+    "revoked": "Zahlungsmethode wurde am {revokedAt} vom Kunden entfernt"
+  },
+  "customerDetails": {
+    "title": "Kunde",
+    "contactInformation": "Kontaktinformationen",
+    "shippingAddress": "Lieferadresse",
+    "actions": {
+      "selectAddress": "Eine andere Adresse auswählen",
+      "manageAddress": "Adressen auf der Kundenseite verwalten"
+    },
+    "addressModal": {
+      "title": "Eine andere Adresse auswählen",
+      "actions": {
+        "cancel": "Abbrechen",
+        "update": "Aktualisieren"
+      }
+    }
+  },
+  "edit": {
+    "title": "Abonnement bearbeiten",
+    "details": {
+      "title": "Abonnementdetails",
+      "searchProducts": "Produkte suchen",
+      "browse": "Durchsuchen",
+      "removeLine": "Abonnementzeile entfernen",
+      "oneTimePurchasePrice": "Einmaliger Kaufpreis: {price}",
+      "quantity": "Anzahl",
+      "deliveryFrequency": {
+        "title": "Zustellungsfrequenz",
+        "warning": "Durch die Aktualisierung des Lieferintervalls wird automatisch die Abrechnungshäufigkeit aktualisiert.",
+        "interval": "Intervall",
+        "intervalCount": "Intervallanzahl"
+      },
+      "deliveryInterval": {
+        "weeks": "Wochen",
+        "months": "Monate",
+        "years": "Jahre"
+      },
+      "paymentSummary": "Zahlungsübersicht",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versand",
+      "tax": "Steuern",
+      "total": "Gesamtsumme",
+      "oneTimePurchasePriceChanged": "Preis für einmaligen Kauf wurde geändert",
+      "outOfStock": "Keine Einheiten vorrätig"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Abonnementvertragsentwurf kann nicht erstellt werden"
+      },
+      "updateDraft": {
+        "error": "Abonnementvertragsentwurf kann nicht aktualisiert werden",
+        "quantityTooLargeError": "Anzahl ist zu hoch",
+        "deliveryFrequencyTooLargeError": "Lieferfrequenz ist zu hoch",
+        "deliveryFrequencyIntegerError": "Lieferfrequenz muss eine ganze Zahl sein"
+      },
+      "updateContract": {
+        "error": "Abonnementvertrag kann nicht aktualisiert werden",
+        "success": "Vertrag aktualisiert"
+      },
+      "selectProducts": {
+        "lineCountError": "Abonnementverträge müssen mindestens 1 Position aufweisen"
+      },
+      "updateAddress": {
+        "error": "Adresse kann nicht aktualisiert werden",
+        "success": "Adresse wurde aktualisiert"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Der Preis für den einmaligen Kauf für {{title}} hat sich geändert. Er beträgt nun {{newPrice}}.",
+      "updateSubscriptionPrice": "Abonnementpreis für {{title}} aktualisieren",
+      "title": "Preis bearbeiten",
+      "subscriptionPriceLabel": "Abonnementpreis",
+      "discountLabel": "Abonnementrabatt von {{discountAmount}} angewendet auf den neuen Preis von {{lineTitle}}",
+      "amountTooLargeError": "Betrag ist zu groß",
+      "amountNegativeError": "Betrag muss größer oder gleich 0 sein",
+      "actions": {
+        "update": "Aktualisieren",
+        "cancel": "Abbrechen"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "{date} Bestellung konnte nicht erstellt werden",
+      "inProgressTitle": "Ein Abrechnungsversuch läuft. Diese Seite wird aktualisiert, wenn der Abrechnungsversuch abgeschlossen ist.",
+      "description": "Beim letzten Abrechnungsversuch war nicht genug Inventar vorhanden. Wenn Lagerbestand unterwegs ist und du zusätzliche Wiederholungsversuche umgehen möchtest, erstelle jetzt die Bestellung und verkaufe mehr Inventar, als vorhanden ist. Für erheblichere Verzögerungen solltest du eventuell pausieren, überspringen oder stornieren.",
+      "button": "Bestellung jetzt erstellen"
+    },
+    "modal": {
+      "title": "Mit Erstellung der Bestellung fortfahren?",
+      "inventoryWarning": "Verkaufe nur mehr Inventar, als vorhanden ist, wenn du dir sicher bist, dass bereits neuer Lagerbestand unterwegs ist",
+      "actions": {
+        "ignoreAndCreate": "Bestellung jetzt erstellen",
+        "cancel": "Abbrechen"
+      },
+      "outOfStock": {
+        "one": "Folgendes ist nicht vorrätig und wird für diese Bestellung über den Bestand verkauft:",
+        "other": "Folgende Artikel sind nicht vorrätig und werden für diese Bestellung über den Bestand verkauft:"
+      }
+    }
+  }
+}

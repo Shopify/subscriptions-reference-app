@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Planos de subscrição",
+    "createPlan": "Plano",
+    "accessibilityLabel": "Criar plano de subscrição"
+  },
+  "emptyState": {
+    "title": "Ganhe mais negócios recorrentes",
+    "description": "Permita que os clientes comprem produtos ou serviços recorrentemente",
+    "action": "Plano de subscrição"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Título do plano",
+      "products": "Produtos",
+      "deliveryFrequency": "Frequência de entrega",
+      "discount": "Preços",
+      "view": "Todos"
+    },
+    "resourceName": {
+      "singular": "Subscrição",
+      "plural": "Subscrição"
+    },
+    "resources": {
+      "allSelected": "Tudo"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Eliminar plano",
+        "other": "Eliminar planos",
+        "many": "Eliminar planos"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Esta ação não pode ser anulada. Quaisquer contratos associados não serão afetados.",
+          "other": "Esta ação não pode ser anulada. Quaisquer contratos associados não serão afetados.",
+          "many": "Esta ação não pode ser anulada. Quaisquer contratos associados não serão afetados."
+        },
+        "actions": {
+          "delete": {
+            "one": "Eliminar plano",
+            "other": "Eliminar planos",
+            "many": "Eliminar planos"
+          },
+          "cancel": "Cancelar"
+        },
+        "title": {
+          "one": "Eliminar 1 plano de subscrição?",
+          "other": "Eliminar {count} planos de subscrição?",
+          "many": "Eliminar {count} planos de subscrição?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Plano de subscrição eliminado",
+          "other": "Planos de subscrição eliminados",
+          "many": "Planos de subscrição eliminados"
+        },
+        "failed": {
+          "one": "Falha ao eliminar o plano de subscrição",
+          "other": "Falha ao eliminar os planos de subscrição",
+          "many": "Falha ao eliminar os planos de subscrição"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Criado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      },
+      "UPDATED_AT": {
+        "label": "Atualizado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      }
+    }
+  }
+}

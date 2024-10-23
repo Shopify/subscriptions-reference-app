@@ -1,0 +1,68 @@
+{
+  "name": "Assinaturas",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "merchantCode": {
+    "label": "Descrição interna",
+    "helpText": "Somente para referência"
+  },
+  "planName": {
+    "label": "Título",
+    "placeholder": "Assinar e salvar",
+    "helpText": "Informação exibida aos clientes nas páginas de produto da vitrine que têm assinaturas"
+  },
+  "discountAndDelivery": "Desconto e entrega",
+  "offerDiscount": "Oferecer desconto",
+  "discountType": {
+    "percentageOff": "Porcentagem de desconto",
+    "amountOff": "Valor do desconto",
+    "fixedPrice": "Preço fixo"
+  },
+  "deliveryFrequency": "Frequência de entrega",
+  "deliveryInterval": {
+    "label": "Intervalo de entrega",
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "anos",
+    "day": {
+      "singular": "Entrega diária",
+      "plural": "Entrega a cada {{count}} dias"
+    },
+    "week": {
+      "singular": "Entrega semanal",
+      "plural": "Entrega a cada {{count}} semanas"
+    },
+    "month": {
+      "singular": "Entrega mensal",
+      "plural": "Entrega a cada {{count}} meses"
+    },
+    "year": {
+      "singular": "Entrega anual",
+      "plural": "Entrega a cada {{count}} anos"
+    }
+  },
+  "addOptionButton": {
+    "label": "Opção",
+    "accessibilityLabel": "Adicionar opção"
+  },
+  "removeOption": "Remover opção",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% de desconto",
+    "amountOff": "Desconto de {{amount}}",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Plano de assinatura criado",
+    "update": "Plano de assinatura atualizado"
+  },
+  "validator": {
+    "nameEmptyError": "O título é obrigatório",
+    "merchantCodeEmptyError": "A descrição interna é obrigatória",
+    "deliveryFrequencyError": "A frequência de entrega é obrigatória",
+    "deliveryFrequencyMaxError": "A frequência de entrega precisa ser inferior a 36.500 dias",
+    "deliveryFrequencyFloatError": "A frequência de entrega precisa ser um número inteiro",
+    "discountValueMinError": "O valor do desconto precisa ser maior que 0",
+    "discountValueMaxError": "O valor do desconto é muito alto",
+    "discountValueMaxPercentError": "O valor do desconto não pode ser maior que 100%"
+  }
+}

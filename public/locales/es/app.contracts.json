@@ -1,0 +1,347 @@
+{
+  "page": {
+    "title": "Contratos de suscripción"
+  },
+  "emptyState": {
+    "title": "Gestionar los contratos de suscripción",
+    "description": "Cuando un cliente compra una suscripción en tu tienda, el contrato aparecerá aquí."
+  },
+  "table": {
+    "headings": {
+      "contract": "Contrato",
+      "customer": "Cliente",
+      "product": "Producto",
+      "price": "Precio",
+      "deliveryFrequency": "Frecuencia de entrega",
+      "status": "Estado",
+      "warning": "Advertencia"
+    },
+    "resourceName": {
+      "singular": "Contrato",
+      "plural": "Contratos",
+      "warningToolTipContent": "El intento de facturación no se completó correctamente porque un producto está agotado."
+    },
+    "tabs": {
+      "all": "Todos",
+      "active": "Activo",
+      "paused": "En pausa",
+      "cancelled": "Cancelado"
+    },
+    "emptyState": {
+      "title": "No hay contratos con este estado",
+      "description": "Los contratos de suscripción {status} se mostrarán aquí."
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Comprada",
+      "sortByUpdatedDateLabel": "Actualizada",
+      "newestFirstDirectionLabel": "La más reciente primero",
+      "oldestFirstDirectionLabel": "La más antigua primero"
+    },
+    "pauseBulkActionModal": {
+      "content": "Se pausará la facturación y los pedidos futuros. Los contratos en pausa se pueden reanudar en cualquier momento.",
+      "cancel": "Cancelar",
+      "title": {
+        "one": "¿Establecer {count} contrato como en pausa?",
+        "other": "¿Establecer {count} contratos como en pausa?",
+        "many": "¿Establecer {count} contratos como en pausa?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Pausando contrato de suscripción...",
+        "other": "Pausando contratos de suscripción...",
+        "many": "Pausando contratos de suscripción..."
+      },
+      "errorToast": {
+        "one": "No se puede pausar el contrato",
+        "other": "No se pueden pausar los contratos",
+        "many": "No se pueden pausar los contratos"
+      },
+      "action": "Establecer como pausados"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Pausar contrato",
+        "other": "Pausar contratos",
+        "many": "Pausar contratos"
+      },
+      "activate": {
+        "one": "Reanudar contrato",
+        "other": "Reanudar contratos",
+        "many": "Reanudar contratos"
+      },
+      "cancel": {
+        "one": "Cancelar contrato",
+        "other": "Cancelar contratos",
+        "many": "Cancelar contratos"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "La facturación y los pedidos futuros se reactivarán. Los contratos activos se facturarán de forma normal.",
+      "cancel": "Cancelar",
+      "title": {
+        "one": "¿Reanudar {count} contrato?",
+        "other": "¿Reanudar {count} contratos?",
+        "many": "¿Reanudar {count} contratos?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Reanudando contrato de suscripción...",
+        "other": "Reanudando contratos de suscripción...",
+        "many": "Reanudando contratos de suscripción..."
+      },
+      "errorToast": {
+        "one": "No se puede reanudar el contrato",
+        "other": "No se pueden reanudar los contratos",
+        "many": "No se pueden reanudar los contratos"
+      },
+      "action": {
+        "one": "Reanudar contrato",
+        "other": "Reanudar contratos",
+        "many": "Reanudar contratos"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "La facturación y los pedidos futuros finalizarán inmediatamente. Los contratos cancelados no se pueden reanudar.",
+      "action": "Establecer como cancelados",
+      "cancel": "Cancelar",
+      "title": {
+        "one": "¿Establecer {count} contrato como cancelado?",
+        "other": "¿Establecer {count} contratos como cancelados?",
+        "many": "¿Establecer {count} contratos como cancelados?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Cancelando contrato de suscripción...",
+        "other": "Cancelando contratos de suscripción...",
+        "many": "Cancelando contratos de suscripción..."
+      },
+      "errorToast": {
+        "one": "No se ha podido cancelar el contrato",
+        "other": "No se han podido cancelar los contratos",
+        "many": "No se han podido cancelar los contratos"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "No se puede realizar la acción masiva",
+        "other": "No se puede realizar la acción masiva",
+        "many": "No se puede realizar la acción masiva"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pausar",
+      "accessibilityLabel": "Pausar contrato",
+      "success": "Contrato pausado correctamente",
+      "error": "No se puede pausar el contrato"
+    },
+    "cancel": {
+      "title": "Cancelar la suscripción",
+      "accessibilityLabel": "Cancelar la suscripción",
+      "success": "El contrato se canceló correctamente",
+      "error": "No se pudo cancelar el contrato",
+      "modalTitle": "Cancelar la suscripción",
+      "modalCancel": "Mantener el contrato",
+      "modalContent": "La facturación y los pedidos futuros finalizarán inmediatamente. Los contratos cancelados no se pueden reanudar."
+    },
+    "resume": {
+      "title": "Reanudar",
+      "accessibilityLabel": "Reanudar contrato",
+      "success": "Contrato reanudado correctamente",
+      "error": "No se puede reanudar el contrato"
+    },
+    "billContract": {
+      "title": "Facturar contrato",
+      "accessibilityLabel": "Facturar contrato",
+      "success": "Intento de facturación iniciado",
+      "error": "Error al facturar el contrato"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Próximos pedidos",
+    "subscription": "Detalles de la suscripción",
+    "price": "Precio",
+    "purchaseDate": "Fecha de compra",
+    "quantity": "Cantidad",
+    "orderNumber": "Pedido {number}",
+    "edit": "Editar",
+    "nextOrders": {
+      "title": "Pedidos siguientes",
+      "skip": "Omitir",
+      "skipped": "Omitidos",
+      "resume": "Reanudar",
+      "showMore": "Mostrar {number} más",
+      "skipError": "No se puede omitir/reanudar el pedido",
+      "skipSuccess": "Pedido omitido correctamente",
+      "showMoreNoCount": "Mostrar más",
+      "resumeSuccess": "Pedido reanudado correctamente"
+    },
+    "paymentMethods": {
+      "title": "Formas de pago"
+    },
+    "customer": {
+      "title": "Cliente"
+    },
+    "discount": "Descuento",
+    "discountValue": {
+      "multipleDiscounts": "Descuentos múltiples",
+      "percentageOff": "{{value}}% de descuento",
+      "amountOff": "{{value}} de descuento",
+      "fixedPrice": "{{value}} precio fijo"
+    },
+    "delivery": "Entrega",
+    "pastOrders": "Pedidos anteriores",
+    "viewOrder": "Ver",
+    "localPickup": "{{value}}, retiro en tienda",
+    "orderNotCreated": "Pedido no creado"
+  },
+  "paymentMethodDetails": {
+    "title": "Método de pago",
+    "expires": "Vence en {month} de {year}",
+    "actions": {
+      "sendUpdateLink": "Enviar enlace para actualizar la tarjeta",
+      "managePayment": "Gestionar pago en la página del cliente"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Enviar enlace para actualizar la tarjeta",
+      "descriptionCreditCard": "Envía un enlace a {customerName} para actualizar su tarjeta de crédito que termina en {lastDigits}.",
+      "descriptionOther": "Envía un enlace a {customerName} para actualizar la forma de pago.",
+      "fromField": "De:",
+      "toField": "Para:",
+      "subjectField": "Asunto:",
+      "subjectMessage": "Actualiza la forma de pago para {shopName}.",
+      "errorMessage": "No se ha podido enviar el correo electrónico de actualización de forma de pago del cliente",
+      "successMessage": "Correo electrónico enviado",
+      "actions": {
+        "sendEmail": "Enviar correo electrónico",
+        "cancel": "Cancelar"
+      }
+    },
+    "revoked": "El cliente eliminó la forma de pago el {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Cliente",
+    "contactInformation": "Información de contacto",
+    "shippingAddress": "Dirección de envío",
+    "actions": {
+      "selectAddress": "Usar otra dirección",
+      "manageAddress": "Gestionar direcciones en la página del cliente"
+    },
+    "addressModal": {
+      "title": "Seleccionar otra dirección",
+      "actions": {
+        "cancel": "Cancelar",
+        "update": "Actualizar"
+      }
+    }
+  },
+  "edit": {
+    "title": "Editar suscripción",
+    "details": {
+      "title": "Detalles de la suscripción",
+      "searchProducts": "Buscar productos",
+      "browse": "Explorar",
+      "removeLine": "Eliminar línea de suscripción",
+      "oneTimePurchasePrice": "Precio de compra única: {price}",
+      "quantity": "Cantidad",
+      "deliveryFrequency": {
+        "title": "Frecuencia de entrega",
+        "warning": "Al editar la frecuencia de entrega, la frecuencia de facturación se modifica automáticamente.",
+        "interval": "Intervalo",
+        "intervalCount": "Cantidad de intervalos"
+      },
+      "deliveryInterval": {
+        "weeks": "semanas",
+        "months": "meses",
+        "years": "años"
+      },
+      "paymentSummary": "Resumen de pagos",
+      "subtotal": "Subtotal",
+      "shipping": "Envío",
+      "tax": "Impuesto",
+      "total": "Total",
+      "oneTimePurchasePriceChanged": "El precio de compra única cambió",
+      "outOfStock": "Sin unidades en existencias"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "No se puede crear el borrador del contrato de suscripción"
+      },
+      "updateDraft": {
+        "error": "No se puede actualizar el borrador del contrato de suscripción",
+        "quantityTooLargeError": "La cantidad es demasiado elevada.",
+        "deliveryFrequencyTooLargeError": "La frecuencia de entrega es demasiado grande.",
+        "deliveryFrequencyIntegerError": "La frecuencia de entrega debe ser un número entero."
+      },
+      "updateContract": {
+        "error": "No se puede actualizar el contrato de suscripción",
+        "success": "Contrato actualizado"
+      },
+      "selectProducts": {
+        "lineCountError": "Los contratos de suscripción deben tener al menos una línea de artículo"
+      },
+      "updateAddress": {
+        "error": "No se puede actualizar la dirección",
+        "success": "Dirección actualizada"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "El precio de compra única de {{title}} cambió y ahora es {{newPrice}}.",
+      "updateSubscriptionPrice": "Actualiza el precio de suscripción de {{title}}",
+      "title": "Editar precio",
+      "subscriptionPriceLabel": "Precio de suscripción",
+      "discountLabel": "Un descuento de {{discountAmount}} por suscripción se aplicó al nuevo precio de {{lineTitle}}",
+      "amountTooLargeError": "El monto es muy alto",
+      "amountNegativeError": "El monto debe ser mayor que o igual a 0",
+      "actions": {
+        "update": "Actualizar",
+        "cancel": "Cancelar"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "El pedido del {date} no se pudo crear",
+      "inProgressTitle": "Hay un intento de facturación en curso. Esta página se volverá a cargar cuando el intento de facturación se complete correctamente.",
+      "description": "No había suficiente inventario durante el último intento de facturación. Si las existencias están en camino y deseas omitir los reintentos adicionales, crea el pedido ahora y sobrevende el inventario. En caso de demoras más importantes, quizás prefieras pausar, omitir o cancelar.",
+      "button": "Crear pedido ahora"
+    },
+    "modal": {
+      "title": "¿Continuar para crear el pedido?",
+      "inventoryWarning": "Sobrevende el inventario únicamente si confías en que las existencias están de camino",
+      "actions": {
+        "ignoreAndCreate": "Crear pedido ahora",
+        "cancel": "Cancelar"
+      },
+      "outOfStock": {
+        "one": "Los siguientes productos están agotados y se sobrevenderán en este pedido:",
+        "other": "Los siguientes productos están agotados y se sobrevenderán en este pedido:",
+        "many": "Los siguientes productos están agotados y se sobrevenderán en este pedido:"
+      }
+    }
+  }
+}

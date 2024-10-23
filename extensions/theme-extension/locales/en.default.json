@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "One-time purchase",
+      "subscription": "Subscription"
+    }
+  },
+  "policy": {
+    "description": "Auto-renews, skip or cancel anytime.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>View subscription policy</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "To add to cart, go to the product page and select a purchase option"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Subscription widget will only show on products that have a subscription plan attached to them."
+  },
+  "no_app_block_found_banner": {
+    "message": "To edit the placement of the subscription widget add the following code snippet to the product template in the desired placement.",
+    "copy_button_text": "Copy",
+    "copied_button_text": "Copied",
+    "button_text": "View code editor"
+  }
+}

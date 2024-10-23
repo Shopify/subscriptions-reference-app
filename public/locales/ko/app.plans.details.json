@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "가입 플랜으로 돌아가기",
+  "planTitle": "플랜 제목",
+  "planTitleHelpText": "고객에게는 표시되지 않습니다.",
+  "purchaseOptionTitle": "구매 옵션 제목",
+  "purchaseOptionTitleHelpText": "이 부분은 가입한 {{howToDisplayProductsLink}}에서 고객에게 표시됩니다.",
+  "defaultPurchaseOptionTitle": "가입 및 저장",
+  "saveButtonText": "저장",
+  "create": {
+    "pageTitle": "가입 플랜 생성"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "잘못된 제품이 선택됨",
+    "invalidVariant": "잘못된 제품 이형이 선택됨",
+    "merchantCodeEmptyError": "플랜 제목은 필수입니다.",
+    "nameEmptyError": "구매 옵션 제목은 필수입니다",
+    "createError": "가입 플랜 생성 중 오류 발생",
+    "updateError": "구독 플랜 업데이트 중 오류 발생",
+    "deliveryFrequencyError": "빈도는 0보다 커야 합니다.",
+    "deliveryFrequencyMaxError": "빈도가 너무 큽니다.",
+    "deliveryFrequencyFloatError": "배송 빈도는 정수여야 합니다.",
+    "discountValueMinError": "할인 값은 양수여야 합니다.",
+    "discountValueMaxError": "할인 값이 너무 큽니다.",
+    "discountValueMaxPercentError": "할인값은 100%를 초과할 수 없습니다.",
+    "updateSuccess": "가입 플랜이 업데이트됨",
+    "duplicateDeliveryFrequencyError": "배송 옵션은 고유해야 함",
+    "missingSellingPlanGroup": "가입 플랜을 찾을 수 없음",
+    "createSuccess": "가입 플랜이 생성됨"
+  },
+  "productCard": {
+    "title": "제품",
+    "browse": "찾아보기",
+    "searchProducts": "제품 검색",
+    "variantsSelected": "({count}/{total}개의 이형 상품 선택됨)",
+    "updateError": "가입 플랜 업데이트 중 오류 발생",
+    "maxProductsWarning": "품목은 한 번에 {{count}}개만 추가할 수 있습니다. 품목이 {{count}}개 이상인 경우 이 플랜을 저장한 후 품목을 추가할 수 있습니다."
+  },
+  "discountDeliveryCard": {
+    "title": "할인 및 배송",
+    "offerDiscount": "할인 제공",
+    "discountType": {
+      "percentageOff": "백분율 힐인",
+      "amountOff": "금액 할인",
+      "fixedPrice": "고정 가격"
+    },
+    "deliveryFrequency": "배송 빈도",
+    "deliveryInterval": {
+      "label": "배송 주기",
+      "weeks": "주",
+      "months": "개월",
+      "years": "년"
+    },
+    "addOption": "옵션 추가",
+    "removeOption": "옵션 제거",
+    "discountValueFixedPriceHelpText": "이 가격이 고객에게 표시됩니다"
+  },
+  "deleteButtonText": "삭제",
+  "deleteSellingPlanGroupModal": {
+    "title": "구독 플랜을 삭제하시겠습니까?",
+    "content": "이 작업은 취소할 수 없습니다. 관련 계약은 영향을 받지 않습니다.",
+    "deleteButton": "플랜 삭제",
+    "cancelButton": "취소",
+    "deleteError": "가입 플랜 삭제 오류"
+  },
+  "summaryCard": {
+    "cardTitle": "요약",
+    "noPlanTitleYet": "제목 없음",
+    "weeklyDelivery": {
+      "one": "매주 배송",
+      "other": "{intervalCount}주마다 배송"
+    },
+    "monthlyDelivery": {
+      "one": "매달 배송",
+      "other": "{intervalCount}개월마다 배송"
+    },
+    "yearlyDelivery": {
+      "one": "매년 배송",
+      "other": "{intervalCount}년마다 배송"
+    },
+    "percentageOff": "{amount}% 할인",
+    "amountOff": "{amount} 할인",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "배송 빈도 {count}회",
+    "countProducts": {
+      "one": "제품 {count}개",
+      "other": "제품 {count}개"
+    },
+    "countVariants": {
+      "one": "제품 이형 {count}개",
+      "other": "제품 이형 {count}개"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "상점 제품 페이지",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "배송 빈도"
+    }
+  }
+}

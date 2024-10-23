@@ -1,0 +1,93 @@
+{
+  "navigation": {
+    "home": "Strona główna",
+    "plans": "Plany",
+    "contracts": "Kontrakty",
+    "settings": "Ustawienia"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} częstotliwości dostaw",
+    "day": {
+      "one": "Codziennie",
+      "other": "Co {count} dni",
+      "few": "Co {count} dni",
+      "many": "Co {count} dni"
+    },
+    "week": {
+      "one": "Co tydzień",
+      "other": "Co {count} tygodni(e)",
+      "few": "Co {count} tygodni(e)",
+      "many": "Co {count} tygodni(e)"
+    },
+    "month": {
+      "one": "Co miesiąc",
+      "other": "Co {count} miesiące/miesięcy",
+      "few": "Co {count} miesiące/miesięcy",
+      "many": "Co {count} miesiące/miesięcy"
+    },
+    "year": {
+      "one": "Co rok",
+      "other": "Co {count} lat(a)",
+      "few": "Co {count} lat(a)",
+      "many": "Co {count} lat(a)"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Wiele częstotliwości dostaw"
+  },
+  "productAndVariants": {
+    "noProduct": "Brak",
+    "productsCount": {
+      "one": "{count} produkt",
+      "other": "{count} produkty(-ów)",
+      "few": "{count} produkty(-ów)",
+      "many": "{count} produkty(-ów)"
+    },
+    "noVariant": "Brak wariantu",
+    "variantsCount": {
+      "one": "{count} wariant",
+      "other": "{count} warianty(-ów)",
+      "few": "{count} warianty(-ów)",
+      "many": "{count} warianty(-ów)"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Brak rabatu",
+    "amountOff": "{amount} zniżki",
+    "percentageOff": "{amount}% zniżki",
+    "multipleDiscounts": "Wiele rabatów",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Aktywna",
+    "paused": "Wstrzymano",
+    "cancelled": "Anulowano",
+    "expired": "Wygasła",
+    "failed": "Nieudane",
+    "stale": "Nieaktualna"
+  },
+  "actions": {
+    "saveButtonText": "Zapisz",
+    "edit": "Edytuj"
+  },
+  "footer": {
+    "learnMore": "Dowiedz się więcej na temat: {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "planach subskrypcji",
+    "contracts": "umowy subskrypcyjne"
+  },
+  "errorBoundary": {
+    "title": "Subskrypcje",
+    "header": "Nie można załadować strony",
+    "description": "Przeładuj stronę lub spróbuj ponownie później. Jeśli problem nadal występuje, skontaktuj się z {statusPageLink}.",
+    "statusPageLinkText": "Pomocą techniczną Shopify",
+    "reloadAction": "Odśwież stronę"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Operacja zbiorcza została zakończona"
+  },
+  "missingScopes": {
+    "title": "Brakujące zatwierdzone zakresy Shopify",
+    "description": "Przed uruchomieniem aplikacji referencyjnej Subscriptions musisz poprosić Shopify o zatwierdzenie użycia tych zakresów API:",
+    "link": "Więcej informacji na temat {{link}} dla tej aplikacji można znaleźć w dokumentacji.",
+    "linkText": "zatwierdzonych zakresów Shopify"
+  }
+}

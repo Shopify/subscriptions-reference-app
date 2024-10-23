@@ -1,0 +1,19 @@
+api_version = "unstable"
+
+[[extensions]]
+# Change the merchant-facing name of the extension in locales/en.default.json
+name = "t:name"
+handle = "admin-subs-action"
+type = "ui_extension"
+
+[extensions.capabilities]
+api_access = true
+network_access = true
+
+[[extensions.targeting]]
+module = "./src/ProductExtension.tsx"
+target = "admin.product-purchase-option.action.render"
+
+[[extensions.targeting]]
+module = "./src/ProductVariantExtension.tsx"
+target = "admin.product-variant-purchase-option.action.render"

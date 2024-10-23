@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Tilbage til abonnementsordninger",
+  "planTitle": "Abonnementstitel",
+  "planTitleHelpText": "Kunder vil ikke se dette.",
+  "purchaseOptionTitle": "Titel på købsmulighed",
+  "purchaseOptionTitleHelpText": "Kunderne vil se dette på {{howToDisplayProductsLink}}, der har abonnementer.",
+  "defaultPurchaseOptionTitle": "Abonner, og spar penge",
+  "saveButtonText": "Gem",
+  "create": {
+    "pageTitle": "Opret abonnementsordning"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Der er valgt et ugyldigt produkt",
+    "invalidVariant": "Der er valgt en ugyldig produktvariant",
+    "merchantCodeEmptyError": "Plantitel er påkrævet",
+    "nameEmptyError": "Titel på købsmulighed er påkrævet",
+    "createError": "Der opstod en fejl under oprettelse af abonnementsordningen",
+    "updateError": "Der opstod en fejl under opdateringen af abonnementsordningen",
+    "deliveryFrequencyError": "Hyppigheden skal være større end 0",
+    "deliveryFrequencyMaxError": "Hyppigheden er for høj",
+    "deliveryFrequencyFloatError": "Leveringshyppigheden skal være et heltal",
+    "discountValueMinError": "Rabatværdien skal være positiv",
+    "discountValueMaxError": "Rabatværdien er for stor",
+    "discountValueMaxPercentError": "Rabatværdien må ikke være over 100 %",
+    "updateSuccess": "Abonnementsordningen er blevet opdateret",
+    "duplicateDeliveryFrequencyError": "Leveringsmulighederne skal være unikke",
+    "missingSellingPlanGroup": "Abonnementsordningen blev ikke fundet",
+    "createSuccess": "Abonnementsordningen blev oprettet"
+  },
+  "productCard": {
+    "title": "Produkter",
+    "browse": "Gennemse",
+    "searchProducts": "Søg efter produkter",
+    "variantsSelected": "({count} af {total} varianter valgt)",
+    "updateError": "Der opstod en fejl under opdateringen af abonnementsordningen",
+    "maxProductsWarning": "Du kan kun tilføje {{count}} varer ad gangen. Hvis du har mere end {{count}} varer, kan du tilføje dem, efter du har gemt dette abonnement."
+  },
+  "discountDeliveryCard": {
+    "title": "Rabat og levering",
+    "offerDiscount": "Tilbyd rabat",
+    "discountType": {
+      "percentageOff": "Procent rabat",
+      "amountOff": "Rabatbeløb",
+      "fixedPrice": "Fast pris"
+    },
+    "deliveryFrequency": "Leveringshyppighed",
+    "deliveryInterval": {
+      "label": "Leveringsinterval",
+      "weeks": "uger",
+      "months": "måneder",
+      "years": "år"
+    },
+    "addOption": "Tilføj valgmulighed",
+    "removeOption": "Fjern valgmuligheden",
+    "discountValueFixedPriceHelpText": "Dette er den pris, der vises til kunderne"
+  },
+  "deleteButtonText": "Slet",
+  "deleteSellingPlanGroupModal": {
+    "title": "Vil du slette abonnementsordningen?",
+    "content": "Dette kan ikke fortrydes. Eventuelle tilknyttede kontrakter påvirkes ikke.",
+    "deleteButton": "Slet abonnement",
+    "cancelButton": "Annuller",
+    "deleteError": "Der opstod en fejl under sletningen af abonnementsordningen"
+  },
+  "summaryCard": {
+    "cardTitle": "Oversigt",
+    "noPlanTitleYet": "Ingen titel",
+    "weeklyDelivery": {
+      "one": "Levér hver uge",
+      "other": "Levér hver {intervalCount}. uge"
+    },
+    "monthlyDelivery": {
+      "one": "Levér hver måned",
+      "other": "Levér hver {intervalCount}. måned"
+    },
+    "yearlyDelivery": {
+      "one": "Levér hvert år",
+      "other": "Levér hvert {intervalCount}. år"
+    },
+    "percentageOff": "{amount} % i rabat",
+    "amountOff": "{amount} i rabat",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "Hyppigheden af {count} levering(er)",
+    "countProducts": {
+      "one": "{count} produkt",
+      "other": "{count} produkter"
+    },
+    "countVariants": {
+      "one": "{count} produktvariant",
+      "other": "{count} produktvarianter"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "produktsider i butikslayoutet",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Leveringshyppighed"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "การสมัครใช้งาน",
+  "save": "บันทึก",
+  "cancel": "ยกเลิก",
+  "merchantCode": {
+    "label": "คำอธิบายภายใน",
+    "helpText": "สำหรับการอ้างอิงของคุณเท่านั้น"
+  },
+  "planName": {
+    "label": "ชื่อ",
+    "placeholder": "สมัครใช้งานและบันทึก",
+    "helpText": "ลูกค้าจะเห็นสิ่งนี้ในหน้าสินค้าหน้าร้านที่มีการซื้อแบบเหมาจ่ายล่วงหน้า"
+  },
+  "discountAndDelivery": "ส่วนลดและการจัดส่ง",
+  "offerDiscount": "เสนอส่วนลด",
+  "discountType": {
+    "percentageOff": "ลดเป็นเปอร์เซ็นต์",
+    "amountOff": "ลดตามมูลค่าที่กำหนด",
+    "fixedPrice": "ราคาคงที่"
+  },
+  "deliveryFrequency": "ความถี่ในการจัดส่ง",
+  "deliveryInterval": {
+    "label": "รอบการจัดส่ง",
+    "weeks": "สัปดาห์",
+    "months": "เดือน",
+    "years": "ปี",
+    "day": {
+      "singular": "จัดส่งทุกวัน",
+      "plural": "จัดส่งทุกๆ {{count}} วัน"
+    },
+    "week": {
+      "singular": "จัดส่งทุกสัปดาห์",
+      "plural": "จัดส่งทุกๆ {{count}} สัปดาห์"
+    },
+    "month": {
+      "singular": "จัดส่งทุกเดือน",
+      "plural": "จัดส่งทุกๆ {{count}} เดือน"
+    },
+    "year": {
+      "singular": "จัดส่งทุกปี",
+      "plural": "จัดส่งทุกๆ {{count}} ปี"
+    }
+  },
+  "addOptionButton": {
+    "label": "ตัวเลือก",
+    "accessibilityLabel": "เพิ่มตัวเลือก"
+  },
+  "removeOption": "ลบตัวเลือกออก",
+  "discountDetails": {
+    "percentageOff": "ลด {{amount}}%",
+    "amountOff": "ลด {{amount}}",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "สร้างแผนการสมัครใช้งานแล้ว",
+    "update": "อัปเดตแผนการสมัครใช้งานแล้ว"
+  },
+  "validator": {
+    "nameEmptyError": "ต้องระบุชื่อ",
+    "merchantCodeEmptyError": "ต้องระบุคำอธิบายภายใน",
+    "deliveryFrequencyError": "ต้องระบุความถี่ในการจัดส่ง",
+    "deliveryFrequencyMaxError": "ความถี่ในการจัดส่งต้องน้อยกว่า 36,500 วัน",
+    "deliveryFrequencyFloatError": "ความถี่ในการจัดส่งต้องเป็นจำนวนเต็ม",
+    "discountValueMinError": "มูลค่าส่วนลดต้องมากกว่า 0",
+    "discountValueMaxError": "มูลค่าส่วนลดมากเกินไป",
+    "discountValueMaxPercentError": "มูลค่าส่วนลดต้องไม่เกิน 100%"
+  }
+}

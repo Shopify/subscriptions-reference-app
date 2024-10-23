@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "plans": "Planlar",
+    "contracts": "Sözleşmeler",
+    "settings": "Ayarlar"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} teslimat sıklığı",
+    "day": {
+      "one": "Her gün",
+      "other": "Her {count} günde bir"
+    },
+    "week": {
+      "one": "Her hafta",
+      "other": "{count} haftada bir"
+    },
+    "month": {
+      "one": "Her ay",
+      "other": "{count} ayda bir"
+    },
+    "year": {
+      "one": "Her yıl",
+      "other": "Her {count} yılda bir"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Birden fazla teslimat sıklığı"
+  },
+  "productAndVariants": {
+    "noProduct": "Yok",
+    "productsCount": {
+      "one": "{count} ürün",
+      "other": "{count} ürün"
+    },
+    "noVariant": "Varyasyon yok",
+    "variantsCount": {
+      "one": "{count} varyasyon",
+      "other": "{count} varyasyon"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "İndirim yok",
+    "amountOff": "{amount} indirim",
+    "percentageOff": "%{amount} indirim",
+    "multipleDiscounts": "Birden fazla indirim",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Etkin",
+    "paused": "Duraklatıldı",
+    "cancelled": "İptal edildi",
+    "expired": "Süresi sona erdi",
+    "failed": "Başarısız oldu",
+    "stale": "Geçersiz"
+  },
+  "actions": {
+    "saveButtonText": "Kaydet",
+    "edit": "Düzenle"
+  },
+  "footer": {
+    "learnMore": "{topicName} hakkında daha fazla bilgi edinin",
+    "home": "Shopify Subscriptions",
+    "plans": "Abonelik planları",
+    "contracts": "Abonelik sözleşmeleri"
+  },
+  "errorBoundary": {
+    "title": "Abonelikler",
+    "header": "Sayfa yüklenemedi",
+    "description": "Sayfayı yeniden yükleyin veya daha sonra tekrar deneyin. Çözülemeyen hatalar için {statusPageLink} ile iletişime geçin.",
+    "statusPageLinkText": "Shopify Destek ekibi",
+    "reloadAction": "Sayfayı yeniden yükle"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Toplu işlem tamamlandı"
+  },
+  "missingScopes": {
+    "title": "Shopify onaylı kapsamlar eksik",
+    "description": "Subscriptions reference uygulamasını çalıştırmadan önce aşağıdaki API kapsamlarını kullanmak için Shopify'dan onay istemeniz gerekir:",
+    "link": "Bu uygulamaya yönelik {{link}} hakkında daha fazla bilgi edinmek için ilgili belgeleri inceleyin.",
+    "linkText": "Shopify onaylı kapsamlar"
+  }
+}

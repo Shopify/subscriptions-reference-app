@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Back to subscription plans",
+  "planTitle": "Plan title",
+  "planTitleHelpText": "Customers won't see this.",
+  "purchaseOptionTitle": "Purchase option title",
+  "purchaseOptionTitleHelpText": "Customers will see this on {{howToDisplayProductsLink}} that have subscriptions.",
+  "purchaseOptionTitleHelpLinkText": "storefront product pages",
+  "defaultPurchaseOptionTitle": "Subscribe and save",
+  "saveButtonText": "Save",
+  "deleteButtonText": "Delete",
+  "create": {
+    "pageTitle": "Create subscription plan"
+  },
+  "SubscriptionPlanForm": {
+    "merchantCodeEmptyError": "Plan title is required",
+    "missingSellingPlanGroup": "Subscription plan not found",
+    "nameEmptyError": "Purchase option title is required",
+    "createError": "Error creating subscription plan",
+    "createSuccess": "Subscription plan created",
+    "updateError": "Error updating subscription plan",
+    "updateSuccess": "Subscription plan updated",
+    "deliveryFrequencyError": "Frequency must be greater than 0",
+    "deliveryFrequencyMaxError": "Frequency is too large",
+    "deliveryFrequencyFloatError": "Delivery frequency must be a whole number",
+    "duplicateDeliveryFrequencyError": "Delivery options must be unique",
+    "discountValueMinError": "Discount value must be positive",
+    "discountValueMaxError": "Discount value is too large",
+    "discountValueMaxPercentError": "Discount value must not be over 100%",
+    "invalidProduct": "Invalid product selected",
+    "invalidVariant": "Invalid product variant selected"
+  },
+  "productCard": {
+    "title": "Products",
+    "browse": "Browse",
+    "searchProducts": "Search products",
+    "variantsSelected": "({count} of {total} variants selected)",
+    "updateError": "Error updating subscription plan",
+    "maxProductsWarning": "Only {{count}} items can be added at a time. If you have more than {{count}} items, you can add them after saving this plan."
+  },
+  "discountDeliveryCard": {
+    "title": "Discount and delivery",
+    "offerDiscount": "Offer discount",
+    "discountType": {
+      "percentageOff": "Percentage off",
+      "amountOff": "Amount off",
+      "fixedPrice": "Fixed price"
+    },
+    "deliveryFrequency": "Delivery frequency",
+    "deliveryInterval": {
+      "label": "Delivery interval",
+      "weeks": "weeks",
+      "months": "months",
+      "years": "years"
+    },
+    "discountValueFixedPriceHelpText": "This will be the price displayed to customers",
+    "addOption": "Add option",
+    "removeOption": "Remove option"
+  },
+  "deleteSellingPlanGroupModal": {
+    "title": "Delete subscription plan?",
+    "content": "This can't be undone. Any associated contracts won't be affected.",
+    "deleteButton": "Delete plan",
+    "cancelButton": "Cancel",
+    "deleteError": "Error deleting subscription plan"
+  },
+  "summaryCard": {
+    "cardTitle": "Summary",
+    "noPlanTitleYet": "No title",
+    "weeklyDelivery": {
+      "one": "Deliver every week",
+      "other": "Deliver every {intervalCount} weeks"
+    },
+    "monthlyDelivery": {
+      "one": "Deliver every month",
+      "other": "Deliver every {intervalCount} months"
+    },
+    "yearlyDelivery": {
+      "one": "Deliver every year",
+      "other": "Deliver every {intervalCount} years"
+    },
+    "percentageOff": "{amount}% off",
+    "amountOff": "{amount} off",
+    "fixedPrice": "{amount}",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} delivery frequencies",
+    "countProducts": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "countVariants": {
+      "one": "{count} product variant",
+      "other": "{count} product variants"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}"
+  },
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Delivery frequency"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "./types/**/*",
+    "./src/**/*",
+    "./tests/**/*",
+    "**/*.test.tsx",
+    "**/*.test.ts",
+    "../../type-definitions/global.d.ts",
+    "../../type-definitions/index.d.ts",
+    "../../env.d.ts",
+    "../shared"
+  ],
+  "exclude": ["build", "public", "node_modules/**/*"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "outDir": "./build",
+    "baseUrl": "./",
+    "types": [
+      "@shopify/react-testing/matchers",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
+    "paths": {
+      "types": ["src/types"],
+      "generatedTypes/*": ["types/*"],
+      "foundation/*": ["src/foundation/*"],
+      "tests/*": ["tests/*"],
+      "mocks/*": ["tests/mocks/*"],
+      "customer-types": ["src/types"],
+      "utilities": ["src/utilities"],
+      "utilities/*": ["src/utilities/*"],
+      "components": ["src/components"],
+      "components/*": ["src/components/*"]
+    },
+    "skipLibCheck": true
+  }
+}

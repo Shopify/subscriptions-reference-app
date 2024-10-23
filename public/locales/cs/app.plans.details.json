@@ -1,0 +1,111 @@
+{
+  "backButtonLabel": "Zpět na plány předplatného",
+  "planTitle": "Název plánu",
+  "planTitleHelpText": "Zákazníci uvedené informace neuvidí.",
+  "purchaseOptionTitle": "Název možnosti nákupu",
+  "purchaseOptionTitleHelpText": "Zákazníkům se uvedené informace zobrazí na {{howToDisplayProductsLink}} s předplatným.",
+  "defaultPurchaseOptionTitle": "Předplatit a uložit",
+  "saveButtonText": "Uložit",
+  "create": {
+    "pageTitle": "Vytvořte plán předplatného"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Byl vybrán neplatný produkt.",
+    "invalidVariant": "Byla vybrána neplatná varianta produktu.",
+    "merchantCodeEmptyError": "Název plánu je nutné zadat.",
+    "nameEmptyError": "Název možnosti nákupu je nutné zadat.",
+    "createError": "Chyba při vytváření plánu předplatného",
+    "updateError": "Chyba při aktualizaci plánu předplatného",
+    "deliveryFrequencyError": "Četnost musí být větší než 0.",
+    "deliveryFrequencyMaxError": "Četnost je příliš velká.",
+    "deliveryFrequencyFloatError": "Četnost doručování musí představovat celé číslo.",
+    "discountValueMinError": "Hodnota slevy musí být kladná.",
+    "discountValueMaxError": "Hodnota slevy je příliš velká.",
+    "discountValueMaxPercentError": "Hodnota slevy nesmí překročit 100 %.",
+    "updateSuccess": "Plán předplatného byl aktualizován.",
+    "duplicateDeliveryFrequencyError": "Možnosti doručení musí být jedinečné.",
+    "missingSellingPlanGroup": "Plán předplatného nebyl nalezen",
+    "createSuccess": "Plán předplatného byl vytvořen."
+  },
+  "productCard": {
+    "title": "Produkty",
+    "browse": "Procházet",
+    "searchProducts": "Vyhledejte produkty",
+    "variantsSelected": "(vybráno: {count} z {total} variant)",
+    "updateError": "Chyba při aktualizaci plánu předplatného",
+    "maxProductsWarning": "Současně je možné přidat jen tento počet položek: {{count}}. Pokud máte více než uvedený počet ({{count}}) položek, můžete je přidat po uložení tohoto plánu."
+  },
+  "discountDeliveryCard": {
+    "title": "Sleva a doručení",
+    "offerDiscount": "Nabídnout slevu",
+    "discountType": {
+      "percentageOff": "Procento slevy",
+      "amountOff": "Částka slevy",
+      "fixedPrice": "Fixní cena"
+    },
+    "deliveryFrequency": "Četnost doručování",
+    "deliveryInterval": {
+      "label": "Interval doručení",
+      "weeks": "týd.",
+      "months": "měs.",
+      "years": "r."
+    },
+    "addOption": "Přidat možnost",
+    "removeOption": "Odebrat možnost",
+    "discountValueFixedPriceHelpText": "Jde o cenu, která se zobrazí zákazníkům."
+  },
+  "deleteButtonText": "Odstranit",
+  "deleteSellingPlanGroupModal": {
+    "title": "Chcete plán předplatného odstranit?",
+    "content": "Tato akce je nevratná. Jakékoli související smlouvy nebudou dotčeny.",
+    "deleteButton": "Odstranit plán",
+    "cancelButton": "Zrušit",
+    "deleteError": "Chyba při odstraňování plánu předplatného"
+  },
+  "summaryCard": {
+    "cardTitle": "Shrnutí",
+    "noPlanTitleYet": "Bez názvu",
+    "weeklyDelivery": {
+      "one": "Doručení každý týden",
+      "other": "Doručení každý {intervalCount}. týden",
+      "few": "Doručení každý {intervalCount}. týden",
+      "many": "Doručení každý {intervalCount}. týden"
+    },
+    "monthlyDelivery": {
+      "one": "Doručení každý měsíc",
+      "other": "Doručení každý {intervalCount}. měsíc",
+      "few": "Doručení každý {intervalCount}. měsíc",
+      "many": "Doručení každý {intervalCount}. měsíc"
+    },
+    "yearlyDelivery": {
+      "one": "Doručení každý rok",
+      "other": "Doručení každý {intervalCount}. rok",
+      "few": "Doručení každý {intervalCount}. rok",
+      "many": "Doručení každý {intervalCount}. rok"
+    },
+    "percentageOff": "Sleva {amount} %",
+    "amountOff": "Sleva {amount}",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "Četnosti doručování: {count}",
+    "countProducts": {
+      "one": "{count} produkt",
+      "other": "{count} prod.",
+      "few": "{count} prod.",
+      "many": "{count} prod."
+    },
+    "countVariants": {
+      "one": "{count} varianta produktu",
+      "other": "{count} variant(y) produktu",
+      "few": "{count} variant(y) produktu",
+      "many": "{count} variant(y) produktu"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "stránkách produktů cílových stránek obchodu",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Četnost doručování"
+    }
+  }
+}

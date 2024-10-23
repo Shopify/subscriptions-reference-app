@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Takaisin tilaussopimuksiin",
+  "planTitle": "Sopimuksen nimi",
+  "planTitleHelpText": "Asiakkaat eivät näe tätä.",
+  "purchaseOptionTitle": "Ostovaihtoehdon nimi",
+  "purchaseOptionTitleHelpText": "Asiakkaat näkevät tämän sellaisilla {{howToDisplayProductsLink}}, joilla on toistuva tilauksia.",
+  "defaultPurchaseOptionTitle": "Tilaa ja säästä",
+  "saveButtonText": "Tallenna",
+  "create": {
+    "pageTitle": "Luo tilaussopimus"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Virheellinen tuote valittu",
+    "invalidVariant": "Virheellinen tuoteversio valittu",
+    "merchantCodeEmptyError": "Sopimuksen nimi on pakollinen",
+    "nameEmptyError": "Ostovaihtoehdon nimi on pakollinen",
+    "createError": "Virhe tilaussopimuksen luonnissa",
+    "updateError": "Virhe tilaussopimuksen päivittämisessä",
+    "deliveryFrequencyError": "Välin on oltava suurempi kuin 0",
+    "deliveryFrequencyMaxError": "Väli on liian suuri",
+    "deliveryFrequencyFloatError": "Toimitusvälin on oltava kokonaisluku",
+    "discountValueMinError": "Alennuksen arvon on oltava positiivinen",
+    "discountValueMaxError": "Alennuksen arvo on liian suuri",
+    "discountValueMaxPercentError": "Alennuksen arvo ei saa olla yli 100 %",
+    "updateSuccess": "Tilaussopimus päivitetty",
+    "duplicateDeliveryFrequencyError": "Toimitusvaihtoehtojen on oltava yksilöllisiä",
+    "missingSellingPlanGroup": "Tilaussopimusta ei löytynyt",
+    "createSuccess": "Toistuvan tilauksen sopimus luotu"
+  },
+  "productCard": {
+    "title": "Tuotteet",
+    "browse": "Selaa",
+    "searchProducts": "Hae tuotteita",
+    "variantsSelected": "({count} / {total} versiosta valittu)",
+    "updateError": "Virhe tilaussopimuksen päivittämisessä",
+    "maxProductsWarning": "Kerrallaan voidaan lisätä vain {{count}} tuotetta. Jos sinulla on enemmän kuin {{count}} tuotetta, voit lisätä ne tallennettuasi tämän sopimuksen."
+  },
+  "discountDeliveryCard": {
+    "title": "Alennus ja toimitus",
+    "offerDiscount": "Tarjoa alennusta",
+    "discountType": {
+      "percentageOff": "Prosentuaalinen alennus",
+      "amountOff": "Rahallinen alennus",
+      "fixedPrice": "Kiinteä hinta"
+    },
+    "deliveryFrequency": "Toimitustiheys",
+    "deliveryInterval": {
+      "label": "Toimitusväli",
+      "weeks": "viikot",
+      "months": "kuukaudet",
+      "years": "vuodet"
+    },
+    "addOption": "Lisää vaihtoehto",
+    "removeOption": "Poista vaihtoehto",
+    "discountValueFixedPriceHelpText": "Tämä hinta näytetään asiakkaille"
+  },
+  "deleteButtonText": "Poista",
+  "deleteSellingPlanGroupModal": {
+    "title": "Haluatko poistaa tilaussopimuksen?",
+    "content": "Tätä ei voi kumota. Ei vaikuta asiaan liittyviin sopimuksiin.",
+    "deleteButton": "Poista sopimus",
+    "cancelButton": "Peruuta",
+    "deleteError": "Virhe tilaussopimusta poistettaessa"
+  },
+  "summaryCard": {
+    "cardTitle": "Yhteenveto",
+    "noPlanTitleYet": "Ei otsikkoa",
+    "weeklyDelivery": {
+      "one": "Toimita joka viikko",
+      "other": "Toimita {intervalCount} viikon välein"
+    },
+    "monthlyDelivery": {
+      "one": "Toimita joka kuukausi",
+      "other": "Toimita {intervalCount} kuukauden välein"
+    },
+    "yearlyDelivery": {
+      "one": "Toimita joka vuosi",
+      "other": "Toimita {intervalCount} vuoden välein"
+    },
+    "percentageOff": "{amount} % alennusta",
+    "amountOff": "{amount} alennusta",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} toimitusväliä",
+    "countProducts": {
+      "one": "{count} tuote",
+      "other": "{count} tuotetta"
+    },
+    "countVariants": {
+      "one": "{count} tuoteversio",
+      "other": "{count} tuoteversiota"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "myyntipaikan tuotesivuilla",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Toimitustiheys"
+    }
+  }
+}

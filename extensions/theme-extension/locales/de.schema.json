@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Abonnement-Richtlinie",
+    "subscription_policy_url": "Link zur Abonnement-Richtlinie",
+    "subscription_policy_url_info": "Wähle eine vorhandene Seite aus oder füge einen externen Link ein, um die Abonnement-Richtlinie anzuzeigen.",
+    "description": "Das Abonnement-Widget wird nur auf Produkten angezeigt, an die ein Abonnement angehängt ist. [Mehr Informationen zu Theme-Einstellungen für Abonnements](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Die Einstellungen oben zeigen Optionen für das ausgewählte Produkt an. Das aktuell ausgewählte Produkt hat ein Abonnement. ",
+    "colors_title": "Farbe",
+    "title": "Abonnement-Widget",
+    "product_title": "Produkt",
+    "border_title": "Rand",
+    "border_thickness": "Dicke",
+    "border_radius": "Eckradius",
+    "colors_text_title": "Titel",
+    "colors_text_body": "Nachricht",
+    "colors_background_border_title": "Hintergründe und Rahmen",
+    "colors_background": "Hintergrund",
+    "colors_dividers": "Stangenzirkel",
+    "supporting_text_title": "Unterstützender Text",
+    "supporting_text_subtitle": "Titel",
+    "supporting_text_input_default": "Kaufoptionen"
+  }
+}

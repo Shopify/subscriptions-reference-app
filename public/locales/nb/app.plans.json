@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Abonnementer",
+    "createPlan": "Abonnement",
+    "accessibilityLabel": "Opprett et abonnement"
+  },
+  "emptyState": {
+    "title": "Gå gjentatte forretninger",
+    "description": "La kunder kjøpe produkter eller tjenester på gjentakende basis",
+    "action": "Abonnementstype"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Tittel for plan",
+      "products": "Produkter",
+      "deliveryFrequency": "Leveringsfrekvens",
+      "discount": "Priser",
+      "view": "Alle"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Alle"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Slett abonnement",
+        "other": "Slett abonnementer"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Dette kan ikke angres. Eventuelle tilhørende kontrakter påvirkes ikke.",
+          "other": "Dette kan ikke angres. Eventuelle tilhørende kontrakter påvirkes ikke."
+        },
+        "actions": {
+          "delete": {
+            "one": "Slett abonnement",
+            "other": "Slett abonnementer"
+          },
+          "cancel": "Avbryt"
+        },
+        "title": {
+          "one": "Vil du slette 1 abonnementstype?",
+          "other": "Vil du slette {count} abonnementstyper?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonnementstype slettet",
+          "other": "Abonnementstypene er slettet"
+        },
+        "failed": {
+          "one": "Abonnementstypen kan ikke slettes",
+          "other": "Abonnementstypene kan ikke slettes"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Opprettet",
+        "ascendingLabel": "Eldste først",
+        "descendingLabel": "Nyeste først"
+      },
+      "UPDATED_AT": {
+        "label": "Oppdatert",
+        "ascendingLabel": "Eldste først",
+        "descendingLabel": "Nyeste først"
+      }
+    }
+  }
+}

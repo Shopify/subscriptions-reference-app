@@ -1,0 +1,7 @@
+.PaymentIcon {
+  display: block;
+  height: 24px;
+  min-width: 38px;
+  border: var(--p-border-width-025) solid var(--p-color-border-secondary);
+  border-radius: var(--p-border-radius-100);
+}

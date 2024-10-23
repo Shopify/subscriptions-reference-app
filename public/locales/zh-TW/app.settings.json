@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "儲存",
+  "actions": {
+    "updateSuccess": "已更新設定"
+  },
+  "title": "設定",
+  "billingFailureSettings": {
+    "title": "計費嘗試",
+    "description": "控制嘗試失敗後再次嘗試計費的時間",
+    "paymentFailureTitle": "付款方式失敗",
+    "inventoryFailureTitle": "庫存不足",
+    "retryAttempts": {
+      "label": "重試次數",
+      "helpText": "最少 0 次，最多 10 次重試",
+      "errors": {
+        "min": "重試次數必須大於 0",
+        "max": "重試次數過多"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "付款重試的間隔天數",
+      "helpText": "最少 1 天，最多 14 天",
+      "errors": {
+        "min": "付款重試的間隔天數必須大於 1",
+        "max": "付款重試的間隔天數過多"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "庫存重試次數必須大於 0",
+        "max": "庫存重試次數過多"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "庫存重試的間隔天數必須大於 1",
+        "max": "庫存重試的間隔天數過多"
+      }
+    },
+    "onFailure": {
+      "label": "所有重試均失敗時的動作",
+      "options": {
+        "skip": "跳過訂閱並傳送通知",
+        "cancel": "取消訂閱並傳送通知",
+        "pause": "暫停訂閱並傳送通知"
+      }
+    },
+    "notifications": "編輯通知",
+    "staffNotificationFrequency": {
+      "label": "傳送通知給員工的頻率",
+      "options": {
+        "immediately": "每次計費失敗",
+        "weekly": "每週帳單摘要失敗",
+        "monthly": "每月帳單摘要失敗"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Compra única",
+      "subscription": "Assinatura"
+    }
+  },
+  "policy": {
+    "description": "Renovações automáticas, suspensões ou cancelamentos quando você quiser.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Veja a política de assinaturas</a>."
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Para adicionar ao carrinho, acesse a página do produto e selecione uma opção de compra"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "O widget de assinatura só será exibido para produtos com planos de assinatura vinculados."
+  },
+  "no_app_block_found_banner": {
+    "message": "Para editar a posição do widget de assinatura, adicione o snippet de código a seguir ao modelo do produto no local desejado.",
+    "copy_button_text": "Copiar",
+    "copied_button_text": "Copiado",
+    "button_text": "Ver editor de código"
+  }
+}

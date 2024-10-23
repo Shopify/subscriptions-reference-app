@@ -1,0 +1,68 @@
+{
+  "name": "Suscripciones",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "merchantCode": {
+    "label": "Descripción interna",
+    "helpText": "Solo para tu referencia"
+  },
+  "planName": {
+    "label": "Nombre",
+    "placeholder": "Suscribirse y ahorrar",
+    "helpText": "Los clientes lo verán en las páginas de producto de la tienda online que tengan suscripciones"
+  },
+  "discountAndDelivery": "Descuento y entrega",
+  "offerDiscount": "Ofrecer descuento",
+  "discountType": {
+    "percentageOff": "Porcentaje de descuento",
+    "amountOff": "Monto de descuento",
+    "fixedPrice": "Precio fijo"
+  },
+  "deliveryFrequency": "Frecuencia de entrega",
+  "deliveryInterval": {
+    "label": "Intervalo de entrega",
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "años",
+    "day": {
+      "singular": "Entrega cada día",
+      "plural": "Entrega cada {{count}} días"
+    },
+    "week": {
+      "singular": "Entrega cada semana",
+      "plural": "Entrega cada {{count}} semanas"
+    },
+    "month": {
+      "singular": "Entrega cada mes",
+      "plural": "Entrega cada {{count}} meses"
+    },
+    "year": {
+      "singular": "Entrega cada año",
+      "plural": "Entrega cada {{count}} años"
+    }
+  },
+  "addOptionButton": {
+    "label": "Opción",
+    "accessibilityLabel": "Agregar opción"
+  },
+  "removeOption": "Eliminar opción",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% de descuento",
+    "amountOff": "{{amount}} de descuento",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Plan de suscripción creado",
+    "update": "Plan de suscripción actualizado"
+  },
+  "validator": {
+    "nameEmptyError": "El título es obligatorio",
+    "merchantCodeEmptyError": "La descripción interna es obligatoria",
+    "deliveryFrequencyError": "La frecuencia de entrega es obligatoria",
+    "deliveryFrequencyMaxError": "La frecuencia de entrega debe ser inferior a 365 días",
+    "deliveryFrequencyFloatError": "La frecuencia de entrega debe ser un número entero",
+    "discountValueMinError": "El valor del descuento debe ser superior a 0",
+    "discountValueMaxError": "El valor del descuento es demasiado elevado",
+    "discountValueMaxPercentError": "El valor del descuento no puede ser superior a 100%"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Abonnementer",
+  "manageSubscription": "Administrer abonnement",
+  "upcomingOrder": "Kommende ordre",
+  "skip": "Spring over",
+  "showUpcomingOrders": "Vis kommende ordrer",
+  "nextOrder": "Næste ordre: {{date}}",
+  "lastUpdated": "Sidst opdateret den {{date}}",
+  "subscriptionDetails": "Abonnementsoplysninger",
+  "maxOrdersSkipped": "Det maksimale antal ordrer er blevet sprunget over",
+  "skipOrderOverYear": "Ordren kan ikke springes over, fordi den er mere end et år i fremtiden",
+  "paymentMethodInvalidBanner": "{{brand}}, der slutter på {{lastDigits}}, er ugyldigt. Opdater betalingsmetoden nedenfor for at kunne fortsætte med at modtage kommende ordrer",
+  "paymentMethodInvalidBannerGeneric": "Kortet, der slutter på {{lastDigits}}, er ugyldigt. Opdater betalingsmetoden nedenfor for at kunne fortsætte med at modtage kommende ordrer",
+  "paymentMethodInvalidBadge": "Ugyldig betalingsmetode",
+  "listItem": {
+    "multipleItemsName": "{{count}} varer",
+    "accessibilityLabel": "Administrer abonnement: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktiv",
+    "paused": "Midlertidigt afbrudt",
+    "cancelled": "Annulleret",
+    "expired": "Udløbet",
+    "failed": "Mislykket",
+    "stale": "Forældet"
+  },
+  "deliveryInterval": {
+    "day.one": "Levér hver dag",
+    "day.other": "Levér hver {{count}}. dag",
+    "week.one": "Levér hver uge",
+    "week.other": "Levér hver {{count}}. uge",
+    "month.one": "Levér hver måned",
+    "month.other": "Levér hver {{count}}. måned",
+    "year.one": "Levér hvert år",
+    "year.other": "Levér hvert {{count}}. år"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Leveringshyppighed",
+    "payment": "Betaling",
+    "billingAddress": "Faktureringsadresse",
+    "shippingAddress": "Leveringsadresse",
+    "shippingMethod": "Leveringsmetode",
+    "pickupLocation": "Afhentningslokation",
+    "changePaymentMethodButtonLabel": "Rediger betalingsmetode",
+    "editShippingAddressButtonLabel": "Rediger leveringsadresse",
+    "editPickupAddressButtonLabel": "Rediger afhentningsadresse",
+    "inventoryError": "Din næste ordre kan blive slettet, fordi produkter ikke er på lager"
+  },
+  "paymentModal": {
+    "title": "Erstat betalingsmetode",
+    "save": "Gem",
+    "paymentMethod": "Betalingsmetode",
+    "edit": "Rediger",
+    "close": "Luk",
+    "errorBannerTitle": "Betalingsmetoden kunne ikke opdateres"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Tidligere ordrer",
+    "view": "Se"
+  },
+  "skipNextOrder": {
+    "text": "Spring næste ordre over",
+    "generic": "Vil du springe næste ordre over?",
+    "date": "Vil du springe næste ordre over? Dit abonnement fortsætter d. {{date}}.",
+    "errorBannerTitle": "Næste ordre kunne ikke springes over",
+    "close": "Luk"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Sæt abonnement på pause",
+    "action": "Sæt abonnement på pause",
+    "close": "Luk",
+    "description": "Dit abonnement sættes straks på pause, og du modtager ikke yderligere debiteringer eller kommende ordrer. Du kan genoptage dette abonnement når som helst.",
+    "errorBannerTitle": "Abonnementet kunne ikke sættes på pause"
+  },
+  "subscriptionActions": {
+    "pause": "Sæt på pause",
+    "skip": "Spring næste ordre over",
+    "resume": "Genoptag",
+    "cancel": "Annuller",
+    "manage": "Administrer",
+    "viewSubscriptionDetails": "Se detaljer"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Når du genoptager abonnementet, fortsætter fakturering straks.",
+    "descriptionWithDate": "Hvis du genoptager dette abonnement, fortsætter faktureringen den {{date}}.",
+    "close": "Luk",
+    "descriptionPriceChanged": "Prisen på dette abonnement er blevet ændret, og du vil blive opkrævet {{price}} for hver kommende ordre.",
+    "continue": "Fortsæt",
+    "title": "Genoptag abonnement",
+    "errorBannerTitle": "Abonnementet kunne ikke genoptages"
+  },
+  "priceSummary": {
+    "subtotal": "Subtotal",
+    "shipping": "Levering",
+    "taxes": "Afgifter",
+    "total": "I alt",
+    "quantity": "{{quantity}}/stk."
+  },
+  "cancelSubscriptionModal": {
+    "title": "Opsig abonnement",
+    "description": "Hvis du annullerer dit abonnement, slutter fakturering og levering straks. Annullering af abonnement kan ikke fortrydes. Hvis du vil stoppe med at modtage ordrer midlertidigt, kan du sætte dit abonnement på pause.",
+    "action": "Opsig abonnement",
+    "close": "Luk",
+    "errorBannerTitle": "Abonnementet kunne ikke annulleres"
+  },
+  "errorBoundary": {
+    "content": "Der gik noget galt. Opdater siden."
+  },
+  "addressModal": {
+    "save": "Gem",
+    "continue": "Fortsæt",
+    "cancel": "Annuller",
+    "title": "Rediger leveringsadresse",
+    "errorBannerTitle": "Leveringsmetoden kunne ikke opdateres",
+    "noDeliveryOptions": "Dette abonnement kan ikke afsendes til den angivne adresse. Tjek din adresse for at sikre, at alle felter er udfyldt korrekt, og prøv igen."
+  },
+  "successBanner": {
+    "paused": "Abonnementet blev sat på pause",
+    "resumed": "Abonnementet blev genoptaget",
+    "cancelled": "Abonnementet er opsagt",
+    "skipped": "Næste ordre er sprunget over",
+    "paymentUpdated": "Betalingsmetoden er opdateret",
+    "shippingUpdated": "Leveringsmetoden er opdateret",
+    "deliveryUpdated": "Leveringsmetoden er opdateret"
+  },
+  "upcomingOrdersModal": {
+    "title": "Kommende ordrer",
+    "close": "Luk",
+    "skipOrder": "Spring over",
+    "skipOrderAccessibilityLabel": "Spring over ordren fra den {{orderDate}}",
+    "unSkipOrder": "Annuller at springe over ordre",
+    "unskipOrderAccessibilityLabel": "Annuller at springe over ordren fra den {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (sprunget over)",
+    "skippedSuccessMessage": "Ordren fra den {{orderDate}} blev sprunget over",
+    "unskippedSuccessMessage": "Ordren fra den {{orderDate}} blev ikke sprunget over",
+    "skippedErrorMessage": "Der opstod en fejl, da ordren skulle springes over",
+    "unskippedErrorMessage": "Der opstod en fejl under annulleringen af, at ordren skulle springes over"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Vælg leveringsmetode",
+    "free": "Gratis",
+    "localPickupOption": "Afhentningssted: {{location}}",
+    "localDeliveryPhoneLabel": "Mobilnummer",
+    "localDeliveryInstructionsLabel": "Leveringsinstruktioner (valgfrit)",
+    "localDeliveryPhoneDetails": "Du kan blive kontaktet med opdateringer om din levering.",
+    "localDeliveryInstructionsDetails": "Angiv nødvendige oplysninger, såsom dørkoder eller instruktioner vedrørende afleveringen."
+  },
+  "notFound": {
+    "title": "Abonnementet blev ikke fundet",
+    "description": "Dette abonnement findes ikke, eller du har ikke tilladelse til at se det."
+  },
+  "emptyState": {
+    "title": "Der er ikke købt nogen abonnementer",
+    "description": "Gå til butikken for at købe abonnementer"
+  }
+}

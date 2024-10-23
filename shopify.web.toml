@@ -1,0 +1,7 @@
+name = "remix"
+roles = ["frontend", "backend"]
+webhooks_path = "/webhooks"
+
+[commands]
+predev = "pnpm dotenv -c development pnpm run setup"
+dev = "pnpm remix vite:dev"

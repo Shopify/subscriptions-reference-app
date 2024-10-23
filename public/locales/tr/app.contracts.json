@@ -1,0 +1,332 @@
+{
+  "page": {
+    "title": "Abonelik sözleşmeleri"
+  },
+  "emptyState": {
+    "title": "Abonelik sözleşmelerinizi yönetin",
+    "description": "Bir müşteri mağazanızdan abonelik satın aldığında sözleşme burada görünür."
+  },
+  "table": {
+    "headings": {
+      "contract": "Sözleşme",
+      "customer": "Müşteri",
+      "product": "Ürün",
+      "price": "Fiyat",
+      "deliveryFrequency": "Teslimat Sıklığı",
+      "status": "Durum",
+      "warning": "Uyarı"
+    },
+    "resourceName": {
+      "singular": "Sözleşme",
+      "plural": "Sözleşmeler",
+      "warningToolTipContent": "Ürün stokta olmadığından faturalandırma girişimi başarısız oldu."
+    },
+    "tabs": {
+      "all": "Tümü",
+      "active": "Etkin",
+      "paused": "Duraklatıldı",
+      "cancelled": "İptal edildi"
+    },
+    "emptyState": {
+      "title": "Bu duruma sahip sözleşme bulunmuyor",
+      "description": "{status} abonelik sözleşmeleri burada görüntülenir"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Satın alınanlar",
+      "sortByUpdatedDateLabel": "Güncellenenler",
+      "newestFirstDirectionLabel": "Yeniden eskiye",
+      "oldestFirstDirectionLabel": "Eskiden yeniye"
+    },
+    "pauseBulkActionModal": {
+      "content": "Faturalandırma ve gelecek siparişler duraklatılacak. Duraklatılan sözleşmeler herhangi bir zamanda sürdürülebilir.",
+      "cancel": "İptal",
+      "title": {
+        "one": "{count} sözleşme duraklatıldı olarak ayarlansın mı?",
+        "other": "{count} sözleşme duraklatıldı olarak ayarlansın mı?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonelik sözleşmesi duraklatılıyor...",
+        "other": "Abonelik sözleşmeleri duraklatılıyor..."
+      },
+      "errorToast": {
+        "one": "Sözleşme duraklatılamadı",
+        "other": "Sözleşmeler duraklatılamadı"
+      },
+      "action": "Duraklatıldı olarak ayarla"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Sözleşmeyi duraklat",
+        "other": "Sözleşmeleri duraklat"
+      },
+      "activate": {
+        "one": "Sözleşmeyi sürdür",
+        "other": "Sözleşmeleri sürdür"
+      },
+      "cancel": {
+        "one": "Sözleşmeyi iptal et",
+        "other": "Sözleşmeleri iptal et"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "Faturalandırma ve gelecek siparişler sürdürülecek. Etkin sözleşmeler normal şekilde faturalandırılacak.",
+      "cancel": "İptal et",
+      "title": {
+        "one": "{count} sözleşme sürdürülsün mü?",
+        "other": "{count} sözleşme sürdürülsün mü?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonelik sözleşmesi sürdürülüyor...",
+        "other": "Abonelik sözleşmeleri sürdürülüyor..."
+      },
+      "errorToast": {
+        "one": "Sözleşme sürdürülemedi",
+        "other": "Sözleşmeler sürdürülemedi"
+      },
+      "action": {
+        "one": "Sözleşmeyi sürdür",
+        "other": "Sözleşmeleri sürdür"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "Faturalandırma ve gelecek siparişler hemen durdurulacak. İptal edilen sözleşmeler sürdürülemez.",
+      "action": "İptal edildi olarak ayarla",
+      "cancel": "İptal et",
+      "title": {
+        "one": "{count} sözleşme iptal edildi olarak ayarlansın mı?",
+        "other": "{count} sözleşme iptal edildi olarak ayarlansın mı?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonelik sözleşmesi iptal ediliyor...",
+        "other": "Abonelik sözleşmeleri iptal ediliyor..."
+      },
+      "errorToast": {
+        "one": "Sözleşme iptal edilemiyor",
+        "other": "Sözleşmeler iptal edilemiyor"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "Toplu işlem gerçekleştirilemedi",
+        "other": "Toplu işlem gerçekleştirilemedi"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Duraklat",
+      "accessibilityLabel": "Sözleşmeyi duraklat",
+      "success": "Sözleşme başarıyla duraklatıldı",
+      "error": "Sözleşme duraklatılamadı"
+    },
+    "cancel": {
+      "title": "Aboneliği iptal edin",
+      "accessibilityLabel": "Aboneliği iptal et",
+      "success": "Sözleşme başarıyla iptal edildi",
+      "error": "Sözleşme iptal edilemiyor",
+      "modalTitle": "Aboneliği iptal et",
+      "modalCancel": "Sözleşmeyi tut",
+      "modalContent": "Faturalandırma ve gelecek siparişler hemen durdurulacak. İptal edilen sözleşmeler sürdürülemez."
+    },
+    "resume": {
+      "title": "Sürdür",
+      "accessibilityLabel": "Sözleşmeyi sürdür",
+      "success": "Sözleşme başarıyla sürdürüldü",
+      "error": "Sözleşme sürdürülemedi"
+    },
+    "billContract": {
+      "title": "Sözleşmeyi faturalandırın",
+      "accessibilityLabel": "Sözleşmeyi faturalandırın",
+      "success": "Faturalandırma girişimi başladı",
+      "error": "Sözleşme faturalandırılamadı"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Yaklaşan siparişler",
+    "subscription": "Abonelik ayrıntıları",
+    "price": "Fiyat",
+    "purchaseDate": "Satın alınma tarihi",
+    "quantity": "Adet",
+    "orderNumber": "{number} siparişi",
+    "edit": "Düzenle",
+    "nextOrders": {
+      "title": "Sonraki siparişler",
+      "skip": "Atla",
+      "skipped": "Atlandı",
+      "resume": "Sürdür",
+      "showMore": "Diğer {number} öğeyi göster",
+      "skipError": "Sipariş atlanamıyor/sürdürülemiyor",
+      "skipSuccess": "Sipariş başarıyla atlandı",
+      "showMoreNoCount": "Daha fazla göster",
+      "resumeSuccess": "Sipariş başarıyla sürdürüldü"
+    },
+    "paymentMethods": {
+      "title": "Ödeme yöntemleri"
+    },
+    "customer": {
+      "title": "Müşteri"
+    },
+    "discount": "İndirim",
+    "discountValue": {
+      "multipleDiscounts": "Birden fazla indirim",
+      "percentageOff": "%{{value}} indirim",
+      "amountOff": "{{value}} indirim",
+      "fixedPrice": "{{value}} sabit fiyat"
+    },
+    "delivery": "Teslimat",
+    "pastOrders": "Geçmiş siparişler",
+    "viewOrder": "Görüntüle",
+    "localPickup": "{{value}}, mağazadan teslim alım",
+    "orderNotCreated": "Sipariş oluşturulamadı"
+  },
+  "paymentMethodDetails": {
+    "title": "Ödeme yöntemi",
+    "expires": "Son kullanma tarihi: {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Kartın güncellenmesi için bağlantı gönderin",
+      "managePayment": "Ödemeyi müşteri sayfasında yönetin"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Kartın güncellenmesi için bağlantı gönderin",
+      "descriptionCreditCard": "{lastDigits} ile biten kartını güncellemesi için {customerName} adlı müşteriye bir bağlantı gönderin",
+      "descriptionOther": "Ödeme yöntemini güncellemesi için {customerName} adlı müşteriye bağlantı gönderin.",
+      "fromField": "Kimden:",
+      "toField": "Kime:",
+      "subjectField": "Konu:",
+      "subjectMessage": "{shopName} için ödeme bilgilerinizi güncelleyin",
+      "errorMessage": "Müşteri ödeme yöntemini güncelleme e-postası gönderilemiyor",
+      "successMessage": "E-posta gönderildi",
+      "actions": {
+        "sendEmail": "E-posta gönder",
+        "cancel": "İptal et"
+      }
+    },
+    "revoked": "Ödeme yöntemi müşteri tarafından {revokedAt} tarihinde kaldırıldı"
+  },
+  "customerDetails": {
+    "title": "Müşteri",
+    "contactInformation": "İletişim bilgileri",
+    "shippingAddress": "Kargo adresi",
+    "actions": {
+      "selectAddress": "Farklı bir adres seçin",
+      "manageAddress": "Adresleri müşteri sayfasında yönetin"
+    },
+    "addressModal": {
+      "title": "Farklı bir adres seçin",
+      "actions": {
+        "cancel": "İptal",
+        "update": "Güncelle"
+      }
+    }
+  },
+  "edit": {
+    "title": "Aboneliği düzenleme",
+    "details": {
+      "title": "Abonelik ayrıntıları",
+      "searchProducts": "Ürünleri ara",
+      "browse": "Göz at",
+      "removeLine": "Abonelik bileşenini kaldır",
+      "oneTimePurchasePrice": "Tek seferlik satın alım fiyatı: {price}",
+      "quantity": "Adet",
+      "deliveryFrequency": {
+        "title": "Teslimat sıklığı",
+        "warning": "Teslimat sıklığı güncellendiğinde, faturalandırma sıklığı da otomatik olarak güncellenir.",
+        "interval": "Aralık",
+        "intervalCount": "Aralık sayısı"
+      },
+      "deliveryInterval": {
+        "weeks": "hafta",
+        "months": "ay",
+        "years": "yıl"
+      },
+      "paymentSummary": "Ödeme Özeti",
+      "subtotal": "Alt toplam",
+      "shipping": "Kargo",
+      "tax": "Vergi",
+      "total": "Toplam",
+      "oneTimePurchasePriceChanged": "Tek seferlik satın alım fiyatı değişti",
+      "outOfStock": "Stokta birim yok"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Abonelik sözleşmesi taslağı oluşturulamadı"
+      },
+      "updateDraft": {
+        "error": "Abonelik sözleşmesi taslağı güncellenemedi",
+        "quantityTooLargeError": "Adet çok büyük",
+        "deliveryFrequencyTooLargeError": "Teslimat sıklık değeri çok büyük",
+        "deliveryFrequencyIntegerError": "Teslimat sıklık değeri bir tam sayı olmalıdır"
+      },
+      "updateContract": {
+        "error": "Abonelik sözleşmesi güncellenemedi",
+        "success": "Sözleşme güncellendi"
+      },
+      "selectProducts": {
+        "lineCountError": "Abonelik sözleşmelerinde en az 1 satır öğesi bulunmalıdır"
+      },
+      "updateAddress": {
+        "error": "Adres güncellenemiyor",
+        "success": "Adres güncellendi"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "{{title}} öğesinin tek seferlik satın alım fiyatı değişerek {{newPrice}} oldu",
+      "updateSubscriptionPrice": "{{title}} öğesinin abonelik ücretini güncelleyin",
+      "title": "Fiyatı düzenleyin",
+      "subscriptionPriceLabel": "Abonelik fiyatı",
+      "discountLabel": "Yeni {{lineTitle}} fiyatına {{discountAmount}} abonelik indirimi uygulandı",
+      "amountTooLargeError": "Tutar çok büyük",
+      "amountNegativeError": "Tutar 0 değerinden büyük veya bu değere eşit olmalıdır.",
+      "actions": {
+        "update": "Güncelle",
+        "cancel": "İptal"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "{date} tarihli sipariş oluşturulamadı",
+      "inProgressTitle": "Faturalandırma girişimi devam ediyor. Faturalandırma girişimi tamamlandıktan sonra sayfa yenilenecek.",
+      "description": "Son faturalandırma girişimi esnasında yeterince envanter mevcut değildi. Stok yoldaysa ve ek yeniden deneme girişimlerini atlamak istiyorsanız siparişi hemen oluşturun ve fazla envanter satışı yapın. Daha uzun süreli gecikmeler için duraklatma, atlama veya iptal etme seçeneklerini tercih edebilirsiniz.",
+      "button": "Hemen sipariş oluşturun"
+    },
+    "modal": {
+      "title": "Sipariş oluşturmaya devam etmek istiyor musunuz?",
+      "inventoryWarning": "Yalnızca stokun yolda olduğundan eminseniz fazla envanter satışı yapın",
+      "actions": {
+        "ignoreAndCreate": "Hemen sipariş oluşturun",
+        "cancel": "İptal Et"
+      },
+      "outOfStock": {
+        "one": "Şu ürün stokta mevcut değil ve bu sipariş için fazladan satılacak:",
+        "other": "Şu ürünler stokta mevcut değil ve bu sipariş için fazladan satılacak:"
+      }
+    }
+  }
+}

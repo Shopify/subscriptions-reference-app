@@ -1,0 +1,106 @@
+{
+  "backButtonLabel": "Torna ai piani di abbonamento",
+  "planTitle": "Titolo del piano",
+  "planTitleHelpText": "Questa informazione non verrà mostrata ai clienti.",
+  "purchaseOptionTitle": "Titolo dell'opzione di acquisto",
+  "purchaseOptionTitleHelpText": "I clienti lo visualizzeranno sulle {{howToDisplayProductsLink}} che contengono abbonamenti.",
+  "defaultPurchaseOptionTitle": "Abbonati e risparmia",
+  "saveButtonText": "Salva",
+  "create": {
+    "pageTitle": "Crea piano di abbonamento"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Il prodotto selezionato non è valido",
+    "invalidVariant": "La variante di prodotto selezionata non è valida",
+    "merchantCodeEmptyError": "Il titolo del piano è obbligatorio",
+    "nameEmptyError": "Titolo dell'opzione di acquisto obbligatorio",
+    "createError": "Errore durante la creazione del piano di abbonamento",
+    "updateError": "Errore durante l'aggiornamento del piano di abbonamento",
+    "deliveryFrequencyError": "La frequenza deve essere superiore a 0",
+    "deliveryFrequencyMaxError": "La frequenza è troppo grande",
+    "deliveryFrequencyFloatError": "La frequenza di consegna deve essere un numero intero",
+    "discountValueMinError": "Il valore sconto deve essere positivo",
+    "discountValueMaxError": "Il valore sconto è troppo grande",
+    "discountValueMaxPercentError": "Il valore dello sconto non deve essere superiore al 100%",
+    "updateSuccess": "Piano di abbonamento aggiornato",
+    "duplicateDeliveryFrequencyError": "Le opzioni di consegna devono essere univoche",
+    "missingSellingPlanGroup": "Piano di abbonamento non trovato",
+    "createSuccess": "Piano di abbonamento creato"
+  },
+  "productCard": {
+    "title": "Prodotti",
+    "browse": "Sfoglia",
+    "searchProducts": "Cerca prodotti",
+    "variantsSelected": "({count} di {total} varianti selezionate)",
+    "updateError": "Errore durante l'aggiornamento del piano di abbonamento",
+    "maxProductsWarning": "È possibile aggiungere solo {{count}} articoli alla volta. Se hai più di {{count}} articoli, puoi aggiungerli dopo aver salvato questo piano."
+  },
+  "discountDeliveryCard": {
+    "title": "Sconto e consegna",
+    "offerDiscount": "Offri uno sconto",
+    "discountType": {
+      "percentageOff": "Percentuale di sconto",
+      "amountOff": "Importo dello sconto",
+      "fixedPrice": "Prezzo fisso"
+    },
+    "deliveryFrequency": "Frequenza di consegna",
+    "deliveryInterval": {
+      "label": "Intervallo di consegna",
+      "weeks": "settimane",
+      "months": "mesi",
+      "years": "anni"
+    },
+    "addOption": "Aggiungi opzione",
+    "removeOption": "Rimuovi opzione",
+    "discountValueFixedPriceHelpText": "Questo sarà il prezzo che i clienti visualizzeranno"
+  },
+  "deleteButtonText": "Elimina",
+  "deleteSellingPlanGroupModal": {
+    "title": "Eliminare piano di abbonamento?",
+    "content": "L’azione non può essere annullata. Eventuali contratti associati non saranno interessati.",
+    "deleteButton": "Elimina piano",
+    "cancelButton": "Annulla",
+    "deleteError": "Errore durante l'eliminazione del piano di abbonamento"
+  },
+  "summaryCard": {
+    "cardTitle": "Riepilogo",
+    "noPlanTitleYet": "Nessun titolo",
+    "weeklyDelivery": {
+      "one": "Consegna ogni settimana",
+      "other": "Consegna ogni {intervalCount} settimane",
+      "many": "Consegna ogni {intervalCount} settimane"
+    },
+    "monthlyDelivery": {
+      "one": "Consegna ogni mese",
+      "other": "Consegna ogni {intervalCount} mesi",
+      "many": "Consegna ogni {intervalCount} mesi"
+    },
+    "yearlyDelivery": {
+      "one": "Consegna ogni anno",
+      "other": "Consegna ogni {intervalCount} anni",
+      "many": "Consegna ogni {intervalCount} anni"
+    },
+    "percentageOff": "{amount}% di sconto",
+    "amountOff": "{amount} di sconto",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} frequenze di consegna",
+    "countProducts": {
+      "one": "{count} prodotto",
+      "other": "{count} prodotti",
+      "many": "{count} prodotti"
+    },
+    "countVariants": {
+      "one": "{count} variante di prodotto",
+      "other": "{count} varianti di prodotto",
+      "many": "{count} varianti di prodotto"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "pagine dei prodotti della vetrina virtuale",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Frequenza di consegna"
+    }
+  }
+}

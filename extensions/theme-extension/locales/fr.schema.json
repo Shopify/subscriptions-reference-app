@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Politique d’abonnement",
+    "subscription_policy_url": "Lien vers la politique d’abonnement",
+    "subscription_policy_url_info": "Sélectionnez une page existante ou collez un lien externe pour afficher la politique d’abonnement.",
+    "description": "Le widget d’abonnement s’affiche uniquement sur les produits auxquels un forfait est associé. [En savoir plus sur les paramètres de thème pour les abonnements](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Les paramètres ci–dessus affichent les options pour le produit sélectionné. Le produit sélectionné dispose d'un forfait. ",
+    "colors_title": "Couleur",
+    "title": "Widget d’abonnement",
+    "product_title": "Produit",
+    "border_title": "Bordure",
+    "border_thickness": "Épaisseur",
+    "border_radius": "Rayon de coin",
+    "colors_text_title": "Titre",
+    "colors_text_body": "Corps",
+    "colors_background_border_title": "Arrière-plans et bordures",
+    "colors_background": "Arrière‑plan",
+    "colors_dividers": "Séparateurs",
+    "supporting_text_title": "Texte d’appui",
+    "supporting_text_subtitle": "Titre",
+    "supporting_text_input_default": "Options d’achat"
+  }
+}

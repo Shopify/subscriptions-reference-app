@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "plans": "Forfaits",
+    "contracts": "Contrats",
+    "settings": "Paramètres"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} fréquences de livraison",
+    "day": {
+      "one": "Tous les jours",
+      "other": "Tous les {count} jours",
+      "many": "Tous les {count} jours"
+    },
+    "week": {
+      "one": "Chaque semaine",
+      "other": "Toutes les {count} semaines",
+      "many": "Toutes les {count} semaines"
+    },
+    "month": {
+      "one": "Chaque mois",
+      "other": "Tous les {count} mois",
+      "many": "Tous les {count} mois"
+    },
+    "year": {
+      "one": "Chaque année",
+      "other": "Tous les {count} ans",
+      "many": "Tous les {count} ans"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Fréquences de livraison multiples"
+  },
+  "productAndVariants": {
+    "noProduct": "Aucune",
+    "productsCount": {
+      "one": "{count} produit",
+      "other": "{count} produits",
+      "many": "{count} produits"
+    },
+    "noVariant": "Aucune variante",
+    "variantsCount": {
+      "one": "{count} variante",
+      "other": "{count} variantes",
+      "many": "{count} variantes"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Aucune réduction",
+    "amountOff": "Réduction de {amount}",
+    "percentageOff": "{amount} % de réduction",
+    "multipleDiscounts": "Réductions multiples",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Actif",
+    "paused": "Suspendu",
+    "cancelled": "Annulé",
+    "expired": "Expiré",
+    "failed": "Échec",
+    "stale": "Périmé"
+  },
+  "actions": {
+    "saveButtonText": "Enregistrer",
+    "edit": "Modifier"
+  },
+  "footer": {
+    "learnMore": "En savoir plus sur {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "abonnements",
+    "contracts": "contrats d’abonnement"
+  },
+  "errorBoundary": {
+    "title": "Abonnements",
+    "header": "Impossible de charger la page",
+    "description": "Rechargez la page ou réessayez ultérieurement. Pour les problèmes récurrents, contactez {statusPageLink}.",
+    "statusPageLinkText": "l’Assistance Shopify",
+    "reloadAction": "Recharger la page"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Opération en bloc terminée"
+  },
+  "missingScopes": {
+    "title": "Champs d’application approuvés par Shopify manquants",
+    "description": "Avant de pouvoir exécuter l’application de référence Subscriptions, vous devez demander à Shopify l’autorisation d’utiliser ces champs d’application de l’API :",
+    "link": "Consultez la documentation pour en savoir plus sur {{link}} pour cette application.",
+    "linkText": "Champs d’application approuvés par Shopify"
+  }
+}

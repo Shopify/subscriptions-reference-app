@@ -1,0 +1,87 @@
+{
+  "page": {
+    "title": "Plány předplatného",
+    "createPlan": "Plán",
+    "accessibilityLabel": "Vytvořte plán předplatného"
+  },
+  "emptyState": {
+    "title": "Získejte více vracejících se zakázek",
+    "description": "Umožněte zákazníkům kupovat produkty nebo služby opakovaně.",
+    "action": "Plán předplatného"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Název plánu",
+      "products": "Produkty",
+      "deliveryFrequency": "Četnost doručování",
+      "discount": "Ceny",
+      "view": "Vše"
+    },
+    "resourceName": {
+      "singular": "Předplatné",
+      "plural": "Předplatné"
+    },
+    "resources": {
+      "allSelected": "Vše"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Odstranit plán",
+        "other": "Odstranit plány",
+        "few": "Odstranit plány",
+        "many": "Odstranit plány"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Tato akce je nevratná. Jakékoli související smlouvy nebudou dotčeny.",
+          "other": "Tato akce je nevratná. Jakékoli související smlouvy nebudou dotčeny.",
+          "few": "Tato akce je nevratná. Jakékoli související smlouvy nebudou dotčeny.",
+          "many": "Tato akce je nevratná. Jakékoli související smlouvy nebudou dotčeny."
+        },
+        "actions": {
+          "delete": {
+            "one": "Odstranit plán",
+            "other": "Odstranit plány",
+            "few": "Odstranit plány",
+            "many": "Odstranit plány"
+          },
+          "cancel": "Zrušit"
+        },
+        "title": {
+          "one": "Chcete smazat 1 plán předplatného?",
+          "other": "Chcete smazat plány předplatného (celkem {count})?",
+          "few": "Chcete smazat plány předplatného (celkem {count})?",
+          "many": "Chcete smazat plány předplatného (celkem {count})?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Byl odstraněn plán předplatného",
+          "other": "Byly odstraněny plány předplatného",
+          "few": "Byly odstraněny plány předplatného",
+          "many": "Byly odstraněny plány předplatného"
+        },
+        "failed": {
+          "one": "Plán předplatného se nepovedlo odstranit.",
+          "other": "Plány předplatných se nepovedlo odstranit.",
+          "few": "Plány předplatných se nepovedlo odstranit.",
+          "many": "Plány předplatných se nepovedlo odstranit."
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Vytvořeno",
+        "ascendingLabel": "Od nejstarších",
+        "descendingLabel": "Od nejnovějších"
+      },
+      "UPDATED_AT": {
+        "label": "Aktualizováno",
+        "ascendingLabel": "Od nejstarších",
+        "descendingLabel": "Od nejnovějších"
+      }
+    }
+  }
+}

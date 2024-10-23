@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "หน้าแรก",
+    "plans": "แผน",
+    "contracts": "สัญญา",
+    "settings": "การตั้งค่า"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "ความถี่ในการจัดส่ง {count} รูปแบบ",
+    "day": {
+      "one": "ทุกวัน",
+      "other": "ทุกๆ {count} วัน"
+    },
+    "week": {
+      "one": "ทุกสัปดาห์",
+      "other": "ทุกๆ {count} สัปดาห์"
+    },
+    "month": {
+      "one": "ทุกเดือน",
+      "other": "ทุกๆ {count} เดือน"
+    },
+    "year": {
+      "one": "ทุกปี",
+      "other": "ทุกๆ {count} ปี"
+    },
+    "multipleDeliveryFrequenciesNoCount": "ความถี่ในการจัดส่งหลายรายการ"
+  },
+  "productAndVariants": {
+    "noProduct": "ไม่มี",
+    "productsCount": {
+      "one": "สินค้า {count} รายการ",
+      "other": "สินค้า {count} รายการ"
+    },
+    "noVariant": "ไม่มีตัวเลือกสินค้า",
+    "variantsCount": {
+      "one": "ตัวเลือกสินค้า {count} รายการ",
+      "other": "ตัวเลือกสินค้า {count} รายการ"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "ไม่มีส่วนลด",
+    "amountOff": "ลด {amount}",
+    "percentageOff": "ลด {amount}%",
+    "multipleDiscounts": "ส่วนลดหลายรายการ",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "กำลังใช้งานอยู่",
+    "paused": "หยุดชั่วคราว",
+    "cancelled": "ยกเลิกแล้ว",
+    "expired": "หมดอายุแล้ว",
+    "failed": "ไม่สำเร็จ",
+    "stale": "ไม่เป็นปัจจุบัน"
+  },
+  "actions": {
+    "saveButtonText": "บันทึก",
+    "edit": "แก้ไข"
+  },
+  "footer": {
+    "learnMore": "ดูข้อมูลเพิ่มเติมเกี่ยวกับ{topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "แผนการสมัครใช้งาน",
+    "contracts": "สัญญาการสมัครใช้งาน"
+  },
+  "errorBoundary": {
+    "title": "การสมัครใช้งาน",
+    "header": "ไม่สามารถโหลดหน้าได้",
+    "description": "โหลดหน้านี้ใหม่หรือลองอีกครั้งในภายหลัง สำหรับปัญหาที่กำลังดำเนินอยู่ โปรดติดต่อ {statusPageLink}",
+    "statusPageLinkText": "ฝ่ายช่วยเหลือของ Shopify",
+    "reloadAction": "โหลดหน้านี้อีกครั้ง"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "การดำเนินการหลายรายการในครั้งเดียวเสร็จสิ้นแล้ว"
+  },
+  "missingScopes": {
+    "title": "ขอบเขตการอนุมัติของ Shopify ขาดหาย",
+    "description": "ก่อนที่จะเปิดใช้งานแอปการอ้างอิงการสมัครใช้งาน คุณจะต้องขอการอนุมัติจาก Shopify เพื่อใช้ขอบเขต API ดังต่อไปนี้",
+    "link": "ดูเอกสารประกอบเพื่อดูข้อมูลเพิ่มเติมเกี่ยวกับ{{link}} สำหรับแอปนี้",
+    "linkText": "ขอบเขตการอนุมัติของ Shopify"
+  }
+}

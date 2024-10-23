@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Subscription plans",
+    "createPlan" : "Plan",
+    "accessibilityLabel": "Create subscription plan"
+  },
+  "emptyState": {
+    "title": "Get more repeat business",
+    "description": "Allow customers to purchase products or services on a recurring basis",
+    "action": "Subscription plan"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Plan title",
+      "products": "Products",
+      "deliveryFrequency": "Delivery frequency",
+      "discount": "Pricing",
+      "view": "All"
+    },
+    "resourceName": {
+      "singular": "Subscription",
+      "plural": "Subscription"
+    },
+    "resources": {
+      "allSelected": "All"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Delete plan",
+        "other": "Delete plans"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "title": {
+          "one": "Delete 1 subscription plan?",
+          "other": "Delete {count} subscription plans?"
+        },
+        "description": {
+          "one" : "This can't be undone. Any associated contracts won't be affected.",
+          "other" : "This can't be undone. Any associated contracts won't be affected."
+        },
+        "actions": {
+          "delete": {
+            "one": "Delete plan",
+            "other": "Delete plans"
+          },
+          "cancel": "Cancel"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Subscription plan deleted",
+          "other": "Subscription plans deleted"
+        },
+        "failed": {
+          "one": "Failed to delete subscription plan",
+          "other": "Failed to delete subscription plans"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Created",
+        "ascendingLabel": "Oldest first",
+        "descendingLabel": "Newest first"
+      },
+      "UPDATED_AT": {
+        "label": "Updated",
+        "ascendingLabel": "Oldest first",
+        "descendingLabel": "Newest first"
+      }
+    }
+  }
+}

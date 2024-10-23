@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Gem",
+  "actions": {
+    "updateSuccess": "Indstillingerne er opdateret"
+  },
+  "title": "Indstillinger",
+  "billingFailureSettings": {
+    "title": "Faktureringsforsøg",
+    "description": "Kontrol, når der sker nye faktureringsforsøg efter et mislykket forsøg",
+    "paymentFailureTitle": "Betalingsmetoden mislykkedes",
+    "inventoryFailureTitle": "Utilstrækkelig lagerbeholdning",
+    "retryAttempts": {
+      "label": "Antal forsøg",
+      "helpText": "Mindst 0, højst 10 nye forsøg",
+      "errors": {
+        "min": "Antallet af nye forsøg skal være større end 0",
+        "max": "Antallet af nye forsøg er for højt"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Antallet af dage mellem nye forsøg på betaling",
+      "helpText": "Mindst 1, højst 14 dage",
+      "errors": {
+        "min": "Antallet af dage mellem nye forsøg på betaling skal være mere end 1",
+        "max": "Antallet af dage mellem nye forsøg på betaling er for mange"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Antallet af nye forsøg for lagerbeholdning skal være større end 0",
+        "max": "Antallet af nye forsøg for lagerbeholdning er for højt"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Antallet af dage mellem nye forsøg for lagerbeholdning skal være mere end 1",
+        "max": "Antallet af dage mellem nye forsøg for lagerbeholdning er for mange"
+      }
+    },
+    "onFailure": {
+      "label": "Handling, når alle nye forsøg er mislykkedes",
+      "options": {
+        "skip": "Spring abonnement over, og send meddelelse",
+        "cancel": "Opsig abonnement, og send meddelelse",
+        "pause": "Sæt abonnement på pause, og send meddelelse"
+      }
+    },
+    "notifications": "Rediger meddelelse",
+    "staffNotificationFrequency": {
+      "label": "Hyppighed for meddelelser til medarbejdere",
+      "options": {
+        "immediately": "Hver gang en fakturering mislykkes",
+        "weekly": "Ugentlig oversigt over mislykkede faktureringer",
+        "monthly": "Månedlig oversigt over mislykkede faktureringer"
+      }
+    }
+  }
+}

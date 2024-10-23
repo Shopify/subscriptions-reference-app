@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "主页",
+    "plans": "套餐",
+    "contracts": "合同",
+    "settings": "设置"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} 种配送频率",
+    "day": {
+      "one": "每天",
+      "other": "每 {count} 天"
+    },
+    "week": {
+      "one": "每周",
+      "other": "每 {count} 周"
+    },
+    "month": {
+      "one": "每月",
+      "other": "每 {count} 月"
+    },
+    "year": {
+      "one": "每年",
+      "other": "每 {count} 年"
+    },
+    "multipleDeliveryFrequenciesNoCount": "多个配送频率"
+  },
+  "productAndVariants": {
+    "noProduct": "无",
+    "productsCount": {
+      "one": "{count} 件产品",
+      "other": "{count} 件产品"
+    },
+    "noVariant": "无多属性",
+    "variantsCount": {
+      "one": "{count} 个多属性",
+      "other": "{count} 个多属性"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "无折扣",
+    "amountOff": "{amount} 折扣",
+    "percentageOff": "{amount}% 折扣",
+    "multipleDiscounts": "多个折扣",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "活跃",
+    "paused": "已暂停",
+    "cancelled": "已取消",
+    "expired": "已过期",
+    "failed": "失败",
+    "stale": "过时"
+  },
+  "actions": {
+    "saveButtonText": "保存",
+    "edit": "编辑"
+  },
+  "footer": {
+    "learnMore": "详细了解{topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "订阅套餐",
+    "contracts": "订阅合同"
+  },
+  "errorBoundary": {
+    "title": "订阅",
+    "header": "无法加载页面",
+    "description": "重新加载此页面或稍后重试。对于持续出现的问题，请联系 {statusPageLink}。",
+    "statusPageLinkText": "Shopify 支持团队",
+    "reloadAction": "重新加载页面"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "已完成批量操作"
+  },
+  "missingScopes": {
+    "title": "缺少 Shopify 批准的范围",
+    "description": "您需要先请求 Shopify 的批准来使用这些 API 范围，然后再运行 Subscriptions 参考应用：",
+    "link": "请参阅文档以详细了解此应用的 {{link}}。",
+    "linkText": "Shopify 批准的范围"
+  }
+}

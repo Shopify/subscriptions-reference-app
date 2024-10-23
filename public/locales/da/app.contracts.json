@@ -1,0 +1,332 @@
+{
+  "page": {
+    "title": "Abonnementskontrakter"
+  },
+  "emptyState": {
+    "title": "Administrer dine abonnementskontrakter",
+    "description": "Når en kunde køber et abonnement fra din butik, vises kontrakten her."
+  },
+  "table": {
+    "headings": {
+      "contract": "Kontrakt",
+      "customer": "Kunde",
+      "product": "Produkt",
+      "price": "Pris",
+      "deliveryFrequency": "Leveringshyppighed",
+      "status": "Status",
+      "warning": "Advarsel"
+    },
+    "resourceName": {
+      "singular": "Kontrakt",
+      "plural": "Kontrakter",
+      "warningToolTipContent": "Faktureringsforsøget mislykkedes, da et produkt ikke er på lager."
+    },
+    "tabs": {
+      "all": "Alle",
+      "active": "Aktiv",
+      "paused": "Sat på pause",
+      "cancelled": "Annulleret"
+    },
+    "emptyState": {
+      "title": "Der er ingen kontrakter med denne status",
+      "description": "Abonnementskontrakter med statussen “{status}” vises her"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Købt",
+      "sortByUpdatedDateLabel": "Opdateret",
+      "newestFirstDirectionLabel": "Nyeste først",
+      "oldestFirstDirectionLabel": "Ældste først"
+    },
+    "pauseBulkActionModal": {
+      "content": "Fakturering og kommende ordrer sættes på pause. Kontrakter, der er sat på pause, kan til enhver tid genoptages.",
+      "cancel": "Annuller",
+      "title": {
+        "one": "Vil du sætte {count} kontrakt på pause?",
+        "other": "Vil du sætte {count} kontrakter på pause?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Abonnementskontrakt sættes på pause ...",
+        "other": "Abonnementskontrakter sættes på pause ..."
+      },
+      "errorToast": {
+        "one": "Kontrakten kunne ikke sættes på pause",
+        "other": "Kontrakterne kunne ikke sættes på pause"
+      },
+      "action": "Angiv som sat på pause"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Sæt kontrakten på pause",
+        "other": "Sæt kontrakterne på pause"
+      },
+      "activate": {
+        "one": "Genoptag kontrakten",
+        "other": "Genoptag kontrakterne"
+      },
+      "cancel": {
+        "one": "Annuller kontrakt",
+        "other": "Annuller kontrakter"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "Fakturering og kommende ordrer genoptages. Aktive kontrakter faktureres som normalt.",
+      "cancel": "Annuller",
+      "title": {
+        "one": "Vil du genoptage {count} kontrakt?",
+        "other": "Vil du genoptage {count} kontrakter?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Genoptager abonnementskontrakt ...",
+        "other": "Genoptager abonnementskontrakter ..."
+      },
+      "errorToast": {
+        "one": "Kontrakten kunne ikke genoptages",
+        "other": "Kontrakterne kunne ikke genoptages"
+      },
+      "action": {
+        "one": "Genoptag kontrakten",
+        "other": "Genoptag kontrakterne"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "Fakturering og kommende ordrer afsluttes øjeblikkeligt. Opsagte kontrakter kan ikke genoptages.",
+      "action": "Angiv som opsagt",
+      "cancel": "Annuller",
+      "title": {
+        "one": "Vil du angive {count} kontrakt som opsagt?",
+        "other": "Vil du angive {count} kontrakter som opsagt?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "Opsiger abonnementskontrakt ...",
+        "other": "Opsiger abonnementskontrakter ..."
+      },
+      "errorToast": {
+        "one": "Kontrakten kunne ikke annulleres",
+        "other": "Kontrakter kunne ikke annulleres"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "Massehandlingen kunne ikke udføres",
+        "other": "Massehandlingen kunne ikke udføres"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Sæt på pause",
+      "accessibilityLabel": "Sæt kontrakten på pause",
+      "success": "Kontrakten er sat på pause",
+      "error": "Kontrakten kunne ikke sættes på pause"
+    },
+    "cancel": {
+      "title": "Opsig abonnement",
+      "accessibilityLabel": "Opsig abonnement",
+      "success": "Kontrakten blev opsagt",
+      "error": "Kontrakten kunne ikke annulleres",
+      "modalTitle": "Annuller abonnement",
+      "modalCancel": "Behold kontrakten",
+      "modalContent": "Fakturering og kommende ordrer afsluttes øjeblikkeligt. Opsagte kontrakter kan ikke genoptages."
+    },
+    "resume": {
+      "title": "Genoptag",
+      "accessibilityLabel": "Genoptag kontrakten",
+      "success": "Kontrakten er blevet genoptaget",
+      "error": "Kontrakten kunne ikke genoptages"
+    },
+    "billContract": {
+      "title": "Fakturer kontrakt",
+      "accessibilityLabel": "Fakturer kontrakt",
+      "success": "Faktureringsforsøg påbegyndt",
+      "error": "Kontrakten kunne ikke faktureres"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Kommende ordrer",
+    "subscription": "Abonnementsoplysninger",
+    "price": "Pris",
+    "purchaseDate": "Købsdato",
+    "quantity": "Antal",
+    "orderNumber": "Ordre {number}",
+    "edit": "Rediger",
+    "nextOrders": {
+      "title": "Næste ordrer",
+      "skip": "Spring over",
+      "skipped": "Sprunget over",
+      "resume": "Genoptag",
+      "showMore": "Vis {number} flere",
+      "skipError": "Ordre kunne ikke springes over/genoptages",
+      "skipSuccess": "Ordren blev sprunget over",
+      "showMoreNoCount": "Vis mere",
+      "resumeSuccess": "Ordren blev genoptaget"
+    },
+    "paymentMethods": {
+      "title": "Betalingsmetoder"
+    },
+    "customer": {
+      "title": "Kunde"
+    },
+    "discount": "Rabat",
+    "discountValue": {
+      "multipleDiscounts": "Flere rabatter",
+      "percentageOff": "{{value}} % i rabat",
+      "amountOff": "{{value}} i rabat",
+      "fixedPrice": "{{value}} fast pris"
+    },
+    "delivery": "Levering",
+    "pastOrders": "Tidligere ordrer",
+    "viewOrder": "Se",
+    "localPickup": "{{value}}, lokal afhentning",
+    "orderNotCreated": "Ordren blev ikke oprettet"
+  },
+  "paymentMethodDetails": {
+    "title": "Betalingsmetode",
+    "expires": "Udløber {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Send link til opdatering af kort",
+      "managePayment": "Administrer betaling på kundesiden"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Send link til opdatering af kort",
+      "descriptionCreditCard": "Send et link til {customerName} til opdatering af vedkommendes kreditkort, der slutter på {lastDigits}",
+      "descriptionOther": "Send et link til {customerName} til opdatering af betalingsmetoden.",
+      "fromField": "Fra:",
+      "toField": "Til:",
+      "subjectField": "Emne:",
+      "subjectMessage": "Opdater din betalingsmetode for {shopName}",
+      "errorMessage": "Mailen om opdatering af kundens betalingsmetode kunne ikke sendes",
+      "successMessage": "Mailen blev sendt",
+      "actions": {
+        "sendEmail": "Send mail",
+        "cancel": "Annuller"
+      }
+    },
+    "revoked": "Betalingsmetoden blev fjernet af kunden den {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Kunde",
+    "contactInformation": "Kontaktinformation",
+    "shippingAddress": "Leveringsadresse",
+    "actions": {
+      "selectAddress": "Vælg en anden adresse",
+      "manageAddress": "Administrer adresser på kundesiden"
+    },
+    "addressModal": {
+      "title": "Vælg en anden adresse",
+      "actions": {
+        "cancel": "Annuller",
+        "update": "Opdater"
+      }
+    }
+  },
+  "edit": {
+    "title": "Rediger abonnement",
+    "details": {
+      "title": "Abonnementsoplysninger",
+      "searchProducts": "Søg efter produkter",
+      "browse": "Gennemse",
+      "removeLine": "Fjern abonnementslinje",
+      "oneTimePurchasePrice": "Pris på engangskøb: {price}",
+      "quantity": "Antal",
+      "deliveryFrequency": {
+        "title": "Leveringshyppighed",
+        "warning": "Hvis leveringshyppigheden opdateres, opdateres faktureringshyppigheden automatisk.",
+        "interval": "Interval",
+        "intervalCount": "Intervalantal"
+      },
+      "deliveryInterval": {
+        "weeks": "uger",
+        "months": "måneder",
+        "years": "år"
+      },
+      "paymentSummary": "Betalingsoversigt",
+      "subtotal": "Subtotal",
+      "shipping": "Levering",
+      "tax": "Skat",
+      "total": "I alt",
+      "oneTimePurchasePriceChanged": "Prisen for engangskøb er blevet ændret",
+      "outOfStock": "Ingen enheder er på lager"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Der kunne ikke oprettes en abonnementskontraktkladde"
+      },
+      "updateDraft": {
+        "error": "Abonnementskontraktkladden kunne ikke opdateres",
+        "quantityTooLargeError": "Antallet er for stort",
+        "deliveryFrequencyTooLargeError": "Leveringshyppigheden er for høj",
+        "deliveryFrequencyIntegerError": "Leveringshyppigheden skal være et heltal"
+      },
+      "updateContract": {
+        "error": "Abonnementskontrakten kunne ikke opdateres",
+        "success": "Kontrakten blev opdateret"
+      },
+      "selectProducts": {
+        "lineCountError": "Abonnementskontrakter skal indeholde mindst 1 varelinje"
+      },
+      "updateAddress": {
+        "error": "Adressen kunne ikke opdateres",
+        "success": "Adressen blev opdateret"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Prisen for engangskøb af {{title}} er blevet ændret og er nu {{newPrice}}",
+      "updateSubscriptionPrice": "Opdater abonnementsprisen for {{title}}",
+      "title": "Rediger pris",
+      "subscriptionPriceLabel": "Abonnementspris",
+      "discountLabel": "Abonnementsrabatten {{discountAmount}} er blevet anvendt på den nye pris for {{lineTitle}}",
+      "amountTooLargeError": "Beløbet er for stort",
+      "amountNegativeError": "Beløbet skal være større end eller lig med 0",
+      "actions": {
+        "update": "Opdater",
+        "cancel": "Annuller"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "Ordren fra {date} kunne ikke oprettes",
+      "inProgressTitle": "Et faktureringsforsøg er i gang. Denne side genindlæses, når faktureringsforsøget er udført.",
+      "description": "Der var ikke nok lagerbeholdning under det seneste faktureringsforsøg. Hvis lagerbeholdning er på vej, og du vil omgå yderligere nye forsøg, skal du oprette ordren nu og oversælge lagerbeholdningen. Ved mere betydelige forsinkelser kan det være at foretrække at sætte ordren på pause, springe over eller annullere.",
+      "button": "Opret ordre nu"
+    },
+    "modal": {
+      "title": "Vil du fortsætte med at oprette ordren?",
+      "inventoryWarning": "Oversælg kun lagerbeholdning, hvis du er sikker på, at ny lagerbeholdning er på vej",
+      "actions": {
+        "ignoreAndCreate": "Opret ordre nu",
+        "cancel": "Annuller"
+      },
+      "outOfStock": {
+        "one": "Følgende er ikke på lager og vil blive oversolgt for denne ordre:",
+        "other": "Følgende er ikke på lager og vil blive oversolgt for denne ordre:"
+      }
+    }
+  }
+}

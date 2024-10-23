@@ -1,0 +1,332 @@
+{
+  "page": {
+    "title": "구독 계약"
+  },
+  "emptyState": {
+    "title": "구독 계약 관리",
+    "description": "고객이 스토어에서 구독을 구매하면 계약이 이곳에 나타납니다."
+  },
+  "table": {
+    "headings": {
+      "contract": "계약",
+      "customer": "고객",
+      "product": "제품",
+      "price": "가격",
+      "deliveryFrequency": "배송 빈도",
+      "status": "상태",
+      "warning": "경고"
+    },
+    "resourceName": {
+      "singular": "계약",
+      "plural": "계약",
+      "warningToolTipContent": "제품이 품절되어 청구 시도에 실패했습니다."
+    },
+    "tabs": {
+      "all": "모두",
+      "active": "활성",
+      "paused": "일시 중지됨",
+      "cancelled": "취소됨"
+    },
+    "emptyState": {
+      "title": "이 상태인 계약이 없음",
+      "description": "{status} 가입 계약이 여기에 표시됩니다"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "구매됨",
+      "sortByUpdatedDateLabel": "업데이트됨",
+      "newestFirstDirectionLabel": "최신순",
+      "oldestFirstDirectionLabel": "오래된 순"
+    },
+    "pauseBulkActionModal": {
+      "content": "청구 및 예정된 주문이 일시 중지됩니다. 일시 중지된 계약은 언제든지 재개할 수 있습니다.",
+      "cancel": "취소",
+      "title": {
+        "one": "계약 {count}건을 일시 중지로 설정하시겠습니까?",
+        "other": "계약 {count}건을 일시 중지 상태로 설정하시겠습니까?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "구독 계약 일시 중지 중...",
+        "other": "구독 계약 일시 중지 중..."
+      },
+      "errorToast": {
+        "one": "계약을 일시 중지할 수 없음",
+        "other": "계약을 일시 중지할 수 없음"
+      },
+      "action": "일시 중지됨으로 설정"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "계약 일시 중지",
+        "other": "계약 일시 중지"
+      },
+      "activate": {
+        "one": "계약 재개",
+        "other": "계약 재개"
+      },
+      "cancel": {
+        "one": "계약 취소",
+        "other": "계약 취소"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "청구 및 예정된 주문이 재개됩니다. 활성 계약은 정상적으로 청구됩니다.",
+      "cancel": "취소",
+      "title": {
+        "one": "계약 {count}건을 재개하시겠습니까?",
+        "other": "계약 {count}건을 재개하시겠습니까?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "구독 계약 재개 중...",
+        "other": "구독 계약 재개 중..."
+      },
+      "errorToast": {
+        "one": "계약을 재개할 수 없음",
+        "other": "계약을 재개할 수 없음"
+      },
+      "action": {
+        "one": "계약 재개",
+        "other": "계약 재개"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "청구 및 예정된 주문이 즉시 종료됩니다. 취소된 계약은 재개할 수 없습니다.",
+      "action": "취소됨으로 설정",
+      "cancel": "취소",
+      "title": {
+        "one": "계약 {count}건을 취소됨으로 설정하시겠습니까?",
+        "other": "계약 {count}건을 취소됨으로 설정하시겠습니까?"
+      },
+      "bulkOperationStartedToast": {
+        "one": "구독 계약 취소 중...",
+        "other": "구독 계약 취소 중..."
+      },
+      "errorToast": {
+        "one": "계약을 취소할 수 없음",
+        "other": "계약을 취소할 수 없음"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "대량 작업을 수행할 수 없음",
+        "other": "대량 작업을 수행할 수 없음"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "일시 중지",
+      "accessibilityLabel": "계약 일시 중지",
+      "success": "계약이 성공적으로 일시 중지됨",
+      "error": "계약을 일시 중지할 수 없음"
+    },
+    "cancel": {
+      "title": "가입 취소",
+      "accessibilityLabel": "가입 취소",
+      "success": "계약 취소됨",
+      "error": "계약을 취소할 수 없음",
+      "modalTitle": "가입 취소",
+      "modalCancel": "계약 유지",
+      "modalContent": "청구 및 예정된 주문이 즉시 종료됩니다. 취소된 계약은 재개할 수 없습니다."
+    },
+    "resume": {
+      "title": "재개하기",
+      "accessibilityLabel": "계약 재개",
+      "success": "계약이 성공적으로 재개됨",
+      "error": "계약을 재개할 수 없음"
+    },
+    "billContract": {
+      "title": "계약 청구",
+      "accessibilityLabel": "계약 청구",
+      "success": "청구 시도 시작됨",
+      "error": "계약을 청구할 수 없음"
+    }
+  },
+  "details": {
+    "upcomingOrders": "예정된 주문",
+    "subscription": "가입 세부 정보",
+    "price": "가격",
+    "purchaseDate": "구매 날짜",
+    "quantity": "수량",
+    "orderNumber": "주문 {number}",
+    "edit": "편집",
+    "nextOrders": {
+      "title": "다음 주문",
+      "skip": "건너뛰기",
+      "skipped": "건너뜀",
+      "resume": "다시 시작",
+      "showMore": "{number}개 더 표시",
+      "skipError": "주문을 건너뜀 / 재개할 수 없음",
+      "skipSuccess": "주문을 성공적으로 건너뜀",
+      "showMoreNoCount": "자세히 표시",
+      "resumeSuccess": "주문을 성공적으로 재개함"
+    },
+    "paymentMethods": {
+      "title": "결제 방법"
+    },
+    "customer": {
+      "title": "고객"
+    },
+    "discount": "할인",
+    "discountValue": {
+      "multipleDiscounts": "여러 할인",
+      "percentageOff": "{{value}}% 할인",
+      "amountOff": "{{value}} 할인",
+      "fixedPrice": "{{value}}의 고정 가격"
+    },
+    "delivery": "배송",
+    "pastOrders": "지난 주문",
+    "viewOrder": "보기",
+    "localPickup": "{{value}}, 지역 픽업",
+    "orderNotCreated": "주문이 생성되지 않음"
+  },
+  "paymentMethodDetails": {
+    "title": "결제 방법",
+    "expires": "{month}/{year} 만료",
+    "actions": {
+      "sendUpdateLink": "카드 업데이트 링크 보내기",
+      "managePayment": "고객 페이지에서 결제 관리"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "카드 업데이트 링크 보내기",
+      "descriptionCreditCard": "{lastDigits}(으)로 끝나는 신용 카드를 업데이트하도록 {customerName}에 링크를 전송하세요",
+      "descriptionOther": "{customerName}에 결제 방법 업데이트 링크를 전송하세요",
+      "fromField": "보내는 사람:",
+      "toField": "받는 사람:",
+      "subjectField": "제목:",
+      "subjectMessage": "{shopName}에 대한 결제 정보 업데이트",
+      "errorMessage": "고객에게 결제 방법 업데이트 이메일을 전송하지 못했습니다",
+      "successMessage": "이메일 전송됨",
+      "actions": {
+        "sendEmail": "이메일 보내기",
+        "cancel": "취소"
+      }
+    },
+    "revoked": "고객이 {revokedAt}에 결제 방법을 제거했습니다."
+  },
+  "customerDetails": {
+    "title": "고객",
+    "contactInformation": "연락처 정보",
+    "shippingAddress": "배송 주소",
+    "actions": {
+      "selectAddress": "다른 주소 선택",
+      "manageAddress": "고객 페이지에서 주소 관리"
+    },
+    "addressModal": {
+      "title": "다른 주소 선택",
+      "actions": {
+        "cancel": "취소",
+        "update": "업데이트"
+      }
+    }
+  },
+  "edit": {
+    "title": "가입 편집",
+    "details": {
+      "title": "가입 세부 정보",
+      "searchProducts": "제품 검색",
+      "browse": "찾아보기",
+      "removeLine": "가입 라인 제거",
+      "oneTimePurchasePrice": "1회 구매 가격: {price}",
+      "quantity": "수량",
+      "deliveryFrequency": {
+        "title": "배송 빈도",
+        "warning": "배송 빈도를 업데이트하면 청구 빈도가 자동으로 업데이트됩니다.",
+        "interval": "간격",
+        "intervalCount": "간격"
+      },
+      "deliveryInterval": {
+        "weeks": "주",
+        "months": "개월",
+        "years": "년"
+      },
+      "paymentSummary": "결제 요약",
+      "subtotal": "소계",
+      "shipping": "배송",
+      "tax": "세금",
+      "total": "총계",
+      "oneTimePurchasePriceChanged": "1회 구매 가격이 변경되었습니다",
+      "outOfStock": "남은 재고 단위 없음"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "구독 계약 초안을 생성할 수 없음"
+      },
+      "updateDraft": {
+        "error": "구독 계약 초안을 업데이트할 수 없음",
+        "quantityTooLargeError": "수량이 너무 많습니다",
+        "deliveryFrequencyTooLargeError": "배송 빈도가 너무 큽니다",
+        "deliveryFrequencyIntegerError": "배송 빈도는 정수여야 합니다"
+      },
+      "updateContract": {
+        "error": "구독 계약을 업데이트할 수 없음",
+        "success": "계약 업데이트됨"
+      },
+      "selectProducts": {
+        "lineCountError": "가입 계약은 품목이 하나 이상 있어야 합니다."
+      },
+      "updateAddress": {
+        "error": "주소를 업데이트할 수 없음",
+        "success": "주소가 업데이트됨"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "{{title}}의 1회 구매 가격이 변경되어 현재 {{newPrice}}입니다",
+      "updateSubscriptionPrice": "{{title}}의 가입 가격 업데이트",
+      "title": "가격 편집",
+      "subscriptionPriceLabel": "가입 가격",
+      "discountLabel": "{{lineTitle}}의 새 가격에 적용된 {{discountAmount}} 가입 할인",
+      "amountTooLargeError": "가격이 너무 큽니다",
+      "amountNegativeError": "금액은 0 이상이어야 합니다",
+      "actions": {
+        "update": "업데이트",
+        "cancel": "취소"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "{date} 주문을 생성하지 못함",
+      "inProgressTitle": "청구 시도가 진행 중입니다. 청구 시도가 종료되면 페이지가 새로 고침됩니다.",
+      "description": "마지막 청구 시도 시 재고가 충분하지 않았습니다. 재고가 배송 중이고 추가 재시도를 하지 않으려면 지금 주문을 생성하여 재고를 과잉 판매하십시오. 지연이 더 크게 발생하는 경우 일시 정지, 건너뛰기 또는 취소를 원할 수 있습니다.",
+      "button": "지금 주문 생성"
+    },
+    "modal": {
+      "title": "주문 생성을 계속하시겠습니까?",
+      "inventoryWarning": "재고가 배송 중인 것이 확실할 때만 재고를 과잉 판매하십시오",
+      "actions": {
+        "ignoreAndCreate": "지금 주문 생성",
+        "cancel": "취소"
+      },
+      "outOfStock": {
+        "one": "다음 상품이 품절되어 이 주문은 과잉 판매됩니다.",
+        "other": "다음 상품이 품절되어 이 주문은 과잉 판매됩니다."
+      }
+    }
+  }
+}

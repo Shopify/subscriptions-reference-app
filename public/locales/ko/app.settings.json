@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "저장",
+  "actions": {
+    "updateSuccess": "설정 업데이트됨"
+  },
+  "title": "설정",
+  "billingFailureSettings": {
+    "title": "청구 시도",
+    "description": "청구 시도 실패 시 다음 청구 시기를 관리합니다",
+    "paymentFailureTitle": "결제 방법 실패",
+    "inventoryFailureTitle": "재고 부족",
+    "retryAttempts": {
+      "label": "재시도 횟수",
+      "helpText": "최소 0번, 최대 10번 재시도",
+      "errors": {
+        "min": "재시도 횟수가 0보다 커야 합니다",
+        "max": "재시도 횟수가 너무 높습니다"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "결제 재시도 간격일",
+      "helpText": "최소 1일, 최대 14일",
+      "errors": {
+        "min": "결제 재시도 간격일이 1보다 커야 합니다",
+        "max": "결제 재시도 간격일이 너무 높습니다"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "재고 재시도 횟수는 0보다 커야 합니다",
+        "max": "재고 재시도 횟수가 너무 큽니다"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "재고 재시도 간격 일수는 1보다 커야 합니다",
+        "max": "재고 재시도 간격 일수가 너무 큽니다"
+      }
+    },
+    "onFailure": {
+      "label": "모든 재시도가 실패했을 때 조치",
+      "options": {
+        "skip": "가입을 건너뛰고 알림 보내기",
+        "cancel": "가입을 취소하고 알림 보내기",
+        "pause": "가입을 일시 중지하고 알림 보내기"
+      }
+    },
+    "notifications": "알림 편집",
+    "staffNotificationFrequency": {
+      "label": "직원에게 알림을 보내는 빈도",
+      "options": {
+        "immediately": "청구에 실패할 때마다",
+        "weekly": "청구 실패 주간 요약",
+        "monthly": "청구 실패 월간 요약"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Abonnementen",
+    "createPlan": "Abonnement",
+    "accessibilityLabel": "Abonnement maken"
+  },
+  "emptyState": {
+    "title": "Meer terugkerende klanten krijgen",
+    "description": "Klanten toestaan producten of diensten op basis van herhaling te kopen",
+    "action": "Abonnement"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Titel abonnement",
+      "products": "Producten",
+      "deliveryFrequency": "Bezorgfrequentie",
+      "discount": "Prijzen",
+      "view": "Alle"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Alle"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Abonnement verwijderen",
+        "other": "Abonnementen verwijderen"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Dit kan niet ongedaan worden gemaakt. Daaraan gekoppelde contracten blijven bestaan.",
+          "other": "Dit kan niet ongedaan worden gemaakt. Daaraan gekoppelde contracten blijven bestaan."
+        },
+        "actions": {
+          "delete": {
+            "one": "Abonnement verwijderen",
+            "other": "Abonnementen verwijderen"
+          },
+          "cancel": "Annuleren"
+        },
+        "title": {
+          "one": "Eén abonnement verwijderen?",
+          "other": "{count} abonnementen verwijderen?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonnement verwijderd",
+          "other": "Abonnementen verwijderd"
+        },
+        "failed": {
+          "one": "Abonnementsplan verwijderen is niet gelukt",
+          "other": "Abonnementsplannen verwijderen is niet gelukt"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Aangemaakt",
+        "ascendingLabel": "Oudste eerst",
+        "descendingLabel": "Nieuwste eerst"
+      },
+      "UPDATED_AT": {
+        "label": "Bijgewerkt",
+        "ascendingLabel": "Oudste eerst",
+        "descendingLabel": "Nieuwste eerst"
+      }
+    }
+  }
+}

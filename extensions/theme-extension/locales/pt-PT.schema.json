@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Política de subscrição",
+    "subscription_policy_url": "Ligação para a política de subscrição",
+    "subscription_policy_url_info": "Selecione uma página existente ou cole uma ligação externa para mostrar a política de subscrição.",
+    "description": "O widget de subscrição só será apresentado em produtos que tenham um plano de subscrição associado. [Saber mais sobre definições de temos para subscrições](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "As definições acima mostram opções para o produto selecionado. O produto selecionado tem um plano de subscrição. ",
+    "colors_title": "Cor",
+    "title": "Widget de subscrição",
+    "product_title": "Produto",
+    "border_title": "Limite",
+    "border_thickness": "Espessura",
+    "border_radius": "Raio do canto",
+    "colors_text_title": "Título",
+    "colors_text_body": "Corpo",
+    "colors_background_border_title": "Fundos e limites",
+    "colors_background": "Fundo",
+    "colors_dividers": "Divisores",
+    "supporting_text_title": "Texto de apoio",
+    "supporting_text_subtitle": "Título",
+    "supporting_text_input_default": "Opções de compra"
+  }
+}

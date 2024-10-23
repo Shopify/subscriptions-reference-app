@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Đơn mua một lần",
+      "subscription": "Gói đăng ký"
+    }
+  },
+  "policy": {
+    "description": "Tự động gia hạn, bỏ qua hoặc hủy bất cứ lúc nào.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Xem chính sách gói đăng ký</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Để thêm vào giỏ hàng, truy cập trang sản phẩm và chọn tùy chọn mua"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Tiện ích gói đăng ký sẽ chỉ hiển thị trên các sản phẩm có gói đăng ký đi kèm."
+  },
+  "no_app_block_found_banner": {
+    "message": "Để chỉnh sửa vị trí của tiện ích gói đăng ký, hãy thêm đoạn mã sau vào mẫu sản phẩm ở vị trí mong muốn.",
+    "copy_button_text": "Sao chép",
+    "copied_button_text": "Đã sao chép",
+    "button_text": "Xem trình chỉnh sửa mã"
+  }
+}

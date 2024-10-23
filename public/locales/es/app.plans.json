@@ -1,0 +1,81 @@
+{
+  "page": {
+    "title": "Planes de suscripción",
+    "createPlan": "Plan",
+    "accessibilityLabel": "Crear plan de suscripción"
+  },
+  "emptyState": {
+    "title": "Consigue más tratos recurrentes",
+    "description": "Permite que los clientes compren productos o servicios de forma recurrente",
+    "action": "Plan de suscripción"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Título del plan",
+      "products": "Productos",
+      "deliveryFrequency": "Frecuencia de entrega",
+      "discount": "Precios",
+      "view": "Todos"
+    },
+    "resourceName": {
+      "singular": "Suscripción",
+      "plural": "Suscripción"
+    },
+    "resources": {
+      "allSelected": "Todos"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Eliminar plan",
+        "other": "Eliminar planes",
+        "many": "Eliminar planes"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Esta acción no puede deshacerse. Los contratos asociados no se verán afectados.",
+          "other": "Esta acción no puede deshacerse. Los contratos asociados no se verán afectados.",
+          "many": "Esta acción no puede deshacerse. Los contratos asociados no se verán afectados."
+        },
+        "actions": {
+          "delete": {
+            "one": "Eliminar plan",
+            "other": "Eliminar planes",
+            "many": "Eliminar planes"
+          },
+          "cancel": "Cancelar"
+        },
+        "title": {
+          "one": "¿Eliminar 1 plan de suscripción?",
+          "other": "¿Eliminar {count} planes de suscripción?",
+          "many": "¿Eliminar {count} planes de suscripción?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Plan de suscripción eliminado",
+          "other": "Planes de suscripción eliminados",
+          "many": "Planes de suscripción eliminados"
+        },
+        "failed": {
+          "one": "Se produjo un error al eliminar el plan de suscripción",
+          "other": "Se produjo un error al eliminar los planes de suscripción",
+          "many": "Se produjo un error al eliminar los planes de suscripción"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Creado",
+        "ascendingLabel": "Más antiguo primero",
+        "descendingLabel": "Más reciente primero"
+      },
+      "UPDATED_AT": {
+        "label": "Actualizado",
+        "ascendingLabel": "Más antiguo primero",
+        "descendingLabel": "Más reciente primero"
+      }
+    }
+  }
+}

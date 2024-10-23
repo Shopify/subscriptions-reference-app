@@ -1,0 +1,81 @@
+{
+  "navigation": {
+    "home": "Homepage",
+    "plans": "Abonnementen",
+    "contracts": "Contracten",
+    "settings": "Instellingen"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} bezorgfrequenties",
+    "day": {
+      "one": "Elke dag",
+      "other": "elke {count} dagen"
+    },
+    "week": {
+      "one": "Elke week",
+      "other": "Elke {count} weken"
+    },
+    "month": {
+      "one": "Elke maand",
+      "other": "Elke {count} maanden"
+    },
+    "year": {
+      "one": "Elk jaar",
+      "other": "Elke {count} jaar"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Meerdere bezorgfrequenties"
+  },
+  "productAndVariants": {
+    "noProduct": "Geen",
+    "productsCount": {
+      "one": "{count} product",
+      "other": "{count} producten"
+    },
+    "noVariant": "Geen variant",
+    "variantsCount": {
+      "one": "{count} variant",
+      "other": "{count} varianten"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Geen korting",
+    "amountOff": "{amount} korting",
+    "percentageOff": "{amount}% korting",
+    "multipleDiscounts": "Meerdere kortingen",
+    "fixedPrice": "{amount}"
+  },
+  "statusBadge": {
+    "active": "Actief",
+    "paused": "Gepauzeerd",
+    "cancelled": "Geannuleerd",
+    "expired": "Verlopen",
+    "failed": "Mislukt",
+    "stale": "Oud"
+  },
+  "actions": {
+    "saveButtonText": "Opslaan",
+    "edit": "Bewerken"
+  },
+  "footer": {
+    "learnMore": "Hier vind je meer informatie over {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "abonnementen",
+    "contracts": "abonnementscontracten"
+  },
+  "errorBoundary": {
+    "title": "Abonnementen",
+    "header": "Kan de pagina niet laden",
+    "description": "Laad de pagina opnieuw of probeer het later nog eens. Neem contact op met {statusPageLink} bij aanhoudende problemen.",
+    "statusPageLinkText": "Shopify Support",
+    "reloadAction": "Pagina opnieuw laden"
+  },
+  "bulkOperation": {
+    "bulkOperationCompleted": "Bulkuitvoering voltooid"
+  },
+  "missingScopes": {
+    "title": "Ontbrekende door Shopify goedgekeurde scopes",
+    "description": "Vraag om de abonnementenreferentie-app te kunnen openen eerst toestemming van Shopify om deze API-scopes te gebruiken:",
+    "link": "Raadpleeg de documentatie voor meer informatie over {{link}} voor deze app",
+    "linkText": "door Shopify goedgekeurde scopes"
+  }
+}

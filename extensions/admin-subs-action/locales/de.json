@@ -1,0 +1,68 @@
+{
+  "name": "Abonnements",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "merchantCode": {
+    "label": "Interne Beschreibung",
+    "helpText": "Nur für deine Referenz"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Im Abo kaufen und sparen",
+    "helpText": "Kunden sehen dies auf den Storefront-Produktseiten, auf denen es Abonnements gibt."
+  },
+  "discountAndDelivery": "Rabatt und Zustellung",
+  "offerDiscount": "Rabatt anbieten",
+  "discountType": {
+    "percentageOff": "Rabattprozentsatz",
+    "amountOff": "Rabattbetrag",
+    "fixedPrice": "Fester Preis"
+  },
+  "deliveryFrequency": "Zustellungsintervall",
+  "deliveryInterval": {
+    "label": "Zustellungsintervall",
+    "weeks": "Wochen",
+    "months": "Monate",
+    "years": "Jahre",
+    "day": {
+      "singular": "Jeden Tag liefern",
+      "plural": "Alle {{count}} Tage liefern"
+    },
+    "week": {
+      "singular": "Jede Woche liefern",
+      "plural": "Alle {{count}} Wochen liefern"
+    },
+    "month": {
+      "singular": "Jeden Monat liefern",
+      "plural": "Alle {{count}} Monate liefern"
+    },
+    "year": {
+      "singular": "Jedes Jahr liefern",
+      "plural": "Alle {{count}} Jahre liefern"
+    }
+  },
+  "addOptionButton": {
+    "label": "Option",
+    "accessibilityLabel": "Option hinzufügen"
+  },
+  "removeOption": "Option entfernen",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % Rabatt",
+    "amountOff": "{{amount}} Rabatt",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Abonnement erstellt",
+    "update": "Abonnement aktualisiert"
+  },
+  "validator": {
+    "nameEmptyError": "Titel ist erforderlich",
+    "merchantCodeEmptyError": "Interne Beschreibung ist erforderlich",
+    "deliveryFrequencyError": "Zustellungsfrequenz ist erforderlich",
+    "deliveryFrequencyMaxError": "Zustellungsfrequenz muss weniger als 36500 Tage sein",
+    "deliveryFrequencyFloatError": "Zustellungsfrequenz muss eine ganze Zahl sein",
+    "discountValueMinError": "Rabattwert muss größer als 0 sein",
+    "discountValueMaxError": "Rabattwert ist zu hoch",
+    "discountValueMaxPercentError": "Rabattwert darf nicht größer als 100 % sein"
+  }
+}

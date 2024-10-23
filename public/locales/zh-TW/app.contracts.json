@@ -1,0 +1,332 @@
+{
+  "page": {
+    "title": "訂閱合約"
+  },
+  "emptyState": {
+    "title": "管理您的訂閱合約",
+    "description": "當顧客從您的商店購買訂閱方案時，合約會顯示於此。"
+  },
+  "table": {
+    "headings": {
+      "contract": "合約",
+      "customer": "客戶",
+      "product": "產品",
+      "price": "價格",
+      "deliveryFrequency": "配送頻率",
+      "status": "狀態",
+      "warning": "警告"
+    },
+    "resourceName": {
+      "singular": "合約",
+      "plural": "合約",
+      "warningToolTipContent": "由於商品無庫存，計費嘗試失敗。"
+    },
+    "tabs": {
+      "all": "全部",
+      "active": "啟用中",
+      "paused": "已暫停",
+      "cancelled": "已取消"
+    },
+    "emptyState": {
+      "title": "沒有具備此狀態的合約",
+      "description": "{status}的訂閱合約會顯示在此處"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "已購買",
+      "sortByUpdatedDateLabel": "已更新",
+      "newestFirstDirectionLabel": "由新到舊",
+      "oldestFirstDirectionLabel": "由舊到新"
+    },
+    "pauseBulkActionModal": {
+      "content": "帳單計費和下期訂單將會暫停。暫停的合約可以隨時恢復。",
+      "cancel": "取消",
+      "title": {
+        "one": "是否要將 {count} 個合約設為暫停？",
+        "other": "是否要將 {count} 個合約設為暫停？"
+      },
+      "bulkOperationStartedToast": {
+        "one": "正在暫停訂閱合約...",
+        "other": "正在暫停訂閱合約..."
+      },
+      "errorToast": {
+        "one": "無法暫停合約",
+        "other": "無法暫停合約"
+      },
+      "action": "設為已暫停"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "暫停合約",
+        "other": "暫停合約"
+      },
+      "activate": {
+        "one": "恢復合約",
+        "other": "恢復合約"
+      },
+      "cancel": {
+        "one": "取消合約",
+        "other": "取消合約"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "帳單計費和下期訂單將會恢復。啟用的合約會照常計費。",
+      "cancel": "取消",
+      "title": {
+        "one": "恢復 {count} 份合約？",
+        "other": "恢復 {count} 份合約？"
+      },
+      "bulkOperationStartedToast": {
+        "one": "正在恢復訂閱合約…",
+        "other": "正在恢復訂閱合約…"
+      },
+      "errorToast": {
+        "one": "無法恢復合約",
+        "other": "無法恢復合約"
+      },
+      "action": {
+        "one": "恢復合約",
+        "other": "恢復合約"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "賬單計費和下期訂單將立即結束。無法恢復已取消的合約。",
+      "action": "設為已取消",
+      "cancel": "取消",
+      "title": {
+        "one": "是否要將 {count} 份合約設為取消？",
+        "other": "是否要將 {count} 份合約設為取消？"
+      },
+      "bulkOperationStartedToast": {
+        "one": "正在取消訂閱合約…",
+        "other": "正在取消訂閱合約…"
+      },
+      "errorToast": {
+        "one": "無法取消合約",
+        "other": "無法取消合約"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "無法執行大量操作",
+        "other": "無法執行大量操作"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "暫停",
+      "accessibilityLabel": "暫停合約",
+      "success": "已成功暫停合約",
+      "error": "無法暫停合約"
+    },
+    "cancel": {
+      "title": "取消訂閱",
+      "accessibilityLabel": "取消訂閱",
+      "success": "已成功取消合約",
+      "error": "無法取消合約",
+      "modalTitle": "取消訂閱",
+      "modalCancel": "履行合約",
+      "modalContent": "賬單計費和下期訂單將立即結束。無法恢復已取消的合約。"
+    },
+    "resume": {
+      "title": "恢復",
+      "accessibilityLabel": "恢復合約",
+      "success": "已成功恢復合約",
+      "error": "無法恢復合約"
+    },
+    "billContract": {
+      "title": "計費合約",
+      "accessibilityLabel": "計費合約",
+      "success": "已開始計費嘗試",
+      "error": "無法對合約進行計費"
+    }
+  },
+  "details": {
+    "upcomingOrders": "下期訂單",
+    "subscription": "訂閱方案詳細資訊",
+    "price": "價格",
+    "purchaseDate": "購買日期",
+    "quantity": "數量",
+    "orderNumber": "訂單 {number}",
+    "edit": "編輯",
+    "nextOrders": {
+      "title": "下一筆訂單",
+      "skip": "跳過",
+      "skipped": "已略過",
+      "resume": "繼續",
+      "showMore": "多顯示 {number} 項",
+      "skipError": "無法略過/恢復訂單",
+      "skipSuccess": "已成功略過訂單",
+      "showMoreNoCount": "顯示更多",
+      "resumeSuccess": "已成功恢復訂單"
+    },
+    "paymentMethods": {
+      "title": "付款方式"
+    },
+    "customer": {
+      "title": "顧客"
+    },
+    "discount": "折扣",
+    "discountValue": {
+      "multipleDiscounts": "多項折扣",
+      "percentageOff": "{{value}}% 折扣",
+      "amountOff": "{{value}} 折扣",
+      "fixedPrice": "{{value}} 固定價格"
+    },
+    "delivery": "配送",
+    "pastOrders": "過去的訂單",
+    "viewOrder": "檢視",
+    "localPickup": "{{value}}，到店取貨",
+    "orderNotCreated": "Order not created (訂單未建立)"
+  },
+  "paymentMethodDetails": {
+    "title": "付款方式",
+    "expires": "於 {month}/{year} 到期",
+    "actions": {
+      "sendUpdateLink": "傳送更新卡片的連結",
+      "managePayment": "管理顧客頁面中的付款資料"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "Hypercard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "中國銀聯",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "傳送更新卡片的連結",
+      "descriptionCreditCard": "傳送連結給 {customerName} 以更新末碼為 {lastDigits} 的信用卡",
+      "descriptionOther": "傳送更新付款方式的連結給 {customerName}。",
+      "fromField": "寄件人：",
+      "toField": "收件人：",
+      "subjectField": "主旨：",
+      "subjectMessage": "更新 {shopName} 的付款方式",
+      "errorMessage": "無法傳送顧客付款方式更新電子郵件",
+      "successMessage": "電子郵件已傳送",
+      "actions": {
+        "sendEmail": "傳送電子郵件",
+        "cancel": "取消"
+      }
+    },
+    "revoked": "顧客已於 {revokedAt} 移除付款方式"
+  },
+  "customerDetails": {
+    "title": "顧客",
+    "contactInformation": "聯絡資訊",
+    "shippingAddress": "運送地址",
+    "actions": {
+      "selectAddress": "選取其他地址",
+      "manageAddress": "管理顧客頁面中的地址"
+    },
+    "addressModal": {
+      "title": "選取其他地址",
+      "actions": {
+        "cancel": "取消",
+        "update": "更新"
+      }
+    }
+  },
+  "edit": {
+    "title": "編輯訂閱",
+    "details": {
+      "title": "訂閱方案詳細資訊",
+      "searchProducts": "搜尋商品",
+      "browse": "瀏覽",
+      "removeLine": "移除訂閱項目",
+      "oneTimePurchasePrice": "一次性購買價格：{price}",
+      "quantity": "數量",
+      "deliveryFrequency": {
+        "title": "配送頻率",
+        "warning": "更新配送頻率後，計費頻率也會自動更新。",
+        "interval": "間隔",
+        "intervalCount": "間隔次數"
+      },
+      "deliveryInterval": {
+        "weeks": "週",
+        "months": "月",
+        "years": "年"
+      },
+      "paymentSummary": "付款摘要",
+      "subtotal": "小計",
+      "shipping": "運送",
+      "tax": "稅額",
+      "total": "總計",
+      "oneTimePurchasePriceChanged": "一次性購買價格已變更",
+      "outOfStock": "無庫存單位"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "無法建立訂閱合約草稿"
+      },
+      "updateDraft": {
+        "error": "無法更新訂閱合約草稿",
+        "quantityTooLargeError": "數量太大",
+        "deliveryFrequencyTooLargeError": "配送頻率過高",
+        "deliveryFrequencyIntegerError": "配送頻率必須為整數"
+      },
+      "updateContract": {
+        "error": "無法更新訂閱合約",
+        "success": "合約已更新"
+      },
+      "selectProducts": {
+        "lineCountError": "訂閱合約必須有至少一個商品項目"
+      },
+      "updateAddress": {
+        "error": "無法更新地址",
+        "success": "已更新地址"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "{{title}} 的一次性購買價格已變更，現在為 {{newPrice}}",
+      "updateSubscriptionPrice": "更新 {{title}} 的訂閱方案定價",
+      "title": "編輯價格",
+      "subscriptionPriceLabel": "訂閱制價格",
+      "discountLabel": "{{discountAmount}} 訂閱折扣套用至 {{lineTitle}} 的新價格",
+      "amountTooLargeError": "金額過大",
+      "amountNegativeError": "金額需大於或等於 0",
+      "actions": {
+        "update": "更新",
+        "cancel": "取消"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "無法建立 {date}的訂單",
+      "inProgressTitle": "正在嘗試計費。系統將於計費嘗試完成後重新整理此頁面。",
+      "description": "上次計費嘗試時庫存不足。若庫存正在運送途中，且您希望跳過額外的重試嘗試，請立即建立訂單並超賣庫存。如遇較長延遲，您可能會選擇暫停、跳過或取消。",
+      "button": "立即建立訂單"
+    },
+    "modal": {
+      "title": "是否要繼續建立訂單？",
+      "inventoryWarning": "只有在您確信庫存即將送達時才超賣庫存",
+      "outOfStock": {
+        "one": "下列商品無庫存，此訂單將會超賣：",
+        "other": "下列商品無庫存，此訂單將會超賣："
+      },
+      "actions": {
+        "ignoreAndCreate": "立即建立訂單",
+        "cancel": "取消"
+      }
+    }
+  }
+}

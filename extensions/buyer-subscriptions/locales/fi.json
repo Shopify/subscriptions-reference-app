@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Tilaukset",
+  "manageSubscription": "Hallinnoi tilausta",
+  "upcomingOrder": "Tuleva tilaus",
+  "skip": "Ohita",
+  "showUpcomingOrders": "Näytä tulevat tilaukset",
+  "nextOrder": "Seuraava tilaus {{date}}",
+  "lastUpdated": "Päivitetty viimeksi {{date}}",
+  "subscriptionDetails": "Tilauksen tiedot",
+  "maxOrdersSkipped": "Enimmäismäärä tilauksia on ohitettu",
+  "skipOrderOverYear": "Ohitus ei onnistu, sillä tilaus on yli vuoden päässä",
+  "paymentMethodInvalidBanner": "{{brand}}, joka päättyy numeroihin {{lastDigits}} on virheellinen. Päivitä maksutapa jatkaaksesi tulevien tilausten saamista",
+  "paymentMethodInvalidBannerGeneric": "Kortti, joka päättyy numeroihin {{lastDigits}} on virheellinen. Päivitä maksutapa jatkaaksesi tulevien tilausten saamista",
+  "paymentMethodInvalidBadge": "Virheellinen maksutapa",
+  "listItem": {
+    "multipleItemsName": "{{count}} tuotetta",
+    "accessibilityLabel": "Hallinnoi toistuvaa tilausta: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktiivinen",
+    "paused": "Keskeytetty",
+    "cancelled": "Peruutetut",
+    "expired": "Voimassaoloaika päättynyt",
+    "failed": "Epäonnistunut",
+    "stale": "Vanhentunut"
+  },
+  "deliveryInterval": {
+    "day.one": "Toimita joka päivä",
+    "day.other": "Toimita {{count}} päivän välein",
+    "week.one": "Toimita joka viikko",
+    "week.other": "Toimita {{count}} viikon välein",
+    "month.one": "Toimita joka kuukausi",
+    "month.other": "Toimita {{count}} kuukauden välein",
+    "year.one": "Toimita joka vuosi",
+    "year.other": "Toimita {{count}} vuoden välein"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Toimitusväli",
+    "payment": "Maksu",
+    "billingAddress": "Laskutusosoite",
+    "shippingAddress": "Toimitusosoite",
+    "shippingMethod": "Toimitustapa",
+    "pickupLocation": "Noutopiste",
+    "changePaymentMethodButtonLabel": "Muuta maksutapaa",
+    "editShippingAddressButtonLabel": "Muokkaa toimitusosoitetta",
+    "editPickupAddressButtonLabel": "Muokkaa nouto-osoitetta",
+    "inventoryError": "Seuraava tilauksesi saattaa viivästyä, koska tuotteita on loppunut varastosta"
+  },
+  "paymentModal": {
+    "title": "Korvaa maksutapa",
+    "save": "Tallenna",
+    "paymentMethod": "Maksutapa",
+    "edit": "Muokkaa",
+    "close": "Sulje",
+    "errorBannerTitle": "Maksutapaa ei voida päivittää"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Aiemmat tilaukset",
+    "view": "Näytä"
+  },
+  "skipNextOrder": {
+    "text": "Ohita seuraava tilaus",
+    "generic": "Haluatko ohittaa seuraavan tilauksen?",
+    "date": "Haluatko ohittaa seuraavan tilauksen? Tilauksesi jatkuu {{date}}.",
+    "errorBannerTitle": "Seuraavaa tilausta ei voida ohittaa",
+    "close": "Sulje"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Keskeytä tilaus",
+    "action": "Keskeytä tilaus",
+    "close": "Sulje",
+    "description": "Tilauksesi keskeytetään välittömästi eikä sinua veloiteta tulevista tilauksista. Voit jatkaa tätä tilausta milloin tahansa.",
+    "errorBannerTitle": "Tilausta ei voida keskeyttää"
+  },
+  "subscriptionActions": {
+    "pause": "Keskeytä",
+    "skip": "Ohita seuraava tilaus",
+    "resume": "Jatka",
+    "cancel": "Peruuta",
+    "manage": "Hallinnoi",
+    "viewSubscriptionDetails": "Näytä tiedot"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Jos jatkat tätä tilausta, laskutusta jatketaan välittömästi.",
+    "descriptionWithDate": "Jos jatkat tätä tilausta, laskutusta jatketaan {{date}}.",
+    "close": "Sulje",
+    "descriptionPriceChanged": "Tämän tilauksen hinta on muuttunut, ja sinulta veloitetaan {{price}} tulevaa tilausta kohden.",
+    "continue": "Jatka",
+    "title": "Jatka tilausta",
+    "errorBannerTitle": "Tilausta ei voida jatkaa"
+  },
+  "priceSummary": {
+    "subtotal": "Välisumma",
+    "shipping": "Toimitus",
+    "taxes": "Verot",
+    "total": "Yhteensä",
+    "quantity": "{{quantity}}/kpl"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Peruuta tilaus",
+    "description": "Jos peruutat tilauksesi, laskutus ja toimitus päättyy välittömästi. Tilauksen peruuttamista ei voi perua. Jos haluat väliaikaisesti keskeyttää tilausten vastaanottamisen, keskeytä tilauksesi.",
+    "action": "Peruuta tilaus",
+    "close": "Sulje",
+    "errorBannerTitle": "Tilausta ei voida peruuttaa"
+  },
+  "errorBoundary": {
+    "content": "Jokin meni pieleen, yritä päivittää sivu"
+  },
+  "addressModal": {
+    "save": "Tallenna",
+    "continue": "Jatka",
+    "cancel": "Peruuta",
+    "title": "Muokkaa toimitusosoitetta",
+    "errorBannerTitle": "Toimitustapaa ei voida päivittää",
+    "noDeliveryOptions": "Tätä tilausta ei voida toimittaa valitsemaasi osoitteeseen. Tarkista osoite varmistaaksesi, että kaikki kentät on täytetty oikein. Yritä sitten uudelleen."
+  },
+  "successBanner": {
+    "paused": "Tilaus keskeytetty",
+    "resumed": "Tilausta jatkettu",
+    "cancelled": "Tilaus peruutettu",
+    "skipped": "Seuraava tilaus ohitettu",
+    "paymentUpdated": "Maksutapa päivitetty",
+    "shippingUpdated": "Toimitustapa päivitetty",
+    "deliveryUpdated": "Toimitustapa päivitetty"
+  },
+  "upcomingOrdersModal": {
+    "title": "Tulevat tilaukset",
+    "close": "Sulje",
+    "skipOrder": "Ohita",
+    "skipOrderAccessibilityLabel": "Ohita päivämäärällä {{orderDate}} tehty tilaus",
+    "unSkipOrder": "Poista ohitus",
+    "unskipOrderAccessibilityLabel": "Poista päivämäärällä {{orderDate}} tehdyn tilauksen ohitus",
+    "skippedOrderLabel": "{{skippedOrderDate}} (ohitettu)",
+    "skippedSuccessMessage": "Päivämäärällä {{orderDate}} tehty tilaus ohitettu",
+    "unskippedSuccessMessage": "Päivämäärällä {{orderDate}} tehdyn tilauksen ohitus ohitettu",
+    "skippedErrorMessage": "Tilauksen ohituksessa ilmeni ongelma",
+    "unskippedErrorMessage": "Tilauksen ohituksen ohituksessa ilmeni ongelma"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Valitse toimitustapa",
+    "free": "Ilmainen",
+    "localPickupOption": "Nouto: {{location}}",
+    "localDeliveryPhoneLabel": "Matkapuhelinnumero",
+    "localDeliveryInstructionsLabel": "Toimitusohjeet (valinnainen)",
+    "localDeliveryPhoneDetails": "Sinuun voidaan ottaa yhteyttä toimituksesi päivityksiä koskien.",
+    "localDeliveryInstructionsDetails": "Lisää tarvittavat tiedot, kuten ovikoodi tai muut ohjeet toimitusta varten."
+  },
+  "notFound": {
+    "title": "Toistuvaa tilausta ei löytynyt",
+    "description": "Tätä toistuvaa tilausta ei ole olemassa, tai sinulla ei ole lupaa sen tarkasteluun."
+  },
+  "emptyState": {
+    "title": "Ei ostettuja toistuvia tilauksia",
+    "description": "Voit ostaa toistuvia tilauksia kaupasta"
+  }
+}

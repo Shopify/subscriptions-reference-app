@@ -1,0 +1,5 @@
+[[extensions]]
+type = "subscription_link_extension"
+name = "subscription-admin-link"
+handle = "subscription-admin-link"
+pattern = "/app/contracts/{contract_id}"

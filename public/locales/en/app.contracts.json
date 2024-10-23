@@ -1,0 +1,333 @@
+{
+  "page": {
+    "title": "Subscription contracts"
+  },
+  "emptyState": {
+    "title": "Manage your subscription contracts",
+    "description": "When a customer purchases a subscription from your store, the contract will appear here."
+  },
+  "table": {
+    "headings": {
+      "contract": "Contract",
+      "customer": "Customer",
+      "product": "Product",
+      "price": "Price",
+      "deliveryFrequency": "Delivery Frequency",
+      "status": "Status",
+      "warning": "Warning"
+    },
+    "resourceName": {
+      "singular": "Contract",
+      "plural": "Contracts",
+      "warningToolTipContent": "Order couldn’t be created because of insufficient inventory"
+    },
+    "tabs": {
+      "all": "All",
+      "active": "Active",
+      "paused": "Paused",
+      "cancelled": "Canceled",
+      "inventoryError": "Inventory errors"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Purchased",
+      "sortByUpdatedDateLabel": "Updated",
+      "newestFirstDirectionLabel": "Newest first",
+      "oldestFirstDirectionLabel": "Oldest first"
+    },
+    "emptyState": {
+      "title": "No contracts with this status",
+      "description": "{status} subscription contracts will display here"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "Pause contract",
+        "other": "Pause contracts"
+      },
+      "activate": {
+        "one": "Resume contract",
+        "other": "Resume contracts"
+      },
+      "cancel": {
+        "one": "Cancel contract",
+        "other": "Cancel contracts"
+      }
+    },
+    "pauseBulkActionModal": {
+      "title": {
+        "one": "Set {count} contract as paused?",
+        "other": "Set {count} contracts as paused?"
+      },
+      "content": "Billing and upcoming orders will be paused. Paused contracts can be resumed at any time.",
+      "action": "Set as paused",
+      "cancel": "Cancel",
+      "bulkOperationStartedToast": {
+        "one": "Pausing subscription contract...",
+        "other": "Pausing subscription contracts..."
+      },
+      "errorToast": {
+        "one": "Unable to pause contract",
+        "other": "Unable to pause contracts"
+      }
+    },
+    "activateBulkActionModal": {
+      "title": {
+        "one": "Resume {count} contract?",
+        "other": "Resume {count} contracts?"
+      },
+      "content": "Billing and upcoming orders will resume. Active contracts will be billed as normal.",
+      "action": {
+        "one": "Resume contract",
+        "other": "Resume contracts"
+      },
+      "cancel": "Cancel",
+      "bulkOperationStartedToast": {
+        "one": "Resuming subscription contract...",
+        "other": "Resuming subscription contracts..."
+      },
+      "errorToast": {
+        "one": "Unable to resume contract",
+        "other": "Unable to resume contracts"
+      }
+    },
+    "cancelBulkActionModal": {
+      "title": {
+        "one": "Set {count} contract as canceled?",
+        "other": "Set {count} contracts as canceled?"
+      },
+      "content": "Billing and upcoming orders will end immediately. Canceled contracts cannot be resumed.",
+      "action": "Set as canceled",
+      "cancel": "Cancel",
+      "bulkOperationStartedToast": {
+        "one": "Canceling subscription contract...",
+        "other": "Canceling subscription contracts..."
+      },
+      "errorToast": {
+        "one": "Unable to cancel contract",
+        "other": "Unable to cancel contracts"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "Unable to perform bulk action",
+        "other": "Unable to perform bulk action"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pause",
+      "accessibilityLabel": "Pause contract",
+      "success": "Contract paused successfully",
+      "error": "Unable to pause contract"
+    },
+    "resume": {
+      "title": "Resume",
+      "accessibilityLabel": "Resume contract",
+      "success": "Contract resumed successfully",
+      "error": "Unable to resume contract"
+    },
+    "cancel": {
+      "title": "Cancel subscription",
+      "accessibilityLabel": "Cancel subscription",
+      "success": "Contract canceled successfully",
+      "error": "Unable to cancel contract",
+      "modalTitle": "Cancel subscription",
+      "modalCancel": "Keep contract",
+      "modalContent": "Billing and upcoming orders will end immediately. Canceled contracts cannot be resumed."
+    },
+    "billContract": {
+      "title": "Bill contract",
+      "accessibilityLabel": "Bill contract",
+      "success": "Billing attempt started",
+      "error": "Unable to bill contract"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Upcoming orders",
+    "subscription": "Subscription details",
+    "pastOrders": "Past orders",
+    "viewOrder": "View",
+    "price": "Price",
+    "purchaseDate": "Purchase date",
+    "quantity": "Quantity",
+    "orderNumber": "Order {number}",
+    "edit": "Edit",
+    "discount": "Discount",
+    "discountValue": {
+      "multipleDiscounts": "Multiple discounts",
+      "percentageOff": "{{value}}% off",
+      "amountOff": "{{value}} off",
+      "fixedPrice": "{{value}} fixed price"
+    },
+    "delivery": "Delivery",
+    "localPickup": "{{value}}, local pickup",
+    "nextOrders": {
+      "title": "Next orders",
+      "skip": "Skip",
+      "skipped": "Skipped",
+      "resume": "Resume",
+      "showMore": "Show {number} more",
+      "showMoreNoCount": "Show more",
+      "skipError": "Unable to skip / resume order",
+      "skipSuccess": "Order skipped successfully",
+      "resumeSuccess": "Order resumed successfully"
+    },
+    "paymentMethods": {
+      "title": "Payment methods"
+    },
+    "customer": {
+      "title": "Customer"
+    },
+    "orderNotCreated": "Order not created"
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "{date} order couldn't be created",
+      "inProgressTitle": "A billing attempt is in progress. This page will refresh when the billing attempt is done.",
+      "description": "There wasn’t enough inventory during the last billing attempt. If stock is on the way and you want to bypass additional retry attempts, create the order now and oversell inventory. For more significant delays, you might prefer to pause, skip, or cancel.",
+      "button": "Create order now"
+    },
+    "modal": {
+      "title": "Continue to create order?",
+      "inventoryWarning": "Only oversell inventory if you’re confident that stock is on the way",
+      "outOfStock": {
+        "one": "The following is out of stock and will be oversold for this order:",
+        "other": "The following are out of stock and will be oversold for this order:"
+      },
+      "actions": {
+        "ignoreAndCreate": "Create order now",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "paymentMethodDetails": {
+    "title": "Payment method",
+    "revoked": "Payment method was removed by customer on {revokedAt}",
+    "expires": "Expires {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Send link to update card",
+      "managePayment": "Manage payment on customer page"
+    },
+    "paymentInstrumentBrands": {
+      "americanexpress": "American Express",
+      "americanExpress": "American Express",
+      "applepay": "Apple Pay",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersclub": "Diners Club",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlepay": "Google Pay",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shoppay": "Shop Pay",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron"
+    },
+    "emailModal": {
+      "title": "Send link to update card",
+      "descriptionCreditCard": "Send a link to {customerName} to update their credit card ending in {lastDigits}",
+      "descriptionOther": "Send a link to {customerName} to update payment method.",
+      "fromField": "From:",
+      "toField": "To:",
+      "subjectField": "Subject:",
+      "subjectMessage": "Update your payment method for {shopName}",
+      "errorMessage": "Unable to send customer payment method update email",
+      "successMessage": "Email sent",
+      "actions": {
+        "sendEmail": "Send email",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "customerDetails": {
+    "title": "Customer",
+    "contactInformation": "Contact information",
+    "shippingAddress": "Shipping address",
+    "actions": {
+      "selectAddress": "Select a different address",
+      "manageAddress": "Manage addresses on customer page"
+    },
+    "addressModal": {
+      "title": "Select a different address",
+      "actions": {
+        "cancel": "Cancel",
+        "update": "Update"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edit subscription",
+    "details": {
+      "title": "Subscription details",
+      "paymentSummary": "Payment Summary",
+      "searchProducts": "Search products",
+      "browse": "Browse",
+      "removeLine": "Remove subscription line",
+      "oneTimePurchasePrice": "One-time purchase price: {price}",
+      "oneTimePurchasePriceChanged": "One-time purchase has price changed",
+      "outOfStock": "No units in stock",
+      "quantity": "Quantity",
+      "deliveryFrequency": {
+        "title": "Delivery frequency",
+        "warning": "Updating the delivery frequency will automatically update the billing frequency.",
+        "interval": "Interval",
+        "intervalCount": "Interval count"
+      },
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "total": "Total",
+      "deliveryInterval": {
+        "weeks": "weeks",
+        "months": "months",
+        "years": "years"
+      }
+    },
+    "editPriceModal": {
+      "title": "Edit price",
+      "subscriptionPriceLabel": "Subscription price",
+      "discountLabel": "{{discountAmount}} subscription discount applied to new price of {{lineTitle}}",
+      "amountTooLargeError": "Amount is too large",
+      "amountNegativeError": "Amount must be greater than or equal to 0",
+      "actions": {
+        "update": "Update",
+        "cancel": "Cancel"
+      },
+      "oneTimePurchasePriceChangedWarning": "The one-time purchase price of {{title}} has changed, and is now {{newPrice}}",
+      "updateSubscriptionPrice": "Update subscription price of {{title}}"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Unable to create subscription contract draft"
+      },
+      "updateDraft": {
+        "error": "Unable to update subscription contract draft",
+        "quantityTooLargeError": "Quantity is too large",
+        "deliveryFrequencyTooLargeError": "Delivery frequency is too large",
+        "deliveryFrequencyIntegerError": "Delivery frequency must be an integer"
+      },
+      "updateContract": {
+        "error": "Unable to update subscription contract",
+        "success": "Contract updated"
+      },
+      "updateAddress": {
+        "error": "Unable to update address",
+        "success": "Address updated"
+      },
+      "selectProducts": {
+        "lineCountError": "Subscription contracts must have at least 1 line item"
+      }
+    }
+  }
+}

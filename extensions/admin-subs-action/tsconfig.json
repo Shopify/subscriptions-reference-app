@@ -1,0 +1,26 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "types": [
+      "@shopify/react-testing/matchers",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "outDir": "./build",
+    "paths": {
+      "foundation/*": ["src/foundation/*"],
+      "generatedTypes/*": ["types/*"],
+      "tests/*": ["src/tests/*"],
+      "mocks/*": ["src/tests/mocks/*"]
+    }
+  },
+  "include": ["./src", "./types", "tests/mocks", "../shared"],
+  "exclude": ["dist", "public", "node_modules/**/*"]
+}

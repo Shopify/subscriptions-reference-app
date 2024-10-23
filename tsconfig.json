@@ -1,0 +1,35 @@
+{
+  "include": [
+    "env.d.ts",
+    "app/**/*",
+    "test/**/*",
+    "extensions/**/*",
+    "config/**/*",
+    "type-definitions/global.d.ts",
+    "type-definitions/index.d.ts"
+  ],
+  "exclude": ["build", "public", "node_modules/**/*", "extensions/*"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "target": "ES2022",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": false,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"],
+      "#/*": ["./test/*"]
+    },
+    "types": ["@shopify/app-bridge-types"],
+    "noEmit": true,
+    "skipLibCheck": true
+  }
+}

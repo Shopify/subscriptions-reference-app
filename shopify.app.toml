@@ -1,0 +1,70 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+name = "Subscriptions application"
+client_id = "subscriptions-app-key"
+application_url = "https://example.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "customer_read_orders,read_locales,read_locations,read_themes,write_metaobject_definitions,write_metaobjects,write_orders,write_products,write_translations"
+
+[auth]
+redirect_urls = [
+  "https://example.com/auth/callback",
+  "https://example.com/auth/shopify/callback",
+  "https://example.com/api/auth/callback",
+]
+
+[webhooks]
+api_version = "unstable"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_contracts/create" ]
+  uri = "/webhooks/subscription_contracts/create"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_contracts/activate" ]
+  uri = "/webhooks/subscription_contracts/activate"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_contracts/cancel" ]
+  uri = "/webhooks/subscription_contracts/cancel"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_contracts/pause" ]
+  uri = "/webhooks/subscription_contracts/pause"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_billing_cycles/skip" ]
+  uri = "/webhooks/subscription_billing_cycles/skip"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_billing_attempts/success" ]
+  uri = "/webhooks/subscription_billing_attempts/success"
+
+  [[webhooks.subscriptions]]
+  topics = [ "subscription_billing_attempts/failure" ]
+  uri = "/webhooks/subscription_billing_attempts/failure"
+
+  [[webhooks.subscriptions]]
+  topics = [ "selling_plan_groups/create", "selling_plan_groups/update" ]
+  uri = "/webhooks/selling_plan_groups/create_or_update"
+
+  [[webhooks.subscriptions]]
+  uri = "/webhooks/customer_redact"
+  compliance_topics = [ "customers/data_request", "customers/redact" ]
+
+  [[webhooks.subscriptions]]
+  uri = "/webhooks/shop_redact"
+  compliance_topics = [ "shop/redact" ]
+
+[pos]
+embedded = false

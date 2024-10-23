@@ -1,0 +1,68 @@
+{
+  "name": "Předplatná",
+  "save": "Uložit",
+  "cancel": "Zrušit",
+  "merchantCode": {
+    "label": "Interní popis",
+    "helpText": "Jen pro vaši referenci"
+  },
+  "planName": {
+    "label": "Název",
+    "placeholder": "Předplatit a uložit",
+    "helpText": "Zákazníkům se uvedené informace zobrazí na stránkách produktů cílových stránek obchodu s předplatným."
+  },
+  "discountAndDelivery": "Sleva a doručení",
+  "offerDiscount": "Nabídnout slevu",
+  "discountType": {
+    "percentageOff": "Procento slevy",
+    "amountOff": "Částka slevy",
+    "fixedPrice": "Fixní cena"
+  },
+  "deliveryFrequency": "Četnost doručování",
+  "deliveryInterval": {
+    "label": "Interval doručení",
+    "weeks": "týd.",
+    "months": "měs.",
+    "years": "r.",
+    "day": {
+      "singular": "Doručení každý den",
+      "plural": "Doručení každý {{count}}. den"
+    },
+    "week": {
+      "singular": "Doručení každý týden",
+      "plural": "Doručení každý {{count}}. týden"
+    },
+    "month": {
+      "singular": "Doručení každý měsíc",
+      "plural": "Doručení každý {{count}}. měsíc"
+    },
+    "year": {
+      "singular": "Doručení každý rok",
+      "plural": "Doručení každý {{count}}. rok"
+    }
+  },
+  "addOptionButton": {
+    "label": "Možnost",
+    "accessibilityLabel": "Přidat možnost"
+  },
+  "removeOption": "Odebrat možnost",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% sleva",
+    "amountOff": "sleva {{amount}}",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Plán předplatného byl vytvořen",
+    "update": "Plán předplatného byl aktualizován"
+  },
+  "validator": {
+    "nameEmptyError": "Název je nutné zadat",
+    "merchantCodeEmptyError": "Interní popis je nutné zadat",
+    "deliveryFrequencyError": "Četnost doručování je nutné zadat",
+    "deliveryFrequencyMaxError": "\u001eČetnost doručování musí být menší než 36 500 dnů",
+    "deliveryFrequencyFloatError": "Četnost doručování musí představovat celé číslo",
+    "discountValueMinError": "Hodnota slevy musí být větší než 0",
+    "discountValueMaxError": "Hodnota slevy je příliš vysoká",
+    "discountValueMaxPercentError": "Hodnota slevy nesmí překročit 100 %"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "skip": "Ignorer",
+  "subscriptionDetails": "Détails de l’abonnement",
+  "subscriptions": "Abonnements",
+  "manageSubscription": "Gérer l’abonnement",
+  "upcomingOrder": "Commande à venir",
+  "showUpcomingOrders": "Afficher les commandes à venir",
+  "nextOrder": "Commande suivante : {{date}}",
+  "lastUpdated": "Dernière mise à jour le {{date}}",
+  "maxOrdersSkipped": "Vous avez ignoré le nombre maximum de commandes",
+  "skipOrderOverYear": "Impossible d’ignorer cette commande, car sa date est éloignée de plus d’un an",
+  "paymentMethodInvalidBanner": "{{brand}} se terminant par {{lastDigits}} n’est pas valide. Mettez à jour le moyen de paiement ci-dessous pour continuer à recevoir les commandes",
+  "paymentMethodInvalidBannerGeneric": "La carte se terminant par {{lastDigits}} n’est pas valide. Mettez à jour le moyen de paiement ci-dessous pour continuer à recevoir les commandes",
+  "paymentMethodInvalidBadge": "Moyen de paiement non valide",
+  "listItem": {
+    "multipleItemsName": "{{count}} articles",
+    "accessibilityLabel": "Gérer l’abonnement : {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Actif",
+    "paused": "Suspendu",
+    "cancelled": "Annulé",
+    "expired": "Expiré",
+    "failed": "Échec",
+    "stale": "Périmé"
+  },
+  "deliveryInterval": {
+    "day.one": "Livrez chaque jour",
+    "day.other": "Livrez tous les {{count}} jours",
+    "week.one": "Livrez chaque semaine",
+    "week.other": "Livrez toutes les {{count}} semaines",
+    "month.one": "Livrez chaque mois",
+    "month.other": "Livrez tous les {{count}} mois",
+    "year.one": "Livrez chaque année",
+    "year.other": "Livrez tous les {{count}} ans"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Fréquence de livraison",
+    "payment": "Paiement",
+    "billingAddress": "Adresse de facturation",
+    "shippingAddress": "Adresse d’expédition",
+    "shippingMethod": "Mode d’expédition",
+    "pickupLocation": "Point de collecte",
+    "changePaymentMethodButtonLabel": "Modifier le moyen de paiement",
+    "editShippingAddressButtonLabel": "Modifier l’adresse d’expédition",
+    "editPickupAddressButtonLabel": "Modifier l’adresse du point de collecte",
+    "inventoryError": "Votre prochaine commande peut être retardée car des produits sont en rupture de stock"
+  },
+  "paymentModal": {
+    "title": "Remplacer le moyen de paiement",
+    "save": "Enregistrer",
+    "paymentMethod": "Moyen de paiement",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "errorBannerTitle": "Impossible de mettre à jour le moyen de paiement"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Commandes précédentes",
+    "view": "Afficher"
+  },
+  "skipNextOrder": {
+    "text": "Ignorer la prochaine commande",
+    "generic": "Voulez-vous ne pas recevoir la prochaine commande ?",
+    "date": "Voulez-vous ne pas recevoir la prochaine commande ? Votre abonnement reprendra le {{date}}.",
+    "errorBannerTitle": "Impossible d’ignorer la prochaine commande",
+    "close": "Fermer"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Suspendre un abonnement",
+    "action": "Suspendre un abonnement",
+    "close": "Fermer",
+    "description": "Votre abonnement sera immédiatement suspendu et vous ne serez plus facturé(e) et ne recevrez plus de commandes. Vous pouvez reprendre votre abonnement à tout moment.",
+    "errorBannerTitle": "Impossible de suspendre l’abonnement"
+  },
+  "subscriptionActions": {
+    "pause": "Suspendre",
+    "skip": "Ignorer la prochaine commande",
+    "resume": "Reprendre",
+    "cancel": "Annuler",
+    "manage": "Gérer",
+    "viewSubscriptionDetails": "Voir les détails"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Si vous reprenez cet abonnement, la facturation reprendra sur-le-champ.",
+    "descriptionWithDate": "Si vous reprenez cet abonnement, la facturation reprendra le {{date}}.",
+    "close": "Fermer",
+    "descriptionPriceChanged": "Le prix de cet abonnement a changé et la somme de {{price}} vous sera facturée pour chaque commande à venir.",
+    "continue": "Continuer",
+    "title": "Reprendre l’abonnement",
+    "errorBannerTitle": "Impossible de reprendre l’abonnement"
+  },
+  "priceSummary": {
+    "subtotal": "Sous-total",
+    "shipping": "Expédition",
+    "taxes": "Taxes",
+    "total": "Total",
+    "quantity": "{{quantity}}/pièce"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Annuler l’abonnement",
+    "description": "Si vous annulez votre abonnement, la facturation et la livraison prendront immédiatement fin. L’annulation d’abonnement est définitive. Pour arrêter temporairement de recevoir des commandes, suspendez votre abonnement.",
+    "action": "Annuler l’abonnement",
+    "close": "Fermer",
+    "errorBannerTitle": "Impossible d’annuler l’abonnement"
+  },
+  "errorBoundary": {
+    "content": "Une erreur s’est produite, essayez d’actualiser la page"
+  },
+  "addressModal": {
+    "save": "Enregistrer",
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "title": "Modifier l’adresse d’expédition",
+    "errorBannerTitle": "Impossible de mettre à jour le mode de livraison",
+    "noDeliveryOptions": "Il n’est pas possible d’expédier cet abonnement à l’adresse que vous avez saisie. Vérifiez que tous les champs de votre adresse ont été renseignés correctement, puis réessayez."
+  },
+  "successBanner": {
+    "paused": "Abonnement suspendu",
+    "resumed": "Abonnement repris",
+    "cancelled": "Abonnement annulé",
+    "skipped": "Prochaine commande passée",
+    "paymentUpdated": "Moyen de paiement mis à jour",
+    "shippingUpdated": "Mode d’expédition mis à jour",
+    "deliveryUpdated": "Mode de livraison mis à jour"
+  },
+  "upcomingOrdersModal": {
+    "title": "Commandes à venir",
+    "close": "Fermer",
+    "skipOrder": "Ignorer",
+    "skipOrderAccessibilityLabel": "Ignorer la commande du {{orderDate}}",
+    "unSkipOrder": "Ne pas ignorer",
+    "unskipOrderAccessibilityLabel": "Ne pas ignorer la commande du {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (ignoré)",
+    "skippedSuccessMessage": "Commande du {{orderDate}} ignorée",
+    "unskippedSuccessMessage": "Commande du {{orderDate}} non ignorée",
+    "skippedErrorMessage": "Erreur en ignorant la commande",
+    "unskippedErrorMessage": "Erreur en n’ignorant pas la commande"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Sélectionner le mode de livraison",
+    "free": "Gratuit",
+    "localPickupOption": "Retrait : {{location}}",
+    "localDeliveryPhoneLabel": "Numéro de téléphone mobile",
+    "localDeliveryInstructionsLabel": "Instructions de livraison (facultatives)",
+    "localDeliveryPhoneDetails": "Il se peut que l’on vous contacte pour vous donner de nouvelles informations sur votre livraison.",
+    "localDeliveryInstructionsDetails": "Saisissez les informations nécessaires, telles que les codes de porte ou les instructions de dépôt."
+  },
+  "notFound": {
+    "title": "Abonnement non trouvé",
+    "description": "Cet abonnement n’existe pas ou vous n’avez pas l’autorisation de le consulter."
+  },
+  "emptyState": {
+    "title": "Aucun abonnement acheté",
+    "description": "Accédez à la boutique pour acheter des abonnements"
+  }
+}

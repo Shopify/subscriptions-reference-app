@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Uložit",
+  "actions": {
+    "updateSuccess": "Nastavení bylo aktualizováno"
+  },
+  "title": "Nastavení",
+  "billingFailureSettings": {
+    "title": "Pokusy o fakturaci",
+    "description": "Určete dobu a počet opakování pokusů o fakturaci po neúspěšném pokusu",
+    "paymentFailureTitle": "Neúspěšná platební metoda",
+    "inventoryFailureTitle": "Nedostatečné skladové zásoby",
+    "retryAttempts": {
+      "label": "Počet pokusů o opakování",
+      "helpText": "Minimální počet opakování: 0, maximální počet opakování: 10",
+      "errors": {
+        "min": "Počet pokusů o opakování musí být vyšší než 0",
+        "max": "Počet pokusů o opakování je příliš vysoký"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Počet dnů mezi pokusy o opakování platby",
+      "helpText": "Minimální počet dnů: 1, maximální počet dnů: 14",
+      "errors": {
+        "min": "Počet dnů mezi pokusy o opakování platby musí být vyšší než 1",
+        "max": "Počet dnů mezi pokusy o opakování platby je příliš vysoký"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Počet pokusů o opakování skladových zásob musí být vyšší než 0",
+        "max": "Počet pokusů o opakování skladových zásob je příliš vysoký"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Počet dnů mezi pokusy o opakování fakturace skladových zásob musí být vyšší než 1",
+        "max": "Počet dnů mezi pokusy o opakování skladových zásob je příliš vysoký"
+      }
+    },
+    "onFailure": {
+      "label": "Akce v případě neúspěchu všech pokusů o opakování",
+      "options": {
+        "skip": "Vynechat předplatné a odeslat notifikaci",
+        "cancel": "Zrušit předplatné a odeslat notifikaci",
+        "pause": "Pozastavit předplatné a odeslat notifikaci"
+      }
+    },
+    "notifications": "Upravit notifikace",
+    "staffNotificationFrequency": {
+      "label": "Frekvence notifikací pro personál",
+      "options": {
+        "immediately": "Při každé neúspěšné fakturaci",
+        "weekly": "Týdenní shrnutí neúspěšných fakturací",
+        "monthly": "Měsíční shrnutí neúspěšných fakturací"
+      }
+    }
+  }
+}

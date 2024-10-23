@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Zásady předplatného",
+    "subscription_policy_url": "Odkaz na zásady předplatného",
+    "subscription_policy_url_info": "Vyberte existující stránku nebo vložte externí odkaz, který zobrazí zásady předplatného.",
+    "description": "Widget předplatného se zobrazí jen u produktů, u kterých je připojen plán předplatného. [Zjistit více o nastaveních motivu pro předplatná](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Výše uvedené nastavení zobrazuje možnosti pro vybraný produkt. Aktuálně vybraný produkt nabízí plán předplatného. ",
+    "colors_title": "Barva",
+    "title": "Widget předplatného",
+    "product_title": "Produkt",
+    "border_title": "Ohraničení",
+    "border_thickness": "Tloušťka",
+    "border_radius": "Poloměr rohu",
+    "colors_text_title": "Název",
+    "colors_text_body": "Hlavní část",
+    "colors_background_border_title": "Pozadí a ohraničení",
+    "colors_background": "Pozadí",
+    "colors_dividers": "Oddělovače",
+    "supporting_text_title": "Podpůrný text",
+    "supporting_text_subtitle": "Název",
+    "supporting_text_input_default": "Možnosti nákupu"
+  }
+}

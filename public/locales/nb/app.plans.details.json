@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "Tilbake til abonnementstyper",
+  "planTitle": "Tittel for plan",
+  "planTitleHelpText": "Kundene ser ikke dette.",
+  "purchaseOptionTitle": "Tittel for kjøpsalternativ",
+  "purchaseOptionTitleHelpText": "Kundene vil se dette på {{howToDisplayProductsLink}} som har abonnementer.",
+  "defaultPurchaseOptionTitle": "Abonner og lagre",
+  "saveButtonText": "Lagre",
+  "create": {
+    "pageTitle": "Opprett et abonnement"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "Ugyldig produkt valgt",
+    "invalidVariant": "Ugyldig produktvariant valgt",
+    "merchantCodeEmptyError": "Abonnementstittel kreves",
+    "nameEmptyError": "Tittel for kjøpsalternativet kreves",
+    "createError": "Feil ved opprettelse av abonnementstype",
+    "updateError": "Feil ved oppdatering av abonnementstype",
+    "deliveryFrequencyError": "Frekvensen må være høyere enn 0",
+    "deliveryFrequencyMaxError": "Frekvensen er for stor",
+    "deliveryFrequencyFloatError": "Leveransefrekvensen må være et heltall",
+    "discountValueMinError": "Rabattverdien må være positiv",
+    "discountValueMaxError": "Rabattverdien er for stor",
+    "discountValueMaxPercentError": "Rabattverdien må ikke være over 100 %",
+    "updateSuccess": "Abonnementstype oppdatert",
+    "duplicateDeliveryFrequencyError": "Leveransealternativene må være unike",
+    "missingSellingPlanGroup": "Abonnementstype ikke funnet",
+    "createSuccess": "Abonnementstype opprettet"
+  },
+  "productCard": {
+    "title": "Produkter",
+    "browse": "Bla gjennom",
+    "searchProducts": "Søk i produkter",
+    "variantsSelected": "({count} av {total} varianter er valgt)",
+    "updateError": "Feil ved oppdatering av abonnementstype",
+    "maxProductsWarning": "Kun {{count}} varer kan legges til av gangen. Hvis du har mer enn {{count}} varer, kan du legge dem til etter at du har lagret dette abonnementet."
+  },
+  "discountDeliveryCard": {
+    "title": "Rabatt og leveranse",
+    "offerDiscount": "Tilby rabatt",
+    "discountType": {
+      "percentageOff": "Prosentvis rabatt",
+      "amountOff": "Rabattbeløp",
+      "fixedPrice": "Fast pris"
+    },
+    "deliveryFrequency": "Leveringsfrekvens",
+    "deliveryInterval": {
+      "label": "Leveringsintervall",
+      "weeks": "uker",
+      "months": "måneder",
+      "years": "år"
+    },
+    "addOption": "Legg til alternativ",
+    "removeOption": "Fjern alternativ",
+    "discountValueFixedPriceHelpText": "Dette er prisen som vises til kunder"
+  },
+  "deleteButtonText": "Slett",
+  "deleteSellingPlanGroupModal": {
+    "title": "Vil du slette abonnementstypen?",
+    "content": "Dette kan ikke angres. Eventuelle tilhørende kontrakter påvirkes ikke.",
+    "deleteButton": "Slett abonnement",
+    "cancelButton": "Avbryt",
+    "deleteError": "Feil under sletting av abonnement"
+  },
+  "summaryCard": {
+    "cardTitle": "Sammendrag",
+    "noPlanTitleYet": "Ingen tittel",
+    "weeklyDelivery": {
+      "one": "Lever hver uke",
+      "other": "Lever hver {intervalCount}. uke"
+    },
+    "monthlyDelivery": {
+      "one": "Lever hver måned",
+      "other": "Lever hver {intervalCount}. måned"
+    },
+    "yearlyDelivery": {
+      "one": "Lever hvert år",
+      "other": "Lever hvert {intervalCount}. år"
+    },
+    "percentageOff": "{amount} % rabatt",
+    "amountOff": "{amount} rabatt",
+    "deliveryFrequenciesWithDiscount": "{deliveryText}, {discountText}",
+    "multipleDeliveryFrequencies": "{count} leveransehyppigheter",
+    "countProducts": {
+      "one": "{count} produkt",
+      "other": "{count} produkter"
+    },
+    "countVariants": {
+      "one": "{count} produktvariant",
+      "other": "{count} produktvarianter"
+    },
+    "productAndVariantTextSeparatedList": "{productText}, {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "produktsider i butikkfronten",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "Leveringsfrekvens"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "title": "Settings",
+  "billingFailureSettings": {
+    "title": "Billing attempts",
+    "description": "Control when billing attempts are made again after a failed attempt",
+    "paymentFailureTitle": "Payment method failure",
+    "inventoryFailureTitle": "Insufficient inventory",
+    "retryAttempts": {
+      "label": "Number of retry attempts",
+      "helpText": "Min 0, max 10 retries",
+      "errors": {
+        "min": "Number of retry attempts must be higher than 0",
+        "max": "Number of retry attempts is too high"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Days between payment retry attempts",
+      "helpText": "Min 1, max 14 days",
+      "errors": {
+        "min": "Days between payment retry attempts must be higher than 1",
+        "max": "Days between payment retry attempts is too high"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Number of inventory retry attempts must be higher than 0",
+        "max": "Number of inventory retry attempts is too high"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Days between inventory retry attempts must be higher than 1",
+        "max": "Days between inventory retry attempts is too high"
+      }
+    },
+    "onFailure": {
+      "label": "Action when all retry attempts have failed",
+      "options": {
+        "skip": "Skip subscription and send notification",
+        "cancel": "Cancel subscription and send notification",
+        "pause": "Pause subscription and send notification"
+      }
+    },
+    "notifications": "Edit notifications",
+    "staffNotificationFrequency": {
+      "label": "Frequency of notifications to staff",
+      "options": {
+        "immediately": "Every time billing fails",
+        "weekly": "Weekly summary of billing failures",
+        "monthly": "Monthly summary of billing failures"
+      }
+    }
+  },
+  "saveButtonText": "Save",
+  "actions": {
+    "updateSuccess": "Settings updated"
+  }
+}

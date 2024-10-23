@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "保存",
+  "actions": {
+    "updateSuccess": "設定が更新されました"
+  },
+  "title": "設定",
+  "billingFailureSettings": {
+    "title": "請求試行",
+    "description": "請求が失敗した後に再度請求を試行するタイミングを管理する",
+    "paymentFailureTitle": "決済方法の失敗",
+    "inventoryFailureTitle": "在庫不足",
+    "retryAttempts": {
+      "label": "再試行の回数",
+      "helpText": "最低0回、最大10回の試行",
+      "errors": {
+        "min": "再試行の回数は0回より多い必要があります",
+        "max": "再試行の回数が多すぎます"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "決済再試行の間隔の日数",
+      "helpText": "最小1日、最大14日",
+      "errors": {
+        "min": "決済再試行の間隔の日数は1日より多い必要があります",
+        "max": "決済再試行の間隔の日数が多すぎます"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "在庫再試行の回数は0回より多い必要があります",
+        "max": "在庫再試行の回数が多すぎます"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "在庫再試行の間隔の日数は、1日より多い必要があります",
+        "max": "在庫再試行の間隔の日数が多すぎます"
+      }
+    },
+    "onFailure": {
+      "label": "すべての再試行が失敗した場合のアクション",
+      "options": {
+        "skip": "サブスクリプションをスキップして通知を送信する",
+        "cancel": "サブスクリプションをキャンセルして通知を送信する",
+        "pause": "サブスクリプションを一時停止して通知を送信する"
+      }
+    },
+    "notifications": "通知を編集",
+    "staffNotificationFrequency": {
+      "label": "スタッフへの通知頻度",
+      "options": {
+        "immediately": "請求が失敗するたび",
+        "weekly": "請求失敗の週次サマリー",
+        "monthly": "請求失敗の月次サマリー"
+      }
+    }
+  }
+}

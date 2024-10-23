@@ -1,0 +1,156 @@
+{
+  "subscriptions": "Pretplate",
+  "manageSubscription": "Upravljanje pretplatom",
+  "upcomingOrder": "Sljedeći korak",
+  "skip": "Preskoči",
+  "showUpcomingOrders": "Prikaži sljedeće narudžbe",
+  "nextOrder": "Sljedeća narudžba: {{date}}",
+  "lastUpdated": "Zadnje ažuriranje: {{date}}",
+  "subscriptionDetails": "Podaci o pretplati",
+  "maxOrdersSkipped": "Već je preskočen najveći dopušteni broj narudžbi",
+  "skipOrderOverYear": "Preskakanje nije moguće jer je narudžba tek za godinu dana",
+  "paymentMethodInvalidBanner": "{{brand}} koja završava sa {{lastDigits}} nije valjana. Promijenite način plaćanja u nastavku kako biste nastavili primati nadolazeće narudžbe",
+  "paymentMethodInvalidBannerGeneric": "Kartica koja završava sa {{lastDigits}} nije valjana. Promijenite način plaćanja u nastavku kako biste nastavili primati nadolazeće narudžbe",
+  "paymentMethodInvalidBadge": "Nevažeći način plaćanja",
+  "listItem": {
+    "multipleItemsName": "Broj artikala: {{count}}",
+    "accessibilityLabel": "Upravljanje pretplatom {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktivno",
+    "paused": "Privremeno obustavljeno",
+    "cancelled": "Otkazano",
+    "expired": "Isteklo",
+    "failed": "Neuspjelo",
+    "stale": "Neaktivno"
+  },
+  "deliveryInterval": {
+    "day.one": "Dostava svaki dan",
+    "day.other": "Dostava svakih nekoliko dana ({{count}})",
+    "week.one": "Dostava svaki tjedan",
+    "week.other": "Dostava svakih nekoliko tjedana ({{count}})",
+    "month.one": "Dostava svaki mjesec",
+    "month.other": "Dostava svakih nekoliko mjeseci ({{count}})",
+    "year.one": "Dostava svake godine",
+    "year.other": "Dostava svakih nekoliko godina ({{count}})"
+  },
+  "overviewCard": {
+    "deliveryFrequency": "Učestalost dostave",
+    "payment": "Plaćanje",
+    "billingAddress": "Adresa za naplatu",
+    "shippingAddress": "Adresa za dostavu",
+    "shippingMethod": "Način dostave",
+    "pickupLocation": "Lokacija preuzimanja",
+    "changePaymentMethodButtonLabel": "Promijeni način plaćanja",
+    "editShippingAddressButtonLabel": "Uredi adresu za dostavu",
+    "editPickupAddressButtonLabel": "Uredi adresu za preuzimanje",
+    "inventoryError": "Vaša sljedeća narudžba možda će kasniti jer proizvoda nema na zalihama"
+  },
+  "paymentModal": {
+    "title": "Uredi način plaćanja",
+    "save": "Spremi",
+    "paymentMethod": "Način plaćanja",
+    "edit": "Uredi",
+    "close": "Zatvori",
+    "errorBannerTitle": "Nije moguće promijeniti način plaćanja"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Prošle narudžbe",
+    "view": "Prikaži"
+  },
+  "skipNextOrder": {
+    "text": "Preskoči sljedeću narudžbu",
+    "generic": "Želite li prijeći na sljedeću narudžbu?",
+    "date": "Želite li prijeći na sljedeću narudžbu? Vaša pretplata ponovno će se aktivirati {{date}}.",
+    "errorBannerTitle": "Nije moguće preskočiti na sljedeću narudžbu",
+    "close": "Zatvori"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Privremeno obustavi pretplatu",
+    "action": "Privremeno obustavi pretplatu",
+    "close": "Zatvori",
+    "description": "Pretplata će se odmah obustaviti i više nećete dobivati račune za plaćanje ni narudžbe. Pretplatu možete nastaviti u bilo kojem trenutku.",
+    "errorBannerTitle": "Nije moguće privremeno obustaviti pretplatu"
+  },
+  "subscriptionActions": {
+    "pause": "Pauziraj",
+    "skip": "Preskoči sljedeću narudžbu",
+    "resume": "Nastavi",
+    "cancel": "Odustani",
+    "manage": "Upravljanje",
+    "viewSubscriptionDetails": "Prikaži pojedinosti"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Ako nastavite s ovom pretplatom, naplata će se odmah nastaviti.",
+    "descriptionWithDate": "Ako nastavite s ovom pretplatom, naplata će se nastaviti {{date}}.",
+    "close": "Zatvori",
+    "descriptionPriceChanged": "Cijena za ovu pretplatu se promijenila i naplatit ćemo vam {{price}} za sljedeću narudžbu.",
+    "continue": "Nastavi",
+    "title": "Nastavi s pretplatom",
+    "errorBannerTitle": "Nastavak pretplate nije moguć"
+  },
+  "priceSummary": {
+    "subtotal": "Podzbroj",
+    "shipping": "Dostava",
+    "taxes": "Porezi",
+    "total": "Ukupno",
+    "quantity": "Jedinična cijena: {{quantity}}"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Otkaži pretplatu",
+    "description": "Ako otkažete pretplatu, naplata i dostava odmah će se obustaviti. Otkazivanje pretplate ne možete poništiti. Ako želite privremeno prestati primati narudžbe, privremeno obustavite pretplatu.",
+    "action": "Otkaži pretplatu",
+    "close": "Zatvori",
+    "errorBannerTitle": "Nije moguće otkazati pretplatu"
+  },
+  "errorBoundary": {
+    "content": "Došlo je do problema, osvježite stranicu"
+  },
+  "addressModal": {
+    "save": "Spremi",
+    "continue": "Nastavi",
+    "cancel": "Odustani",
+    "title": "Uredi adresu za dostavu",
+    "errorBannerTitle": "Nije moguće promijeniti način dostave",
+    "noDeliveryOptions": "Ova se pretplata ne može poslati na unesenu adresu. Pregledajte adresu, provjerite jesu li sva polja pravilno ispunjena pa pokušajte ponovno."
+  },
+  "successBanner": {
+    "paused": "Pretplata je privremeno obustavljena",
+    "resumed": "Pretplata je produljena",
+    "cancelled": "Pretplata je otkazana",
+    "skipped": "Sljedeća narudžba je preskočena",
+    "paymentUpdated": "Način plaćanja je promijenjen",
+    "shippingUpdated": "Način dostave je promijenjen",
+    "deliveryUpdated": "Promijenjen je način dostave"
+  },
+  "upcomingOrdersModal": {
+    "title": "Predstojeće narudžbe",
+    "close": "Zatvori",
+    "skipOrder": "Preskoči",
+    "skipOrderAccessibilityLabel": "Preskoči narudžbu na dan {{orderDate}}",
+    "unSkipOrder": "Poništi preskakanje",
+    "unskipOrderAccessibilityLabel": "Poništi preskakanje narudžbe na dan {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (preskočeno)",
+    "skippedSuccessMessage": "Narudžba od {{orderDate}} je preskočena",
+    "unskippedSuccessMessage": "Poništeno je preskakanje narudžbe od {{orderDate}}",
+    "skippedErrorMessage": "Došlo je do pogreške prilikom preskakanja narudžbe",
+    "unskippedErrorMessage": "Došlo je do pogreške prilikom poništavanja preskakanja narudžbe"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Odaberite način dostave",
+    "free": "Besplatno",
+    "localPickupOption": "Lokacija preuzimanja: {{location}}",
+    "localDeliveryPhoneLabel": "Broj mobitela",
+    "localDeliveryInstructionsLabel": "Upute za dostavu (neobavezno)",
+    "localDeliveryPhoneDetails": "Možda ćemo vam se javiti ako bude nekih promjena u vezi s dostavom.",
+    "localDeliveryInstructionsDetails": "Unesite potrebne podatke, npr. šifru vrata ili upute za dostavu paketa."
+  },
+  "notFound": {
+    "title": "Pretplata nije pronađena",
+    "description": "Ova pretplata ne postoji ili nemate dopuštenje za njezin prikaz."
+  },
+  "emptyState": {
+    "title": "Nema kupljenih pretplata",
+    "description": "Idite u trgovinu i kupite pretplate"
+  }
+}

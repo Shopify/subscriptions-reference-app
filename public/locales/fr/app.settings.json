@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Enregistrer",
+  "actions": {
+    "updateSuccess": "Paramètres mis à jour"
+  },
+  "title": "Paramètres",
+  "billingFailureSettings": {
+    "title": "Tentatives de facturation",
+    "description": "Contrôle lorsque les tentatives de facturation sont répétées après une tentative infructueuse",
+    "paymentFailureTitle": "Échec du moyen de paiement",
+    "inventoryFailureTitle": "Stock insuffisant",
+    "retryAttempts": {
+      "label": "Nombre de nouvelles tentatives",
+      "helpText": "Nombre de tentatives min. de 0, max. de 10",
+      "errors": {
+        "min": "Le nombre de nouvelles tentatives doit être supérieur à 0",
+        "max": "Le nombre de nouvelles tentatives est trop élevé"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Nombre de jours entre les nouvelles tentatives de paiement",
+      "helpText": "Minimum 1 jour, maximum 14 jours",
+      "errors": {
+        "min": "Le nombre de jours entre les nouvelles tentatives de paiement doit être supérieur à 1",
+        "max": "Le nombre de jours entre les nouvelles tentatives de paiement est trop élevé"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Le nombre de nouvelles tentatives de stock doit être supérieur à 0",
+        "max": "Le nombre de nouvelles tentatives de stock est trop élevé"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Le nombre de jours entre les nouvelles tentatives de stock doit être supérieur à 1",
+        "max": "Le nombre de jours entre les nouvelles tentatives de stock est trop élevé"
+      }
+    },
+    "onFailure": {
+      "label": "Action lorsque toutes les nouvelles tentatives ont échoué",
+      "options": {
+        "skip": "Ignorer l’abonnement et envoyer une notification",
+        "cancel": "Annuler l’abonnement et envoyer une notification",
+        "pause": "Suspendre l’abonnement et envoyer une notification"
+      }
+    },
+    "notifications": "Modifier les notifications",
+    "staffNotificationFrequency": {
+      "label": "Fréquence des notifications aux employés",
+      "options": {
+        "immediately": "Chaque fois que la facturation échoue",
+        "weekly": "Résumé hebdomadaire des échecs de facturation",
+        "monthly": "Résumé mensuel des échecs de facturation"
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Subscriptions",
+  "save": "Save",
+  "cancel": "Cancel",
+  "merchantCode": {
+    "label": "Internal description",
+    "helpText": "For your reference only"
+  },
+  "planName": {
+    "label": "Title",
+    "placeholder": "Subscribe and save",
+    "helpText": "Customers will see this on storefront product pages that have subscriptions"
+  },
+  "discountAndDelivery": "Discount and delivery",
+  "offerDiscount": "Offer discount",
+  "discountType": {
+    "percentageOff": "Percentage off",
+    "amountOff": "Amount off",
+    "fixedPrice": "Fixed price"
+  },
+  "discountDetails": {
+    "percentageOff": "{{amount}}% off",
+    "amountOff": "{{amount}} off",
+    "fixedPrice": "{{amount}}"
+  },
+  "deliveryFrequency": "Delivery frequency",
+  "deliveryInterval": {
+    "label": "Delivery interval",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "day": {
+      "singular": "Deliver every day",
+      "plural": "Deliver every {{count}} days"
+    },
+    "week": {
+      "singular": "Deliver every week",
+      "plural": "Deliver every {{count}} weeks"
+    },
+    "month": {
+      "singular": "Deliver every month",
+      "plural": "Deliver every {{count}} months"
+    },
+    "year": {
+      "singular": "Deliver every year",
+      "plural": "Deliver every {{count}} years"
+    }
+  },
+  "addOptionButton": {
+    "label": "Option",
+    "accessibilityLabel": "Add option"
+  },
+  "removeOption": "Remove option",
+  "success": {
+    "create": "Subscription plan created",
+    "update": "Subscription plan updated"
+  },
+  "validator": {
+    "nameEmptyError": "Title is required",
+    "merchantCodeEmptyError": "Internal description is required",
+    "deliveryFrequencyError": "Delivery frequency is required",
+    "deliveryFrequencyMaxError": "Delivery frequency must be less than 36500 days",
+    "deliveryFrequencyFloatError": "Delivery frequency must be a whole number",
+    "discountValueMinError": "Discount value must be greater than 0",
+    "discountValueMaxError": "Discount value is too high",
+    "discountValueMaxPercentError": "Discount value must not be over 100%"
+  }
+}

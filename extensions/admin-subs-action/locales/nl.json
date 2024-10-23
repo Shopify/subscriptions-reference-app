@@ -1,0 +1,68 @@
+{
+  "name": "Abonnementen",
+  "save": "Opslaan",
+  "cancel": "Annuleren",
+  "merchantCode": {
+    "label": "Interne beschrijving",
+    "helpText": "Alleen ter referentie"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Abonneren en opslaan",
+    "helpText": "Klanten zien dit op productpagina's in de webshop met abonnementen"
+  },
+  "discountAndDelivery": "Korting en bezorging",
+  "offerDiscount": "Korting bieden",
+  "discountType": {
+    "percentageOff": "Kortingspercentage",
+    "amountOff": "Kortingsbedrag",
+    "fixedPrice": "Vaste prijs"
+  },
+  "deliveryFrequency": "Bezorgfrequentie",
+  "deliveryInterval": {
+    "label": "Bezorginterval",
+    "weeks": "weken",
+    "months": "maanden",
+    "years": "jaar",
+    "day": {
+      "singular": "Elke dag bezorgen",
+      "plural": "Elke {{count}} dagen bezorgen"
+    },
+    "week": {
+      "singular": "Elke week bezorgen",
+      "plural": "Elke {{count}} weken bezorgen"
+    },
+    "month": {
+      "singular": "Elke maand bezorgen",
+      "plural": "Elke {{count}} maanden bezorgen"
+    },
+    "year": {
+      "singular": "Elk jaar bezorgen",
+      "plural": "Elke {{count}} jaar bezorgen"
+    }
+  },
+  "addOptionButton": {
+    "label": "Optie",
+    "accessibilityLabel": "Optie toevoegen"
+  },
+  "removeOption": "Optie verwijderen",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% korting",
+    "amountOff": "{{amount}} korting",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Abonnement gemaakt",
+    "update": "Abonnement bijgewerkt"
+  },
+  "validator": {
+    "nameEmptyError": "Titel is vereist",
+    "merchantCodeEmptyError": "Interne beschrijving is vereist",
+    "deliveryFrequencyError": "Bezorgfrequentie is vereist",
+    "deliveryFrequencyMaxError": "Bezorgfrequentie dient lager te zijn dan 36.500 dagen",
+    "deliveryFrequencyFloatError": "Bezorgfrequentie dient een geheel getal te zijn",
+    "discountValueMinError": "Kortingswaarde mag niet nul zijn",
+    "discountValueMaxError": "Kortingswaarde is te hoog",
+    "discountValueMaxPercentError": "Kortingswaarde mag niet meer dan 100% zijn"
+  }
+}

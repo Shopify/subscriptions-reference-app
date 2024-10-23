@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "一次性购买",
+      "subscription": "订阅"
+    }
+  },
+  "policy": {
+    "description": "自动续订，可跳过或随时取消。",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>查看订阅政策</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "若要添加到购物车，请转至产品页面并选择购买选项"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "只有附含订阅套餐的产品才会显示订阅小组件。"
+  },
+  "no_app_block_found_banner": {
+    "message": "若要编辑订阅小组件的放置位置，请将以下代码片段添加到产品模板中所需的放置位置。",
+    "copy_button_text": "复制",
+    "copied_button_text": "已复制",
+    "button_text": "查看代码编辑器"
+  }
+}

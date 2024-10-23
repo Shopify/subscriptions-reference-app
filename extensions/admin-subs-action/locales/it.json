@@ -1,0 +1,68 @@
+{
+  "name": "Abbonamenti",
+  "save": "Salva",
+  "cancel": "Annulla",
+  "merchantCode": {
+    "label": "Descrizione interna",
+    "helpText": "Solo per tuo riferimento"
+  },
+  "planName": {
+    "label": "Titolo",
+    "placeholder": "Abbonati e risparmia",
+    "helpText": "I clienti lo visualizzeranno sulle pagine dei prodotti della vetrina virtuale che contengono abbonamenti"
+  },
+  "discountAndDelivery": "Sconto e consegna",
+  "offerDiscount": "Offri uno sconto",
+  "discountType": {
+    "percentageOff": "Percentuale di sconto",
+    "amountOff": "Importo dello sconto",
+    "fixedPrice": "Prezzo fisso"
+  },
+  "deliveryFrequency": "Frequenza di consegna",
+  "deliveryInterval": {
+    "label": "Intervallo di consegna",
+    "weeks": "settimane",
+    "months": "mesi",
+    "years": "anni",
+    "day": {
+      "singular": "Consegna ogni giorno",
+      "plural": "Consegna ogni {{count}} giorni"
+    },
+    "week": {
+      "singular": "Consegna ogni settimana",
+      "plural": "Consegna ogni {{count}} settimane"
+    },
+    "month": {
+      "singular": "Consegna ogni mese",
+      "plural": "Consegna ogni {{count}} mesi"
+    },
+    "year": {
+      "singular": "Consegna ogni anno",
+      "plural": "Consegna ogni {{count}} anni"
+    }
+  },
+  "addOptionButton": {
+    "label": "Opzione",
+    "accessibilityLabel": "Aggiungi opzione"
+  },
+  "removeOption": "Rimuovi opzione",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% di sconto",
+    "amountOff": "{{amount}} di sconto",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Piano di abbonamento creato",
+    "update": "Piano di abbonamento aggiornato"
+  },
+  "validator": {
+    "nameEmptyError": "Il titolo è obbligatorio",
+    "merchantCodeEmptyError": "La descrizione interna obbligatoria",
+    "deliveryFrequencyError": "La frequenza di consegna è obbligatoria",
+    "deliveryFrequencyMaxError": "La frequenza di consegna deve essere meno di 365 giorni",
+    "deliveryFrequencyFloatError": "La frequenza di consegna deve essere un numero intero",
+    "discountValueMinError": "Il valore dello sconto deve essere maggiore di 0",
+    "discountValueMaxError": "Il valore dello sconto è troppo alto",
+    "discountValueMaxPercentError": "Il valore dello sconto non deve essere superiore al 100%"
+  }
+}

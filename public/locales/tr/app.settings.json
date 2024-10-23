@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Kaydet",
+  "actions": {
+    "updateSuccess": "Ayarlar güncellendi"
+  },
+  "title": "Ayarlar",
+  "billingFailureSettings": {
+    "title": "Faturalandırma girişimleri",
+    "description": "Başarısız bir girişimin ardından faturalandırma girişiminin ne zaman tekrar yapılacağını kontrol edin",
+    "paymentFailureTitle": "Ödeme yöntemi hatası",
+    "inventoryFailureTitle": "Yetersiz envanter",
+    "retryAttempts": {
+      "label": "Yeniden deneme sayısı",
+      "helpText": "Minimum 0, maksimum 10 yeniden deneme",
+      "errors": {
+        "min": "Yeniden deneme sayısı 0'dan büyük olmalıdır",
+        "max": "Yeniden deneme sayısı çok yüksek"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Ödemeyi yeniden deneme girişimleri arasındaki gün sayısı",
+      "helpText": "En az 1, en fazla 14 gün",
+      "errors": {
+        "min": "Ödemeyi yeniden deneme girişimleri arasında en az 1 gün olmalıdır",
+        "max": "Ödemeyi yeniden deneme girişimleri arasındaki gün sayısı çok fazla"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Envantere yeniden giriş deneme sayısı 0'dan büyük olmalıdır",
+        "max": "Envantere yeniden giriş deneme sayısı çok yüksek"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Envantere yeniden giriş denemeleri arasındaki gün sayısı en az 1 olmalıdır",
+        "max": "Envantere yeniden giriş denemeleri arasındaki gün sayısı çok yüksek"
+      }
+    },
+    "onFailure": {
+      "label": "Tüm yeniden deneme girişimleri başarısız olduğunda yapılacak işlem",
+      "options": {
+        "skip": "Aboneliği atla ve bildirim gönder",
+        "cancel": "Aboneliği iptal et ve bildirim gönder",
+        "pause": "Aboneliği duraklat ve bildirim gönder"
+      }
+    },
+    "notifications": "E-posta bildirimlerini düzenle",
+    "staffNotificationFrequency": {
+      "label": "Personele gönderilecek bildirimlerin sıklığı",
+      "options": {
+        "immediately": "Her başarısız faturalandırma girişiminde",
+        "weekly": "Başarısız faturalandırma gişimlerinin haftalık özeti",
+        "monthly": "Başarısız faturalandırma gişimlerinin aylık özeti"
+      }
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "page": {
+    "title": "订阅合同"
+  },
+  "emptyState": {
+    "title": "管理您的订阅合同",
+    "description": "当客户从您商店购买订阅后，合同将在此处显示。"
+  },
+  "table": {
+    "headings": {
+      "contract": "合同",
+      "customer": "客户",
+      "product": "产品",
+      "price": "价格",
+      "deliveryFrequency": "配送频率",
+      "status": "状态",
+      "warning": "警告"
+    },
+    "resourceName": {
+      "singular": "合同",
+      "plural": "合同",
+      "warningToolTipContent": "结算尝试失败，因为产品缺货。"
+    },
+    "tabs": {
+      "all": "全部",
+      "active": "活跃",
+      "paused": "已暂停",
+      "cancelled": "已取消"
+    },
+    "emptyState": {
+      "title": "没有具有此状态的合同",
+      "description": "{status}订阅合同将在此处显示"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "购买时间",
+      "sortByUpdatedDateLabel": "更新时间",
+      "newestFirstDirectionLabel": "由近到早",
+      "oldestFirstDirectionLabel": "由早到近"
+    },
+    "pauseBulkActionModal": {
+      "content": "账单和后续订单将被暂停。可随时恢复已暂停的合同。",
+      "cancel": "取消",
+      "title": {
+        "one": "将 {count} 份合同设置为已暂停？",
+        "other": "将 {count} 份合同设置为已暂停？"
+      },
+      "bulkOperationStartedToast": {
+        "one": "正在暂停订阅合同...",
+        "other": "正在暂停订阅合同..."
+      },
+      "errorToast": {
+        "one": "无法暂停合同",
+        "other": "无法暂停合同"
+      },
+      "action": "设置为“已暂停”"
+    },
+    "bulkActions": {
+      "pause": {
+        "one": "暂停合同",
+        "other": "暂停合同"
+      },
+      "activate": {
+        "one": "恢复合同",
+        "other": "恢复合同"
+      },
+      "cancel": {
+        "one": "取消合同",
+        "other": "取消合同"
+      }
+    },
+    "activateBulkActionModal": {
+      "content": "账单和后续订单将会恢复。活跃的合同将按正常方式结算。",
+      "cancel": "取消",
+      "title": {
+        "one": "恢复 {count} 份合同？",
+        "other": "恢复 {count} 份合同？"
+      },
+      "bulkOperationStartedToast": {
+        "one": "正在恢复订阅合同...",
+        "other": "正在恢复订阅合同..."
+      },
+      "errorToast": {
+        "one": "无法恢复合同",
+        "other": "无法恢复合同"
+      },
+      "action": {
+        "one": "恢复合同",
+        "other": "恢复合同"
+      }
+    },
+    "cancelBulkActionModal": {
+      "content": "账单和后续订单将立即终止。无法恢复已取消的合同。",
+      "action": "设置为“已取消”",
+      "cancel": "取消",
+      "title": {
+        "one": "将 {count} 份合同设置为“已取消”？",
+        "other": "将 {count} 份合同设置为“已取消”？"
+      },
+      "bulkOperationStartedToast": {
+        "one": "正在取消订阅合同...",
+        "other": "正在取消订阅合同..."
+      },
+      "errorToast": {
+        "one": "无法取消合同",
+        "other": "无法取消合同"
+      }
+    },
+    "genericActionModal": {
+      "errorToast": {
+        "one": "无法执行批量操作",
+        "other": "无法执行批量操作"
+      }
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "暂停",
+      "accessibilityLabel": "暂停合同",
+      "success": "已成功暂停合同",
+      "error": "无法暂停合同"
+    },
+    "cancel": {
+      "title": "取消订阅",
+      "accessibilityLabel": "取消订阅",
+      "success": "已成功取消合同",
+      "error": "无法取消合同",
+      "modalTitle": "取消订阅",
+      "modalCancel": "保留合同",
+      "modalContent": "账单和后续订单将立即终止。无法恢复已取消的合同。"
+    },
+    "resume": {
+      "title": "恢复",
+      "accessibilityLabel": "恢复合同",
+      "success": "已成功恢复合同",
+      "error": "无法恢复合同"
+    },
+    "billContract": {
+      "title": "结算合同",
+      "accessibilityLabel": "结算合同",
+      "success": "已启动结算尝试",
+      "error": "无法结算合同"
+    }
+  },
+  "details": {
+    "upcomingOrders": "后续订单",
+    "subscription": "订阅详细信息",
+    "price": "价格",
+    "purchaseDate": "购买日期",
+    "quantity": "数量",
+    "orderNumber": "订单 {number}",
+    "edit": "编辑",
+    "nextOrders": {
+      "title": "后续订单",
+      "skip": "跳过",
+      "skipped": "已跳过",
+      "resume": "恢复",
+      "showMore": "显示另外 {number} 个",
+      "skipError": "无法跳过/恢复订单",
+      "skipSuccess": "已成功跳过订单",
+      "showMoreNoCount": "显示详细信息",
+      "resumeSuccess": "已成功恢复订单"
+    },
+    "paymentMethods": {
+      "title": "收款方式"
+    },
+    "customer": {
+      "title": "客户"
+    },
+    "discount": "折扣",
+    "discountValue": {
+      "multipleDiscounts": "多个折扣",
+      "percentageOff": "{{value}}% 折扣",
+      "amountOff": "{{value}} 折扣",
+      "fixedPrice": "{{value}} 固定价格"
+    },
+    "delivery": "配送",
+    "pastOrders": "过去的订单",
+    "viewOrder": "查看",
+    "localPickup": "{{value}}，到店取货",
+    "orderNotCreated": "未创建订单"
+  },
+  "paymentMethodDetails": {
+    "title": "付款方式",
+    "expires": "到期日期：{month}/{year}",
+    "actions": {
+      "sendUpdateLink": "发送链接以更新卡",
+      "managePayment": "在客户页面管理支付"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "银联",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "发送链接以更新卡",
+      "descriptionCreditCard": "向 {customerName} 发送链接，以更新其以 {lastDigits} 结尾的信用卡",
+      "descriptionOther": "向 {customerName} 发送链接以更新付款方式。",
+      "fromField": "发件人:",
+      "toField": "收件人:",
+      "subjectField": "主题:",
+      "subjectMessage": "更新您用于 {shopName} 的付款方式",
+      "errorMessage": "无法发送客户付款方式更新电子邮件",
+      "successMessage": "已发送电子邮件",
+      "actions": {
+        "sendEmail": "发送电子邮件",
+        "cancel": "取消"
+      }
+    },
+    "revoked": "客户已于 {revokedAt} 删除付款方式。"
+  },
+  "customerDetails": {
+    "title": "客户",
+    "contactInformation": "联系信息",
+    "shippingAddress": "收货地址",
+    "actions": {
+      "selectAddress": "选择其他地址",
+      "manageAddress": "管理客户页面上的地址"
+    },
+    "addressModal": {
+      "title": "选择其他地址",
+      "actions": {
+        "cancel": "取消",
+        "update": "更新"
+      }
+    }
+  },
+  "edit": {
+    "title": "编辑订阅",
+    "details": {
+      "title": "订阅详细信息",
+      "searchProducts": "搜索产品",
+      "browse": "浏览",
+      "removeLine": "删除订阅项目",
+      "oneTimePurchasePrice": "一次性购买价格：{price}",
+      "quantity": "数量",
+      "deliveryFrequency": {
+        "title": "配送频率",
+        "warning": "更新配送频率将自动更新计费频率。",
+        "interval": "间隔",
+        "intervalCount": "间隔数"
+      },
+      "deliveryInterval": {
+        "weeks": "周",
+        "months": "月",
+        "years": "年"
+      },
+      "paymentSummary": "付款摘要",
+      "subtotal": "小计",
+      "shipping": "运费",
+      "tax": "税费",
+      "total": "总计",
+      "oneTimePurchasePriceChanged": "一次性购买的价格已更改",
+      "outOfStock": "没有库存"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "无法创建订阅合同草稿"
+      },
+      "updateDraft": {
+        "error": "无法更新订阅合同草稿",
+        "quantityTooLargeError": "数量过大",
+        "deliveryFrequencyTooLargeError": "配送频率过大",
+        "deliveryFrequencyIntegerError": "配送频率必须为整数"
+      },
+      "updateContract": {
+        "error": "无法更新订阅合同",
+        "success": "已更新合同"
+      },
+      "selectProducts": {
+        "lineCountError": "订阅合同必须至少具有 1 个订单项目"
+      },
+      "updateAddress": {
+        "error": "无法更新地址",
+        "success": "地址已更新"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "{{title}} 的一次性购买价格已更改，现在为 {{newPrice}}",
+      "updateSubscriptionPrice": "更新 {{title}} 的订阅价格",
+      "title": "编辑价格",
+      "subscriptionPriceLabel": "订阅价格",
+      "discountLabel": "已向 {{lineTitle}} 的新价格应用 {{discountAmount}} 订阅折扣",
+      "amountTooLargeError": "金额过大",
+      "amountNegativeError": "金额必须大于或等于 0",
+      "actions": {
+        "update": "更新",
+        "cancel": "取消"
+      }
+    }
+  },
+  "failedOrder": {
+    "banner": {
+      "title": "无法创建 {date}订单",
+      "inProgressTitle": "结算尝试正在进行。此页面将在结算尝试结束后刷新。",
+      "description": "上次结算尝试期间没有足够库存。如果相关库存产品正在运输途中并且您想绕过其他重试尝试，请立刻创建订单并超卖库存。对于较为严重的延迟，您可能需要暂停、跳过或取消。",
+      "button": "立即创建订单"
+    },
+    "modal": {
+      "title": "继续创建订单？",
+      "inventoryWarning": "只能在您确信库存产品已在运输途中时超卖库存",
+      "outOfStock": {
+        "one": "以下产品缺货并将针对此订单超卖：",
+        "other": "以下产品缺货并将针对此订单超卖："
+      },
+      "actions": {
+        "ignoreAndCreate": "立即创建订单",
+        "cancel": "取消"
+      }
+    }
+  }
+}

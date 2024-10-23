@@ -1,0 +1,101 @@
+{
+  "backButtonLabel": "กลับไปยังแผนการสมัครใช้งาน",
+  "planTitle": "ชื่อแผน",
+  "planTitleHelpText": "ลูกค้าจะไม่เห็นสิ่งนี้",
+  "purchaseOptionTitle": "ชื่อตัวเลือกการซื้อ",
+  "purchaseOptionTitleHelpText": "ลูกค้าจะเห็นสิ่งนี้ใน{{howToDisplayProductsLink}}ที่มีการซื้อแบบเหมาจ่ายล่วงหน้า",
+  "defaultPurchaseOptionTitle": "สมัครใช้งานและบันทึก",
+  "saveButtonText": "บันทึก",
+  "create": {
+    "pageTitle": "สร้างแผนการซื้อแบบเหมาจ่ายล่วงหน้า"
+  },
+  "SubscriptionPlanForm": {
+    "invalidProduct": "เลือกสินค้าไม่ถูกต้อง",
+    "invalidVariant": "เลือกตัวเลือกสินค้าไม่ถูกต้อง",
+    "merchantCodeEmptyError": "ต้องระบุชื่อแผน",
+    "nameEmptyError": "ต้องระบุชื่อตัวเลือกการซื้อ",
+    "createError": "เกิดข้อผิดพลาดในการสร้างแผนการซื้อแบบเหมาจ่ายล่วงหน้า",
+    "updateError": "เกิดข้อผิดพลาดในการอัปเดตแผนการซื้อแบบเหมาจ่ายล่วงหน้า",
+    "deliveryFrequencyError": "ความถี่ต้องมีค่ามากกว่า 0",
+    "deliveryFrequencyMaxError": "ความถี่มากเกินไป",
+    "deliveryFrequencyFloatError": "ความถี่ในการจัดส่งต้องเป็นจำนวนเต็ม",
+    "discountValueMinError": "มูลค่าส่วนลดจะต้องมีค่าเป็นบวก",
+    "discountValueMaxError": "มูลค่าส่วนลดมากเกินไป",
+    "discountValueMaxPercentError": "มูลค่าส่วนลดต้องไม่เกิน 100%",
+    "updateSuccess": "อัปเดตแผนการสมัครใช้งานแล้ว",
+    "duplicateDeliveryFrequencyError": "ตัวเลือกการจัดส่งต้องไม่ซ้ำกัน",
+    "missingSellingPlanGroup": "ไม่พบแผนการสมัครใช้งาน",
+    "createSuccess": "สร้างแผนการสมัครใช้งานแล้ว"
+  },
+  "productCard": {
+    "title": "สินค้า",
+    "browse": "เรียกดู",
+    "searchProducts": "ค้นหาสินค้า",
+    "variantsSelected": "(เลือกตัวเลือกสินค้า {count} จาก {total} ตัวเลือก)",
+    "updateError": "เกิดข้อผิดพลาดในการอัปเดตแผนการซื้อแบบเหมาจ่ายล่วงหน้า",
+    "maxProductsWarning": "เพิ่มสินค้าได้พร้อมกันสูงสุด {{count}} รายการเท่านั้น หากคุณมีสินค้ามากกว่า {{count}} รายการ คุณสามารถเพิ่มได้หลังจากบันทึกแผนนี้"
+  },
+  "discountDeliveryCard": {
+    "title": "ส่วนลดและการจัดส่ง",
+    "offerDiscount": "เสนอส่วนลด",
+    "discountType": {
+      "percentageOff": "ลดเป็นเปอร์เซ็นต์",
+      "amountOff": "ลดตามมูลค่าที่กำหนด",
+      "fixedPrice": "ราคาคงที่"
+    },
+    "deliveryFrequency": "ความถี่ในการจัดส่ง",
+    "deliveryInterval": {
+      "label": "รอบการจัดส่ง",
+      "weeks": "สัปดาห์",
+      "months": "เดือน",
+      "years": "ปี"
+    },
+    "addOption": "เพิ่มตัวเลือก",
+    "removeOption": "ลบตัวเลือกออก",
+    "discountValueFixedPriceHelpText": "ซึ่งจะเป็นราคาที่แสดงแก่ลูกค้า"
+  },
+  "deleteButtonText": "ลบ",
+  "deleteSellingPlanGroupModal": {
+    "title": "คุณต้องการลบแผนการซื้อแบบเหมาจ่ายล่วงหน้าใช่หรือไม่",
+    "content": "การดำเนินการนี้ไม่สามารถเลิกทำได้ สัญญาที่เกี่ยวข้องใดๆ จะไม่ได้รับผลกระทบ",
+    "deleteButton": "ลบแผน",
+    "cancelButton": "ยกเลิก",
+    "deleteError": "เกิดข้อผิดพลาดในการลบแผนการสมัครใช้งาน"
+  },
+  "summaryCard": {
+    "cardTitle": "ข้อมูลสรุป",
+    "noPlanTitleYet": "ไม่มีชื่อ",
+    "weeklyDelivery": {
+      "one": "จัดส่งทุกสัปดาห์",
+      "other": "จัดส่งทุกๆ {intervalCount} สัปดาห์"
+    },
+    "monthlyDelivery": {
+      "one": "จัดส่งทุกเดือน",
+      "other": "จัดส่งทุกๆ {intervalCount} เดือน"
+    },
+    "yearlyDelivery": {
+      "one": "จัดส่งทุกปี",
+      "other": "จัดส่งทุกๆ {intervalCount} ปี"
+    },
+    "percentageOff": "ลด {amount}%",
+    "amountOff": "ลด {amount}",
+    "deliveryFrequenciesWithDiscount": "{deliveryText} {discountText}",
+    "multipleDeliveryFrequencies": "ความถี่ในการจัดส่ง {count} รูปแบบ",
+    "countProducts": {
+      "one": "สินค้า {count} รายการ",
+      "other": "สินค้า {count} รายการ"
+    },
+    "countVariants": {
+      "one": "ตัวเลือกสินค้า {count} รายการ",
+      "other": "ตัวเลือกสินค้า {count} รายการ"
+    },
+    "productAndVariantTextSeparatedList": "{productText} {variantText}",
+    "fixedPrice": "{amount}"
+  },
+  "purchaseOptionTitleHelpLinkText": "หน้าสินค้าหน้าร้าน",
+  "creationMutation": {
+    "options": {
+      "deliveryFrequency": "ความถี่ในการจัดส่ง"
+    }
+  }
+}

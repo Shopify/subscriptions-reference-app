@@ -1,0 +1,68 @@
+{
+  "name": "Toistuvat tilaukset",
+  "save": "Tallenna",
+  "cancel": "Peruuta",
+  "merchantCode": {
+    "label": "Sisäinen kuvaus",
+    "helpText": "Vain tiedoksi"
+  },
+  "planName": {
+    "label": "Otsikko",
+    "placeholder": "Tilaa ja säästä",
+    "helpText": "Asiakkaat näkevät tämän myyntipaikan tuotesivuilla, joilla on tilauksia"
+  },
+  "discountAndDelivery": "Alennus ja toimitus",
+  "offerDiscount": "Tarjoa alennusta",
+  "discountType": {
+    "percentageOff": "Prosentuaalinen alennus",
+    "amountOff": "Rahallinen alennus",
+    "fixedPrice": "Kiinteä hinta"
+  },
+  "deliveryFrequency": "Toimitustiheys",
+  "deliveryInterval": {
+    "label": "Toimitusväli",
+    "weeks": "viikkoa",
+    "months": "kuukautta",
+    "years": "vuotta",
+    "day": {
+      "singular": "Toimita joka päivä",
+      "plural": "Toimita {{count}} päivän välein"
+    },
+    "week": {
+      "singular": "Toimita joka viikko",
+      "plural": "Toimita {{count}} viikon välein"
+    },
+    "month": {
+      "singular": "Toimita joka kuukausi",
+      "plural": "Toimita {{count}} kuukauden välein"
+    },
+    "year": {
+      "singular": "Toimita joka vuosi",
+      "plural": "Toimita {{count}} vuoden välein"
+    }
+  },
+  "addOptionButton": {
+    "label": "Valinta",
+    "accessibilityLabel": "Lisää vaihtoehto"
+  },
+  "removeOption": "Poista vaihtoehto",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % alennusta",
+    "amountOff": "{{amount}} alennusta",
+    "fixedPrice": "{{amount}}"
+  },
+  "success": {
+    "create": "Toistuvan tilauksen sopimus luotu",
+    "update": "Tilaussopimus päivitetty"
+  },
+  "validator": {
+    "nameEmptyError": "Otsikko on pakollinen",
+    "merchantCodeEmptyError": "Sisäinen kuvaus on pakollinen",
+    "deliveryFrequencyError": "Toimitusväli on pakollinen tieto",
+    "deliveryFrequencyMaxError": "Toimitusvälin on oltava vähemmän kuin 36 500 päivää",
+    "deliveryFrequencyFloatError": "Toimitusvälin on oltava kokonaisluku",
+    "discountValueMinError": "Alennuksen arvon on oltava suurempi kuin 0",
+    "discountValueMaxError": "Alennuksen arvo on liian suuri",
+    "discountValueMaxPercentError": "Alennuksen arvo ei saa olla yli 100 %"
+  }
+}

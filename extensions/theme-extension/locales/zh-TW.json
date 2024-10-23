@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "一次性購買",
+      "subscription": "訂閱"
+    }
+  },
+  "policy": {
+    "description": "隨時自動續約、略過或取消。",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>檢視訂閱政策</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "若要將商品加入購物車，請前往商店頁面並選取購買選項"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "訂閱小工具只會顯示已連結訂閱方案的商品。"
+  },
+  "no_app_block_found_banner": {
+    "message": "若要編輯訂閱小工具的位置，請將以下程式碼片段新增到所需位置的商品範本中。",
+    "copy_button_text": "複製",
+    "copied_button_text": "已複製",
+    "button_text": "檢視程式碼編輯器"
+  }
+}

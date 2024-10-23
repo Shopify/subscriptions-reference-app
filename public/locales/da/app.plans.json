@@ -1,0 +1,75 @@
+{
+  "page": {
+    "title": "Abonnementsordninger",
+    "createPlan": "Abonnement",
+    "accessibilityLabel": "Opret abonnementsordning"
+  },
+  "emptyState": {
+    "title": "Få flere tilbagevendende kunder",
+    "description": "Gør det muligt for kunderne at købe produkter eller tjenester gentagne gange",
+    "action": "Abonnementsordning"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Abonnementstitel",
+      "products": "Produkter",
+      "deliveryFrequency": "Leveringshyppighed",
+      "discount": "Priser",
+      "view": "Alle"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Alle"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Slet abonnement",
+        "other": "Slet abonnementer"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Dette kan ikke fortrydes. Eventuelle tilknyttede kontrakter påvirkes ikke.",
+          "other": "Dette kan ikke fortrydes. Eventuelle tilknyttede kontrakter påvirkes ikke."
+        },
+        "actions": {
+          "delete": {
+            "one": "Slet abonnement",
+            "other": "Slet abonnementer"
+          },
+          "cancel": "Annuller"
+        },
+        "title": {
+          "one": "Vil du slette 1 abonnementsordning?",
+          "other": "Vil du slette {count} abonnementsordninger?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonnementsordningen er slettet",
+          "other": "Abonnementsordningerne er slettet"
+        },
+        "failed": {
+          "one": "Kunne ikke slette abonnementsordningen",
+          "other": "Kunne ikke slette abonnementsordningerne"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Oprettet",
+        "ascendingLabel": "Ældste først",
+        "descendingLabel": "Nyeste først"
+      },
+      "UPDATED_AT": {
+        "label": "Opdateret",
+        "ascendingLabel": "Ældste først",
+        "descendingLabel": "Nyeste først"
+      }
+    }
+  }
+}

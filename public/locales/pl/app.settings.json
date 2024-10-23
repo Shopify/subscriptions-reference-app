@@ -1,0 +1,58 @@
+{
+  "saveButtonText": "Zapisz",
+  "actions": {
+    "updateSuccess": "Zaktualizowano ustawienia"
+  },
+  "title": "Ustawienia",
+  "billingFailureSettings": {
+    "title": "Próby rozliczenia",
+    "description": "Kontroluj, kiedy mają być podejmowane kolejne próby rozliczenia po nieudanej płatności",
+    "paymentFailureTitle": "Problem z metodą płatności",
+    "inventoryFailureTitle": "Niewystarczające zapasy",
+    "retryAttempts": {
+      "label": "Liczba ponownych prób",
+      "helpText": "Min. 0, maks. 10 ponownych prób",
+      "errors": {
+        "min": "Liczba ponownych prób musi być większa niż 0",
+        "max": "Liczba ponownych prób jest zbyt duża"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Liczba dni między próbami ponowienia płatności",
+      "helpText": "Min. 1, maks. 14 dni",
+      "errors": {
+        "min": "Liczba dni między próbami ponowienia płatności musi być większa niż 1",
+        "max": "Liczba dni między próbami ponowienia płatności jest zbyt duża"
+      }
+    },
+    "inventoryRetryAttempts": {
+      "errors": {
+        "min": "Liczba ponownych prób w przypadku błędów zapasów musi być większa niż 0",
+        "max": "Liczba ponownych prób w przypadku błędów zapasów jest zbyt duża"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "errors": {
+        "min": "Liczba dni między ponownymi próbami w przypadku błędów zapasów musi być większa niż 1",
+        "max": "Liczba dni między ponownymi próbami w przypadku błędów zapasów jest zbyt duża"
+      }
+    },
+    "onFailure": {
+      "label": "Czynność w przypadku, gdy wszystkie próby zakończyły się niepowodzeniem",
+      "options": {
+        "skip": "Pomiń subskrypcję i wyślij powiadomienie",
+        "cancel": "Anuluj subskrypcję i wyślij powiadomienie",
+        "pause": "Wstrzymaj subskrypcję i wyślij powiadomienie"
+      }
+    },
+    "notifications": "Edytuj powiadomienia",
+    "staffNotificationFrequency": {
+      "label": "Częstotliwość powiadomień dla pracowników",
+      "options": {
+        "immediately": "Za każdym razem, gdy rozliczenie się nie powiedzie",
+        "weekly": "Tygodniowe podsumowanie nieudanych rozliczeń",
+        "monthly": "Miesięczne podsumowanie nieudanych rozliczeń"
+      }
+    }
+  }
+}
