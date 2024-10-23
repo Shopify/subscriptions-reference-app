@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Tilaussopimukset"
+  },
+  "emptyState": {
+    "title": "Hallinnoi tilaussopimuksiasi",
+    "description": "Kun asiakas ostaa tilauksen kaupastasi, sopimus tulee näkyviin tähän."
+  },
+  "table": {
+    "headings": {
+      "contract": "Sopimus",
+      "customer": "Asiakas",
+      "product": "Tuote",
+      "price": "Hinta",
+      "deliveryFrequency": "Toimitusväli",
+      "status": "Tila"
+    },
+    "resourceName": {
+      "singular": "Sopimus",
+      "plural": "Sopimukset"
+    },
+    "tabs": {
+      "all": "Kaikki",
+      "active": "Aktiivinen",
+      "paused": "Keskeytetty",
+      "cancelled": "Peruutettu"
+    },
+    "emptyState": {
+      "title": "Ei sopimuksia, joiden tila on tämä",
+      "description": "Tilaussopimukset, joiden tila on {status}, näkyvät tässä"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Ostettu",
+      "sortByUpdatedDateLabel": "Päivitetty",
+      "newestFirstDirectionLabel": "Uusin ensin",
+      "oldestFirstDirectionLabel": "Vanhin ensin"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Keskeytä",
+      "accessibilityLabel": "Keskeytä sopimus",
+      "success": "Sopimuksen keskeyttäminen onnistui",
+      "error": "Sopimusta ei voi keskeyttää"
+    },
+    "cancel": {
+      "title": "Peruuta tilaus",
+      "accessibilityLabel": "Peruuta tilaus",
+      "success": "Sopimuksen peruutus onnistui",
+      "error": "Sopimusta ei voi peruuttaa",
+      "modalTitle": "Peruuta tilaus",
+      "modalCancel": "Pidä sopimus",
+      "modalContent": "Laskutus ja tulevat tilaukset päättyvät välittömästi. Peruutettuja sopimuksia ei voi jatkaa."
+    },
+    "resume": {
+      "title": "Jatka",
+      "accessibilityLabel": "Jatka sopimusta",
+      "success": "Sopimuksen jatkaminen onnistui",
+      "error": "Sopimusta ei voi jatkaa"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Tulevat tilaukset",
+    "subscription": "Tilauksen tiedot",
+    "price": "Hinta",
+    "purchaseDate": "Ostopäivä",
+    "quantity": "Määrä",
+    "orderNumber": "Tilaus {number}",
+    "edit": "Muokkaa",
+    "nextOrders": {
+      "title": "Seuraavat tilaukset",
+      "skip": "Ohita",
+      "skipped": "Ohitettu",
+      "resume": "Jatka",
+      "showMore": "Näytä {number} lisää",
+      "skipError": "Tilausta ei voida ohittaa / jatkaa",
+      "skipSuccess": "Tilauksen ohittaminen onnistui",
+      "showMoreNoCount": "Näytä lisää",
+      "resumeSuccess": "Tilauksen jatkaminen onnistui"
+    },
+    "paymentMethods": {
+      "title": "Maksutavat"
+    },
+    "customer": {
+      "title": "Asiakas"
+    },
+    "discount": "Alennus",
+    "discountValue": {
+      "multipleDiscounts": "Useita alennuksia",
+      "percentageOff": "{{value}} % alennusta",
+      "amountOff": "{{value}} alennusta",
+      "flatRate": "{{value}} kiinteä hinta"
+    },
+    "delivery": "Toimitus",
+    "pastOrders": "Aiemmat tilaukset",
+    "viewOrder": "Näytä",
+    "localPickup": "{{value}}, paikallinen nouto",
+    "orderNotCreated": "Tilausta ei luotu"
+  },
+  "paymentMethodDetails": {
+    "title": "Maksutapa",
+    "expires": "Voimassaolo päättyy {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Lähetä linkki kortin päivittämistä varten",
+      "managePayment": "Hallinnoi maksua asiakassivulla"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "Hypercard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Lähetä linkki kortin päivittämiseksi",
+      "descriptionCreditCard": "Lähetä linkki vastaanottajalle {customerName} numeroihin {lastDigits} päättyvän luottokortin päivittämiseksi",
+      "descriptionOther": "Lähetä linkki vastaanottajalle {customerName} maksutavan päivittämiseksi.",
+      "fromField": "Lähettäjä:",
+      "toField": "Vastaanottaja:",
+      "subjectField": "Aihe:",
+      "subjectMessage": "Päivitä kaupassa {shopName} käyttämäsi maksutapa",
+      "errorMessage": "Asiakkaan maksutavan päivitys ‑sähköpostia ei voitu lähettää",
+      "successMessage": "Sähköposti lähetetty",
+      "actions": {
+        "sendEmail": "Lähetä sähköpostiviesti",
+        "cancel": "Peruuta"
+      }
+    },
+    "revoked": "Asiakas poisti maksutavan {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Asiakas",
+    "contactInformation": "Yhteystiedot",
+    "shippingAddress": "Toimitusosoite",
+    "actions": {
+      "selectAddress": "Valitse toinen osoite",
+      "manageAddress": "Hallinnoi osoitteita asiakassivulla"
+    },
+    "addressModal": {
+      "title": "Valitse toinen osoite",
+      "actions": {
+        "cancel": "Peruuta",
+        "update": "Päivitä"
+      }
+    }
+  },
+  "edit": {
+    "title": "Muokkaa toistuvaa tilausta",
+    "details": {
+      "title": "Tilauksen tiedot",
+      "searchProducts": "Hae tuotteita",
+      "browse": "Selaa",
+      "removeLine": "Poista toistuvan sopimuksen rivi",
+      "oneTimePurchasePrice": "Kertaostoksen hinta: {price}",
+      "quantity": "Määrä",
+      "deliveryFrequency": {
+        "title": "Toimitustiheys",
+        "warning": "Toimitusvälin päivittäminen päivittää laskutusvälin automaattisesti.",
+        "interval": "Aikaväli",
+        "intervalCount": "Aikavälien määrä"
+      },
+      "deliveryInterval": {
+        "weeks": "viikkoa",
+        "months": "kuukautta",
+        "years": "vuotta"
+      },
+      "paymentSummary": "Maksujen yhteenveto",
+      "subtotal": "Välisumma",
+      "shipping": "Toimitus",
+      "tax": "Vero",
+      "total": "Yhteensä",
+      "oneTimePurchasePriceChanged": "Kertaostoksen hinta on muuttunut"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Tilaussopimuksen luonnoksen luominen ei onnistu"
+      },
+      "updateDraft": {
+        "error": "Tilaussopimuksen luonnoksen päivittäminen ei onnistu",
+        "quantityTooLargeError": "Määrä on liian suuri",
+        "deliveryFrequencyTooLargeError": "Toimitustiheys on liian suuri",
+        "deliveryFrequencyIntegerError": "Toimitustiheyden on oltava kokonaisluku"
+      },
+      "updateContract": {
+        "error": "Tilaussopimuksen päivittäminen ei onnistu",
+        "success": "Sopimus päivitetty"
+      },
+      "selectProducts": {
+        "lineCountError": "Tilaussopimuksessa on oltava vähintään yksi rivikohta"
+      },
+      "updateAddress": {
+        "error": "Osoitteen päivittäminen epäonnistui",
+        "success": "Osoite päivitetty"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "{{title}}:n kertaostoshinta on muuttunut, ja se on nyt {{newPrice}}",
+      "updateSubscriptionPrice": "Päivitä {{title}}:n tilaushinta",
+      "title": "Muokkaa hintaa",
+      "subscriptionPriceLabel": "Tilauksen hinta",
+      "discountLabel": "Tilausalennusta {{discountAmount}} sovellettiin tuotteen {{lineTitle}} uuteen hintaan",
+      "amountTooLargeError": "Määrä on liian suuri",
+      "amountNegativeError": "Määrän on oltava vähintään 0",
+      "actions": {
+        "update": "Päivitä",
+        "cancel": "Peruuta"
+      }
+    }
+  }
+}

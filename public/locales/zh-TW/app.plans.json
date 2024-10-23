@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "訂閱方案",
+    "createPlan": "建立新方案"
+  },
+  "emptyState": {
+    "title": "建立訂閱方案",
+    "description": "建立訂閱方案，讓顧客透過單次結帳體驗定期購買商品或服務。"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "方案名稱",
+      "products": "商品",
+      "deliveryFrequency": "配送頻率",
+      "discount": "折扣",
+      "view": "全部"
+    },
+    "resourceName": {
+      "singular": "訂閱",
+      "plural": "訂閱"
+    },
+    "resources": {
+      "allSelected": "全部"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "刪除方案",
+        "other": "刪除方案"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "是否確定要刪除此方案？此動作無法復原。",
+          "other": "是否確定要刪除這些方案？此動作無法復原。 "
+        },
+        "actions": {
+          "delete": {
+            "one": "刪除方案",
+            "other": "刪除方案"
+          },
+          "cancel": "取消"
+        },
+        "title": {
+          "one": "是否要刪除訂閱方案？",
+          "other": "是否要刪除訂閱方案？"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "已刪除訂閱方案",
+          "other": "已刪除訂閱方案"
+        },
+        "failed": {
+          "one": "無法刪除訂閱方案",
+          "other": "無法刪除訂閱方案"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "已建立",
+        "ascendingLabel": "由舊到新",
+        "descendingLabel": "由新到舊"
+      },
+      "UPDATED_AT": {
+        "label": "已更新",
+        "ascendingLabel": "由舊到新",
+        "descendingLabel": "由新到舊"
+      }
+    }
+  }
+}

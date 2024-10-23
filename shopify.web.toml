@@ -1,0 +1,6 @@
+name = "remix"
+roles = ["frontend", "backend"]
+webhooks_path = "/webhooks"
+
+[commands]
+dev = "pnpm remix vite:dev"

@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Abonnementskontrakter"
+  },
+  "emptyState": {
+    "title": "Administrer abonnementskontrakter",
+    "description": "Når en kunde kjøper et abonnement fra butikken, vises kontrakten her."
+  },
+  "table": {
+    "headings": {
+      "contract": "Kontrakt",
+      "customer": "Kunde",
+      "product": "Produkt",
+      "price": "Pris",
+      "deliveryFrequency": "Leveringsfrekvens",
+      "status": "Status"
+    },
+    "resourceName": {
+      "singular": "Kontrakt",
+      "plural": "Kontrakter"
+    },
+    "tabs": {
+      "all": "Alle",
+      "active": "Aktiv",
+      "paused": "Satt på pause",
+      "cancelled": "Kansellert"
+    },
+    "emptyState": {
+      "title": "Ingen kontrakter med denne statusen",
+      "description": "{status}-abonnementskontrakter vises her"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Kjøpt",
+      "sortByUpdatedDateLabel": "Oppdatert",
+      "newestFirstDirectionLabel": "Nyeste først",
+      "oldestFirstDirectionLabel": "Eldste først"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pause",
+      "accessibilityLabel": "Pause kontrakten",
+      "success": "Kontrakten er midlertidig stanset",
+      "error": "Kontrakten kan ikke stanses midlertidig"
+    },
+    "cancel": {
+      "title": "Kanseller abonnement",
+      "accessibilityLabel": "Kanseller abonnement",
+      "success": "Kontrakten er kansellert",
+      "error": "Kontrakten kan ikke kanselleres",
+      "modalTitle": "Kanseller abonnement",
+      "modalCancel": "Behold kontrakt",
+      "modalContent": "Fakturering og kommende bestillinger avsluttes umiddelbart. Kansellerte kontrakter kan ikke gjenstartes."
+    },
+    "resume": {
+      "title": "Fortsett",
+      "accessibilityLabel": "Gjenoppta kontrakt",
+      "success": "Kontrakten er gjenopptatt",
+      "error": "Kan ikke gjenoppta kontrakten"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Kommende bestillinger",
+    "subscription": "Abonnementsdetaljer",
+    "price": "Pris",
+    "purchaseDate": "Kjøpsdato",
+    "quantity": "Antall",
+    "orderNumber": "Bestill {number}",
+    "edit": "Rediger",
+    "nextOrders": {
+      "title": "Neste bestillinger",
+      "skip": "Hopp over",
+      "skipped": "Hoppet over",
+      "resume": "Fortsett",
+      "showMore": "Vis {number} fler",
+      "skipError": "Kan ikke hoppe over / fortsette bestillingen",
+      "skipSuccess": "Bestillingen er hoppet over",
+      "showMoreNoCount": "Vis mer",
+      "resumeSuccess": "Bestillingen er gjenopptatt"
+    },
+    "paymentMethods": {
+      "title": "Betalingsmåter"
+    },
+    "customer": {
+      "title": "Kunde"
+    },
+    "discount": "Rabatt",
+    "discountValue": {
+      "multipleDiscounts": "Flere rabatter",
+      "percentageOff": "{{value}} % rabatt",
+      "amountOff": "{{value}} rabatt",
+      "flatRate": "{{value}} fastpris"
+    },
+    "delivery": "Levering",
+    "pastOrders": "Tidligere bestillinger",
+    "viewOrder": "Vis",
+    "localPickup": "{{value}}, lokal henting",
+    "orderNotCreated": "Bestillingen er ikke opprettet"
+  },
+  "paymentMethodDetails": {
+    "title": "Betalingsmetode",
+    "expires": "Utløper {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Send kobling for å oppdatere kortet",
+      "managePayment": "Administrer betaling på kundesiden"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Feil",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Send kobling for å oppdatere kortet",
+      "descriptionCreditCard": "Send en kobling til {customerName} slik at de kan oppdatere kredittkortet som slutter med {lastDigits}",
+      "descriptionOther": "Send en kobling til {customerName} om å oppdatere betalingsmåten.",
+      "fromField": "Fra:",
+      "toField": "Til:",
+      "subjectField": "Emne:",
+      "subjectMessage": "Oppdater betalingsmåten din for {shopName}",
+      "errorMessage": "Kan ikke sende oppdaterings-e-post om kundens betalingsmåte",
+      "successMessage": "E-postmeldingen er sendt",
+      "actions": {
+        "sendEmail": "Send e-post",
+        "cancel": "Avbryt"
+      }
+    },
+    "revoked": "Betalingsmåten ble fjernet av kunden {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Kunde",
+    "contactInformation": "Kontaktinformasjon",
+    "shippingAddress": "Leveringsadresser",
+    "actions": {
+      "selectAddress": "Velg en ny adresse",
+      "manageAddress": "Administrer adresser på kundesiden"
+    },
+    "addressModal": {
+      "title": "Velg en ny adresse",
+      "actions": {
+        "cancel": "Avbryt",
+        "update": "Oppdater"
+      }
+    }
+  },
+  "edit": {
+    "title": "Rediger abonnement",
+    "details": {
+      "title": "Abonnementsdetaljer",
+      "searchProducts": "Søk i produkter",
+      "browse": "Bla gjennom",
+      "removeLine": "Fjern abonnementslinjen",
+      "oneTimePurchasePrice": "Pris for éngangskjøp: {price}",
+      "quantity": "Antall",
+      "deliveryFrequency": {
+        "title": "Leveringsfrekvens",
+        "warning": "Hvis du oppdaterer leveringsfrekvensen, oppdateres faktureringsfrekvensen automatisk.",
+        "interval": "Intervall",
+        "intervalCount": "Antall intervaller"
+      },
+      "deliveryInterval": {
+        "weeks": "uker",
+        "months": "måneder",
+        "years": "år"
+      },
+      "paymentSummary": "Betalingssammendrag",
+      "subtotal": "Delsum",
+      "shipping": "Frakt",
+      "tax": "Avgift",
+      "total": "Total",
+      "oneTimePurchasePriceChanged": "Éngangskjøpet har en endret pris"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Kan ikke opprette utkast til abonnementskontrakt"
+      },
+      "updateDraft": {
+        "error": "Kan ikke oppdatere utkast til abonnementskontrakt",
+        "quantityTooLargeError": "Antallet er for stort",
+        "deliveryFrequencyTooLargeError": "Leveringsfrekvensen er for stor",
+        "deliveryFrequencyIntegerError": "Leveringsfrekvens må være et heltall"
+      },
+      "updateContract": {
+        "error": "Kan ikke oppdatere abonnementskontrakt",
+        "success": "Kontrakt oppdatert"
+      },
+      "selectProducts": {
+        "lineCountError": "Abonnementskontrakter må ha minst én linjevare"
+      },
+      "updateAddress": {
+        "error": "Adressen kan ikke oppdateres",
+        "success": "Adressen er oppdatert"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Éngangskjøpsprisen på {{title}} er endret, og er nå {{newPrice}}",
+      "updateSubscriptionPrice": "Oppdater abonnementsprisen på {{title}}",
+      "title": "Rediger pris",
+      "subscriptionPriceLabel": "Abonnementspris",
+      "discountLabel": "{{discountAmount}} i abonnementsrabatt er lagt til den nye prisen på {{lineTitle}}",
+      "amountTooLargeError": "Beløpet er for stort",
+      "amountNegativeError": "Antall må være større enn eller likt 0",
+      "actions": {
+        "update": "Oppdater",
+        "cancel": "Avbryt"
+      }
+    }
+  }
+}

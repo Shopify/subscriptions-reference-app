@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "home": "Etusivu",
+    "plans": "Sopimukset",
+    "contracts": "Sopimukset",
+    "settings": "Asetukset"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} toimitusväliä",
+    "day": {
+      "one": "Joka päivä",
+      "other": "{count} päivän välein"
+    },
+    "week": {
+      "one": "Joka viikko",
+      "other": "{count} viikon välein"
+    },
+    "month": {
+      "one": "Joka kuukausi",
+      "other": "{count} kuukauden välein"
+    },
+    "year": {
+      "one": "Joka vuosi",
+      "other": "{count} vuoden välein"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Useita toimitusvälejä"
+  },
+  "productAndVariants": {
+    "noProduct": "Ei mitään",
+    "productsCount": {
+      "one": "{count} tuote",
+      "other": "{count} tuotetta"
+    },
+    "noVariant": "Ei versiota",
+    "variantsCount": {
+      "one": "{count} versio",
+      "other": "{count} versiota"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Ei alennusta",
+    "amountOff": "{amount} alennusta",
+    "percentageOff": "{amount} % alennusta",
+    "multipleDiscounts": "Useita alennuksia"
+  },
+  "statusBadge": {
+    "active": "Aktiivinen",
+    "paused": "Keskeytetty",
+    "cancelled": "Peruutettu",
+    "expired": "Vanhentunut",
+    "failed": "Epäonnistunut",
+    "stale": "Vanhentunut"
+  },
+  "actions": {
+    "saveButtonText": "Tallenna",
+    "edit": "Muokkaa"
+  },
+  "footer": {
+    "learnMore": "Lue lisää aiheesta {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "toistuvan tilauksen sopimukset",
+    "contracts": "toistuvien tilausten sopimukset"
+  }
+}

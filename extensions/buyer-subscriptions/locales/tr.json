@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Abonelik",
+  "manageSubscription": "Aboneliği yönet",
+  "upcomingOrder": "Yaklaşan sipariş",
+  "skip": "Atla",
+  "showUpcomingOrders": "Yaklaşan siparişleri göster",
+  "nextOrder": "Sonraki sipariş: {{date}}",
+  "lastUpdated": "Son güncelleme: {{date}}",
+  "subscriptionDetails": "Abonelik ayrıntıları",
+  "maxOrdersSkipped": "Maksimum sipariş sayısı atlandı",
+  "skipOrderOverYear": "Sipariş tarihine bir yıldan uzun bir zaman olduğundan atlanamıyor",
+  "paymentMethodInvalidBanner": "{{lastDigits}} ile biten {{brand}} geçersiz Yaklaşan siparişleri almaya devam edebilmek için aşağıdaki bölümde ödeme yöntemini güncelleyin.",
+  "paymentMethodInvalidBannerGeneric": "{{lastDigits}} ile biten kart geçersiz Yaklaşan siparişleri almaya devam edebilmek için aşağıdaki bölümde ödeme yöntemini güncelleyin.",
+  "paymentMethodInvalidBadge": "Geçersiz ödeme yöntemi",
+  "listItem": {
+    "multipleItemsName": "{{count}} ürün",
+    "accessibilityLabel": "Aboneliği yönet: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Etkin",
+    "paused": "Duraklatıldı",
+    "cancelled": "İptal edildi",
+    "expired": "Sona erdi",
+    "failed": "Başarısız oldu",
+    "stale": "Geçersiz"
+  },
+  "deliveryInterval": {
+    "day.one": "Her gün teslimat",
+    "day.other": "{{count}} günde bir teslimat",
+    "week.one": "Her hafta teslimat",
+    "week.other": "{{count}} haftada bir teslimat",
+    "month.one": "Her ay teslimat",
+    "month.other": "{{count}} ayda bir teslimat",
+    "year.one": "Her yıl teslimat",
+    "year.other": "{{count}} yılda bir teslimat"
+  },
+  "overviewCard": {
+    "overview": "Genel Bakış",
+    "product": "Ürün",
+    "deliveryFrequency": "Teslimat sıklığı",
+    "payment": "Ödeme",
+    "billingAddress": "Fatura adresi",
+    "shippingAddress": "Kargo adresi",
+    "shippingMethod": "Kargo yöntemi",
+    "pickupLocation": "Teslim alım konumu",
+    "changePaymentMethodButtonLabel": "Ödeme yöntemini değiştir",
+    "editShippingAddressButtonLabel": "Kargo adresini düzenle",
+    "editPickupAddressButtonLabel": "Teslim alım adresini düzenle"
+  },
+  "paymentModal": {
+    "title": "Ödeme yöntemini bir başkasıyla değiştir",
+    "save": "Kaydet",
+    "paymentMethod": "Ödeme yöntemi",
+    "edit": "Düzenle",
+    "close": "Kapat",
+    "errorBannerTitle": "Ödeme yöntemi güncellenemedi"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Geçmiş siparişler",
+    "view": "Görüntüle"
+  },
+  "skipNextOrder": {
+    "text": "Sonraki siparişi atla",
+    "generic": "Sonraki siparişi atlamak istediğinize emin misiniz?",
+    "date": "Sonraki siparişi atlamak istediğinize emin misiniz? Aboneliğiniz {{date}} tarihinden itibaren devam edecek.",
+    "errorBannerTitle": "Sonraki sipariş atlanamadı",
+    "close": "Kapat"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Aboneliği duraklat",
+    "action": "Aboneliği duraklat",
+    "close": "Kapat",
+    "description": "Aboneliğiniz hemen duraklatılır; bundan sonra sizden ücret alınmaz ve yaklaşan siparişleri almazsınız. Bu aboneliği dilediğiniz zaman sürdürebilirsiniz.",
+    "errorBannerTitle": "Abonelik duraklatılamadı"
+  },
+  "subscriptionActions": {
+    "pause": "Aboneliği duraklat",
+    "skip": "Sonraki siparişi atla",
+    "resume": "Aboneliğini sürdür",
+    "cancel": "Aboneliği iptal et",
+    "manage": "Aboneliği yönet",
+    "viewSubscriptionDetails": "Abonelik ayrıntılarını görüntüle"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Bu aboneliği devam ettirirseniz faturalandırma hemen sürdürülür.",
+    "descriptionWithDate": "Bu aboneliği sürdürürseniz faturalandırma işlemi {{date}} tarihinden itibaren sürdürülür.",
+    "close": "Kapat",
+    "descriptionPriceChanged": "Bu aboneliğin fiyatı değişti ve gelecek siparişler için sizden sipariş başına {{price}} ücret alınacak.",
+    "continue": "Devam",
+    "title": "Aboneliğini sürdür",
+    "errorBannerTitle": "Abonelik sürdürülemedi"
+  },
+  "priceSummary": {
+    "text": "Fiyat özeti",
+    "subtotal": "Alt toplam",
+    "shipping": "Kargo",
+    "taxes": "Vergiler",
+    "total": "Toplam"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Aboneliği iptal et",
+    "description": "Aboneliğinizi iptal ederseniz faturalandırma ve teslimat hemen sonlandırılır. Aboneliği iptal etme işlemi geri alınamaz. Sipariş almayı geçici olarak durdurmak istiyorsanız aboneliğinizi duraklatın.",
+    "action": "Aboneliği iptal et",
+    "close": "Kapat",
+    "errorBannerTitle": "Abonelik iptal edilemedi"
+  },
+  "errorBoundary": {
+    "content": "Bir sorun oluştu, lütfen sayfayı yenileyin"
+  },
+  "addressModal": {
+    "save": "Kaydet",
+    "continue": "Devam",
+    "cancel": "İptal",
+    "title": "Kargo adresini düzenle",
+    "errorBannerTitle": "Teslimat yöntemi güncellenemedi",
+    "noDeliveryOptions": "Bu abonelik içeriği, girdiğiniz adrese gönderilemiyor. Adresinizi gözden geçirip tüm alanların doğru şekilde doldurulduğundan emin olun ve tekrar deneyin."
+  },
+  "successBanner": {
+    "paused": "Abonelik duraklatıldı",
+    "resumed": "Abonelik sürdürüldü",
+    "cancelled": "Abonelik iptal edildi",
+    "skipped": "Sonraki sipariş atlandı",
+    "paymentUpdated": "Ödeme yöntemi güncellendi",
+    "shippingUpdated": "Kargo yöntemi güncellendi",
+    "deliveryUpdated": "Teslimat yöntemi güncellendi"
+  },
+  "upcomingOrdersModal": {
+    "title": "Yaklaşan siparişler",
+    "close": "Kapat",
+    "skipOrder": "Atla",
+    "skipOrderAccessibilityLabel": "{{orderDate}} tarihli siparişi atla",
+    "unSkipOrder": "Atlama işlemini geri al",
+    "unskipOrderAccessibilityLabel": "{{orderDate}} tarihli siparişi atlama işlemini geri al",
+    "skippedOrderLabel": "{{skippedOrderDate}} (atlandı)",
+    "skippedSuccessMessage": "{{orderDate}} tarihli sipariş atlandı",
+    "unskippedSuccessMessage": "{{orderDate}} tarihli siparişi atlama işlemi geri alındı",
+    "skippedErrorMessage": "Sipariş atlanırken bir hata oluştu",
+    "unskippedErrorMessage": "Siparişi atlama işlemi geri alınırken bir hata oluştu"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Teslimat yöntemi seçin",
+    "free": "Ücretsiz",
+    "localPickupOption": "Teslim alım: {{location}}",
+    "localDeliveryPhoneLabel": "Cep telefonu numarası",
+    "localDeliveryInstructionsLabel": "Teslimat talimatları (isteğe bağlı)",
+    "localDeliveryPhoneDetails": "Teslimatınızdaki güncellemelerle ilgili olarak sizinle iletişime geçilebilir.",
+    "localDeliveryInstructionsDetails": "Kapı numarası veya teslimat talimatları gibi gerekli bilgileri girin."
+  },
+  "notFound": {
+    "title": "Abonelik bulunamadı",
+    "description": "Bu abonelik veya onu görüntüleme izniniz yok."
+  }
+}

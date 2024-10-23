@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Eenmalige aankoop",
+      "subscription": "Abonnement"
+    }
+  },
+  "policy": {
+    "description": "Vernieuw automatisch, sla over of annuleer wanneer je wilt.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Abonnementenbeleid bekijken</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Ga naar de productpagina en selecteer een aankoopoptie om het product toe te voegen aan de winkelwagen."
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "De abonnementswidget wordt alleen weergegeven bij producten die zijn gekoppeld aan een abonnement."
+  },
+  "no_app_block_found_banner": {
+    "message": "Als je de plaatsing van de abonnementenwidget wil bewerken, voeg je het volgende codefragment op de gewenste plaats toe aan de producttemplate.",
+    "copy_button_text": "Kopiëren",
+    "copied_button_text": "Gekopieerd",
+    "button_text": "Code-editor bekijken"
+  }
+}

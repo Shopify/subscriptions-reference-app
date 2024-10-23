@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Retningslinjer for abonnementer",
+    "subscription_policy_url": "Kobling til retningslinjer for abonnementer",
+    "subscription_policy_url_info": "Velg en eksisterende side eller lim inn en ekstern kobling for å vise retningslinjer for abonnement.",
+    "description": "Kontrollprogramabonnementet viser kun produkter som har et vedlagt abonnement. [Finn ut mer om temainnstillinger for abonnement](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Innstillingene ovenfor viser alternativene for valgt produkt. Gjeldende valgt produkt har et abonnement. ",
+    "colors_title": "Farge",
+    "title": "Kontrollprogram for abonnement",
+    "product_title": "Produkt",
+    "border_title": "Ramme",
+    "border_thickness": "Tykkelse",
+    "border_radius": "Hjørneradius",
+    "colors_text_title": "Tittel",
+    "colors_text_body": "Brødtekst",
+    "colors_background_border_title": "Bakgrunn og rammer",
+    "colors_background": "Bakgrunn",
+    "colors_dividers": "Skiller",
+    "supporting_text_title": "Støttende tekst",
+    "supporting_text_subtitle": "Tittel",
+    "supporting_text_input_default": "Kjøpsalternativer"
+  }
+}

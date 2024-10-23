@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "サブスクリプションプラン",
+    "createPlan": "新しいプランを作成"
+  },
+  "emptyState": {
+    "title": "サブスクリプションプランを作成する",
+    "description": "サブスクリプションプランを作成すると、お客様はチェックアウトを1回するだけで、商品やサービスを定期的に購入できるようになります。"
+  },
+  "table": {
+    "headings": {
+      "planTitle": "プラン名",
+      "products": "商品",
+      "deliveryFrequency": "配達頻度",
+      "discount": "ディスカウント",
+      "view": "すべて"
+    },
+    "resourceName": {
+      "singular": "サブスクリプション",
+      "plural": "サブスクリプション"
+    },
+    "resources": {
+      "allSelected": "すべて"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "プランを削除",
+        "other": "プランを削除"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "このプランを削除してもよろしいですか？この操作を元に戻すことはできません。",
+          "other": "これらのプランを削除してもよろしいですか？この操作を元に戻すことはできません。 "
+        },
+        "actions": {
+          "delete": {
+            "one": "プランを削除",
+            "other": "プランを削除"
+          },
+          "cancel": "キャンセル"
+        },
+        "title": {
+          "one": "サブスクリプションプランを削除しますか？",
+          "other": "サブスクリプションプランを削除しますか？"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "サブスクリプションプランが削除されました",
+          "other": "サブスクリプションプランが削除されました"
+        },
+        "failed": {
+          "one": "サブスクリプションプランを削除できませんでした",
+          "other": "サブスクリプションプランを削除できませんでした"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "作成済み",
+        "ascendingLabel": "古い順",
+        "descendingLabel": "新しい順"
+      },
+      "UPDATED_AT": {
+        "label": "更新済み",
+        "ascendingLabel": "古い順",
+        "descendingLabel": "新しい順"
+      }
+    }
+  }
+}

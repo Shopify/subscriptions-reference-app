@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Assinaturas",
+  "manageSubscription": "Gerenciar assinatura",
+  "upcomingOrder": "Pedido futuro",
+  "skip": "Ignorar",
+  "showUpcomingOrders": "Mostrar pedidos futuros",
+  "nextOrder": "Próximo pedido: {{date}}",
+  "lastUpdated": "Última atualização: {{date}}",
+  "subscriptionDetails": "Informações da assinatura",
+  "maxOrdersSkipped": "O número máximo de pedidos pulados",
+  "skipOrderOverYear": "Não é possível pular o pedido porque ele foi feito há mais de um ano",
+  "paymentMethodInvalidBanner": "{{brand}} com final {{lastDigits}} é inválido. Atualize a forma de pagamento abaixo para continuar recebendo os próximos pedidos",
+  "paymentMethodInvalidBannerGeneric": "O cartão com final {{lastDigits}} é inválido. Atualize a forma de pagamento abaixo para continuar recebendo os próximos pedidos",
+  "paymentMethodInvalidBadge": "Forma de pagamento inválida",
+  "listItem": {
+    "multipleItemsName": "{{count}} itens",
+    "accessibilityLabel": "Gerenciar assinatura: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Ativo",
+    "paused": "Pausado",
+    "cancelled": "Cancelados",
+    "expired": "Expirado",
+    "failed": "Com falha",
+    "stale": "Inativo"
+  },
+  "deliveryInterval": {
+    "day.one": "Entrega diária",
+    "day.other": "Entrega a cada {{count}} dias",
+    "week.one": "Entrega semanal",
+    "week.other": "Entrega a cada {{count}} semanas",
+    "month.one": "Entregue mensal",
+    "month.other": "Entrega a cada {{count}} meses",
+    "year.one": "Entrega anual",
+    "year.other": "Entrega a cada {{count}} anos"
+  },
+  "overviewCard": {
+    "overview": "Visão geral",
+    "product": "Produto",
+    "deliveryFrequency": "Frequência de entrega",
+    "payment": "Pagamento",
+    "billingAddress": "Endereço de faturamento",
+    "shippingAddress": "Endereço de entrega",
+    "shippingMethod": "Forma de frete",
+    "pickupLocation": "Local de retirada",
+    "changePaymentMethodButtonLabel": "Alterar forma de pagamento",
+    "editShippingAddressButtonLabel": "Editar endereço de entrega",
+    "editPickupAddressButtonLabel": "Editar endereço de retirada"
+  },
+  "paymentModal": {
+    "title": "Substituir forma de pagamento",
+    "save": "Salvar",
+    "paymentMethod": "Forma de pagamento",
+    "edit": "Editar",
+    "close": "Fechar",
+    "errorBannerTitle": "Não foi possível atualizar a forma de pagamento"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Pedidos anteriores",
+    "view": "Ver"
+  },
+  "skipNextOrder": {
+    "text": "Ignorar próximo pedido",
+    "generic": "Quer ignorar o próximo pedido?",
+    "date": "Quer ignorar o próximo pedido? A assinatura será retomada em {{date}}.",
+    "errorBannerTitle": "Não foi possível ignorar o próximo pedido",
+    "close": "Fechar"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pausar assinatura",
+    "action": "Pausar assinatura",
+    "close": "Fechar",
+    "description": "Sua assinatura será pausada imediatamente e você não vai receber mais cobranças nem pedidos futuros. Vale lembrar que é possível retomá-la quando quiser.",
+    "errorBannerTitle": "Não foi possível pausar a assinatura"
+  },
+  "subscriptionActions": {
+    "pause": "Pausar assinatura",
+    "skip": "Ignorar próximo pedido",
+    "resume": "Retomar assinatura",
+    "cancel": "Cancelar assinatura",
+    "manage": "Gerenciar assinatura",
+    "viewSubscriptionDetails": "Ver informações da assinatura"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Se você retomar a assinatura, o faturamento será retomado imediatamente.",
+    "descriptionWithDate": "Se você retomar a assinatura, o faturamento será reiniciado em {{date}}.",
+    "close": "Fechar",
+    "descriptionPriceChanged": "O preço desta assinatura mudou. Você receberá uma cobrança de {{price}} por pedido futuro.",
+    "continue": "Continuar",
+    "title": "Retomar assinatura",
+    "errorBannerTitle": "Não foi possível retomar a assinatura"
+  },
+  "priceSummary": {
+    "text": "Resumo de preço",
+    "subtotal": "Subtotal",
+    "shipping": "Frete",
+    "taxes": "Tributos",
+    "total": "Total"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Cancelar assinatura",
+    "description": "Se você cancelar a assinatura, o faturamento e a entrega terminarão de imediato. Vale destacar que o cancelamento não pode ser desfeito. Para interromper temporariamente o recebimento de pedidos, pause a assinatura.",
+    "action": "Cancelar assinatura",
+    "close": "Fechar",
+    "errorBannerTitle": "Não foi possível cancelar a assinatura"
+  },
+  "errorBoundary": {
+    "content": "Algo deu errado. Atualize a página."
+  },
+  "addressModal": {
+    "save": "Salvar",
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "title": "Editar endereço de entrega",
+    "errorBannerTitle": "Não foi possível atualizar a forma de entrega",
+    "noDeliveryOptions": "Não é possível enviar a assinatura para o endereço informado. Verifique se todos os campos inseridos estão corretos e tente de novo."
+  },
+  "successBanner": {
+    "paused": "Assinatura pausada",
+    "resumed": "Assinatura retomada",
+    "cancelled": "Assinatura cancelada",
+    "skipped": "Próximo pedido ignorado",
+    "paymentUpdated": "Forma de pagamento atualizada",
+    "shippingUpdated": "Forma de frete atualizada",
+    "deliveryUpdated": "Forma de entrega atualizada"
+  },
+  "upcomingOrdersModal": {
+    "title": "Pedidos futuros",
+    "close": "Fechar",
+    "skipOrder": "Pular",
+    "skipOrderAccessibilityLabel": "Ignorar pedido em {{orderDate}}",
+    "unSkipOrder": "Deixar de ignorar",
+    "unskipOrderAccessibilityLabel": "Deixar de ignorar pedido em {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (ignorado)",
+    "skippedSuccessMessage": "Pedido em {{orderDate}} ignorado",
+    "unskippedSuccessMessage": "Pedido em {{orderDate}} não ignorado",
+    "skippedErrorMessage": "Erro ao ignorar pedido",
+    "unskippedErrorMessage": "Erro ao deixar de ignorar pedido"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Selecionar forma de entrega",
+    "free": "Grátis",
+    "localPickupOption": "Retirada: {{location}}",
+    "localDeliveryPhoneLabel": "Telefone celular",
+    "localDeliveryInstructionsLabel": "Instruções de entrega (opcional)",
+    "localDeliveryPhoneDetails": "Podemos entrar em contato com você para atualizar o status da entrega.",
+    "localDeliveryInstructionsDetails": "Insira as informações necessárias, como códigos de porta ou instruções para entrega."
+  },
+  "notFound": {
+    "title": "Assinatura não encontrada",
+    "description": "Esta assinatura não existe ou você não tem permissão para visualizá-la."
+  }
+}

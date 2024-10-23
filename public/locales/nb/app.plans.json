@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Abonnementer",
+    "createPlan": "Opprett ny plan"
+  },
+  "emptyState": {
+    "title": "Opprett en abonnementstype",
+    "description": "Opprett en abonnementstype slik at kundene dine kan kjøpe produkter og tjenester på gjentakende basis med én enkel betalingsopplevelse."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Tittel for plan",
+      "products": "Produkter",
+      "deliveryFrequency": "Leveringsfrekvens",
+      "discount": "Rabatt",
+      "view": "Alle"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Alle"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Slett abonnement",
+        "other": "Slett abonnementer"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Er du sikker på at du vil slette denne abonnementstypen? Dette kan ikke angres.",
+          "other": "Er du sikker på at du vil slette disse abonnementstypene? Dette kan ikke angres. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Slett abonnement",
+            "other": "Slett abonnementer"
+          },
+          "cancel": "Avbryt"
+        },
+        "title": {
+          "one": "Vil du slette abonnementstypen?",
+          "other": "Vil du slette abonnementstypene?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonnementstype slettet",
+          "other": "Abonnementstypene er slettet"
+        },
+        "failed": {
+          "one": "Abonnementstypen kan ikke slettes",
+          "other": "Abonnementstypene kan ikke slettes"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Opprettet",
+        "ascendingLabel": "Eldste først",
+        "descendingLabel": "Nyeste først"
+      },
+      "UPDATED_AT": {
+        "label": "Oppdatert",
+        "ascendingLabel": "Eldste først",
+        "descendingLabel": "Nyeste først"
+      }
+    }
+  }
+}

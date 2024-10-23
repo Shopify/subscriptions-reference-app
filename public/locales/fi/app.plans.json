@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Tilaussopimukset",
+    "createPlan": "Luo uusi sopimus"
+  },
+  "emptyState": {
+    "title": "Luo tilaussopimus",
+    "description": "Luo tilaussopimus, jotta asiakkaasi voivat ostaa tuotteita tai palveluja toistuvasti yhdellä maksulla."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Sopimuksen otsikko",
+      "products": "Tuotteet",
+      "deliveryFrequency": "Toimitusväli",
+      "discount": "Alennus",
+      "view": "Kaikki"
+    },
+    "resourceName": {
+      "singular": "Tilaus",
+      "plural": "Tilaus"
+    },
+    "resources": {
+      "allSelected": "Kaikki"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Poista sopimus",
+        "other": "Poista sopimukset"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Haluatko varmasti poistaa tämän sopimuksen? Tätä ei voi peruuttaa.",
+          "other": "Haluatko varmasti poistaa nämä sopimukset? Tätä ei voi peruuttaa. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Poista sopimus",
+            "other": "Poista sopimukset"
+          },
+          "cancel": "Peruuta"
+        },
+        "title": {
+          "one": "Haluatko poistaa tilaussopimuksen?",
+          "other": "Haluatko poistaa tilaussopimukset?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Tilaussopimus poistettu",
+          "other": "Tilaussopimukset poistettu"
+        },
+        "failed": {
+          "one": "Tilaussopimuksen poistaminen epäonnistui",
+          "other": "Tilaussopimusten poistaminen epäonnistui"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Luonut",
+        "ascendingLabel": "Vanhin ensin",
+        "descendingLabel": "Uusin ensin"
+      },
+      "UPDATED_AT": {
+        "label": "Päivitetty",
+        "ascendingLabel": "Vanhin ensin",
+        "descendingLabel": "Uusin ensin"
+      }
+    }
+  }
+}

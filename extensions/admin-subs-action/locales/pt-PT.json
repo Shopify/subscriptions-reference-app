@@ -1,0 +1,33 @@
+{
+  "name": "Subscrições",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "merchantCode": {
+    "label": "Descrição interna",
+    "helpText": "Apenas para referência"
+  },
+  "planName": {
+    "label": "Título",
+    "placeholder": "Subscrever e guardar",
+    "helpText": "Os clientes verão isto nas páginas de produto da frente de loja que têm subscrições"
+  },
+  "discountAndDelivery": "Desconto e entrega",
+  "offerDiscount": "Oferecer desconto",
+  "discountType": {
+    "percentageOff": "Percentagem de desconto",
+    "amountOff": "Valor de desconto",
+    "flatRate": "Taxa fixa"
+  },
+  "deliveryFrequency": "Frequência de entrega",
+  "deliveryInterval": {
+    "label": "Intervalo de entrega",
+    "weeks": "Semanas",
+    "months": "Meses",
+    "years": "Anos"
+  },
+  "addOptionButton": {
+    "label": "Opção",
+    "accessibilityLabel": "Adicionar opção"
+  },
+  "removeOption": "Remover opção"
+}

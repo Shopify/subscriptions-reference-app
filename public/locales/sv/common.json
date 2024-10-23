@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "home": "Start (Hem)",
+    "plans": "Planer",
+    "contracts": "Avtal",
+    "settings": "Inställningar"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} leveransfrekvenser",
+    "day": {
+      "one": "Varje dag",
+      "other": "Var {count} dag"
+    },
+    "week": {
+      "one": "Varje vecka",
+      "other": "Var {count} vecka"
+    },
+    "month": {
+      "one": "Varje månad",
+      "other": "Var {count} månad"
+    },
+    "year": {
+      "one": "Varje år",
+      "other": "Var {count} år"
+    },
+    "multipleDeliveryFrequenciesNoCount": "Flera leveransfrekvenser"
+  },
+  "productAndVariants": {
+    "noProduct": "Inga",
+    "productsCount": {
+      "one": "{count} produkt",
+      "other": "{count} produkter"
+    },
+    "noVariant": "Ingen variant",
+    "variantsCount": {
+      "one": "{count} variant",
+      "other": "{count} varianter"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "Ingen rabatt",
+    "amountOff": "{amount} rabatt",
+    "percentageOff": "{amount} % rabatt",
+    "multipleDiscounts": "Flera rabatter"
+  },
+  "statusBadge": {
+    "active": "Aktiv",
+    "paused": "Pausad",
+    "cancelled": "Annullerad",
+    "expired": "Har gått ut",
+    "failed": "Misslyckades",
+    "stale": "Förlegad"
+  },
+  "actions": {
+    "saveButtonText": "Spara",
+    "edit": "Redigera"
+  },
+  "footer": {
+    "learnMore": "Mer information om {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "prenumerationsplaner",
+    "contracts": "prenumerationskontrakt"
+  }
+}

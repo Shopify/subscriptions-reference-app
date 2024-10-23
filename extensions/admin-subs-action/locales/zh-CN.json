@@ -1,0 +1,33 @@
+{
+  "name": "订阅",
+  "save": "保存",
+  "cancel": "取消",
+  "merchantCode": {
+    "label": "内部描述",
+    "helpText": "仅供参考"
+  },
+  "planName": {
+    "label": "标题",
+    "placeholder": "订阅并保存",
+    "helpText": "客户将在具有订阅的店面产品页面上看到此内容"
+  },
+  "discountAndDelivery": "折扣和配送",
+  "offerDiscount": "提供折扣",
+  "discountType": {
+    "percentageOff": "百分比折扣",
+    "amountOff": "金额折扣",
+    "flatRate": "固定费率"
+  },
+  "deliveryFrequency": "配送频率",
+  "deliveryInterval": {
+    "label": "配送间隔",
+    "weeks": "周",
+    "months": "个月",
+    "years": "年"
+  },
+  "addOptionButton": {
+    "label": "选项",
+    "accessibilityLabel": "添加选项"
+  },
+  "removeOption": "删除选项"
+}

@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Abonnementen",
+    "createPlan": "Nieuw abonnement aanmaken"
+  },
+  "emptyState": {
+    "title": "Een abonnement aanmaken",
+    "description": "Maak een abonnement aan zodat klanten producten of diensten op terugkerende basis kunnen kopen met een enkele checkoutervaring."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Titel abonnement",
+      "products": "Producten",
+      "deliveryFrequency": "Bezorgfrequentie",
+      "discount": "Korting",
+      "view": "Alle"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Alle"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Abonnement verwijderen",
+        "other": "Abonnementen verwijderen"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Weet je zeker dat je dit abonnement wilt verwijderen? Je kunt dit niet ongedaan maken.",
+          "other": "Weet je zeker dat je deze abonnementen wilt verwijderen? Je kunt dit niet ongedaan maken. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Abonnement verwijderen",
+            "other": "Abonnementen verwijderen"
+          },
+          "cancel": "Annuleren"
+        },
+        "title": {
+          "one": "Abonnement verwijderen?",
+          "other": "Abonnementen verwijderen?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonnement verwijderd",
+          "other": "Abonnementen verwijderd"
+        },
+        "failed": {
+          "one": "Abonnementsplan verwijderen is niet gelukt",
+          "other": "Abonnementsplannen verwijderen is niet gelukt"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Aangemaakt",
+        "ascendingLabel": "Oudste eerst",
+        "descendingLabel": "Nieuwste eerst"
+      },
+      "UPDATED_AT": {
+        "label": "Bijgewerkt",
+        "ascendingLabel": "Oudste eerst",
+        "descendingLabel": "Nieuwste eerst"
+      }
+    }
+  }
+}

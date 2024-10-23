@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Umowy subskrypcyjne"
+  },
+  "emptyState": {
+    "title": "Zarządzaj umowami dotyczącymi subskrypcji",
+    "description": "Gdy klient kupuje subskrypcję w Twoim sklepie, umowa pojawi się w tym miejscu."
+  },
+  "table": {
+    "headings": {
+      "contract": "Umowa",
+      "customer": "Klient",
+      "product": "Produkt",
+      "price": "Cena",
+      "deliveryFrequency": "Częstotliwość dostaw",
+      "status": "Status"
+    },
+    "resourceName": {
+      "singular": "Umowa",
+      "plural": "Kontrakty"
+    },
+    "tabs": {
+      "all": "Wszystko",
+      "active": "Aktywne",
+      "paused": "Wstrzymane",
+      "cancelled": "Anulowano"
+    },
+    "emptyState": {
+      "title": "Brak umów z tym statusem",
+      "description": "{status} umowy subskrypcyjne będą wyświetlane tutaj"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Zakupiono",
+      "sortByUpdatedDateLabel": "Zaktualizowano",
+      "newestFirstDirectionLabel": "Najpierw najnowsze",
+      "oldestFirstDirectionLabel": "Najpierw najstarsze"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Wstrzymaj",
+      "accessibilityLabel": "Wstrzymaj kontrakt",
+      "success": "Umowa została wstrzymana",
+      "error": "Nie można wstrzymać umowy"
+    },
+    "cancel": {
+      "title": "Anuluj subskrypcję",
+      "accessibilityLabel": "Anuluj subskrypcję",
+      "success": "Umowa została anulowana",
+      "error": "Nie można anulować umowy",
+      "modalTitle": "Anuluj subskrypcję",
+      "modalCancel": "Zachowaj umowę",
+      "modalContent": "Rozliczenia i nadchodzące zamówienia zostaną natychmiast zakończone. Nie można wznowić anulowanych umów."
+    },
+    "resume": {
+      "title": "Wznów",
+      "accessibilityLabel": "Wznów umowę",
+      "success": "Umowa została wznowiona",
+      "error": "Nie można wznowić umowy"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Kolejne zamówienia",
+    "subscription": "Szczegóły subskrypcji",
+    "price": "Cena",
+    "purchaseDate": "Data zakupu",
+    "quantity": "Ilość",
+    "orderNumber": "Zamówienie {number}",
+    "edit": "Edytuj",
+    "nextOrders": {
+      "title": "Następne zamówienia",
+      "skip": "Pomiń",
+      "skipped": "Pominięte",
+      "resume": "Wznów",
+      "showMore": "Pokaż {number} więcej",
+      "skipError": "Nie można pominąć / wznowić zamówienia",
+      "skipSuccess": "Zamówienie zostało pominięte",
+      "showMoreNoCount": "Pokaż więcej",
+      "resumeSuccess": "Zamówienie zostało wznowione"
+    },
+    "paymentMethods": {
+      "title": "Metody płatności"
+    },
+    "customer": {
+      "title": "Klient"
+    },
+    "discount": "Rabat",
+    "discountValue": {
+      "multipleDiscounts": "Wiele rabatów",
+      "percentageOff": "{{value}}% zniżki",
+      "amountOff": "{{value}} zniżki",
+      "flatRate": "Stawka zryczałtowana {{value}}"
+    },
+    "delivery": "Dostawa",
+    "pastOrders": "Poprzednie zamówienia",
+    "viewOrder": "Wyświetl",
+    "localPickup": "{{value}}, odbiór lokalny",
+    "orderNotCreated": "Nie utworzono zamówienia"
+  },
+  "paymentMethodDetails": {
+    "title": "Metoda płatności",
+    "expires": "Wygasa {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Wyślij link do aktualizacji karty",
+      "managePayment": "Zarządzaj płatnością na stronie klienta"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Test",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Wyślij link do aktualizacji karty",
+      "descriptionCreditCard": "Wyślij link do {customerName}, aby zaktualizować kartę kredytową z końcówką {lastDigits}",
+      "descriptionOther": "Wyślij link do {customerName}, aby zaktualizować metodę płatności.",
+      "fromField": "Od:",
+      "toField": "Do:",
+      "subjectField": "Temat:",
+      "subjectMessage": "Zaktualizuj swoją metodę płatności dla {shopName}",
+      "errorMessage": "Nie można wysłać e-maila z aktualizacją metody płatności klienta",
+      "successMessage": "Wysłano e-mail",
+      "actions": {
+        "sendEmail": "Wyślij e-mail",
+        "cancel": "Anuluj"
+      }
+    },
+    "revoked": "Metoda płatności została usunięta przez klienta {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Klient",
+    "contactInformation": "Dane kontaktowe",
+    "shippingAddress": "Adres wysyłki",
+    "actions": {
+      "selectAddress": "Wybierz inny adres",
+      "manageAddress": "Zarządzaj adresami na stronie klienta"
+    },
+    "addressModal": {
+      "title": "Wybierz inny adres",
+      "actions": {
+        "cancel": "Anuluj",
+        "update": "Aktualizuj"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edytuj subskrypcję",
+    "details": {
+      "title": "Szczegóły subskrypcji",
+      "searchProducts": "Szukaj produktów",
+      "browse": "Przeglądaj",
+      "removeLine": "Usuń linię subskrypcji",
+      "oneTimePurchasePrice": "Cena zakupu jednorazowego: {price}",
+      "quantity": "Ilość",
+      "deliveryFrequency": {
+        "title": "Częstotliwość dostaw",
+        "warning": "Aktualizacja częstotliwości dostaw automatycznie aktualizuje częstotliwość rozliczania.",
+        "interval": "Przedział",
+        "intervalCount": "Liczba przedziałów"
+      },
+      "deliveryInterval": {
+        "weeks": "tygodnie",
+        "months": "miesiące",
+        "years": "lata"
+      },
+      "paymentSummary": "Podsumowanie płatności",
+      "subtotal": "Suma częściowa",
+      "shipping": "Wysyłka",
+      "tax": "Podatek",
+      "total": "Suma",
+      "oneTimePurchasePriceChanged": "Cena zakupu jednorazowego została zmieniona"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Nie można utworzyć wersji roboczej umowy subskrypcyjnej"
+      },
+      "updateDraft": {
+        "error": "Nie można zaktualizować wersji roboczej umowy subskrypcyjnej",
+        "quantityTooLargeError": "Ilość jest zbyt duża",
+        "deliveryFrequencyTooLargeError": "Częstotliwość dostaw jest zbyt duża",
+        "deliveryFrequencyIntegerError": "Częstotliwość dostaw musi być liczbą całkowitą"
+      },
+      "updateContract": {
+        "error": "Nie można zaktualizować umowy subskrypcyjnej",
+        "success": "Umowa została zaktualizowana"
+      },
+      "selectProducts": {
+        "lineCountError": "Umowy subskrypcyjne muszą mieć co najmniej jedną pozycję"
+      },
+      "updateAddress": {
+        "error": "Nie można zaktualizować adresu",
+        "success": "Zaktualizowano adres"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Cena zakupu jednorazowego {{title}} została zmieniona i wynosi teraz {{newPrice}}",
+      "updateSubscriptionPrice": "Zaktualizuj cenę subskrypcji {{title}}",
+      "title": "Edytuj cenę",
+      "subscriptionPriceLabel": "Cena subskrypcji",
+      "discountLabel": "Rabat na subskrypcję {{discountAmount}} zastosowany do nowej ceny {{lineTitle}}",
+      "amountTooLargeError": "Kwota jest zbyt duża",
+      "amountNegativeError": "Kwota musi być większa lub równa 0",
+      "actions": {
+        "update": "Aktualizuj",
+        "cancel": "Anuluj"
+      }
+    }
+  }
+}

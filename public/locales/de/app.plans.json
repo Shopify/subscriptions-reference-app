@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Abonnements",
+    "createPlan": "Neuen Plan erstellen"
+  },
+  "emptyState": {
+    "title": "Abonnement erstellen",
+    "description": "Erstelle einen Abonnementplan, der es deinen Kunden ermöglicht, Produkte oder Dienstleistungen auf wiederkehrender Basis mit einem einzigen Auschecken zu kaufen."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Plantitel",
+      "products": "Produkte",
+      "deliveryFrequency": "Lieferintervall",
+      "discount": "Rabatt",
+      "view": "Alle"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Alle"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Plan löschen",
+        "other": "Pläne löschen"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Möchtest du diesen Plan wirklich löschen? Dies kann nicht rückgängig gemacht werden.",
+          "other": "Möchtest du diese Pläne wirklich löschen? Dies kann nicht rückgängig gemacht werden. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Plan löschen",
+            "other": "Pläne löschen"
+          },
+          "cancel": "Abbrechen"
+        },
+        "title": {
+          "one": "Abonnement löschen?",
+          "other": "Abonnements löschen?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonnement gelöscht",
+          "other": "Abonnements gelöscht"
+        },
+        "failed": {
+          "one": "Abonnement konnte nicht gelöscht werden",
+          "other": "Abonnements konnten nicht gelöscht werden"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Erstellt",
+        "ascendingLabel": "Älteste zuerst",
+        "descendingLabel": "Neueste zuerst"
+      },
+      "UPDATED_AT": {
+        "label": "Aktualisiert",
+        "ascendingLabel": "Älteste zuerst",
+        "descendingLabel": "Neueste zuerst"
+      }
+    }
+  }
+}

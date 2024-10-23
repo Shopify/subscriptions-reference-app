@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Maksun epäonnistumisen asetukset",
+    "cardTitle": "Laskuttamisen uudelleenyrityskerrat",
+    "retryAttempts": {
+      "label": "Uudelleenyritysten määrä",
+      "helpText": "Min. 0, maks. 10 uudelleenyritystä",
+      "errors": {
+        "min": "Uudelleenyritysten määrän on oltava suurempi kuin 0",
+        "max": "Uudelleenyritysten määrä on liian suuri"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Uudelleenyritysten välillä olevien päivien määrä",
+      "helpText": "Väh. 1, enint. 14 päivää",
+      "errors": {
+        "min": "Uudelleenyritysten välillä olevien päivien määrän on oltava suurempi kuin 1",
+        "max": "Uudelleenyritysten välillä olevien päivien määrä on liian suuri"
+      }
+    },
+    "onFailure": {
+      "label": "Toiminto, kun kaikki uudelleenyritykset ovat epäonnistuneet",
+      "options": {
+        "skip": "Ohita toistuva tilaus ja lähetä huomautus",
+        "cancel": "Peruuta toistuva tilaus ja lähetä huomautus",
+        "pause": "Keskeytä toistuva tilaus ja lähetä huomautus"
+      }
+    },
+    "notifications": "Muokkaa ilmoituksia",
+    "inventoryRetryAttempts": {
+      "label": "Uudelleenyritysten määrä, kun varastossa on virheitä",
+      "helpText": "Min. 0, maks. 10 uudelleenyritystä",
+      "errors": {
+        "min": "Varaston uudelleenyritysten määrän on oltava suurempi kuin 0",
+        "max": "Varaston uudelleenyritysten määrä on liian suuri"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Maksun uudelleenyritysten väli päivinä, kun varastossa on virheitä",
+      "helpText": "Väh. 1, enint. 14 päivää",
+      "errors": {
+        "min": "Varaston uudelleenyritysten välillä olevien päivien määrän on oltava suurempi kuin 1",
+        "max": "Varaston uudelleenyritysten välillä olevien päivien määrä on liian suuri"
+      }
+    }
+  },
+  "saveButtonText": "Tallenna",
+  "actions": {
+    "updateSuccess": "Asetukset päivitetty"
+  },
+  "title": "Asetukset"
+}

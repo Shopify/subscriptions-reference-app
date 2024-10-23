@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "订阅政策",
+    "subscription_policy_url": "订阅政策链接",
+    "subscription_policy_url_info": "选择一个现有页面或粘贴外部链接以显示订阅政策。",
+    "description": "只有附含订阅套餐的产品才会显示订阅小组件 [详细了解订阅的模板设置](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "上方的设置显示了选定产品的选项。当前选择的产品具有订阅套餐。 ",
+    "colors_title": "颜色",
+    "title": "订阅小组件",
+    "product_title": "产品",
+    "border_title": "边框",
+    "border_thickness": "粗细",
+    "border_radius": "圆角半径",
+    "colors_text_title": "标题",
+    "colors_text_body": "正文",
+    "colors_background_border_title": "背景和边框",
+    "colors_background": "背景",
+    "colors_dividers": "分隔线",
+    "supporting_text_title": "支持文本",
+    "supporting_text_subtitle": "标题",
+    "supporting_text_input_default": "购买选项"
+  }
+}

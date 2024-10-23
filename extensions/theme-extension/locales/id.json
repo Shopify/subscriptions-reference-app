@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Pembelian satu kali",
+      "subscription": "Berlangganan"
+    }
+  },
+  "policy": {
+    "description": "Perbarui otomatis, lewati atau batalkan kapan saja.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Lihat kebijakan langganan</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Untuk menambahkan ke keranjang, buka halaman produk, lalu pilih opsi pembelian"
+  }
+}

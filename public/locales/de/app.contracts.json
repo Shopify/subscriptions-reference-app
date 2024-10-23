@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Abonnement-Verträge"
+  },
+  "emptyState": {
+    "title": "Verwalte deine Abonnementverträge",
+    "description": "Wenn ein Kunde ein Abonnement in deinem Shop erwirbt, wird der Vertrag hier angezeigt."
+  },
+  "table": {
+    "headings": {
+      "contract": "Vertrag",
+      "customer": "Kunde",
+      "product": "Produkt",
+      "price": "Preis",
+      "deliveryFrequency": "Lieferintervall",
+      "status": "Status"
+    },
+    "resourceName": {
+      "singular": "Vertrag",
+      "plural": "Verträge"
+    },
+    "tabs": {
+      "all": "Alle",
+      "active": "Aktive",
+      "paused": "Pausierte",
+      "cancelled": "Stornierte"
+    },
+    "emptyState": {
+      "title": "Keine Verträge mit diesem Status",
+      "description": "{status} Abonnements werden hier angezeigt"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Gekauft",
+      "sortByUpdatedDateLabel": "Aktualisiert",
+      "newestFirstDirectionLabel": "Neueste zuerst",
+      "oldestFirstDirectionLabel": "Älteste zuerst"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pausieren",
+      "accessibilityLabel": "Vertrag pausieren",
+      "success": "Vertrag erfolgreich pausiert",
+      "error": "Vertrag kann nicht pausiert werden"
+    },
+    "cancel": {
+      "title": "Abonnement stornieren",
+      "accessibilityLabel": "Abonnement stornieren",
+      "success": "Vertrag erfolgreich gekündigt",
+      "error": "Vertrag kann nicht gekündigt werden",
+      "modalTitle": "Abonnement stornieren",
+      "modalCancel": "Vertrag beibehalten",
+      "modalContent": "Abrechnung und anstehende Bestellungen werden umgehend beendet. Gekündigte Verträge können nicht fortgesetzt werden."
+    },
+    "resume": {
+      "title": "Fortsetzen",
+      "accessibilityLabel": "Vertrag fortsetzen",
+      "success": "Vertrag erfolgreich fortgesetzt",
+      "error": "Vertrag kann nicht fortgesetzt werden"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Anstehende Bestellung",
+    "subscription": "Abonnementdetails",
+    "price": "Preis",
+    "purchaseDate": "Datum des Kaufs",
+    "quantity": "Menge",
+    "orderNumber": "Bestellung {number}",
+    "edit": "Bearbeiten",
+    "nextOrders": {
+      "title": "Nächste Bestellungen",
+      "skip": "Überspringen",
+      "skipped": "Übersprungen",
+      "resume": "Fortsetzen",
+      "showMore": "{number} weitere anzeigen",
+      "skipError": "Bestellung kann nicht übersprungen/wiederaufgenommen werden",
+      "skipSuccess": "Bestellung erfolgreich übersprungen",
+      "showMoreNoCount": "Mehr anzeigen",
+      "resumeSuccess": "Bestellung erfolgreich fortgesetzt"
+    },
+    "paymentMethods": {
+      "title": "Zahlungsmethoden"
+    },
+    "customer": {
+      "title": "Kunde"
+    },
+    "discount": "Rabatt",
+    "discountValue": {
+      "multipleDiscounts": "Mehrere Rabatte",
+      "percentageOff": "{{value}} % Rabatt",
+      "amountOff": "{{value}} Rabatt",
+      "flatRate": "{{value}} Flat Rate"
+    },
+    "delivery": "Lieferung",
+    "pastOrders": "Vergangene Bestellungen",
+    "viewOrder": "Anzeigen",
+    "localPickup": "{{value}}, lokale Abholung",
+    "orderNotCreated": "Bestellung nicht erstellt"
+  },
+  "paymentMethodDetails": {
+    "title": "Zahlungsmethode",
+    "expires": "Gültig bis {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Link zur Aktualisierung der Karte senden",
+      "managePayment": "Zahlung auf der Kundenseite verwalten"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Link zur Aktualisierung der Karte senden",
+      "descriptionCreditCard": "Sende einen Link an {customerName}, damit die Kreditkarte mit den Endziffern {lastDigits} aktualisiert wird",
+      "descriptionOther": "Sende einen Link an {customerName}, um die Zahlungsmethode zu aktualisieren.",
+      "fromField": "Von:",
+      "toField": "An:",
+      "subjectField": "Betreff:",
+      "subjectMessage": "Aktualisiere deine Zahlungsmethode für {shopName}",
+      "errorMessage": "E-Mail zur Aktualisierung der Zahlungsmethode des Kunden kann nicht gesendet werden",
+      "successMessage": "E-Mail gesendet",
+      "actions": {
+        "sendEmail": "E-Mail senden",
+        "cancel": "Abbrechen"
+      }
+    },
+    "revoked": "Zahlungsmethode wurde am {revokedAt} vom Kunden entfernt"
+  },
+  "customerDetails": {
+    "title": "Kunde",
+    "contactInformation": "Kontaktinformationen",
+    "shippingAddress": "Lieferadresse",
+    "actions": {
+      "selectAddress": "Eine andere Adresse auswählen",
+      "manageAddress": "Adressen auf der Kundenseite verwalten"
+    },
+    "addressModal": {
+      "title": "Eine andere Adresse auswählen",
+      "actions": {
+        "cancel": "Abbrechen",
+        "update": "Aktualisieren"
+      }
+    }
+  },
+  "edit": {
+    "title": "Abonnement bearbeiten",
+    "details": {
+      "title": "Abonnementdetails",
+      "searchProducts": "Produkte suchen",
+      "browse": "Durchsuchen",
+      "removeLine": "Abonnementzeile entfernen",
+      "oneTimePurchasePrice": "Einmaliger Kaufpreis: {price}",
+      "quantity": "Anzahl",
+      "deliveryFrequency": {
+        "title": "Zustellungsfrequenz",
+        "warning": "Durch die Aktualisierung des Lieferintervalls wird automatisch die Abrechnungshäufigkeit aktualisiert.",
+        "interval": "Intervall",
+        "intervalCount": "Intervallanzahl"
+      },
+      "deliveryInterval": {
+        "weeks": "Wochen",
+        "months": "Monate",
+        "years": "Jahre"
+      },
+      "paymentSummary": "Zahlungsübersicht",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versand",
+      "tax": "Steuern",
+      "total": "Gesamtsumme",
+      "oneTimePurchasePriceChanged": "Preis für einmaligen Kauf wurde geändert"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Abonnementvertragsentwurf kann nicht erstellt werden"
+      },
+      "updateDraft": {
+        "error": "Abonnementvertragsentwurf kann nicht aktualisiert werden",
+        "quantityTooLargeError": "Anzahl ist zu hoch",
+        "deliveryFrequencyTooLargeError": "Lieferfrequenz ist zu hoch",
+        "deliveryFrequencyIntegerError": "Lieferfrequenz muss eine ganze Zahl sein"
+      },
+      "updateContract": {
+        "error": "Abonnementvertrag kann nicht aktualisiert werden",
+        "success": "Vertrag aktualisiert"
+      },
+      "selectProducts": {
+        "lineCountError": "Abonnementverträge müssen mindestens 1 Position aufweisen"
+      },
+      "updateAddress": {
+        "error": "Adresse kann nicht aktualisiert werden",
+        "success": "Adresse wurde aktualisiert"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Der Preis für den einmaligen Kauf für {{title}} hat sich geändert. Er beträgt nun {{newPrice}}.",
+      "updateSubscriptionPrice": "Abonnementpreis für {{title}} aktualisieren",
+      "title": "Preis bearbeiten",
+      "subscriptionPriceLabel": "Abonnementpreis",
+      "discountLabel": "Abonnementrabatt von {{discountAmount}} angewendet auf den neuen Preis von {{lineTitle}}",
+      "amountTooLargeError": "Betrag ist zu groß",
+      "amountNegativeError": "Betrag muss größer oder gleich 0 sein",
+      "actions": {
+        "update": "Aktualisieren",
+        "cancel": "Abbrechen"
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Contratos de subscrição"
+  },
+  "emptyState": {
+    "title": "Gestão dos seus contratos de subscrição",
+    "description": "Quando um cliente compra uma subscrição da sua loja, o contrato aparece aqui."
+  },
+  "table": {
+    "headings": {
+      "contract": "Contrato",
+      "customer": "Cliente",
+      "product": "Produto",
+      "price": "Preço",
+      "deliveryFrequency": "Frequência de entrega",
+      "status": "Estado"
+    },
+    "resourceName": {
+      "singular": "Contrato",
+      "plural": "Contratos"
+    },
+    "tabs": {
+      "all": "Todos",
+      "active": "Ativo",
+      "paused": "Em pausa",
+      "cancelled": "Cancelado"
+    },
+    "emptyState": {
+      "title": "Não existem contratos com este estado",
+      "description": "Os contratos de subscrição {status} serão apresentados aqui"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Comprado",
+      "sortByUpdatedDateLabel": "Atualizado",
+      "newestFirstDirectionLabel": "Mais recente primeiro",
+      "oldestFirstDirectionLabel": "Mais antigo primeiro"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Colocar em pausa",
+      "accessibilityLabel": "Colocar contrato em pausa",
+      "success": "Contrato colocado em pausa com sucesso",
+      "error": "Não foi possível colocar o contrato em pausa"
+    },
+    "cancel": {
+      "title": "Cancelar subscrição",
+      "accessibilityLabel": "Cancelar subscrição",
+      "success": "Contrato cancelado com sucesso",
+      "error": "Não foi possível cancelar o contrato",
+      "modalTitle": "Cancelar subscrição",
+      "modalCancel": "Manter o contrato",
+      "modalContent": "A faturação e as encomendas futuras serão imediatamente interrompidas. Os contratos cancelados não podem ser retomados."
+    },
+    "resume": {
+      "title": "Retomar",
+      "accessibilityLabel": "Retomar contrato",
+      "success": "Contrato retomado com sucesso",
+      "error": "Não foi possível retomar o contrato"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Encomendas futuras",
+    "subscription": "Detalhes da subscrição",
+    "price": "Preço",
+    "purchaseDate": "Data de compra",
+    "quantity": "Quantidade",
+    "orderNumber": "Encomenda {number}",
+    "edit": "Editar",
+    "nextOrders": {
+      "title": "Próximas encomendas",
+      "skip": "Ignorar",
+      "skipped": "Ignorado",
+      "resume": "Retomar",
+      "showMore": "Mostrar mais {number}",
+      "skipError": "Não foi possível ignorar/retomar a encomenda",
+      "skipSuccess": "Encomenda ignorada com sucesso",
+      "showMoreNoCount": "Mostrar mais",
+      "resumeSuccess": "Encomenda retomada com sucesso"
+    },
+    "paymentMethods": {
+      "title": "Métodos de pagamento"
+    },
+    "customer": {
+      "title": "Cliente"
+    },
+    "discount": "Desconto",
+    "discountValue": {
+      "multipleDiscounts": "Múltiplos descontos",
+      "percentageOff": "{{value}}% de desconto",
+      "amountOff": "{{value}} de desconto",
+      "flatRate": "{{value}} de taxa fixa"
+    },
+    "delivery": "Entrega",
+    "pastOrders": "Encomendas anteriores",
+    "viewOrder": "Ver",
+    "localPickup": "{{value}}, recolha local",
+    "orderNotCreated": "Encomenda não criada"
+  },
+  "paymentMethodDetails": {
+    "title": "Método de pagamento",
+    "expires": "Expira em {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Enviar ligação para atualizar cartão",
+      "managePayment": "Gerir pagamento na página de cliente"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Enviar ligação para atualizar cartão",
+      "descriptionCreditCard": "Envie uma ligação a {customerName} para que atualize o respetivo cartão de crédito que termina em {lastDigits}",
+      "descriptionOther": "Envie uma ligação a {customerName} para que atualize o método de pagamento.",
+      "fromField": "De:",
+      "toField": "Para:",
+      "subjectField": "Assunto:",
+      "subjectMessage": "Atualize o seu método de pagamento para a {shopName}",
+      "errorMessage": "Não foi possível enviar o e-mail de atualização do método de pagamento",
+      "successMessage": "E-mail enviado",
+      "actions": {
+        "sendEmail": "Enviar e-mail",
+        "cancel": "Cancelar"
+      }
+    },
+    "revoked": "O método de pagamento foi removido pelo cliente em {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Cliente",
+    "contactInformation": "Informações de contacto",
+    "shippingAddress": "Endereço de envio",
+    "actions": {
+      "selectAddress": "Selecione um endereço diferente",
+      "manageAddress": "Gerir endereços na página de cliente"
+    },
+    "addressModal": {
+      "title": "Selecione um endereço diferente",
+      "actions": {
+        "cancel": "Cancelar",
+        "update": "Atualizar"
+      }
+    }
+  },
+  "edit": {
+    "title": "Editar subscrição",
+    "details": {
+      "title": "Detalhes da subscrição",
+      "searchProducts": "Pesquisar produtos",
+      "browse": "Navegar",
+      "removeLine": "Remover linha de subscrição",
+      "oneTimePurchasePrice": "Preço de compra única: {price}",
+      "quantity": "Quantidade",
+      "deliveryFrequency": {
+        "title": "Frequência de entrega",
+        "warning": "Atualizar a frequência de entrega irá atualizar automaticamente a frequência de faturação.",
+        "interval": "Intervalo",
+        "intervalCount": "Contagem de intervalo"
+      },
+      "deliveryInterval": {
+        "weeks": "semanas",
+        "months": "meses",
+        "years": "anos"
+      },
+      "paymentSummary": "Resumo do pagamento",
+      "subtotal": "Subtotal",
+      "shipping": "Envio",
+      "tax": "Imposto",
+      "total": "Total",
+      "oneTimePurchasePriceChanged": "O preço de compra única foi alterado"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Não é possível criar rascunho do contrato de subscrição"
+      },
+      "updateDraft": {
+        "error": "Não é possível atualizar o rascunho do contrato de subscrição",
+        "quantityTooLargeError": "Quantidade demasiado elevada",
+        "deliveryFrequencyTooLargeError": "A frequência de entrega é demasiado grande",
+        "deliveryFrequencyIntegerError": "A frequência de entrega tem de ser um número inteiro"
+      },
+      "updateContract": {
+        "error": "Não é possível atualizar o contrato de subscrição",
+        "success": "Contrato atualizado"
+      },
+      "selectProducts": {
+        "lineCountError": "Os contratos de subscrição devem ter pelo menos 1 item de linha"
+      },
+      "updateAddress": {
+        "error": "Não foi possível atualizar o endereço",
+        "success": "Endereço atualizado"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "O preço de compra única de {{title}} foi alterado. Agora, é {{newPrice}}",
+      "updateSubscriptionPrice": "Atualizar preço da subscrição de {{title}}",
+      "title": "Editar preço",
+      "subscriptionPriceLabel": "Preço da subscrição",
+      "discountLabel": "{{discountAmount}} de desconto de subscrição aplicado ao novo preço de {{lineTitle}}",
+      "amountTooLargeError": "O montante é demasiado elevado",
+      "amountNegativeError": "O montante tem de ser superior ou igual a 0",
+      "actions": {
+        "update": "Atualizar",
+        "cancel": "Cancelar"
+      }
+    }
+  }
+}

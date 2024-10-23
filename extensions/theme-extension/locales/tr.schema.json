@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Abonelik politikası",
+    "subscription_policy_url": "Abonelik politikası bağlantısı",
+    "subscription_policy_url_info": "Abonelik politikasını görüntülemek için mevcut bir sayfayı seçin veya harici bir bağlantı yapıştırın.",
+    "description": "Abonelik widget'ı yalnızca ürüne eklenmiş bir abonelik planı olan ürünlerde gösterilir. [Abonelikler için tema ayarları hakkında daha fazla bilgi edinin](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Yukarıdaki ayarlar, seçilen ürün için geçerli seçenekleri gösterir. Seçilen mevcut ürüne ait bir abonelik planı var. ",
+    "colors_title": "Renk",
+    "title": "Abonelik widget'ı",
+    "product_title": "Ürün",
+    "border_title": "Kenarlık",
+    "border_thickness": "Kalınlık",
+    "border_radius": "Köşe yarıçapı",
+    "colors_text_title": "Başlık",
+    "colors_text_body": "Gövde",
+    "colors_background_border_title": "Arka Planlar ve Kenarlıklar",
+    "colors_background": "Arka plan",
+    "colors_dividers": "Ayırıcılar",
+    "supporting_text_title": "Destekleyici metin",
+    "supporting_text_subtitle": "Başlık",
+    "supporting_text_input_default": "Satın alım seçenekleri"
+  }
+}

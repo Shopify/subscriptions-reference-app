@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Compra única",
+      "subscription": "Suscripción"
+    }
+  },
+  "policy": {
+    "description": "Se renueva automáticamente. Omítelo o cancélalo en cualquier momento.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Ver la política de suscripción</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Para agregar al carrito, ve a la página de producto y selecciona una opción de compra."
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "El widget de suscripción solo se mostrará en los productos que tengan un plan de suscripción adjunto."
+  },
+  "no_app_block_found_banner": {
+    "message": "Para editar la colocación del widget de suscripción, agrega el siguiente fragmento de código a la plantilla del producto en el lugar de tu preferencia.",
+    "copy_button_text": "Copiar",
+    "copied_button_text": "Copiado",
+    "button_text": "Ver el editor de código"
+  }
+}

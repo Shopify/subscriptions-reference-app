@@ -1,0 +1,57 @@
+{
+  "name": "Subscriptions",
+  "save": "Save",
+  "cancel": "Cancel",
+  "merchantCode": {
+    "label": "Internal description",
+    "helpText": "For your reference only"
+  },
+  "planName": {
+    "label": "Title",
+    "placeholder": "Subscribe and save",
+    "helpText": "Customers will see this on storefront product pages that have subscriptions"
+  },
+  "discountAndDelivery": "Discount and delivery",
+  "offerDiscount": "Offer discount",
+  "discountType": {
+    "percentageOff": "Percentage off",
+    "amountOff": "Amount off",
+    "flatRate": "Flat rate"
+  },
+  "discountDetails": {
+    "percentageOff": "{{amount}}% off",
+    "amountOff": "{{amount}} off",
+    "flatRate": "{{amount}} flat rate"
+  },
+  "deliveryFrequency": "Delivery frequency",
+  "deliveryInterval": {
+    "label": "Delivery interval",
+    "weeks": "weeks",
+    "months": "months",
+    "years": "years",
+    "day": {
+      "one": "Deliver every day",
+      "other": "Deliver every {{count}} days"
+    },
+    "week": {
+      "one": "Deliver every week",
+      "other": "Deliver every {{count}} weeks"
+    },
+    "month": {
+      "one": "Deliver every month",
+      "other": "Deliver every {{count}} months"
+    },
+    "year": {
+      "one": "Deliver every year",
+      "other": "Deliver every {{count}} years"
+    }
+  },
+  "addOptionButton": {
+    "label": "Option",
+    "accessibilityLabel": "Add option"
+  },
+  "removeOption": "Remove option",
+  "success": {
+    "create": "Selling plan group created"
+  }
+}

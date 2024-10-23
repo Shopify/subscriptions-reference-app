@@ -1,0 +1,153 @@
+{
+  "subscriptions": "訂閱",
+  "manageSubscription": "管理訂閱",
+  "upcomingOrder": "下期訂單",
+  "skip": "跳過",
+  "showUpcomingOrders": "顯示下期訂單",
+  "nextOrder": "下一筆訂單：{{date}}",
+  "lastUpdated": "上次更新時間：{{date}}",
+  "subscriptionDetails": "訂閱方案詳細資訊",
+  "maxOrdersSkipped": "已略過訂單數量上限",
+  "skipOrderOverYear": "由於距離訂單日期超過一年，因此無法略過",
+  "paymentMethodInvalidBanner": "以 {{lastDigits}} 結尾的 {{brand}} 無效。請更新以下付款方式，以便繼續接收後續訂單。",
+  "paymentMethodInvalidBannerGeneric": "以 {{lastDigits}} 結尾的卡片號碼無效。請更新以下付款方式，以便繼續接收後續訂單。",
+  "paymentMethodInvalidBadge": "無效的付款方式",
+  "listItem": {
+    "multipleItemsName": "{{count}} 件商品",
+    "accessibilityLabel": "管理訂閱：{{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "啟用",
+    "paused": "已暫停",
+    "cancelled": "已取消",
+    "expired": "已過期",
+    "failed": "已失敗",
+    "stale": "過時"
+  },
+  "deliveryInterval": {
+    "day.one": "每日配送",
+    "day.other": "每 {{count}} 日配送",
+    "week.one": "每週配送",
+    "week.other": "每 {{count}} 週配送",
+    "month.one": "每月配送",
+    "month.other": "每 {{count}} 月配送",
+    "year.one": "每年配送",
+    "year.other": "每 {{count}} 年配送"
+  },
+  "overviewCard": {
+    "overview": "概覽",
+    "product": "商品",
+    "deliveryFrequency": "配送頻率",
+    "payment": "付款",
+    "billingAddress": "帳單地址",
+    "shippingAddress": "運送地址",
+    "shippingMethod": "運送方式",
+    "pickupLocation": "取貨地點",
+    "changePaymentMethodButtonLabel": "變更付款方式",
+    "editShippingAddressButtonLabel": "編輯運送地址",
+    "editPickupAddressButtonLabel": "編輯取貨地址"
+  },
+  "paymentModal": {
+    "title": "更換付款方式",
+    "save": "儲存",
+    "paymentMethod": "付款方式",
+    "edit": "編輯",
+    "close": "關閉",
+    "errorBannerTitle": "無法更新付款方式"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "過去的訂單",
+    "view": "檢視"
+  },
+  "skipNextOrder": {
+    "text": "略過下一筆訂單",
+    "generic": "是否要略過下一筆訂單？",
+    "date": "是否要略過下一筆訂單？您的訂閱將於 {{date}}恢復。",
+    "errorBannerTitle": "無法略過下一筆訂單",
+    "close": "關閉"
+  },
+  "pauseSubscriptionModal": {
+    "title": "暫停訂閱",
+    "action": "暫停訂閱",
+    "close": "關閉",
+    "description": "暫停訂閱將立即生效，您將不會收到任何進一步的收費或下期訂單。您可以隨時恢復此訂閱。",
+    "errorBannerTitle": "無法暫停訂閱"
+  },
+  "subscriptionActions": {
+    "pause": "暫停訂閱",
+    "skip": "略過下一筆訂單",
+    "resume": "恢復訂閱",
+    "cancel": "取消訂閱",
+    "manage": "管理訂閱",
+    "viewSubscriptionDetails": "檢視訂閱方案詳細資訊"
+  },
+  "resumeSubscriptionModal": {
+    "description": "若您恢復此訂閱，系統會立即恢復計費。",
+    "descriptionWithDate": "若您恢復此訂閱，系統將於 {{date}}恢復計費。",
+    "close": "關閉",
+    "descriptionPriceChanged": "此訂閱方案的價格有所變動，您後續每筆訂單將會收取 {{price}}。",
+    "continue": "繼續",
+    "title": "恢復訂閱",
+    "errorBannerTitle": "無法恢復訂閱"
+  },
+  "priceSummary": {
+    "text": "價格摘要",
+    "subtotal": "小計",
+    "shipping": "運送",
+    "taxes": "稅金",
+    "total": "總計"
+  },
+  "cancelSubscriptionModal": {
+    "title": "取消訂閱",
+    "description": "若您取消訂閱，系統會立即結束計費和配送。取消訂閱的動作無法復原。若要暫時停止接收訂單，請暫停訂閱。",
+    "action": "取消訂閱",
+    "close": "關閉",
+    "errorBannerTitle": "無法取消訂閱"
+  },
+  "errorBoundary": {
+    "content": "發生錯誤，請重新整理頁面"
+  },
+  "addressModal": {
+    "save": "儲存",
+    "continue": "繼續",
+    "cancel": "取消",
+    "title": "編輯運送地址",
+    "errorBannerTitle": "無法更新配送方式",
+    "noDeliveryOptions": "此訂閱無法運送至您輸入的地址。請檢視您的地址，以確認已正確輸入所有欄位，然後再試一次。"
+  },
+  "successBanner": {
+    "paused": "訂閱已暫停",
+    "resumed": "訂閱已恢復",
+    "cancelled": "訂閱已取消",
+    "skipped": "已略過下一筆訂單",
+    "paymentUpdated": "付款方式已更新",
+    "shippingUpdated": "運送方式已更新",
+    "deliveryUpdated": "配送方式已更新"
+  },
+  "upcomingOrdersModal": {
+    "title": "下期訂單",
+    "close": "關閉",
+    "skipOrder": "跳過",
+    "skipOrderAccessibilityLabel": "略過 {{orderDate}}的訂單",
+    "unSkipOrder": "取消略過",
+    "unskipOrderAccessibilityLabel": "取消略過 {{orderDate}}的訂單",
+    "skippedOrderLabel": "{{skippedOrderDate}} (已略過)",
+    "skippedSuccessMessage": "{{orderDate}}的訂單已略過",
+    "unskippedSuccessMessage": "{{orderDate}}的訂單已取消略過",
+    "skippedErrorMessage": "略過訂單時發生錯誤",
+    "unskippedErrorMessage": "取消略過訂單時發生錯誤"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "選取配送方式",
+    "free": "免費",
+    "localPickupOption": "取貨：{{location}}",
+    "localDeliveryPhoneLabel": "手機號碼",
+    "localDeliveryInstructionsLabel": "配送指示 (選填)",
+    "localDeliveryPhoneDetails": "您可能會收到配送更新資訊的相關通知。",
+    "localDeliveryInstructionsDetails": "請輸入必要資訊 (如門牌號碼或投遞資訊)。"
+  },
+  "notFound": {
+    "title": "找不到任何訂閱",
+    "description": "此訂閱不存在，或您沒有檢視此訂閱的權限。"
+  }
+}

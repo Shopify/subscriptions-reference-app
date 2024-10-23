@@ -1,0 +1,33 @@
+{
+  "name": "Abonelikler",
+  "save": "Kaydet",
+  "cancel": "İptal",
+  "merchantCode": {
+    "label": "Dahili açıklama",
+    "helpText": "Yalnızca sizin referansınız için"
+  },
+  "planName": {
+    "label": "Başlık",
+    "placeholder": "Abone ol ve kaydet",
+    "helpText": "Müşteriler bunu, abonelikleri içeren vitrin ürün sayfalarında görür"
+  },
+  "discountAndDelivery": "İndirim ve teslimat",
+  "offerDiscount": "İndirim sun",
+  "discountType": {
+    "percentageOff": "İndirim yüzdesi",
+    "amountOff": "İndirim tutarı",
+    "flatRate": "Sabit fiyat"
+  },
+  "deliveryFrequency": "Teslimat sıklığı",
+  "deliveryInterval": {
+    "label": "Teslimat aralığı",
+    "weeks": "Hafta",
+    "months": "Ay",
+    "years": "Yıl"
+  },
+  "addOptionButton": {
+    "label": "Seçenek",
+    "accessibilityLabel": "Seçenek ekle"
+  },
+  "removeOption": "Seçeneği kaldır"
+}

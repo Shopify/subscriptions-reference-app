@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Abonnementen",
+  "manageSubscription": "Abonnement beheren",
+  "upcomingOrder": "Aankomende bestelling",
+  "skip": "Overslaan",
+  "showUpcomingOrders": "Aankomende bestellingen weergeven",
+  "nextOrder": "Volgende bestelling: {{date}}",
+  "lastUpdated": "Laatst bijgewerkt op {{date}}",
+  "subscriptionDetails": "Abonnementsgegevens",
+  "maxOrdersSkipped": "Het maximale aantal bestellingen is overgeslagen",
+  "skipOrderOverYear": "Overslaan is niet mogelijk, omdat de bestelling meer dan een jaar oud is",
+  "paymentMethodInvalidBanner": "{{brand}} eindigend op {{lastDigits}} is ongeldig. Pas de betaalmethode hieronder aan om aankomende bestellingen te blijven ontvangen.",
+  "paymentMethodInvalidBannerGeneric": "Kaart eindigend op {{lastDigits}} is ongeldig. Pas de betaalmethode hieronder aan om aankomende bestellingen te blijven ontvangen.",
+  "paymentMethodInvalidBadge": "Ongeldige betaalmethode",
+  "listItem": {
+    "multipleItemsName": "{{count}} artikelen",
+    "accessibilityLabel": "Abonnement beheren: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Actief",
+    "paused": "Gepauzeerd",
+    "cancelled": "Geannuleerd",
+    "expired": "Verlopen",
+    "failed": "Mislukt",
+    "stale": "Oud"
+  },
+  "deliveryInterval": {
+    "day.one": "Bezorging elke dag",
+    "day.other": "Bezorging elke {{count}} dagen",
+    "week.one": "Bezorging elke week",
+    "week.other": "Bezorging elke {{count}} weken",
+    "month.one": "Bezorging elke maand",
+    "month.other": "Bezorging elke {{count}} maanden",
+    "year.one": "Bezorging elk jaar",
+    "year.other": "Bezorging elke {{count}} jaar"
+  },
+  "overviewCard": {
+    "overview": "Overzicht",
+    "product": "Product",
+    "deliveryFrequency": "Bezorgfrequentie",
+    "payment": "Betaling",
+    "billingAddress": "Factuuradres",
+    "shippingAddress": "Bezorgadres",
+    "shippingMethod": "Verzendmethode",
+    "pickupLocation": "Afhaallocatie",
+    "changePaymentMethodButtonLabel": "Betaalmethode wijzigen",
+    "editShippingAddressButtonLabel": "Bezorgadres bewerken",
+    "editPickupAddressButtonLabel": "Afhaaladres bewerken"
+  },
+  "paymentModal": {
+    "title": "Betaalmethode vervangen",
+    "save": "Opslaan",
+    "paymentMethod": "Betaalmethode",
+    "edit": "Bewerken",
+    "close": "Sluiten",
+    "errorBannerTitle": "Kan betaalmethode niet bijwerken"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Eerdere bestellingen",
+    "view": "Bekijken"
+  },
+  "skipNextOrder": {
+    "text": "Volgende bestelling overslaan",
+    "generic": "Wil je de volgende bestelling overslaan?",
+    "date": "Wil je de volgende bestelling overslaan? Je abonnement wordt op {{date}} hervat.",
+    "errorBannerTitle": "Kan volgende bestelling niet overslaan",
+    "close": "Annuleren"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Abonnement pauzeren",
+    "action": "Abonnement pauzeren",
+    "close": "Sluiten",
+    "description": "Je abonnement wordt onmiddellijk gepauzeerd. Er worden geen afschrijvingen meer gedaan en je krijgt geen komende bestellingen meer. Je kunt het abonnement op elk gewenst moment hervatten.",
+    "errorBannerTitle": "Kan abonnement niet pauzeren"
+  },
+  "subscriptionActions": {
+    "pause": "Abonnement pauzeren",
+    "skip": "Volgende bestelling overslaan",
+    "resume": "Abonnement hervatten",
+    "cancel": "Abonnement opzeggen",
+    "manage": "Abonnement beheren",
+    "viewSubscriptionDetails": "Abonnementsgegevens bekijken"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Als je dit abonnement hervat, gaat de facturering onmiddellijk weer in.",
+    "descriptionWithDate": "Als je dit abonnement hervat, gaat de facturering weer in op {{date}}.",
+    "close": "Sluiten",
+    "descriptionPriceChanged": "De prijs voor dit abonnement is gewijzigd. Bij de volgende bestelling wordt {{price}} bij je in rekening gebracht.",
+    "continue": "Doorgaan",
+    "title": "Abonnement hervatten",
+    "errorBannerTitle": "Kan abonnement niet hervatten"
+  },
+  "priceSummary": {
+    "text": "Prijsoverzicht",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "taxes": "Btw",
+    "total": "Totaal"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Abonnement opzeggen",
+    "description": "Als je je abonnement opzegt, wordt de facturering en bezorging onmiddellijk beëindigd. Als je een abonnement opzegt, kun je dit niet meer ongedaan maken. Als je tijdelijk geen bestellingen wilt ontvangen, kun je je abonnement pauzeren.",
+    "action": "Abonnement opzeggen",
+    "close": "Sluiten",
+    "errorBannerTitle": "Kan abonnement niet annuleren"
+  },
+  "errorBoundary": {
+    "content": "Er is iets misgegaan. Vernieuw de pagina"
+  },
+  "addressModal": {
+    "save": "Opslaan",
+    "continue": "Doorgaan",
+    "cancel": "Annuleren",
+    "title": "Bezorgadres bewerken",
+    "errorBannerTitle": "Kan bezorgmethode niet bijwerken",
+    "noDeliveryOptions": "Dit abonnement kan niet worden verzonden naar het ingevoerde adres. Controleer het adres en zorg ervoor dat alle velden correct zijn ingevuld. Probeer het daarna opnieuw."
+  },
+  "successBanner": {
+    "paused": "Abonnement gepauzeerd",
+    "resumed": "Abonnement hervat",
+    "cancelled": "Abonnement geannuleerd",
+    "skipped": "Volgende bestelling overgeslagen",
+    "paymentUpdated": "Betaalmethode bijgewerkt",
+    "shippingUpdated": "Verzendmethode bijgewerkt",
+    "deliveryUpdated": "Bezorgmethode bijgewerkt"
+  },
+  "upcomingOrdersModal": {
+    "title": "Aankomende bestellingen",
+    "close": "Sluiten",
+    "skipOrder": "Overslaan",
+    "skipOrderAccessibilityLabel": "Bestelling overslaan op {{orderDate}}",
+    "unSkipOrder": "Niet meer overslaan",
+    "unskipOrderAccessibilityLabel": "Bestelling niet meer overslaan op {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (overgeslagen)",
+    "skippedSuccessMessage": "Bestelling op {{orderDate}} overgeslagen",
+    "unskippedSuccessMessage": "Bestelling op {{orderDate}} niet overgeslagen",
+    "skippedErrorMessage": "Fout bij overslaan bestelling",
+    "unskippedErrorMessage": "Fout bij ongedaan maken overslaan bestelling"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Selecteer een bezorgmethode",
+    "free": "Gratis",
+    "localPickupOption": "Ophalen: {{location}}",
+    "localDeliveryPhoneLabel": "Mobiel telefoonnummer",
+    "localDeliveryInstructionsLabel": "Bezorginstructies (optioneel)",
+    "localDeliveryPhoneDetails": "Mogelijk wordt er contact met je opgenomen met updates over je bezorging.",
+    "localDeliveryInstructionsDetails": "Voer de vereiste informatie in zoals deurcodes en afleverinstructies."
+  },
+  "notFound": {
+    "title": "Abonnement niet gevonden",
+    "description": "Dit abonnement bestaat niet of je bent niet gemachtigd om dit te bekijken."
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "สัญญาการสมัครใช้งาน"
+  },
+  "emptyState": {
+    "title": "จัดการสัญญาการสมัครใช้งานของคุณ",
+    "description": "เมื่อลูกค้าซื้อการสมัครใช้งานจากร้านค้าของคุณ สัญญาจะปรากฏที่นี่"
+  },
+  "table": {
+    "headings": {
+      "contract": "สัญญา",
+      "customer": "ลูกค้า",
+      "product": "สินค้า",
+      "price": "ราคา",
+      "deliveryFrequency": "ความถี่ในการจัดส่ง",
+      "status": "สถานะ"
+    },
+    "resourceName": {
+      "singular": "สัญญา",
+      "plural": "สัญญา"
+    },
+    "tabs": {
+      "all": "ทั้งหมด",
+      "active": "ใช้งานอยู่",
+      "paused": "หยุดชั่วคราว",
+      "cancelled": "ยกเลิกแล้ว"
+    },
+    "emptyState": {
+      "title": "ไม่มีสัญญาที่มีสถานะนี้",
+      "description": "สัญญาการสมัครใช้งานที่มีสถานะ {status} จะแสดงที่นี่"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "ซื้อแล้ว",
+      "sortByUpdatedDateLabel": "อัปเดตแล้ว",
+      "newestFirstDirectionLabel": "ใหม่สุดก่อน",
+      "oldestFirstDirectionLabel": "เก่าสุดก่อน"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "หยุดชั่วคราว",
+      "accessibilityLabel": "หยุดสัญญาชั่วคราว",
+      "success": "หยุดสัญญาชั่วคราวสำเร็จแล้ว",
+      "error": "ไม่สามารถหยุดสัญญาชั่วคราวได้"
+    },
+    "cancel": {
+      "title": "ยกเลิกการสมัครใช้งาน",
+      "accessibilityLabel": "ยกเลิกการสมัครใช้งาน",
+      "success": "ยกเลิกสัญญาสำเร็จแล้ว",
+      "error": "ไม่สามารถยกเลิกสัญญาได้",
+      "modalTitle": "ยกเลิกการสมัครใช้งาน",
+      "modalCancel": "รักษาสัญญาไว้",
+      "modalContent": "การเรียกเก็บเงินและคำสั่งซื้อที่จะสิ้นสุดลงทันที สัญญาที่ถูกยกเลิกแล้วไม่สามารถดำเนินการต่อได้"
+    },
+    "resume": {
+      "title": "ดำเนินการต่อ",
+      "accessibilityLabel": "ดำเนินการต่อสัญญา",
+      "success": "ดำเนินการต่อสัญญาเรียบร้อยแล้ว",
+      "error": "ไม่สามารถต่อสัญญาได้"
+    }
+  },
+  "details": {
+    "upcomingOrders": "คำสั่งซื้อที่จะมาถึง",
+    "subscription": "รายละเอียดการสมัครใช้งาน",
+    "price": "ราคา",
+    "purchaseDate": "วันที่ซื้อ",
+    "quantity": "จำนวน",
+    "orderNumber": "คำสั่งซื้อ {number}",
+    "edit": "แก้ไข",
+    "nextOrders": {
+      "title": "คำสั่งซื้อถัดไป",
+      "skip": "ข้าม",
+      "skipped": "ข้ามแล้ว",
+      "resume": "ดำเนินการต่อ",
+      "showMore": "แสดงเพิ่ม {number} รายการ",
+      "skipError": "ไม่สามารถข้ามการสั่งซื้อได้/ดำเนินการสั่งซื้อต่อ",
+      "skipSuccess": "ข้ามการสั่งซื้อสำเร็จแล้ว",
+      "showMoreNoCount": "แสดงเพิ่ม",
+      "resumeSuccess": "ดำเนินการสั่งซื้อต่อสำเร็จแล้ว"
+    },
+    "paymentMethods": {
+      "title": "วิธีการชำระเงิน"
+    },
+    "customer": {
+      "title": "ลูกค้า"
+    },
+    "discount": "ส่วนลด",
+    "discountValue": {
+      "multipleDiscounts": "ส่วนลดหลายรายการ",
+      "percentageOff": "ลด {{value}}%",
+      "amountOff": "ลด {{value}}",
+      "flatRate": "อัตราค่าจัดส่งตายตัว {{value}}"
+    },
+    "delivery": "การจัดส่ง",
+    "pastOrders": "คำสั่งซื้อที่ผ่านมา",
+    "viewOrder": "ดู",
+    "localPickup": "{{value}} การรับสินค้าที่ร้าน",
+    "orderNotCreated": "ไม่ได้สร้างคำสั่งซื้อ"
+  },
+  "paymentMethodDetails": {
+    "title": "วิธีการชำระเงิน",
+    "expires": "หมดอายุ {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "ส่งลิงก์เพื่ออัปเดตบัตร",
+      "managePayment": "จัดการการชำระเงินในหน้าลูกค้า"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "Hypercard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "ส่งลิงก์เพื่ออัปเดตบัตร",
+      "descriptionCreditCard": "ส่งลิงก์ไปที่ {customerName} เพื่ออัปเดตบัตรเครดิตที่ลงท้ายด้วย {lastDigits}",
+      "descriptionOther": "ส่งลิงก์ไปยัง {customerName} เพื่ออัปเดตวิธีการชำระเงิน",
+      "fromField": "จาก:",
+      "toField": "ถึง:",
+      "subjectField": "เรื่อง:",
+      "subjectMessage": "อัปเดตวิธีการชำระเงินสำหรับ {shopName}",
+      "errorMessage": "ไม่สามารถส่งอีเมลอัปเดตวิธีการชำระเงินของลูกค้าได้",
+      "successMessage": "ส่งอีเมลแล้ว",
+      "actions": {
+        "sendEmail": "ส่งอีเมล",
+        "cancel": "ยกเลิก"
+      }
+    },
+    "revoked": "วิธีการชำระเงินถูกลบออกโดยลูกค้าเมื่อ {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "ลูกค้า",
+    "contactInformation": "ข้อมูลติดต่อ",
+    "shippingAddress": "ที่อยู่ที่จัดส่ง",
+    "actions": {
+      "selectAddress": "เลือกที่อยู่อื่น",
+      "manageAddress": "จัดการที่อยู่ในหน้าลูกค้า"
+    },
+    "addressModal": {
+      "title": "เลือกที่อยู่อื่น",
+      "actions": {
+        "cancel": "ยกเลิก",
+        "update": "อัปเดต"
+      }
+    }
+  },
+  "edit": {
+    "title": "แก้ไขการสมัครใช้งาน",
+    "details": {
+      "title": "รายละเอียดการสมัครใช้งาน",
+      "searchProducts": "ค้นหาสินค้า",
+      "browse": "เรียกดู",
+      "removeLine": "ลบบรรทัดการสมัครใช้งานออก",
+      "oneTimePurchasePrice": "ราคาการซื้อแบบครั้งเดียว: {price}",
+      "quantity": "จำนวน",
+      "deliveryFrequency": {
+        "title": "ความถี่ในการจัดส่ง",
+        "warning": "เมื่อมีการอัปเดตความถี่ในการจัดส่ง ระบบจะอัปเดตความถี่ในการเรียกเก็บเงินให้โดยอัตโนมัติ",
+        "interval": "ช่วงระยะห่าง",
+        "intervalCount": "จำนวนช่วงระยะห่าง"
+      },
+      "deliveryInterval": {
+        "weeks": "สัปดาห์",
+        "months": "เดือน",
+        "years": "ปี"
+      },
+      "paymentSummary": "ข้อมูลสรุปการชำระเงิน",
+      "subtotal": "ยอดรวม",
+      "shipping": "การจัดส่ง",
+      "tax": "ภาษี",
+      "total": "ทั้งหมด",
+      "oneTimePurchasePriceChanged": "ราคาการซื้อแบบครั้งเดียวมีการเปลี่ยนแปลง"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "ไม่สามารถสร้างแบบร่างสัญญาการสมัครใช้งานได้"
+      },
+      "updateDraft": {
+        "error": "ไม่สามารถอัปเดตแบบร่างสัญญาการสมัครใช้งานได้",
+        "quantityTooLargeError": "ค่าจำนวนมากเกินไป",
+        "deliveryFrequencyTooLargeError": "ค่าความถี่ในการจัดส่งมากเกินไป",
+        "deliveryFrequencyIntegerError": "ค่าความถี่ในการจัดส่งต้องเป็นจำนวนเต็ม"
+      },
+      "updateContract": {
+        "error": "ไม่สามารถอัปเดตสัญญาการสมัครใช้งานได้",
+        "success": "อัปเดตสัญญาแล้ว"
+      },
+      "selectProducts": {
+        "lineCountError": "สัญญาการสมัครใช้งานจะต้องมีสินค้าเฉพาะรายการอย่างน้อย 1 รายการ"
+      },
+      "updateAddress": {
+        "error": "ไม่สามารถอัปเดตที่อยู่ได้",
+        "success": "อัปเดตที่อยู่แล้ว"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "ราคาการซื้อแบบครั้งเดียวของ{{title}}มีการเปลี่ยนแปลง และตอนนี้มีราคา {{newPrice}}",
+      "updateSubscriptionPrice": "อัปเดตราคาการสมัครใช้งานของ{{title}}",
+      "title": "แก้ไขราคา",
+      "subscriptionPriceLabel": "ราคาการซื้อแบบเหมาจ่ายล่วงหน้า",
+      "discountLabel": "ใช้ส่วนลดการซื้อแบบเหมาจ่ายล่วงหน้า {{discountAmount}} กับราคาใหม่ของ {{lineTitle}} แล้ว",
+      "amountTooLargeError": "จำนวนเงินมากเกินไป",
+      "amountNegativeError": "จำนวนเงินต้องมากกว่าหรือเท่ากับ 0",
+      "actions": {
+        "update": "อัปเดต",
+        "cancel": "ยกเลิก"
+      }
+    }
+  }
+}

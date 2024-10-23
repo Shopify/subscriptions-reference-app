@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Prenumerationsplaner",
+    "createPlan": "Skapa ny plan"
+  },
+  "emptyState": {
+    "title": "Skapa en prenumerationsplan",
+    "description": "Skapa en prenumerationsplan så att kunderna kan köpa produkter eller tjänster på en återkommande basis med en enda kassaupplevelse."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Plantitel",
+      "products": "Produkter",
+      "deliveryFrequency": "Leveransfrekvens",
+      "discount": "Rabatt",
+      "view": "Alla"
+    },
+    "resourceName": {
+      "singular": "Prenumeration",
+      "plural": "Prenumeration"
+    },
+    "resources": {
+      "allSelected": "Alla"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Radera plan",
+        "other": "Radera planer"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Är du säker på att du vill radera den här planen? Detta kan inte ångras.",
+          "other": "Är du säker på att du vill radera de här planerna? Detta kan inte ångras. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Radera plan",
+            "other": "Radera planer"
+          },
+          "cancel": "Avbryt"
+        },
+        "title": {
+          "one": "Radera prenumerationsplan?",
+          "other": "Radera prenumerationsplaner?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Prenumerationsplanen har raderats",
+          "other": "Prenumerationsplanerna har raderats"
+        },
+        "failed": {
+          "one": "Det gick inte att radera prenumerationsplanen",
+          "other": "Det gick inte att radera prenumerationsplanerna"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Skapad",
+        "ascendingLabel": "Äldsta först",
+        "descendingLabel": "Nyaste först"
+      },
+      "UPDATED_AT": {
+        "label": "Uppdaterad",
+        "ascendingLabel": "Äldsta först",
+        "descendingLabel": "Nyaste först"
+      }
+    }
+  }
+}

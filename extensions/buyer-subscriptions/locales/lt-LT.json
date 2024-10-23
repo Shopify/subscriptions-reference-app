@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Prenumeratos",
+  "manageSubscription": "Tvarkyti prenumeratą",
+  "upcomingOrder": "Būsimas užsakymas",
+  "skip": "Praleisti",
+  "showUpcomingOrders": "Rodyti būsimus užsakymus",
+  "nextOrder": "Kitas užsakymas: {{date}}",
+  "lastUpdated": "Paskutinį kartą atnaujinta {{date}}",
+  "subscriptionDetails": "Prenumeratos informacija",
+  "maxOrdersSkipped": "Praleistas maksimalus užsakymų skaičius",
+  "skipOrderOverYear": "Negalima praleisti, nes užsakymo terminas yra vėliau nei po metų",
+  "paymentMethodInvalidBanner": "{{brand}}, kurios numeris baigiasi skaitmenimis {{lastDigits}}, negalioja. Atnaujinkite mokėjimo būdą, kad toliau gautumėte būsimus užsakymus.",
+  "paymentMethodInvalidBannerGeneric": "Kortelė, kurios numeris baigiasi skaitmenimis {{lastDigits}}, negalioja. Atnaujinkite mokėjimo būdą, kad toliau gautumėte būsimus užsakymus.",
+  "paymentMethodInvalidBadge": "Negaliojantis mokėjimo būdas",
+  "listItem": {
+    "multipleItemsName": "{{count}} prekės (-ių)",
+    "accessibilityLabel": "Tvarkyti prenumeratą: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktyvi",
+    "paused": "Pristabdyta",
+    "cancelled": "Atšaukta",
+    "expired": "Pasibaigusi",
+    "failed": "Nesėkminga",
+    "stale": "Pasenusi"
+  },
+  "deliveryInterval": {
+    "day.one": "Pristatymas kas dieną",
+    "day.other": "Pristatymas kas {{count}} d.",
+    "week.one": "Pristatymas kas savaitę",
+    "week.other": "Pristatymas kas {{count}} sav.",
+    "month.one": "Pristatymas kas mėnesį",
+    "month.other": "Pristatymas kas {{count}} mėn.",
+    "year.one": "Pristatymas kas metus",
+    "year.other": "Pristatymas kas {{count}} m."
+  },
+  "overviewCard": {
+    "overview": "Apžvalga",
+    "product": "Prekė",
+    "deliveryFrequency": "Pristatymo dažnumas",
+    "payment": "Mokėjimas",
+    "billingAddress": "Sąskaitos pateikimo adresas",
+    "shippingAddress": "Pristatymo adresas",
+    "shippingMethod": "Siuntimo būdas",
+    "pickupLocation": "Atsiėmimo vieta",
+    "changePaymentMethodButtonLabel": "Pakeisti mokėjimo būdą",
+    "editShippingAddressButtonLabel": "Redaguoti pristatymo adresą",
+    "editPickupAddressButtonLabel": "Redaguoti atsiėmimo adresą"
+  },
+  "paymentModal": {
+    "title": "Pakeisti mokėjimo būdą",
+    "save": "Išsaugoti",
+    "paymentMethod": "Mokėjimo būdas",
+    "edit": "Redaguoti",
+    "close": "Uždaryti",
+    "errorBannerTitle": "Nepavyksta atnaujinti mokėjimo būdo"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Ankstesni užsakymai",
+    "view": "Peržiūrėti"
+  },
+  "skipNextOrder": {
+    "text": "Praleisti kitą užsakymą",
+    "generic": "Ar norite praleisti kitą užsakymą?",
+    "date": "Ar norite praleisti kitą užsakymą? Prenumerata bus atnaujinta {{date}}.",
+    "errorBannerTitle": "Nepavyksta praleisti kito užsakymo",
+    "close": "Uždaryti"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pristabdyti prenumeratą",
+    "action": "Pristabdyti prenumeratą",
+    "close": "Uždaryti",
+    "description": "Jūsų prenumerata bus nedelsiant pristabdyta ir daugiau negausite jokių mokesčių ar būsimų užsakymų. Atnaujinti prenumeratą galite bet kuriuo metu.",
+    "errorBannerTitle": "Nepavyksta pristabdyti prenumeratos"
+  },
+  "subscriptionActions": {
+    "pause": "Pristabdyti prenumeratą",
+    "skip": "Praleisti kitą užsakymą",
+    "resume": "Atnaujinti prenumeratą",
+    "cancel": "Atšaukti prenumeratą",
+    "manage": "Tvarkyti prenumeratą",
+    "viewSubscriptionDetails": "Peržiūrėti prenumeratos informaciją"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Jei atnaujinsite šią prenumeratą, nedelsiant bus atnaujintas ir mokėjimas už ją.",
+    "descriptionWithDate": "Jei atnaujinsite šią prenumeratą, mokėjimas už ją bus atnaujintas {{date}}.",
+    "close": "Uždaryti",
+    "descriptionPriceChanged": "Šios prenumeratos kaina pasikeitė ir iš jūsų bus nuskaičiuota {{price}} suma už būsimą užsakymą.",
+    "continue": "Tęsti",
+    "title": "Atnaujinti prenumeratą",
+    "errorBannerTitle": "Nepavyksta atnaujinti prenumeratos"
+  },
+  "priceSummary": {
+    "text": "Kainos santrauka",
+    "subtotal": "Tarpinė suma",
+    "shipping": "Siuntimas",
+    "taxes": "Mokesčiai",
+    "total": "Visa suma"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Atšaukti prenumeratą",
+    "description": "Jei atšauksite prenumeratą, mokėjimas už ją ir pristatymas bus nutraukti nedelsiant. Prenumeratos atšaukimas yra negrįžtamas veiksmas. Norėdami laikinai negauti užsakymų, pristabdykite savo prenumeratą.",
+    "action": "Atšaukti prenumeratą",
+    "close": "Uždaryti",
+    "errorBannerTitle": "Nepavyksta atšaukti prenumeratos"
+  },
+  "errorBoundary": {
+    "content": "Įvyko klaida, iš naujo įkelkite puslapį"
+  },
+  "addressModal": {
+    "save": "Išsaugoti",
+    "continue": "Tęsti",
+    "cancel": "Atšaukti",
+    "title": "Redaguoti pristatymo adresą",
+    "errorBannerTitle": "Nepavyksta atnaujinti pristatymo būdo",
+    "noDeliveryOptions": "Šios prenumeratos negalima išsiųsti įvestu adresu. Peržiūrėkite adresą ir įsitikinkite, kad visi laukai tinkamai užpildyti, tada bandykite dar kartą."
+  },
+  "successBanner": {
+    "paused": "Prenumerata pristabdyta",
+    "resumed": "Prenumerata atnaujinta",
+    "cancelled": "Prenumerata atšaukta",
+    "skipped": "Kitas užsakymas praleistas",
+    "paymentUpdated": "Mokėjimo būdas atnaujintas",
+    "shippingUpdated": "Siuntimo būdas atnaujintas",
+    "deliveryUpdated": "Pristatymo būdas atnaujintas"
+  },
+  "upcomingOrdersModal": {
+    "title": "Būsimi užsakymai",
+    "close": "Uždaryti",
+    "skipOrder": "Praleisti",
+    "skipOrderAccessibilityLabel": "Praleisti {{orderDate}} užsakymą",
+    "unSkipOrder": "Nepraleisti",
+    "unskipOrderAccessibilityLabel": "Nepraleisti {{orderDate}} užsakymo",
+    "skippedOrderLabel": "{{skippedOrderDate}} (praleistas)",
+    "skippedSuccessMessage": "{{orderDate}} užsakymas praleistas",
+    "unskippedSuccessMessage": "{{orderDate}} užsakymas nepraleistas",
+    "skippedErrorMessage": "Klaida praleidžiant užsakymą",
+    "unskippedErrorMessage": "Klaida nepraleidžiant užsakymo"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Pasirinkite pristatymo būdą",
+    "free": "Nemokamai",
+    "localPickupOption": "Atsiėmimas: {{location}}",
+    "localDeliveryPhoneLabel": "Mobiliojo telefono numeris",
+    "localDeliveryInstructionsLabel": "Nurodymai dėl pristatymo (pasirinktinai)",
+    "localDeliveryPhoneDetails": "Su jumis gali būti susisiekta dėl naujausios informacijos apie pristatymą.",
+    "localDeliveryInstructionsDetails": "Įveskite reikalingą informaciją, pvz., durų kodus ar siuntos palikimo instrukcijas."
+  },
+  "notFound": {
+    "title": "Prenumerata nerasta",
+    "description": "Prenumerata neegzistuoja arba jūs neturite leidimo jos peržiūrėti."
+  }
+}

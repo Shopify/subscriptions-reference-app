@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Acquisto una tantum",
+      "subscription": "Abbonamento"
+    }
+  },
+  "policy": {
+    "description": "Rinnovi automatici, salta o annulla in qualsiasi momento.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Visualizza l'informativa sugli abbonamenti</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Per aggiungerlo al carrello vai alla pagina del prodotto e seleziona un'opzione di acquisto"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Il widget per l'abbonamento apparirà solo sui prodotti a cui è applicato un piano di abbonamento."
+  },
+  "no_app_block_found_banner": {
+    "message": "Per modificare la posizione del widget di abbonamento aggiungi il seguente frammento di codice al modello di prodotto nella posizione desiderata.",
+    "copy_button_text": "Copia",
+    "copied_button_text": "Copiato",
+    "button_text": "Visualizza l'editor di codice"
+  }
+}

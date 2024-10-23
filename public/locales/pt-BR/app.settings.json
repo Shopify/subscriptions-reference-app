@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Configurações de falha no pagamento",
+    "cardTitle": "Novas tentativas de pagamento",
+    "retryAttempts": {
+      "label": "Número de tentativas",
+      "helpText": "Mínimo de 0, máximo de 10 tentativas",
+      "errors": {
+        "min": "O número de tentativas precisa ser maior que 0",
+        "max": "O número de tentativas é muito alto"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dias entre as tentativas de pagamento",
+      "helpText": "Mínimo de 1, máximo de 14 dias",
+      "errors": {
+        "min": "O número de dias entre as tentativas de pagamento precisa ser maior que 1",
+        "max": "O número de dias entre as tentativas de pagamento é muito alto"
+      }
+    },
+    "onFailure": {
+      "label": "Acionar quando houver falhas em todas as tentativas",
+      "options": {
+        "skip": "Ignorar a assinatura e enviar notificação",
+        "cancel": "Cancelar a assinatura e enviar notificação",
+        "pause": "Pausar a assinatura e enviar notificação"
+      }
+    },
+    "notifications": "Editar notificações",
+    "inventoryRetryAttempts": {
+      "label": "Número de tentativas quando há erros de estoque",
+      "helpText": "Mínimo de 0, máximo de 10 tentativas",
+      "errors": {
+        "min": "O número de tentativas de estoque precisa ser maior que 0",
+        "max": "O número de tentativas de estoque é alto demais"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Dias entre tentativas de pagamento quando há erros de estoque",
+      "helpText": "Mínimo de 1, máximo de 14 dias",
+      "errors": {
+        "min": "O número de dias entre as tentativas de estoque precisa ser maior que 1",
+        "max": "O número de dias entre as tentativas de estoque é alto demais"
+      }
+    }
+  },
+  "saveButtonText": "Salvar",
+  "actions": {
+    "updateSuccess": "Configurações atualizadas"
+  },
+  "title": "Configurações"
+}

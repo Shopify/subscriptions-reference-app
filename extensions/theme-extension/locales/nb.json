@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Éngangskjøp",
+      "subscription": "Abonnement"
+    }
+  },
+  "policy": {
+    "description": "Automatiske fornyelser, hopp over eller avbryt når som helst.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Vis retningslinjer for abonnementer</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Gå til produktsiden og velg et kjøpsalternativ for å legge i handlekurven"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Abonnementskontrollprogrammet viser kun produkter som har et tilhørende abonnement."
+  },
+  "no_app_block_found_banner": {
+    "message": "For å redigere plasseringen av kontrollprogrammet for abonnementer, må du legge til følgende kodebit på ønsket sted i produktmalen.",
+    "copy_button_text": "Kopier",
+    "copied_button_text": "Kopiert",
+    "button_text": "Vis koderedigeringsprogrammet"
+  }
+}

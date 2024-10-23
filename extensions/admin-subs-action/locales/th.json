@@ -1,0 +1,33 @@
+{
+  "name": "การสมัครใช้งาน",
+  "save": "บันทึก",
+  "cancel": "ยกเลิก",
+  "merchantCode": {
+    "label": "คำอธิบายภายใน",
+    "helpText": "สำหรับการอ้างอิงของคุณเท่านั้น"
+  },
+  "planName": {
+    "label": "ชื่อ",
+    "placeholder": "สมัครใช้งานและบันทึก",
+    "helpText": "ลูกค้าจะเห็นสิ่งนี้ในหน้าสินค้าหน้าร้านที่มีการซื้อแบบเหมาจ่ายล่วงหน้า"
+  },
+  "discountAndDelivery": "ส่วนลดและการจัดส่ง",
+  "offerDiscount": "เสนอส่วนลด",
+  "discountType": {
+    "percentageOff": "ลดเป็นเปอร์เซ็นต์",
+    "amountOff": "ลดตามมูลค่าที่กำหนด",
+    "flatRate": "อัตราค่าจัดส่งตายตัว"
+  },
+  "deliveryFrequency": "ความถี่ในการจัดส่ง",
+  "deliveryInterval": {
+    "label": "รอบการจัดส่ง",
+    "weeks": "สัปดาห์",
+    "months": "เดือน",
+    "years": "ปี"
+  },
+  "addOptionButton": {
+    "label": "ตัวเลือก",
+    "accessibilityLabel": "เพิ่มตัวเลือก"
+  },
+  "removeOption": "ลบตัวเลือกออก"
+}

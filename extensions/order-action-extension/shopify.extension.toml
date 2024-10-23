@@ -1,0 +1,13 @@
+api_version = "unstable"
+
+[[extensions]]
+type = "ui_extension"
+name = "buyer-subscriptions order action button"
+handle = "buyer-subscriptions-oa"
+
+[[extensions.targeting]]
+module = "../buyer-subscriptions/src/OrderActionMenuItem/OrderActionMenuItem.tsx"
+target = "customer-account.order.action.menu-item.render"
+
+[extensions.capabilities]
+api_access = true

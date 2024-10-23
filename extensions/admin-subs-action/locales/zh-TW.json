@@ -1,0 +1,33 @@
+{
+  "name": "訂閱",
+  "save": "儲存",
+  "cancel": "取消",
+  "merchantCode": {
+    "label": "內部說明",
+    "helpText": "僅供參考"
+  },
+  "planName": {
+    "label": "標題",
+    "placeholder": "訂閱省多多",
+    "helpText": "顧客會在提供訂閱方案的店面商品頁面上看到此資訊"
+  },
+  "discountAndDelivery": "折扣與配送",
+  "offerDiscount": "提供折扣",
+  "discountType": {
+    "percentageOff": "打折",
+    "amountOff": "折扣金額",
+    "flatRate": "單一費率"
+  },
+  "deliveryFrequency": "配送頻率",
+  "deliveryInterval": {
+    "label": "配送間隔",
+    "weeks": "週",
+    "months": "月",
+    "years": "年"
+  },
+  "addOptionButton": {
+    "label": "選項",
+    "accessibilityLabel": "新增選項"
+  },
+  "removeOption": "移除選項"
+}

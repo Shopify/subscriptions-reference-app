@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Engångsköp",
+      "subscription": "Prenumeration"
+    }
+  },
+  "policy": {
+    "description": "Förnyas automatiskt, hoppa över eller avbryt när som helst.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Se prenumerationspolicy</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Du kan lägga till ett kort genom att gå till produktsidan och välja ett inköpsalternativ"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Prenumerationswidgeten visas bara vid produkter som har en tillhörande prenumerationsplan."
+  },
+  "no_app_block_found_banner": {
+    "message": "Lägg till följande kodfragment i produktmallen vid önskad placering om du vill flytta prenumerationswidgeten.",
+    "copy_button_text": "Kopiera",
+    "copied_button_text": "Kopierad",
+    "button_text": "Visa kodredigeraren"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Paramètres d’échec de paiement",
+    "cardTitle": "Nouvelles tentatives de facturations",
+    "retryAttempts": {
+      "label": "Nombre de nouvelles tentatives",
+      "helpText": "Nombre de tentatives min. de 0, max. de 10",
+      "errors": {
+        "min": "Le nombre de nouvelles tentatives doit être supérieur à 0",
+        "max": "Le nombre de nouvelles tentatives est trop élevé"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Nombre de jours entre les nouvelles tentatives de paiement",
+      "helpText": "Minimum 1 jour, maximum 14 jours",
+      "errors": {
+        "min": "Le nombre de jours entre les nouvelles tentatives de paiement doit être supérieur à 1",
+        "max": "Le nombre de jours entre les nouvelles tentatives de paiement est trop élevé"
+      }
+    },
+    "onFailure": {
+      "label": "Action lorsque toutes les nouvelles tentatives ont échoué",
+      "options": {
+        "skip": "Ignorer l’abonnement et envoyer une notification",
+        "cancel": "Annuler l’abonnement et envoyer une notification",
+        "pause": "Suspendre l’abonnement et envoyer une notification"
+      }
+    },
+    "notifications": "Modifier les notifications",
+    "inventoryRetryAttempts": {
+      "label": "Nombre de nouvelles tentatives en cas d’erreurs de stock",
+      "helpText": "Nombre de tentatives min. de 0, max. de 10",
+      "errors": {
+        "min": "Le nombre de nouvelles tentatives de stock doit être supérieur à 0",
+        "max": "Le nombre de nouvelles tentatives de stock est trop élevé"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Nombre de jours entre les nouvelles tentatives de paiement en cas d’erreurs de stock",
+      "helpText": "Minimum 1 jour, maximum 14 jours",
+      "errors": {
+        "min": "Le nombre de jours entre les nouvelles tentatives de stock doit être supérieur à 1",
+        "max": "Le nombre de jours entre les nouvelles tentatives de stock est trop élevé"
+      }
+    }
+  },
+  "saveButtonText": "Enregistrer",
+  "actions": {
+    "updateSuccess": "Paramètres mis à jour"
+  },
+  "title": "Paramètres"
+}

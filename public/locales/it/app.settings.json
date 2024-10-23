@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Impostazioni di mancato pagamento",
+    "cardTitle": "Tentativi fatturazione",
+    "retryAttempts": {
+      "label": "Numero di tentativi",
+      "helpText": "Min 0, max 10 tentativi",
+      "errors": {
+        "min": "Il numero di tentativi deve essere maggiore di 0",
+        "max": "Il numero di tentativi è troppo alto"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Giorni tra i tentativi di pagamento",
+      "helpText": "Min 1, max 14 giorni",
+      "errors": {
+        "min": "Il numero di giorni tra i tentativi di pagamento deve essere maggiore di 0",
+        "max": "Il numero di giorni tra i tentativi di pagamento è troppo alto"
+      }
+    },
+    "onFailure": {
+      "label": "Azione quando tutti i tentativi non sono andati a buon fine",
+      "options": {
+        "skip": "Salta l'abbonamento e invia la notifica",
+        "cancel": "Annulla l'abbonamento e invia la notifica",
+        "pause": "Metti in pausa l'abbonamento e invia la notifica"
+      }
+    },
+    "notifications": "Modifica le notifiche",
+    "inventoryRetryAttempts": {
+      "label": "Numero di tentativi in caso di errori scorte",
+      "helpText": "Min 0, max 10 tentativi",
+      "errors": {
+        "min": "Il numero di tentativi delle scorte deve essere maggiore di 0",
+        "max": "Il numero di tentativi delle scorte è troppo alto"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Giorni tra i tentativi di pagamento in presenza di errori scorte",
+      "helpText": "Min 1, max 14 giorni",
+      "errors": {
+        "min": "Il numero di giorni tra i tentativi delle scorte deve essere maggiore di 1",
+        "max": "Il numero di giorni tra i tentativi delle scorte è troppo alto"
+      }
+    }
+  },
+  "saveButtonText": "Salva",
+  "actions": {
+    "updateSuccess": "Impostazioni aggiornate"
+  },
+  "title": "Impostazioni"
+}

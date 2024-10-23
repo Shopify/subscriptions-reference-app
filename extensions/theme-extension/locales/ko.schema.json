@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "구독 정책",
+    "subscription_policy_url": "구독 정책 링크",
+    "subscription_policy_url_info": "기존 페이지를 선택하거나 외부 링크를 붙여넣어 구독 정책을 표시합니다.",
+    "description": "구독 위젯은 구독 플랜이 연결된 제품에만 표시됩니다. [구독 테마 설정에 대해 자세히 알아보기](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "위의 설정에는 선택한 제품에 대한 옵션이 표시됩니다. 현재 선택한 제품에 구독 플랜이 있습니다. ",
+    "colors_title": "색상",
+    "title": "구독 위젯",
+    "product_title": "제품",
+    "border_title": "테두리",
+    "border_thickness": "두께",
+    "border_radius": "코너 반경",
+    "colors_text_title": "제목",
+    "colors_text_body": "본문",
+    "colors_background_border_title": "배경 및 테두리",
+    "colors_background": "배경",
+    "colors_dividers": "구분선",
+    "supporting_text_title": "지원 텍스트",
+    "supporting_text_subtitle": "제목",
+    "supporting_text_input_default": "구매 옵션"
+  }
+}

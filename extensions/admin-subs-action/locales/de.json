@@ -1,0 +1,33 @@
+{
+  "name": "Abonnements",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "merchantCode": {
+    "label": "Interne Beschreibung",
+    "helpText": "Nur für deine Referenz"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Im Abo kaufen und sparen",
+    "helpText": "Kunden sehen dies auf den Storefront-Produktseiten, auf denen es Abonnements gibt."
+  },
+  "discountAndDelivery": "Rabatt und Zustellung",
+  "offerDiscount": "Rabatt anbieten",
+  "discountType": {
+    "percentageOff": "Rabattprozentsatz",
+    "amountOff": "Rabattbetrag",
+    "flatRate": "Flat Rate"
+  },
+  "deliveryFrequency": "Zustellungsintervall",
+  "deliveryInterval": {
+    "label": "Zustellungsintervall",
+    "weeks": "Wochen",
+    "months": "Monate",
+    "years": "Jahre"
+  },
+  "addOptionButton": {
+    "label": "Option",
+    "accessibilityLabel": "Option hinzufügen"
+  },
+  "removeOption": "Option entfernen"
+}

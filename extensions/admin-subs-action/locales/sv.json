@@ -1,0 +1,33 @@
+{
+  "name": "Prenumerationer",
+  "save": "Spara",
+  "cancel": "Avbryt",
+  "merchantCode": {
+    "label": "Intern beskrivning",
+    "helpText": "Endast som referens för dig"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Prenumerera och spara",
+    "helpText": "Kunderna ser detta på produktsidor i skyltfönster, som har prenumerationer"
+  },
+  "discountAndDelivery": "Rabatt och leverans",
+  "offerDiscount": "Erbjud rabatt",
+  "discountType": {
+    "percentageOff": "Procentuell rabatt",
+    "amountOff": "Rabatt",
+    "flatRate": "Fast avgift"
+  },
+  "deliveryFrequency": "Leveransfrekvens",
+  "deliveryInterval": {
+    "label": "Leveransintervall",
+    "weeks": "Veckor",
+    "months": "Månader",
+    "years": "År"
+  },
+  "addOptionButton": {
+    "label": "Alternativ",
+    "accessibilityLabel": "Lägg till alternativ"
+  },
+  "removeOption": "Ta bort alternativ"
+}

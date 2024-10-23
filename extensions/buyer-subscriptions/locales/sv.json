@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Prenumerationer",
+  "manageSubscription": "Hantera prenumeration",
+  "upcomingOrder": "Kommande order",
+  "skip": "Hoppa över",
+  "showUpcomingOrders": "Visa kommande ordrar",
+  "nextOrder": "Nästa order: {{date}}",
+  "lastUpdated": "Senast uppdaterad den {{date}}",
+  "subscriptionDetails": "Prenumerationsuppgifter",
+  "maxOrdersSkipped": "Maximalt antal ordrar har hoppats över",
+  "skipOrderOverYear": "Det går inte att hoppa ordern eftersom den ligger mer än ett år fram i tiden",
+  "paymentMethodInvalidBanner": "{{brand}} som slutar på {{lastDigits}} är ogiltigt. Uppdatera betalningsmetoden nedan för att fortsätta ta emot kommande ordrar",
+  "paymentMethodInvalidBannerGeneric": "Kortet som slutar på {{lastDigits}} är ogiltigt. Uppdatera betalningsmetoden nedan för att fortsätta ta emot kommande ordrar",
+  "paymentMethodInvalidBadge": "Ogiltig betalningsmetod",
+  "listItem": {
+    "multipleItemsName": "{{count}} artiklar",
+    "accessibilityLabel": "Hantera prenumeration: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktiv",
+    "paused": "Pausad",
+    "cancelled": "Annullerad",
+    "expired": "Har gått ut",
+    "failed": "Misslyckades",
+    "stale": "Förlegad"
+  },
+  "deliveryInterval": {
+    "day.one": "Leverans varje dag",
+    "day.other": "Leverans var {{count}} dag",
+    "week.one": "Leverans varje vecka",
+    "week.other": "Leverans var {{count}} vecka",
+    "month.one": "Leverans varje månad",
+    "month.other": "Leverans var {{count}} månad",
+    "year.one": "Leverans varje år",
+    "year.other": "Leverans var {{count}} år"
+  },
+  "overviewCard": {
+    "overview": "Översikt",
+    "product": "Produkt",
+    "deliveryFrequency": "Leveransfrekvens",
+    "payment": "Betalning",
+    "billingAddress": "Faktureringsadress",
+    "shippingAddress": "Leveransadress",
+    "shippingMethod": "Leveransmetod",
+    "pickupLocation": "Upphämtningsplats",
+    "changePaymentMethodButtonLabel": "Ändra betalningsmetod",
+    "editShippingAddressButtonLabel": "Redigera leveransadress",
+    "editPickupAddressButtonLabel": "Redigera upphämtningsadress"
+  },
+  "paymentModal": {
+    "title": "Ersätt betalningsmetod",
+    "save": "Spara",
+    "paymentMethod": "Betalningsmetod",
+    "edit": "Redigera",
+    "close": "Stäng",
+    "errorBannerTitle": "Det gick inte att uppdatera betalningsmetoden"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Tidigare ordrar",
+    "view": "Visa"
+  },
+  "skipNextOrder": {
+    "text": "Hoppa över nästa order",
+    "generic": "Vill du hoppa över nästa order?",
+    "date": "Vill du hoppa över nästa order? Din prenumeration återupptas den {{date}}.",
+    "errorBannerTitle": "Det gick inte att hoppa över nästa order",
+    "close": "Stäng"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pausa prenumeration",
+    "action": "Pausa prenumeration",
+    "close": "Stäng",
+    "description": "Din prenumeration kommer att pausas omedelbart och du kommer inte att debiteras mer eller få några fler ordrar. Du kan när som helst återuppta din prenumeration.",
+    "errorBannerTitle": "Det gick inte att pausa prenumerationen"
+  },
+  "subscriptionActions": {
+    "pause": "Pausa prenumeration",
+    "skip": "Hoppa över nästa order",
+    "resume": "Återuppta prenumeration",
+    "cancel": "Avbryt prenumeration",
+    "manage": "Hantera prenumeration",
+    "viewSubscriptionDetails": "Visa prenumerationsinformation"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Om du återupptar prenumerationen återupptas även fakturering omedelbart.",
+    "descriptionWithDate": "Om du återupptar prenumerationen återupptas faktureringen den {{date}}.",
+    "close": "Stäng",
+    "descriptionPriceChanged": "Priset för den här prenumerationen har ändrats och du kommer att bli debiterad {{price}} per kommande order.",
+    "continue": "Fortsätt",
+    "title": "Återuppta prenumeration",
+    "errorBannerTitle": "Det gick inte att återuppta prenumerationen"
+  },
+  "priceSummary": {
+    "text": "Prissammanfattning",
+    "subtotal": "Delsumma",
+    "shipping": "Leverans",
+    "taxes": "Skatter",
+    "total": "Totalt"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Avbryt prenumeration",
+    "description": "Om du avbryter din prenumeration upphör fakturering och leverans omedelbart. Om du avbryter en prenumeration så kan du inte ångra det. Du kan pausa prenumerationen om du tillfälligt vill sluta ta emot ordrar.",
+    "action": "Avbryt prenumeration",
+    "close": "Stäng",
+    "errorBannerTitle": "Det gick inte att avbryta prenumerationen"
+  },
+  "errorBoundary": {
+    "content": "Det uppstod ett fel, uppdatera sidan"
+  },
+  "addressModal": {
+    "save": "Spara",
+    "continue": "Fortsätt",
+    "cancel": "Avbryt",
+    "title": "Redigera leveransadress",
+    "errorBannerTitle": "Det gick inte att uppdatera leveransmetod",
+    "noDeliveryOptions": "Denna prenumeration kan inte levereras till den adress du angav. Granska din adress för att säkerställa att alla fält har fyllts i korrekt och försök igen."
+  },
+  "successBanner": {
+    "paused": "Prenumeration pausad",
+    "resumed": "Prenumeration återupptagen",
+    "cancelled": "Prenumeration avslutad",
+    "skipped": "Nästa order hoppades över",
+    "paymentUpdated": "Betalningsmetoden har uppdaterats",
+    "shippingUpdated": "Leveransmetoden har uppdaterats",
+    "deliveryUpdated": "Leveransmetoden har uppdaterats"
+  },
+  "upcomingOrdersModal": {
+    "title": "Kommande ordrar",
+    "close": "Stäng",
+    "skipOrder": "Hoppa över",
+    "skipOrderAccessibilityLabel": "Hoppa över order den {{orderDate}}",
+    "unSkipOrder": "Ångra överhoppning",
+    "unskipOrderAccessibilityLabel": "Ångra överhoppning den {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (hoppades över)",
+    "skippedSuccessMessage": "Ordern den {{orderDate}} hoppades över",
+    "unskippedSuccessMessage": "Ordern den {{orderDate}} återupptogs",
+    "skippedErrorMessage": "Det gick inte att hoppa över order",
+    "unskippedErrorMessage": "Det gick inte att ångra överhoppning av order"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Välj leveransmetod",
+    "free": "Gratis",
+    "localPickupOption": "Upphämtning: {{location}}",
+    "localDeliveryPhoneLabel": "Mobilnummer",
+    "localDeliveryInstructionsLabel": "Leveransinstruktioner (valfritt)",
+    "localDeliveryPhoneDetails": "Du kan komma att bli kontaktad angående uppdateringar av din leverans.",
+    "localDeliveryInstructionsDetails": "Ange nödvändig information som portkod eller instruktioner för avlämning."
+  },
+  "notFound": {
+    "title": "Prenumerationen hittades inte",
+    "description": "Den här prenumerationen finns inte eller så har du inte tillstånd att se den."
+  }
+}

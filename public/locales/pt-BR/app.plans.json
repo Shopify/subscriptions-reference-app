@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": "Planos de assinatura",
+    "createPlan": "Criar novo plano"
+  },
+  "emptyState": {
+    "title": "Criar um plano de assinatura",
+    "description": "Crie um plano de assinatura para permitir que os clientes comprem produtos ou serviços de forma recorrente em uma única experiência de checkout."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Título do plano",
+      "products": "Produtos",
+      "deliveryFrequency": "Frequência de entrega",
+      "discount": "Desconto",
+      "view": "Todos"
+    },
+    "resourceName": {
+      "singular": "Assinatura",
+      "plural": "Assinatura"
+    },
+    "resources": {
+      "allSelected": "Todos"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Excluir plano",
+        "other": "Excluir planos",
+        "many": "Excluir planos"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Quer mesmo excluir este plano? Não é possível desfazer essa ação.",
+          "other": "Quer mesmo excluir estes planos? Não é possível desfazer essa ação. ",
+          "many": "Quer mesmo excluir estes planos? Não é possível desfazer essa ação. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Excluir plano",
+            "other": "Excluir planos",
+            "many": "Excluir planos"
+          },
+          "cancel": "Cancelar"
+        },
+        "title": {
+          "one": "Excluir plano de assinatura?",
+          "other": "Excluir planos de assinatura?",
+          "many": "Excluir planos de assinatura?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Plano de assinatura excluído",
+          "other": "Planos de assinatura excluídos",
+          "many": "Planos de assinatura excluídos"
+        },
+        "failed": {
+          "one": "Falha ao excluir o plano de assinatura",
+          "other": "Falha ao excluir planos de assinatura",
+          "many": "Falha ao excluir planos de assinatura"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Criado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      },
+      "UPDATED_AT": {
+        "label": "Atualizado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      }
+    }
+  }
+}

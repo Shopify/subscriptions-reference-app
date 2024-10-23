@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Naročnine",
+  "manageSubscription": "Upravljanje naročnine",
+  "upcomingOrder": "Prihajajoče naročilo",
+  "skip": "Preskoči",
+  "showUpcomingOrders": "Prikaži prihajajoča naročila",
+  "nextOrder": "Naslednje naročilo: {{date}}",
+  "lastUpdated": "Zadnja posodobitev: {{date}}",
+  "subscriptionDetails": "Podrobnosti naročnine",
+  "maxOrdersSkipped": "Največje dovoljeno število naročil je že bilo preskočeno",
+  "skipOrderOverYear": "Ker je naročilo oddaljeno več kot leto, ga ni mogoče preskočiti",
+  "paymentMethodInvalidBanner": "Kartica {{brand}} z zadnjimi številkami {{lastDigits}} ni veljavna. Če želite še naprej prejemati naslednja naročila, spodaj posodobite plačilno sredstvo.",
+  "paymentMethodInvalidBannerGeneric": "Kartica z zadnjimi številkami {{lastDigits}} ni veljavna. Če želite še naprej prejemati naslednja naročila, spodaj posodobite plačilno sredstvo.",
+  "paymentMethodInvalidBadge": "Neveljavno plačilno sredstvo",
+  "listItem": {
+    "multipleItemsName": "Št. artiklov: {{count}}",
+    "accessibilityLabel": "Upravljanje naročnine za trgovino: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktivna",
+    "paused": "Zamrznjena",
+    "cancelled": "Preklicana",
+    "expired": "Potekla",
+    "failed": "Neuspela",
+    "stale": "Stanje"
+  },
+  "deliveryInterval": {
+    "day.one": "Dostava vsak dan",
+    "day.other": "Dostava na toliko dni: {{count}}",
+    "week.one": "Dostava vsak teden",
+    "week.other": "Dostava na toliko tednov: {{count}}",
+    "month.one": "Dostava vsak mesec",
+    "month.other": "Dostava na toliko mesecev: {{count}}",
+    "year.one": "Dostava vsako leto",
+    "year.other": "Dostava na toliko let: {{count}}"
+  },
+  "overviewCard": {
+    "overview": "Pregled",
+    "product": "Izdelek",
+    "deliveryFrequency": "Interval dostave",
+    "payment": "Plačilo",
+    "billingAddress": "Naslov plačnika računa",
+    "shippingAddress": "Naslov za dostavo",
+    "shippingMethod": "Način dostave",
+    "pickupLocation": "Lokacija za prevzem",
+    "changePaymentMethodButtonLabel": "Spremeni način plačila",
+    "editShippingAddressButtonLabel": "Uredi naslov za dostavo",
+    "editPickupAddressButtonLabel": "Uredi naslov za prevzem"
+  },
+  "paymentModal": {
+    "title": "Zamenjaj način plačila",
+    "save": "Shrani",
+    "paymentMethod": "Način plačila",
+    "edit": "Uredi",
+    "close": "Zapri",
+    "errorBannerTitle": "Načina plačila ni mogoče posodobiti"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Pretekla naročila",
+    "view": "Prikaži"
+  },
+  "skipNextOrder": {
+    "text": "Preskoči naslednje naročilo",
+    "generic": "Ali želite preskočiti naslednje naročilo?",
+    "date": "Ali želite preskočiti naslednje naročilo? Vaša naročnina bo znova aktivirana dne {{date}}.",
+    "errorBannerTitle": "Naslednjega naročila ni mogoče preskočiti",
+    "close": "Zapri"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Zamrzni naročnino",
+    "action": "Zamrzni naročnino",
+    "close": "Zapri",
+    "description": "Vaša naročnina bo takoj zamrznjena, zato vam v prihodnje ne bo zaračunana in ne boste prejeli prihajajočih naročil. Naročnino lahko kadar koli znova aktivirate.",
+    "errorBannerTitle": "Naročnine ni mogoče zamrzniti"
+  },
+  "subscriptionActions": {
+    "pause": "Zamrzni naročnino",
+    "skip": "Preskoči naslednje naročilo",
+    "resume": "Znova aktiviraj naročnino",
+    "cancel": "Prekliči naročnino",
+    "manage": "Upravljanje naročnine",
+    "viewSubscriptionDetails": "Prikaži podrobnosti naročnine"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Če naročnino znova aktivirate, bo takoj znova aktivirano tudi obračunavanje.",
+    "descriptionWithDate": "Če to naročnino znova aktivirate, bo obračunavanje aktivno dne {{date}}.",
+    "close": "Zapri",
+    "descriptionPriceChanged": "Cena za to naročnino se je spremenila in ob prihajajočem naročilu vam bomo zaračunali {{price}}.",
+    "continue": "Želite nadaljevati",
+    "title": "Znova aktiviraj naročnino",
+    "errorBannerTitle": "Naročnine ni mogoče znova aktivirati"
+  },
+  "priceSummary": {
+    "text": "Povzetek zneska za plačilo",
+    "subtotal": "Vmesna vsota",
+    "shipping": "Dostava",
+    "taxes": "Davki",
+    "total": "Skupaj"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Prekliči naročnino",
+    "description": "Če prekličete naročnino, bosta obračunavanje in dostava takoj ustavljena. Preklica naročnine ni mogoče razveljaviti. Če želite začasno prenehati prejemati naročila, zamrznite naročnino.",
+    "action": "Prekliči naročnino",
+    "close": "Zapri",
+    "errorBannerTitle": "Naročnine ni mogoče preklicati"
+  },
+  "errorBoundary": {
+    "content": "Prišlo je do napake, osvežite stran"
+  },
+  "addressModal": {
+    "save": "Shrani",
+    "continue": "Želite nadaljevati",
+    "cancel": "Prekliči",
+    "title": "Uredi naslov za dostavo",
+    "errorBannerTitle": "Načina dostave ni mogoče posodobiti",
+    "noDeliveryOptions": "Te naročnine ni mogoče dostaviti na naslov, ki ste ga vnesli. Preglejte naslov in se prepričajte, da so vsa polja ustrezno izpolnjena, ter poskusite znova."
+  },
+  "successBanner": {
+    "paused": "Naročnina je zamrznjena",
+    "resumed": "Naročnina je znova aktivirana",
+    "cancelled": "Naročnina je preklicana",
+    "skipped": "Naslednje naročilo je preskočeno",
+    "paymentUpdated": "Način plačila je posodobljen",
+    "shippingUpdated": "Način dostave je posodobljen",
+    "deliveryUpdated": "Način dostave je posodobljen"
+  },
+  "upcomingOrdersModal": {
+    "title": "Prihajajoča naročila",
+    "close": "Zapri",
+    "skipOrder": "Preskoči",
+    "skipOrderAccessibilityLabel": "Preskoči naročilo na dan {{orderDate}}",
+    "unSkipOrder": "Razveljavi preskok",
+    "unskipOrderAccessibilityLabel": "Razveljavi preskok naročila na dan {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (preskočeno)",
+    "skippedSuccessMessage": "Naročilo na dan {{orderDate}} je preskočeno",
+    "unskippedSuccessMessage": "Za naročilo na dan {{orderDate}} je bil preskok razveljavljen",
+    "skippedErrorMessage": "Napaka pri preskoku naročila",
+    "unskippedErrorMessage": "Napaka pri razveljavitvi preskoka naročila"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Izberite način dostave",
+    "free": "Brezplačno",
+    "localPickupOption": "Prevzem: {{location}}",
+    "localDeliveryPhoneLabel": "Številka mobilnega telefona",
+    "localDeliveryInstructionsLabel": "Navodila za dostavo (izbirno)",
+    "localDeliveryPhoneDetails": "Morda vam bomo poslali podatke o vaši dostavi.",
+    "localDeliveryInstructionsDetails": "Vnesite potrebne informacije, kot so kode za vstop ali navodila za dostavo paketa."
+  },
+  "notFound": {
+    "title": "Naročnine ni mogoče najti",
+    "description": "Ta naročnina ne obstaja ali pa nimate dovoljenja za ogled."
+  }
+}

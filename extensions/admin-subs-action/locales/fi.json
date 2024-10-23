@@ -1,0 +1,33 @@
+{
+  "name": "Toistuvat tilaukset",
+  "save": "Tallenna",
+  "cancel": "Peruuta",
+  "merchantCode": {
+    "label": "Sisäinen kuvaus",
+    "helpText": "Vain tiedoksi"
+  },
+  "planName": {
+    "label": "Otsikko",
+    "placeholder": "Tilaa ja säästä",
+    "helpText": "Asiakkaat näkevät tämän myyntipaikan tuotesivuilla, joilla on tilauksia"
+  },
+  "discountAndDelivery": "Alennus ja toimitus",
+  "offerDiscount": "Tarjoa alennusta",
+  "discountType": {
+    "percentageOff": "Prosentuaalinen alennus",
+    "amountOff": "Rahallinen alennus",
+    "flatRate": "Kiinteä hinta"
+  },
+  "deliveryFrequency": "Toimitustiheys",
+  "deliveryInterval": {
+    "label": "Toimitusväli",
+    "weeks": "Viikkoa",
+    "months": "Kuukautta",
+    "years": "Vuotta"
+  },
+  "addOptionButton": {
+    "label": "Valinta",
+    "accessibilityLabel": "Lisää vaihtoehto"
+  },
+  "removeOption": "Poista vaihtoehto"
+}

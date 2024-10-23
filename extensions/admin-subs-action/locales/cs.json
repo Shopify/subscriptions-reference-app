@@ -1,0 +1,33 @@
+{
+  "name": "Předplatná",
+  "save": "Uložit",
+  "cancel": "Zrušit",
+  "merchantCode": {
+    "label": "Interní popis",
+    "helpText": "Jen pro vaši referenci"
+  },
+  "planName": {
+    "label": "Název",
+    "placeholder": "Předplatit a uložit",
+    "helpText": "Zákazníkům se uvedené informace zobrazí na stránkách produktů cílových stránek obchodu s předplatným."
+  },
+  "discountAndDelivery": "Sleva a doručení",
+  "offerDiscount": "Nabídnout slevu",
+  "discountType": {
+    "percentageOff": "Procento slevy",
+    "amountOff": "Částka slevy",
+    "flatRate": "Paušální sazba"
+  },
+  "deliveryFrequency": "Četnost doručování",
+  "deliveryInterval": {
+    "label": "Interval doručení",
+    "weeks": "Týdny",
+    "months": "Měsíce",
+    "years": "Roky"
+  },
+  "addOptionButton": {
+    "label": "Možnost",
+    "accessibilityLabel": "Přidat možnost"
+  },
+  "removeOption": "Odebrat možnost"
+}

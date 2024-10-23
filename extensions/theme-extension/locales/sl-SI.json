@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Enkraten nakup",
+      "subscription": "Naročnina"
+    }
+  },
+  "policy": {
+    "description": "Samodejno obnavljanje, kadar koli lahko preskočite ali prekličete.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Prikaz pravilnika o naročnini</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Za dodajanje v košarico obiščite stran izdelka in izberite možnost nakupa."
+  }
+}

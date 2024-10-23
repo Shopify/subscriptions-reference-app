@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Configuración del error en el pago",
+    "cardTitle": "Reintentar pagos de facturación",
+    "retryAttempts": {
+      "label": "Número de reintentos",
+      "helpText": "Mín. 0, máx. 10 reintentos",
+      "errors": {
+        "min": "El número de reintentos debe ser superior a 0.",
+        "max": "El número de reintentos es demasiado elevado."
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Días entre un reintento de pago y el siguiente",
+      "helpText": "Mín. 1, máx. 14 días",
+      "errors": {
+        "min": "El número de días entre reintentos de pago debe ser superior a 1.",
+        "max": "El número de días entre reintentos de pago es demasiado elevado."
+      }
+    },
+    "onFailure": {
+      "label": "Acción cuando todos los reintentos fallaron",
+      "options": {
+        "skip": "Omitir suscripción y enviar notificación",
+        "cancel": "Cancelar suscripción y enviar notificación",
+        "pause": "Pausar suscripción y enviar notificación"
+      }
+    },
+    "notifications": "Editar notificaciones",
+    "inventoryRetryAttempts": {
+      "label": "Cantidad de nuevos intentos cuando hay errores de inventario",
+      "helpText": "Mín. 0, máx. 10 reintentos",
+      "errors": {
+        "min": "El número de nuevos intentos del inventario debe ser superior a 0",
+        "max": "El número de nuevos intentos del inventario es demasiado elevado"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Días transcurridos entre los nuevos intentos de pago cuando hay errores de inventario",
+      "helpText": "Mín. 1, máx. 14 días",
+      "errors": {
+        "min": "El número de días transcurridos entre los nuevos intentos del inventario debe ser superior a 1",
+        "max": "El número de días transcurridos entre los nuevos intentos del inventario es demasiado elevado"
+      }
+    }
+  },
+  "saveButtonText": "Guardar",
+  "actions": {
+    "updateSuccess": "Configuración actualizada"
+  },
+  "title": "Configuración"
+}

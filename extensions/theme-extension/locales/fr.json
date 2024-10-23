@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Achat ponctuel",
+      "subscription": "Abonnement"
+    }
+  },
+  "policy": {
+    "description": "Le renouvellement est automatique, vous pouvez ignorer ou annuler à tout moment.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Afficher la politique d’abonnement</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Pour l’ajouter au panier, accédez à la page du produit et sélectionnez une option d’achat"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Le widget d’abonnement s’affiche uniquement sur les produits auxquels un forfait est associé."
+  },
+  "no_app_block_found_banner": {
+    "message": "Pour modifier l’emplacement du widget d’abonnement, ajoutez l’extrait de code suivant au modèle de produit selon l’emplacement souhaité.",
+    "copy_button_text": "Copier",
+    "copied_button_text": "Copié",
+    "button_text": "Afficher l’éditeur de code"
+  }
+}

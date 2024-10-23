@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Prenumerationskontrakt"
+  },
+  "emptyState": {
+    "title": "Hantera dina prenumerationskontrakt",
+    "description": "När en kund köper en prenumeration från din butik syns kontraktet här."
+  },
+  "table": {
+    "headings": {
+      "contract": "Kontrakt",
+      "customer": "Kund",
+      "product": "Produkt",
+      "price": "Pris",
+      "deliveryFrequency": "Leveransfrekvens",
+      "status": "Status"
+    },
+    "resourceName": {
+      "singular": "Kontrakt",
+      "plural": "Kontrakt"
+    },
+    "tabs": {
+      "all": "Alla",
+      "active": "Aktiva",
+      "paused": "Pausade",
+      "cancelled": "Avbrutna"
+    },
+    "emptyState": {
+      "title": "Inga kontrakt med den här statusen",
+      "description": "{status} prenumerationskontrakt kommer att visas här"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Köpt",
+      "sortByUpdatedDateLabel": "Uppdaterad",
+      "newestFirstDirectionLabel": "Nyaste först",
+      "oldestFirstDirectionLabel": "Äldsta först"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pausa",
+      "accessibilityLabel": "Pausa kontrakt",
+      "success": "Kontrakt har pausats",
+      "error": "Det gick inte att pausa kontrakt"
+    },
+    "cancel": {
+      "title": "Avbryt prenumeration",
+      "accessibilityLabel": "Avbryt prenumeration",
+      "success": "Kontraktet har sagts upp",
+      "error": "Det gick inte att säga upp kontraktet",
+      "modalTitle": "Avbryt prenumeration",
+      "modalCancel": "Behåll kontraktet",
+      "modalContent": "Fakturering och kommande ordrar upphör omgående. Uppsagda kontrakt kan inte återupptas."
+    },
+    "resume": {
+      "title": "Återuppta",
+      "accessibilityLabel": "Återuppta kontrakt",
+      "success": "Kontraktet återupptogs",
+      "error": "Kan inte återuppta kontrakt"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Kommande ordrar",
+    "subscription": "Prenumerationsuppgifter",
+    "price": "Pris",
+    "purchaseDate": "Inköpsdatum",
+    "quantity": "Kvantitet",
+    "orderNumber": "Order {number}",
+    "edit": "Redigera",
+    "nextOrders": {
+      "title": "Nästa ordrar",
+      "skip": "Hoppa över",
+      "skipped": "Överhoppad",
+      "resume": "Återuppta",
+      "showMore": "Visa ytterligare {number}",
+      "skipError": "Kan inte hoppa över/återuppta order",
+      "skipSuccess": "Ordern överhoppad",
+      "showMoreNoCount": "Visa mer",
+      "resumeSuccess": "Ordern återupptagen"
+    },
+    "paymentMethods": {
+      "title": "Betalningsmetoder"
+    },
+    "customer": {
+      "title": "Kund"
+    },
+    "discount": "Rabatt",
+    "discountValue": {
+      "multipleDiscounts": "Flera rabatter",
+      "percentageOff": "{{value}} % rabatt",
+      "amountOff": "{{value}} rabatt",
+      "flatRate": "{{value}} i fast avgift"
+    },
+    "delivery": "Leverans",
+    "pastOrders": "Tidigare ordrar",
+    "viewOrder": "Visa",
+    "localPickup": "{{value}}, lokal upphämtning",
+    "orderNotCreated": "Order skapades inte"
+  },
+  "paymentMethodDetails": {
+    "title": "Betalningsmetod",
+    "expires": "Går ut {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Skicka länk för att uppdatera kort",
+      "managePayment": "Hantera betalning på kundsida"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "Hypercard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "Paypal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Skicka länk för att uppdatera kort",
+      "descriptionCreditCard": "Skicka en länk till {customerName} för att uppdatera kreditkortet som slutar på {lastDigits}",
+      "descriptionOther": "Skicka en länk till {customerName} för att uppdatera betalningsmetod.",
+      "fromField": "Från:",
+      "toField": "Till:",
+      "subjectField": "Ämne:",
+      "subjectMessage": "Uppdatera din betalningsmetod för {shopName}",
+      "errorMessage": "Det gick inte att skicka e-postmeddelandet om att uppdatera betalningsmetod till kunden",
+      "successMessage": "E-postmeddelande skickat",
+      "actions": {
+        "sendEmail": "Skicka e-postmeddelande",
+        "cancel": "Avbryt"
+      }
+    },
+    "revoked": "Kunden tog bort betalningsmetoden {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Kund",
+    "contactInformation": "Kontaktinformation",
+    "shippingAddress": "Leveransadress",
+    "actions": {
+      "selectAddress": "Välj en annan adress",
+      "manageAddress": "Hantera adresser på kundsida"
+    },
+    "addressModal": {
+      "title": "Välj en annan adress",
+      "actions": {
+        "cancel": "Avbryt",
+        "update": "Uppdatera"
+      }
+    }
+  },
+  "edit": {
+    "title": "Redigera prenumeration",
+    "details": {
+      "title": "Prenumerationsuppgifter",
+      "searchProducts": "Sök produkter",
+      "browse": "Bläddra",
+      "removeLine": "Ta bort prenumerationsrad",
+      "oneTimePurchasePrice": "Kostnad för engångsköp: {price}",
+      "quantity": "Kvantitet",
+      "deliveryFrequency": {
+        "title": "Leveransfrekvens",
+        "warning": "Faktureringsfrekvensen uppdateras automatiskt när leveransfrekvensen uppdateras.",
+        "interval": "Intervall",
+        "intervalCount": "Intervallberäkning"
+      },
+      "deliveryInterval": {
+        "weeks": "veckor",
+        "months": "månader",
+        "years": "år"
+      },
+      "paymentSummary": "Betalningssammanfattning",
+      "subtotal": "Delsumma",
+      "shipping": "Frakt",
+      "tax": "Skatt",
+      "total": "Totalt",
+      "oneTimePurchasePriceChanged": "Priset för engångsköp har ändrats"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Kan inte skapa utkast av prenumerationskontrakt"
+      },
+      "updateDraft": {
+        "error": "Kan inte uppdatera utkast av prenumerationskontrakt",
+        "quantityTooLargeError": "För stor kvantitet",
+        "deliveryFrequencyTooLargeError": "Leveransfrekvens är för stor",
+        "deliveryFrequencyIntegerError": "Leveransfrekvens måste vara ett heltal"
+      },
+      "updateContract": {
+        "error": "Kan inte uppdatera prenumerationskontrakt",
+        "success": "Kontrakt uppdaterat"
+      },
+      "selectProducts": {
+        "lineCountError": "Prenumerationskontrakt måste ha minst 1 post"
+      },
+      "updateAddress": {
+        "error": "Det gick inte att uppdatera adress",
+        "success": "Adress uppdaterad"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Priset för engångsköpet av {{title}} har ändrats och är nu {{newPrice}}",
+      "updateSubscriptionPrice": "Uppdatera prenumerationspriset för {{title}}",
+      "title": "Redigera pris",
+      "subscriptionPriceLabel": "Prenumerationspris",
+      "discountLabel": "En prenumerationsrabatt på {{discountAmount}} tillämpades för det nya priset på {{lineTitle}}",
+      "amountTooLargeError": "Beloppet är för stort",
+      "amountNegativeError": "Beloppet måste vara högre än eller lika med 0",
+      "actions": {
+        "update": "Uppdatera",
+        "cancel": "Avbryt"
+      }
+    }
+  }
+}

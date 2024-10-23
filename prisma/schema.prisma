@@ -1,0 +1,53 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["tracing"]
+}
+
+datasource db {
+provider = "sqlite"
+url      = "file:./data.db"
+}
+model Session {
+  id       String  @id
+  shop     String
+  state    String
+  isOnline Boolean @default(false)
+    scope      String?
+  expires       DateTime?
+  accessToken   String
+  userId        BigInt?
+  firstName     String?
+  lastName      String?
+  email         String?
+  accountOwner  Boolean   @default(false)
+  locale        String?
+  collaborator  Boolean?  @default(false)
+  emailVerified Boolean?  @default(false)
+}
+
+
+model BillingSchedule {
+  id        Int      @id @default(autoincrement())
+  shop      String   @unique
+  hour      Int      @default(10)
+  timezone  String   @default("America/Toronto")
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model DunningTracker {
+  id                Int       @id @default(autoincrement())
+  shop              String
+  contractId        String
+  billingCycleIndex Int
+  failureReason     String
+  completedAt       DateTime?
+  completedReason   String?
+
+  @@unique([shop, contractId, billingCycleIndex, failureReason], name: "uniqueBillingCycleFailure")
+  @@index([completedAt])
+}

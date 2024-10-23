@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "サブスクリプション契約"
+  },
+  "emptyState": {
+    "title": "サブスクリプション契約を管理する",
+    "description": "お客様があなたのストアでサブスクリプションを購入すると、その契約はここに表示されます。"
+  },
+  "table": {
+    "headings": {
+      "contract": "契約",
+      "customer": "お客様",
+      "product": "商品",
+      "price": "価格",
+      "deliveryFrequency": "配達頻度",
+      "status": "ステータス"
+    },
+    "resourceName": {
+      "singular": "契約",
+      "plural": "契約"
+    },
+    "tabs": {
+      "all": "すべて",
+      "active": "有効",
+      "paused": "一時停止",
+      "cancelled": "キャンセル済み"
+    },
+    "emptyState": {
+      "title": "このステータスの契約はありません",
+      "description": "{status}サブスクリプション契約はここに表示されます"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "購入が行われた",
+      "sortByUpdatedDateLabel": "更新済み",
+      "newestFirstDirectionLabel": "新しい順",
+      "oldestFirstDirectionLabel": "古い順"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "一時停止",
+      "accessibilityLabel": "契約を一時停止",
+      "success": "契約は正常に一時停止されました",
+      "error": "契約を一時停止できませんでした"
+    },
+    "cancel": {
+      "title": "サブスクリプションをキャンセルする",
+      "accessibilityLabel": "サブスクリプションをキャンセル",
+      "success": "契約は正常にキャンセルされました",
+      "error": "契約をキャンセルできません",
+      "modalTitle": "サブスクリプションをキャンセルする",
+      "modalCancel": "契約を保持する",
+      "modalContent": "請求と今後の注文はすぐに終了となります。キャンセルした契約を再開することはできません。"
+    },
+    "resume": {
+      "title": "再開する",
+      "accessibilityLabel": "契約を再開",
+      "success": "契約が正常に再開されました",
+      "error": "契約を再開できませんでした"
+    }
+  },
+  "details": {
+    "upcomingOrders": "次回の注文",
+    "subscription": "サブスクリプションの詳細",
+    "price": "価格",
+    "purchaseDate": "購入日",
+    "quantity": "数量",
+    "orderNumber": "注文 {number}",
+    "edit": "編集",
+    "nextOrders": {
+      "title": "次の注文",
+      "skip": "スキップする",
+      "skipped": "スキップしました",
+      "resume": "再開する",
+      "showMore": "さらに{number}件を表示する",
+      "skipError": "注文をスキップ/再開できません",
+      "skipSuccess": "注文は正常にスキップされました",
+      "showMoreNoCount": "さらに見る",
+      "resumeSuccess": "注文は正常に再開されました"
+    },
+    "paymentMethods": {
+      "title": "決済方法"
+    },
+    "customer": {
+      "title": "お客様"
+    },
+    "discount": "ディスカウント",
+    "discountValue": {
+      "multipleDiscounts": "複数のディスカウント",
+      "percentageOff": "{{value}}%オフ",
+      "amountOff": "{{value}}オフ",
+      "flatRate": "{{value}}の定額料金"
+    },
+    "delivery": "配達",
+    "pastOrders": "過去の注文",
+    "viewOrder": "表示",
+    "localPickup": "{{value}}、店舗受取",
+    "orderNotCreated": "注文は作成されていません"
+  },
+  "paymentMethodDetails": {
+    "title": "決済方法",
+    "expires": "有効期限：{month}/{year}",
+    "actions": {
+      "sendUpdateLink": "カードを更新するリンクを送信する",
+      "managePayment": "お客様ページで決済を管理する"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "アメリカンエキスプレス",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "アメリカンエキスプレス",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "カードを更新するリンクを送信する",
+      "descriptionCreditCard": "番号が{lastDigits}で終わるクレジットカードを更新するリンクを{customerName}に送信します",
+      "descriptionOther": "決済方法を更新するためのリンクを{customerName}に送信します。",
+      "fromField": "差出人：",
+      "toField": "宛先：",
+      "subjectField": "件名：",
+      "subjectMessage": "{shopName}の決済方法を更新する",
+      "errorMessage": "お客様の決済方法の更新メールを送信できません",
+      "successMessage": "メールが送信されました",
+      "actions": {
+        "sendEmail": "メールを送信する",
+        "cancel": "キャンセル"
+      }
+    },
+    "revoked": "{revokedAt}にお客様によって決済方法が削除されました"
+  },
+  "customerDetails": {
+    "title": "お客様",
+    "contactInformation": "連絡先情報",
+    "shippingAddress": "配送先住所",
+    "actions": {
+      "selectAddress": "異なる住所を選択",
+      "manageAddress": "お客様ページでの住所を管理する"
+    },
+    "addressModal": {
+      "title": "別の住所を選択する",
+      "actions": {
+        "cancel": "キャンセル",
+        "update": "更新"
+      }
+    }
+  },
+  "edit": {
+    "title": "サブスクリプションを編集する",
+    "details": {
+      "title": "サブスクリプションの詳細",
+      "searchProducts": "商品を検索",
+      "browse": "閲覧",
+      "removeLine": "定期購入を削除",
+      "oneTimePurchasePrice": "1回限りの購入価格 ({price})",
+      "quantity": "数量",
+      "deliveryFrequency": {
+        "title": "配達頻度",
+        "warning": "配達頻度を更新すると、請求頻度が自動的に更新されます。",
+        "interval": "間隔",
+        "intervalCount": "間隔数"
+      },
+      "deliveryInterval": {
+        "weeks": "週",
+        "months": "月",
+        "years": "年"
+      },
+      "paymentSummary": "決済サマリー",
+      "subtotal": "小計",
+      "shipping": "配送",
+      "tax": "税",
+      "total": "合計",
+      "oneTimePurchasePriceChanged": "一度限りの購入の価格が変更されました"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "サブスクリプション契約の下書きを作成できません"
+      },
+      "updateDraft": {
+        "error": "サブスクリプション契約の下書きを更新できません",
+        "quantityTooLargeError": "数が多すぎます",
+        "deliveryFrequencyTooLargeError": "配達頻度が多すぎます",
+        "deliveryFrequencyIntegerError": "配達頻度は整数である必要があります"
+      },
+      "updateContract": {
+        "error": "サブスクリプション契約を更新できません",
+        "success": "契約が更新されました"
+      },
+      "selectProducts": {
+        "lineCountError": "サブスクリプション契約には少なくとも1つの項目が必要です"
+      },
+      "updateAddress": {
+        "error": "住所を更新できません",
+        "success": "住所が更新されました"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "{{title}}の一度限りの購入価格が変更され、{{newPrice}}になりました",
+      "updateSubscriptionPrice": "{{title}}のサブスクリプションの価格を更新する",
+      "title": "価格を編集する",
+      "subscriptionPriceLabel": "サブスクリプションの価格",
+      "discountLabel": "サブスクリプションの{{discountAmount}}ディスカウントが{{lineTitle}}の新しい価格に適用されました",
+      "amountTooLargeError": "値が大きすぎます",
+      "amountNegativeError": "値は0以上にする必要があります",
+      "actions": {
+        "update": "更新",
+        "cancel": "キャンセル"
+      }
+    }
+  }
+}

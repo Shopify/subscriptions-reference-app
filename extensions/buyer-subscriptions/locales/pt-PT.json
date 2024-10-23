@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Subscrições",
+  "manageSubscription": "Gerir subscrição",
+  "upcomingOrder": "Próxima encomenda",
+  "skip": "Ignorar",
+  "showUpcomingOrders": "Mostrar as próximas encomendas",
+  "nextOrder": "Próxima encomenda: {{date}}",
+  "lastUpdated": "Última atualização: {{date}}",
+  "subscriptionDetails": "Detalhes de subscrição",
+  "maxOrdersSkipped": "O número máximo de encomendas foi ignorado",
+  "skipOrderOverYear": "Não é possível ignorar porque a encomenda tem um tempo de intervalo superior a um ano",
+  "paymentMethodInvalidBanner": "{{brand}} que termina em {{lastDigits}} é inválido/a. Atualize o método de pagamento abaixo para continuar a receber futuras encomendas.",
+  "paymentMethodInvalidBannerGeneric": "O cartão que termina em {{lastDigits}} é inválido. Atualize o método de pagamento abaixo para continuar a receber futuras encomendas.",
+  "paymentMethodInvalidBadge": "Método de pagamento inválido",
+  "listItem": {
+    "multipleItemsName": "{{count}} itens",
+    "accessibilityLabel": "Gerir subscrição: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Ativa",
+    "paused": "Em pausa",
+    "cancelled": "Cancelada",
+    "expired": "Expirada",
+    "failed": "Falhou",
+    "stale": "Obsoleta"
+  },
+  "deliveryInterval": {
+    "day.one": "Entrega todos os dias",
+    "day.other": "Entrega a cada {{count}} dias",
+    "week.one": "Entrega todas as semanas",
+    "week.other": "Entrega a cada {{count}} semanas",
+    "month.one": "Entrega todos os meses",
+    "month.other": "Entrega a cada {{count}} meses",
+    "year.one": "Entrega todos os anos",
+    "year.other": "Entrega a cada {{count}} anos"
+  },
+  "overviewCard": {
+    "overview": "Vista geral",
+    "product": "Produto",
+    "deliveryFrequency": "Frequência de entrega",
+    "payment": "Pagamento",
+    "billingAddress": "Endereço de faturação",
+    "shippingAddress": "Endereço de envio",
+    "shippingMethod": "Método de envio",
+    "pickupLocation": "Local de recolha",
+    "changePaymentMethodButtonLabel": "Alterar método de pagamento",
+    "editShippingAddressButtonLabel": "Editar endereço de envio",
+    "editPickupAddressButtonLabel": "Editar endereço de recolha"
+  },
+  "paymentModal": {
+    "title": "Substituir método de pagamento",
+    "save": "Guardar",
+    "paymentMethod": "Método de pagamento",
+    "edit": "Editar",
+    "close": "Fechar",
+    "errorBannerTitle": "Não foi possível atualizar o método de pagamento"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Encomendas anteriores",
+    "view": "Ver"
+  },
+  "skipNextOrder": {
+    "text": "Ignorar a próxima encomenda",
+    "generic": "Pretende ignorar a próxima encomenda?",
+    "date": "Pretende ignorar a próxima encomenda? A subscrição será retomada a {{date}}.",
+    "errorBannerTitle": "Não foi possível ignorar a próxima encomenda",
+    "close": "Fechar"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Colocar subscrição em pausa",
+    "action": "Colocar subscrição em pausa",
+    "close": "Fechar",
+    "description": "A sua subscrição será imediatamente colocada em pausa e não receberá mais cobranças ou encomendas futuras. Pode retomar a subscrição a qualquer momento.",
+    "errorBannerTitle": "Não foi possível colocar a subscrição em pausa"
+  },
+  "subscriptionActions": {
+    "pause": "Colocar subscrição em pausa",
+    "skip": "Ignorar a próxima encomenda",
+    "resume": "Retomar subscrição",
+    "cancel": "Cancelar subscrição",
+    "manage": "Gerir subscrição",
+    "viewSubscriptionDetails": "Ver os detalhes da subscrição"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Se retomar esta subscrição, a faturação será imediatamente retomada.",
+    "descriptionWithDate": "Se retomar esta subscrição, a faturação será imediatamente retomada a {{date}}.",
+    "close": "Fechar",
+    "descriptionPriceChanged": "O preço desta subscrição foi alterado pelo que será cobrado {{price}} por cada encomenda futura.",
+    "continue": "Continuar",
+    "title": "Retomar subscrição",
+    "errorBannerTitle": "Não foi possível retomar a subscrição"
+  },
+  "priceSummary": {
+    "text": "Resumo do preço",
+    "subtotal": "Subtotal",
+    "shipping": "Envio",
+    "taxes": "Impostos",
+    "total": "Total"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Cancelar subscrição",
+    "description": "Se cancelar a sua subscrição, a faturação e a entrega serão imediatamente interrompidas. O cancelamento de uma subscrição não pode ser anulado. Para parar temporariamente de receber encomendas, coloque a sua subscrição em pausa.",
+    "action": "Cancelar subscrição",
+    "close": "Fechar",
+    "errorBannerTitle": "Não foi possível cancelar a subscrição"
+  },
+  "errorBoundary": {
+    "content": "Ocorreu um erro. Recarregue a página"
+  },
+  "addressModal": {
+    "save": "Guardar",
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "title": "Editar endereço de envio",
+    "errorBannerTitle": "Não foi possível atualizar o método de entrega",
+    "noDeliveryOptions": "Esta subscrição não pode ser enviada para o endereço inserido. Reveja o seu endereço para garantir que todos os campos foram introduzidos corretamente e tente de novo."
+  },
+  "successBanner": {
+    "paused": "Subscrição colocada em pausa",
+    "resumed": "Subscrição retomada",
+    "cancelled": "Subscrição cancelada",
+    "skipped": "Próxima encomenda ignorada",
+    "paymentUpdated": "Método de pagamento atualizado",
+    "shippingUpdated": "Método de envio atualizado",
+    "deliveryUpdated": "Método de entrega atualizado"
+  },
+  "upcomingOrdersModal": {
+    "title": "Encomendas futuras",
+    "close": "Fechar",
+    "skipOrder": "Ignorar",
+    "skipOrderAccessibilityLabel": "Ignorar encomenda de {{orderDate}}",
+    "unSkipOrder": "Deixar de ignorar",
+    "unskipOrderAccessibilityLabel": "Deixar de ignorar encomenda de {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (ignorada)",
+    "skippedSuccessMessage": "Encomenda de {{orderDate}} ignorada",
+    "unskippedSuccessMessage": "Encomenda de {{orderDate}} não ignorada",
+    "skippedErrorMessage": "Erro ao ignorar encomenda",
+    "unskippedErrorMessage": "Erro ao deixar de ignorar encomenda"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Selecionar o método de entrega",
+    "free": "Gratuito",
+    "localPickupOption": "Recolha: {{location}}",
+    "localDeliveryPhoneLabel": "Número de telemóvel",
+    "localDeliveryInstructionsLabel": "Instruções de entrega (opcional)",
+    "localDeliveryPhoneDetails": "Poderá ser contactado para obter atualizações sobre a sua entrega.",
+    "localDeliveryInstructionsDetails": "Introduza informação necessária, como códigos de porta ou instruções para entrega."
+  },
+  "notFound": {
+    "title": "Subscrição não encontrada",
+    "description": "Esta subscrição não existe ou não tem permissão para visualizá-la."
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Contratti di abbonamento"
+  },
+  "emptyState": {
+    "title": "Gestisci i tuoi contratti di abbonamento",
+    "description": "Quando un cliente acquista un abbonamento dal tuo negozio il contratto verrà visualizzato qui."
+  },
+  "table": {
+    "headings": {
+      "contract": "Contratto",
+      "customer": "Cliente",
+      "product": "Prodotto",
+      "price": "Prezzo",
+      "deliveryFrequency": "Frequenza di consegna",
+      "status": "Stato"
+    },
+    "resourceName": {
+      "singular": "Contratto",
+      "plural": "Contratti"
+    },
+    "tabs": {
+      "all": "Tutti",
+      "active": "Attivi",
+      "paused": "In pausa",
+      "cancelled": "Annullati"
+    },
+    "emptyState": {
+      "title": "Nessun contratto con questo stato",
+      "description": "I contratti di abbonamento {status} saranno visualizzati qui"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Acquisti",
+      "sortByUpdatedDateLabel": "Aggiornamento effettuato",
+      "newestFirstDirectionLabel": "Dal più recente",
+      "oldestFirstDirectionLabel": "Dal meno recente"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Metti in pausa",
+      "accessibilityLabel": "Metti in pausa contratto",
+      "success": "Contratto messo in pausa correttamente",
+      "error": "Impossibile mettere in pausa il contratto"
+    },
+    "cancel": {
+      "title": "Annulla abbonamento",
+      "accessibilityLabel": "Annulla abbonamento",
+      "success": "Contratto annullato correttamente",
+      "error": "Impossibile annullare contratto",
+      "modalTitle": "Annulla abbonamento",
+      "modalCancel": "Mantieni contratto",
+      "modalContent": "La fatturazione e i prossimi ordini termineranno immediatamente. I contratti annullati non possono essere ripresi."
+    },
+    "resume": {
+      "title": "Riprendi",
+      "accessibilityLabel": "Riprendi contratto",
+      "success": "Contratto ripreso correttamente",
+      "error": "Impossibile riprendere il contratto"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Ordini in arrivo",
+    "subscription": "Dettagli iscrizione",
+    "price": "Prezzo",
+    "purchaseDate": "Data d'acquisto",
+    "quantity": "Quantità",
+    "orderNumber": "Ordine {number}",
+    "edit": "Modifica",
+    "nextOrders": {
+      "title": "Ordini successivi",
+      "skip": "Salta",
+      "skipped": "Saltati",
+      "resume": "Riprendi",
+      "showMore": "Mostra altri {number}",
+      "skipError": "Impossibile saltare/riprendere l'ordine",
+      "skipSuccess": "Ordine saltato correttamente",
+      "showMoreNoCount": "Mostra di più",
+      "resumeSuccess": "Ordine ripreso correttamente"
+    },
+    "paymentMethods": {
+      "title": "Metodi di pagamento"
+    },
+    "customer": {
+      "title": "Cliente"
+    },
+    "discount": "Sconto",
+    "discountValue": {
+      "multipleDiscounts": "Sconti multipli",
+      "percentageOff": "{{value}}% di sconto",
+      "amountOff": "{{value}} di sconto",
+      "flatRate": "{{value}} tariffa forfettaria"
+    },
+    "delivery": "Consegna",
+    "pastOrders": "Ordini precedenti",
+    "viewOrder": "Visualizza",
+    "localPickup": "{{value}}, ritiro locale",
+    "orderNotCreated": "Ordine non creato"
+  },
+  "paymentMethodDetails": {
+    "title": "Metodo di pagamento",
+    "expires": "Scadenza: {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Invia il link per aggiornare la carta",
+      "managePayment": "Gestisci pagamento nella pagina del cliente"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Invia il link per aggiornare la carta",
+      "descriptionCreditCard": "Invia un link a {customerName} affinché aggiorni la carta di credito che termina con {lastDigits}",
+      "descriptionOther": "Invia un link a {customerName} affinché aggiorni il metodo di pagamento.",
+      "fromField": "Da:",
+      "toField": "A:",
+      "subjectField": "Oggetto:",
+      "subjectMessage": "Aggiorna il tuo metodo di pagamento per {shopName}",
+      "errorMessage": "Impossibile inviare l'email di aggiornamento del metodo di pagamento del cliente",
+      "successMessage": "Email inviata",
+      "actions": {
+        "sendEmail": "Invia email",
+        "cancel": "Annulla"
+      }
+    },
+    "revoked": "Il metodo di pagamento è stato rimosso dal cliente su {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Cliente",
+    "contactInformation": "Recapiti",
+    "shippingAddress": "Indirizzo di spedizione",
+    "actions": {
+      "selectAddress": "Seleziona un indirizzo diverso",
+      "manageAddress": "Gestisci indirizzi nella pagina del cliente"
+    },
+    "addressModal": {
+      "title": "Seleziona un indirizzo diverso",
+      "actions": {
+        "cancel": "Annulla",
+        "update": "Aggiorna"
+      }
+    }
+  },
+  "edit": {
+    "title": "Modifica abbonamento",
+    "details": {
+      "title": "Dettagli iscrizione",
+      "searchProducts": "Cerca prodotti",
+      "browse": "Sfoglia",
+      "removeLine": "Rimuovi voce abbonamento",
+      "oneTimePurchasePrice": "Prezzo acquisto una tantum: {price}",
+      "quantity": "Quantità",
+      "deliveryFrequency": {
+        "title": "Frequenza di consegna",
+        "warning": "L'aggiornamento della frequenza di consegna aggiornerà automaticamente la frequenza di fatturazione.",
+        "interval": "Intervallo",
+        "intervalCount": "Conteggio dell'intervallo"
+      },
+      "deliveryInterval": {
+        "weeks": "settimane",
+        "months": "mesi",
+        "years": "anni"
+      },
+      "paymentSummary": "Riepilogo pagamento",
+      "subtotal": "Subtotale",
+      "shipping": "Spedizioni",
+      "tax": "Imposte",
+      "total": "Totale",
+      "oneTimePurchasePriceChanged": "Il prezzo di acquisto una tantum è cambiato"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Impossibile creare la bozza del contratto di abbonamento"
+      },
+      "updateDraft": {
+        "error": "Impossibile aggiornare la bozza del contratto di abbonamento",
+        "quantityTooLargeError": "Quantità troppo grande",
+        "deliveryFrequencyTooLargeError": "La frequenza di consegna è troppo grande",
+        "deliveryFrequencyIntegerError": "La frequenza di consegna deve essere un numero intero"
+      },
+      "updateContract": {
+        "error": "Impossibile aggiornare il contratto di abbonamento",
+        "success": "Contratto aggiornato"
+      },
+      "selectProducts": {
+        "lineCountError": "I contratti di abbonamento devono avere almeno una voce"
+      },
+      "updateAddress": {
+        "error": "Impossibile aggiornare l'indirizzo",
+        "success": "Indirizzo aggiornato"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "Il prezzo di acquisto una tantum di {{title}} è cambiato, ora è {{newPrice}}",
+      "updateSubscriptionPrice": "Aggiorna il prezzo di abbonamento di {{title}}",
+      "title": "Modifica prezzo",
+      "subscriptionPriceLabel": "Prezzo abbonamento",
+      "discountLabel": "Sconto del {{discountAmount}} sull'abbonamento applicato al nuovo prezzo di {{lineTitle}}",
+      "amountTooLargeError": "L'importo è troppo grande",
+      "amountNegativeError": "L'importo deve essere maggiore o uguale a 0",
+      "actions": {
+        "update": "Aggiorna",
+        "cancel": "Annulla"
+      }
+    }
+  }
+}

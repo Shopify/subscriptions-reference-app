@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "home": "หน้าแรก",
+    "plans": "แผน",
+    "contracts": "สัญญา",
+    "settings": "การตั้งค่า"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "ความถี่ในการจัดส่ง {count} รูปแบบ",
+    "day": {
+      "one": "ทุกวัน",
+      "other": "ทุกๆ {count} วัน"
+    },
+    "week": {
+      "one": "ทุกสัปดาห์",
+      "other": "ทุกๆ {count} สัปดาห์"
+    },
+    "month": {
+      "one": "ทุกเดือน",
+      "other": "ทุกๆ {count} เดือน"
+    },
+    "year": {
+      "one": "ทุกปี",
+      "other": "ทุกๆ {count} ปี"
+    },
+    "multipleDeliveryFrequenciesNoCount": "ความถี่ในการจัดส่งหลายรายการ"
+  },
+  "productAndVariants": {
+    "noProduct": "ไม่มี",
+    "productsCount": {
+      "one": "สินค้า {count} รายการ",
+      "other": "สินค้า {count} รายการ"
+    },
+    "noVariant": "ไม่มีตัวเลือกสินค้า",
+    "variantsCount": {
+      "one": "ตัวเลือกสินค้า {count} รายการ",
+      "other": "ตัวเลือกสินค้า {count} รายการ"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "ไม่มีส่วนลด",
+    "amountOff": "ลด {amount}",
+    "percentageOff": "ลด {amount}%",
+    "multipleDiscounts": "ส่วนลดหลายรายการ"
+  },
+  "statusBadge": {
+    "active": "กำลังใช้งานอยู่",
+    "paused": "หยุดชั่วคราว",
+    "cancelled": "ยกเลิกแล้ว",
+    "expired": "หมดอายุแล้ว",
+    "failed": "ไม่สำเร็จ",
+    "stale": "ไม่เป็นปัจจุบัน"
+  },
+  "actions": {
+    "saveButtonText": "บันทึก",
+    "edit": "แก้ไข"
+  },
+  "footer": {
+    "learnMore": "ดูข้อมูลเพิ่มเติมเกี่ยวกับ{topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "แผนการสมัครใช้งาน",
+    "contracts": "สัญญาการสมัครใช้งาน"
+  }
+}

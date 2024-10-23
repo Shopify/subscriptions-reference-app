@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Gói đăng ký",
+  "manageSubscription": "Quản lý gói đăng ký",
+  "upcomingOrder": "Đơn hàng sắp tới",
+  "skip": "Bỏ qua",
+  "showUpcomingOrders": "Hiển thị đơn hàng sắp tới",
+  "nextOrder": "Đơn hàng tiếp theo: {{date}}",
+  "lastUpdated": "Cập nhật lần cuối vào {{date}}",
+  "subscriptionDetails": "Chi tiết gói đăng ký",
+  "maxOrdersSkipped": "Đã bỏ qua số lượng đơn hàng tối đa",
+  "skipOrderOverYear": "Không thể bỏ qua do đơn hàng còn hơn một năm mới đến",
+  "paymentMethodInvalidBanner": "{{brand}} có các số cuối là {{lastDigits}} không hợp lệ. Cập nhật phương thức thanh toán bên dưới để tiếp tục nhận đơn hàng sắp tới",
+  "paymentMethodInvalidBannerGeneric": "Thẻ có các số cuối là {{lastDigits}} không hợp lệ. Cập nhật phương thức thanh toán bên dưới để tiếp tục nhận đơn hàng sắp tới",
+  "paymentMethodInvalidBadge": "Phương thức thanh toán không hợp lệ",
+  "listItem": {
+    "multipleItemsName": "{{count}} mặt hàng",
+    "accessibilityLabel": "Quản lý gói đăng ký: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Đang hoạt động",
+    "paused": "Đã tạm dừng",
+    "cancelled": "Đã hủy",
+    "expired": "Đã hết hạn",
+    "failed": "Không thành công",
+    "stale": "Cũ"
+  },
+  "deliveryInterval": {
+    "day.one": "Giao hàng hằng ngày",
+    "day.other": "Giao hàng {{count}} ngày một lần",
+    "week.one": "Giao hàng hằng tuần",
+    "week.other": "Giao hàng {{count}} tuần một lần",
+    "month.one": "Giao hàng hằng tháng",
+    "month.other": "Giao hàng {{count}} tháng một lần",
+    "year.one": "Giao hàng hằng năm",
+    "year.other": "Giao hàng {{count}} năm một lần"
+  },
+  "overviewCard": {
+    "overview": "Tổng quan",
+    "product": "Sản phẩm",
+    "deliveryFrequency": "Tần suất giao hàng",
+    "payment": "Trả nợ",
+    "billingAddress": "Địa chỉ thanh toán",
+    "shippingAddress": "Địa chỉ giao hàng",
+    "shippingMethod": "Phương thức vận chuyển",
+    "pickupLocation": "Địa điểm nhận hàng",
+    "changePaymentMethodButtonLabel": "Thay đổi phương thức thanh toán",
+    "editShippingAddressButtonLabel": "Chỉnh sửa địa chỉ giao hàng",
+    "editPickupAddressButtonLabel": "Chỉnh sửa địa chỉ nhận hàng"
+  },
+  "paymentModal": {
+    "title": "Thay phương thức thanh toán",
+    "save": "Lưu",
+    "paymentMethod": "Phương thức thanh toán",
+    "edit": "Chỉnh sửa",
+    "close": "Đóng",
+    "errorBannerTitle": "Không thể cập nhật phương thức thanh toán"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Đơn hàng cũ",
+    "view": "Xem"
+  },
+  "skipNextOrder": {
+    "text": "Bỏ qua đơn hàng tiếp theo",
+    "generic": "Bạn muốn bỏ qua đơn hàng tiếp theo?",
+    "date": "Bạn muốn bỏ qua đơn hàng tiếp theo? Gói đăng ký sẽ tiếp tục vào {{date}}.",
+    "errorBannerTitle": "Không thể bỏ qua đơn hàng tiếp theo",
+    "close": "Đóng"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Tạm dừng gói đăng ký",
+    "action": "Tạm dừng gói đăng ký",
+    "close": "Đóng",
+    "description": "Gói đăng ký của bạn sẽ tạm dừng hiệu lực ngay lập tức và bạn sẽ không nhận thêm bất kỳ khoản phí hay đơn hàng sắp tới nào. Bạn có thể tiếp tục gói đăng ký này bất kỳ lúc nào.",
+    "errorBannerTitle": "Không thể tạm dừng gói đăng ký"
+  },
+  "subscriptionActions": {
+    "pause": "Tạm dừng gói đăng ký",
+    "skip": "Bỏ qua đơn hàng tiếp theo",
+    "resume": "Tiếp tục gói đăng ký",
+    "cancel": "Hủy gói đăng ký",
+    "manage": "Quản lý gói đăng ký",
+    "viewSubscriptionDetails": "Xem chi tiết gói đăng ký"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Việc thanh toán sẽ tiếp tục ngay khi bạn tiếp tục gói đăng ký này.",
+    "descriptionWithDate": "Việc thanh toán sẽ tiếp tục vào ngày {{date}} nếu bạn tiếp tục gói đăng ký này.",
+    "close": "Đóng",
+    "descriptionPriceChanged": "Giá của gói đăng ký này đã thay đổi và bạn sẽ chịu khoản phí {{price}} trên mỗi đơn hàng sắp tới.",
+    "continue": "Tiếp tục",
+    "title": "Tiếp tục gói đăng ký",
+    "errorBannerTitle": "Không thể tiếp tục gói đăng ký"
+  },
+  "priceSummary": {
+    "text": "Tóm tắt mức giá",
+    "subtotal": "Tổng phụ",
+    "shipping": "Vận chuyển",
+    "taxes": "Thuế",
+    "total": "Tổng"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Hủy gói đăng ký",
+    "description": "Việc thanh toán và giao hàng sẽ dừng ngay khi bạn hủy gói đăng ký. Không thể khôi phục gói đăng ký đã hủy. Để tạm dừng nhận đơn hàng, hãy tạm dừng gói đăng ký.",
+    "action": "Hủy gói đăng ký",
+    "close": "Đóng",
+    "errorBannerTitle": "Không thể hủy gói đăng ký"
+  },
+  "errorBoundary": {
+    "content": "Đã xảy ra lỗi, vui lòng tải lại trang"
+  },
+  "addressModal": {
+    "save": "Lưu",
+    "continue": "Tiếp tục",
+    "cancel": "Hủy",
+    "title": "Chỉnh sửa địa chỉ giao hàng",
+    "errorBannerTitle": "Không thể cập nhật phương thức giao hàng",
+    "noDeliveryOptions": "Không thể gửi gói đăng ký đến địa chỉ đã nhập. Xem lại địa chỉ để đảm bảo đã nhập đúng tất cả các trường và thử lại."
+  },
+  "successBanner": {
+    "paused": "Đã tạm dừng gói đăng ký",
+    "resumed": "Đã tiếp tục gói đăng ký",
+    "cancelled": "Đã hủy gói đăng ký",
+    "skipped": "Đã bỏ qua đơn hàng tiếp theo",
+    "paymentUpdated": "Đã cập nhật phương thức thanh toán",
+    "shippingUpdated": "Đã cập nhật phương thức vận chuyển",
+    "deliveryUpdated": "Đã cập nhật phương thức giao hàng"
+  },
+  "upcomingOrdersModal": {
+    "title": "Đơn hàng sắp tới",
+    "close": "Đóng",
+    "skipOrder": "Bỏ qua",
+    "skipOrderAccessibilityLabel": "Bỏ qua đơn hàng vào {{orderDate}}",
+    "unSkipOrder": "Hủy bỏ qua",
+    "unskipOrderAccessibilityLabel": "Hủy bỏ qua đơn hàng vào {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (đã bỏ qua)",
+    "skippedSuccessMessage": "Đã bỏ qua đơn hàng vào {{orderDate}}",
+    "unskippedSuccessMessage": "Đã hủy bỏ qua đơn hàng vào {{orderDate}}",
+    "skippedErrorMessage": "Đã xảy ra lỗi khi bỏ qua đơn hàng",
+    "unskippedErrorMessage": "Đã xảy ra lỗi khi hủy bỏ qua đơn hàng"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Chọn phương thức giao hàng",
+    "free": "Miễn phí",
+    "localPickupOption": "Nhận hàng tại: {{location}}",
+    "localDeliveryPhoneLabel": "Số điện thoại di động",
+    "localDeliveryInstructionsLabel": "Hướng dẫn giao hàng (không bắt buộc)",
+    "localDeliveryPhoneDetails": "Chúng tôi có thể liên hệ với bạn để cung cấp thông tin cập nhật về quá trình giao hàng.",
+    "localDeliveryInstructionsDetails": "Nhập thông tin cần thiết như mã cửa hoặc hướng dẫn mang hàng hóa đến điểm tập kết."
+  },
+  "notFound": {
+    "title": "Không tìm thấy gói đăng ký",
+    "description": "Gói đăng ký này không tồn tại hoặc bạn không có quyền xem gói đăng ký."
+  }
+}

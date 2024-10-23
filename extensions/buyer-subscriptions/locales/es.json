@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Suscripciones",
+  "manageSubscription": "Gestionar la suscripción",
+  "upcomingOrder": "Próximo pedido",
+  "skip": "Omitir",
+  "showUpcomingOrders": "Mostrar próximos pedidos",
+  "nextOrder": "Próximo pedido: {{date}}",
+  "lastUpdated": "Última actualización: {{date}}",
+  "subscriptionDetails": "Detalles de la suscripción",
+  "maxOrdersSkipped": "Se ha omitido el número máximo de pedidos.",
+  "skipOrderOverYear": "No se puede omitir porque falta más de un año para el pedido",
+  "paymentMethodInvalidBanner": "La forma de pago {{brand}} acabada en {{lastDigits}} no es válida. Actualiza la forma de pago siguiente para continuar recibiendo pedidos en el futuro.",
+  "paymentMethodInvalidBannerGeneric": "La tarjeta acabada en {{lastDigits}} no es válida. Actualiza la forma de pago siguiente para continuar recibiendo pedidos en el futuro.",
+  "paymentMethodInvalidBadge": "Forma de pago no válida",
+  "listItem": {
+    "multipleItemsName": "{{count}} artículos",
+    "accessibilityLabel": "Gestionar suscripción: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Activa",
+    "paused": "En pausa",
+    "cancelled": "Cancelada",
+    "expired": "Vencida",
+    "failed": "Fallida",
+    "stale": "Obsoleta"
+  },
+  "deliveryInterval": {
+    "day.one": "Entrega cada día",
+    "day.other": "Entrega cada {{count}} días",
+    "week.one": "Entrega cada semana",
+    "week.other": "Entrega cada {{count}} semanas",
+    "month.one": "Entrega cada mes",
+    "month.other": "Entrega cada {{count}} meses",
+    "year.one": "Entrega cada año",
+    "year.other": "Entrega cada {{count}} años"
+  },
+  "overviewCard": {
+    "overview": "Resumen",
+    "product": "Producto",
+    "deliveryFrequency": "Frecuencia de entrega",
+    "payment": "Pago",
+    "billingAddress": "Dirección de facturación",
+    "shippingAddress": "Dirección de envío",
+    "shippingMethod": "Método de envío",
+    "pickupLocation": "Lugar de retiro",
+    "changePaymentMethodButtonLabel": "Cambiar forma de pago",
+    "editShippingAddressButtonLabel": "Editar dirección de envío",
+    "editPickupAddressButtonLabel": "Editar dirección de retiro"
+  },
+  "paymentModal": {
+    "title": "Reemplazar forma de pago",
+    "save": "Guardar",
+    "paymentMethod": "Forma de pago",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "errorBannerTitle": "No se puede modificar la forma de pago"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Pedidos anteriores",
+    "view": "Ver"
+  },
+  "skipNextOrder": {
+    "text": "Omitir próximo pedido",
+    "generic": "¿Deseas omitir el próximo pedido?",
+    "date": "¿Deseas omitir el próximo pedido? La suscripción se reanudará el {{date}}.",
+    "errorBannerTitle": "No se puede omitir el siguiente pedido",
+    "close": "Cerrar"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Pausar la suscripción",
+    "action": "Pausar la suscripción",
+    "close": "Cerrar",
+    "description": "La suscripción se pausará con efecto inmediato y no recibirás más cargos ni pedidos futuros. Puedes reanudar la suscripción en cualquier momento.",
+    "errorBannerTitle": "No se puede pausar la suscripción"
+  },
+  "subscriptionActions": {
+    "pause": "Pausar la suscripción",
+    "skip": "Omitir próximo pedido",
+    "resume": "Reanudar la suscripción",
+    "cancel": "Cancelar la suscripción",
+    "manage": "Gestionar la suscripción",
+    "viewSubscriptionDetails": "Ver detalles de la suscripción"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Si reanudas la suscripción, la facturación proseguirá de inmediato.",
+    "descriptionWithDate": "Si reanudas esta suscripción, la facturación proseguirá el {{date}}.",
+    "close": "Cerrar",
+    "descriptionPriceChanged": "El precio de este tipo de suscripción cambió y se te cobrará un monto de {{price}} por cada próximo pedido.",
+    "continue": "Continuar",
+    "title": "Reanudar la suscripción",
+    "errorBannerTitle": "No se puede reanudar la suscripción"
+  },
+  "priceSummary": {
+    "text": "Resumen del precio",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "taxes": "Impuestos",
+    "total": "Total"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Cancelar la suscripción",
+    "description": "Si cancelas la suscripción, la facturación y la entrega se interrumpirán de inmediato. La cancelación de una suscripción no se puede deshacer. Para dejar de recibir pedidos temporalmente, pausa la suscripción.",
+    "action": "Cancelar la suscripción",
+    "close": "Cerrar",
+    "errorBannerTitle": "No se puede cancelar la suscripción"
+  },
+  "errorBoundary": {
+    "content": "Se ha producido un error. Vuelve a cargar la página."
+  },
+  "addressModal": {
+    "save": "Guardar",
+    "continue": "Continuar",
+    "cancel": "Cancelar",
+    "title": "Editar dirección de envío",
+    "errorBannerTitle": "No se puede actualizar la forma de entrega",
+    "noDeliveryOptions": "Esta suscripción no se puede enviar a la dirección que ingresaste. Revisa la dirección para asegurarte de que todos los campos se rellenaron correctamente e inténtalo de nuevo."
+  },
+  "successBanner": {
+    "paused": "Suscripción pausada",
+    "resumed": "Suscripción reanudada",
+    "cancelled": "Suscripción cancelada",
+    "skipped": "Siguiente pedido omitido",
+    "paymentUpdated": "Forma de pago modificada",
+    "shippingUpdated": "Método de envío modificado",
+    "deliveryUpdated": "Forma de entrega modificada"
+  },
+  "upcomingOrdersModal": {
+    "title": "Próximos pedidos",
+    "close": "Cerrar",
+    "skipOrder": "Omitir",
+    "skipOrderAccessibilityLabel": "Omitir el pedido del {{orderDate}}",
+    "unSkipOrder": "Anular omisión",
+    "unskipOrderAccessibilityLabel": "Anular omisión del pedido del {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (omitido)",
+    "skippedSuccessMessage": "Se omitió el pedido del {{orderDate}}",
+    "unskippedSuccessMessage": "Se anuló la omisión del pedido del {{orderDate}}",
+    "skippedErrorMessage": "Error al omitir pedido",
+    "unskippedErrorMessage": "Error al anular omisión de pedido"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Seleccionar forma de entrega",
+    "free": "Gratis",
+    "localPickupOption": "Retiro: {{location}}",
+    "localDeliveryPhoneLabel": "Número de teléfono móvil",
+    "localDeliveryInstructionsLabel": "Instrucciones de entrega (opcional)",
+    "localDeliveryPhoneDetails": "Es posible que se te contacte con información actualizada sobre tu entrega.",
+    "localDeliveryInstructionsDetails": "Introduce los datos necesarios, como códigos de puertas o instrucciones para la entrega."
+  },
+  "notFound": {
+    "title": "Suscripción no encontrada",
+    "description": "Esta suscripción no existe o no tienes permiso para verla."
+  }
+}

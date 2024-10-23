@@ -1,0 +1,33 @@
+{
+  "name": "Abonnementer",
+  "save": "Gem",
+  "cancel": "Annuller",
+  "merchantCode": {
+    "label": "Intern beskrivelse",
+    "helpText": "Kun til egen reference"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Abonner, og spar penge",
+    "helpText": "Kunderne vil se dette på produktsider i butikken, der har abonnementer"
+  },
+  "discountAndDelivery": "Rabat og levering",
+  "offerDiscount": "Tilbyd rabat",
+  "discountType": {
+    "percentageOff": "Procentrabat",
+    "amountOff": "Rabatbeløb",
+    "flatRate": "Fast beløb"
+  },
+  "deliveryFrequency": "Leveringshyppighed",
+  "deliveryInterval": {
+    "label": "Leveringsinterval",
+    "weeks": "Uger",
+    "months": "Måneder",
+    "years": "År"
+  },
+  "addOptionButton": {
+    "label": "Valgmulighed",
+    "accessibilityLabel": "Tilføj valgmulighed"
+  },
+  "removeOption": "Fjern valgmulighed"
+}

@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Indstillinger for betalingsfejl",
+    "cardTitle": "Prøv faktureringsforsøg igen",
+    "retryAttempts": {
+      "label": "Antal forsøg",
+      "helpText": "Mindst 0, højst 10 nye forsøg",
+      "errors": {
+        "min": "Antallet af nye forsøg skal være større end 0",
+        "max": "Antallet af nye forsøg er for højt"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dage mellem nye forsøg på betaling",
+      "helpText": "Mindst 1, højst 14 dage",
+      "errors": {
+        "min": "Dage mellem nye forsøg på betaling skal være mere end 1",
+        "max": "Dage mellem nye forsøg på betaling er for mange"
+      }
+    },
+    "onFailure": {
+      "label": "Handling, når alle nye forsøg er mislykkedes",
+      "options": {
+        "skip": "Spring abonnement over, og send notifikation",
+        "cancel": "Opsig abonnement, og send notifikation",
+        "pause": "Sæt abonnement på pause, og send notifikation"
+      }
+    },
+    "notifications": "Rediger notifikationer",
+    "inventoryRetryAttempts": {
+      "label": "Antal forsøg, når der er fejl i lagerbeholdning",
+      "helpText": "Mindst 0, højst 10 nye forsøg",
+      "errors": {
+        "min": "Antallet af nye forsøg for lagerbeholdning skal være større end 0",
+        "max": "Antallet af nye lagerbeholdning-forsøg er for højt"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Dage mellem betalingsforsøg, når der er fejl i lagerbeholdning",
+      "helpText": "Mindst 1, højst 14 dage",
+      "errors": {
+        "min": "Dage mellem nye lagerbeholdning-forsøg skal være mere end 1",
+        "max": "Dage mellem nye lagerbeholdning-forsøg er for mange"
+      }
+    }
+  },
+  "saveButtonText": "Gem",
+  "actions": {
+    "updateSuccess": "Indstillingerne er opdateret"
+  },
+  "title": "Indstillinger"
+}

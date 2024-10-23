@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "home": "Home",
+    "plans": "Plans",
+    "contracts": "Contracts",
+    "settings": "Settings"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "{count} delivery frequencies",
+    "multipleDeliveryFrequenciesNoCount": "Multiple delivery frequencies",
+    "day": {
+      "one": "Every day",
+      "other": "Every {count} days"
+    },
+    "week": {
+      "one": "Every week",
+      "other": "Every {count} weeks"
+    },
+    "month": {
+      "one": "Every month",
+      "other": "Every {count} months"
+    },
+    "year": {
+      "one": "Every year",
+      "other": "Every {count} years"
+    }
+  },
+  "productAndVariants": {
+    "noProduct": "None",
+    "productsCount": {
+      "one": "{count} product",
+      "other": "{count} products"
+    },
+    "noVariant": "No variant",
+    "variantsCount": {
+      "one": "{count} variant",
+      "other": "{count} variants"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "No discount",
+    "amountOff": "{amount} off",
+    "percentageOff": "{amount}% off",
+    "multipleDiscounts": "Multiple discounts"
+  },
+  "statusBadge": {
+    "active": "Active",
+    "paused": "Paused",
+    "cancelled": "Cancelled",
+    "failed": "Failed",
+    "expired": "Expired",
+    "stale": "Stale"
+  },
+  "actions": {
+    "saveButtonText": "Save",
+    "edit": "Edit"
+  },
+  "footer": {
+    "learnMore": "Learn more about {topicName}",
+    "home": "Shopify Subscriptions",
+    "plans": "subscription plans",
+    "contracts": "subscription contracts"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Subskrypcje",
+  "save": "Zapisz",
+  "cancel": "Anuluj",
+  "merchantCode": {
+    "label": "Opis wewnętrzny",
+    "helpText": "Tylko dla referencji"
+  },
+  "planName": {
+    "label": "Tytuł",
+    "placeholder": "Subskrybuj i zapisz",
+    "helpText": "Będzie to widoczne dla klientów w witrynie sklepu na stronach produktów z subskrypcją"
+  },
+  "discountAndDelivery": "Rabat i dostawa",
+  "offerDiscount": "Oferuj rabat",
+  "discountType": {
+    "percentageOff": "Procent zniżki",
+    "amountOff": "Kwota zniżki",
+    "flatRate": "Stawka zryczałtowana"
+  },
+  "deliveryFrequency": "Częstotliwość dostaw",
+  "deliveryInterval": {
+    "label": "Interwał dostaw",
+    "weeks": "Tygodnie",
+    "months": "Miesiące",
+    "years": "Lata"
+  },
+  "addOptionButton": {
+    "label": "Opcja",
+    "accessibilityLabel": "Dodaj opcję"
+  },
+  "removeOption": "Usuń opcję"
+}

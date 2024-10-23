@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Instellingen voor mislukte betalingen",
+    "cardTitle": "Factureringspogingen opnieuw proberen",
+    "retryAttempts": {
+      "label": "Aantal nieuwe pogingen",
+      "helpText": "Min. nul, max. tien nieuwe pogingen",
+      "errors": {
+        "min": "Aantal nieuwe pogingen dient hoger te zijn dan nul",
+        "max": "Aantal nieuwe pogingen is te hoog"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dagen tussen pogingen om opnieuw te betalen",
+      "helpText": "Min 1, max 14 dagen",
+      "errors": {
+        "min": "Dagen tussen pogingen om opnieuw te betalen dient hoger te zijn dan één",
+        "max": "Dagen tussen pogingen om opnieuw te betalen is te hoog"
+      }
+    },
+    "onFailure": {
+      "label": "Actie wanneer alle nieuwe pogingen zijn mislukt",
+      "options": {
+        "skip": "Abonnement overslaan en melding sturen",
+        "cancel": "Abonnement opzeggen en melding sturen",
+        "pause": "Abonnement pauzeren en melding sturen"
+      }
+    },
+    "notifications": "Meldingen bewerken",
+    "inventoryRetryAttempts": {
+      "label": "Aantal nieuwe pogingen bij voorraadfouten",
+      "helpText": "Min. 0, max. 10 nieuwe pogingen",
+      "errors": {
+        "min": "Aantal nieuwe voorraadpogingen dient hoger te zijn dan nul",
+        "max": "Aantal nieuwe voorraadpogingen is te hoog"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Dagen tussen nieuwe betalingspogingen bij voorraadfouten",
+      "helpText": "Min. één, max. veertien dagen",
+      "errors": {
+        "min": "Aantal dagen tussen nieuwe voorraadpogingen dient hoger te zijn dan één",
+        "max": "Aantal dagen tussen nieuwe voorraadpogingen is te hoog"
+      }
+    }
+  },
+  "saveButtonText": "Opslaan",
+  "actions": {
+    "updateSuccess": "Instellingen bijgewerkt"
+  },
+  "title": "Instellingen"
+}

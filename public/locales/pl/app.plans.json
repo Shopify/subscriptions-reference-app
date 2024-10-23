@@ -1,0 +1,85 @@
+{
+  "page": {
+    "title": "Plany subskrypcji",
+    "createPlan": "Utwórz nowy plan"
+  },
+  "emptyState": {
+    "title": "Utwórz plan subskrypcji",
+    "description": "Utwórz plan subskrypcji, aby umożliwić swoim klientom cykliczne zakupy produktów lub usług za pomocą jednej płatności."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Tytuł planu",
+      "products": "Produkty",
+      "deliveryFrequency": "Częstotliwość dostaw",
+      "discount": "Rabat",
+      "view": "Wszystko"
+    },
+    "resourceName": {
+      "singular": "Subskrypcja",
+      "plural": "Subskrypcja"
+    },
+    "resources": {
+      "allSelected": "Wszystko"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Usuń plan",
+        "other": "Usuń plany",
+        "few": "Usuń plany",
+        "many": "Usuń plany"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Czy na pewno chcesz usunąć ten plan? Tej czynności nie można cofnąć.",
+          "other": "Czy na pewno chcesz usunąć te plany? Tej czynności nie można cofnąć. ",
+          "few": "Czy na pewno chcesz usunąć te plany? Tej czynności nie można cofnąć. ",
+          "many": "Czy na pewno chcesz usunąć te plany? Tej czynności nie można cofnąć. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Usuń plan",
+            "other": "Usuń plany",
+            "few": "Usuń plany",
+            "many": "Usuń plany"
+          },
+          "cancel": "Anuluj"
+        },
+        "title": {
+          "one": "Usunąć plan subskrypcji?",
+          "other": "Usunąć plany subskrypcji?",
+          "few": "Usunąć plany subskrypcji?",
+          "many": "Usunąć plany subskrypcji?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Plan subskrypcji został usunięty",
+          "other": "Plany subskrypcji zostały usunięte",
+          "few": "Plany subskrypcji zostały usunięte",
+          "many": "Plany subskrypcji zostały usunięte"
+        },
+        "failed": {
+          "one": "Nie udało się usunąć planu subskrypcji",
+          "other": "Nie udało się usunąć planów subskrypcji",
+          "few": "Nie udało się usunąć planów subskrypcji",
+          "many": "Nie udało się usunąć planów subskrypcji"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Utworzono",
+        "ascendingLabel": "Najpierw najstarsze",
+        "descendingLabel": "Najpierw najnowsze"
+      },
+      "UPDATED_AT": {
+        "label": "Zaktualizowano",
+        "ascendingLabel": "Najpierw najstarsze",
+        "descendingLabel": "Najpierw najnowsze"
+      }
+    }
+  }
+}

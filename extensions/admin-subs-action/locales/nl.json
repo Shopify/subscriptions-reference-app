@@ -1,0 +1,33 @@
+{
+  "name": "Abonnementen",
+  "save": "Opslaan",
+  "cancel": "Annuleren",
+  "merchantCode": {
+    "label": "Interne beschrijving",
+    "helpText": "Alleen ter referentie"
+  },
+  "planName": {
+    "label": "Titel",
+    "placeholder": "Abonneren en opslaan",
+    "helpText": "Klanten zien dit op productpagina's in de webshop met abonnementen"
+  },
+  "discountAndDelivery": "Korting en bezorging",
+  "offerDiscount": "Korting bieden",
+  "discountType": {
+    "percentageOff": "Kortingspercentage",
+    "amountOff": "Kortingsbedrag",
+    "flatRate": "Vast tarief"
+  },
+  "deliveryFrequency": "Bezorgfrequentie",
+  "deliveryInterval": {
+    "label": "Bezorginterval",
+    "weeks": "Weken",
+    "months": "Maanden",
+    "years": "Jaren"
+  },
+  "addOptionButton": {
+    "label": "Optie",
+    "accessibilityLabel": "Optie toevoegen"
+  },
+  "removeOption": "Optie verwijderen"
+}

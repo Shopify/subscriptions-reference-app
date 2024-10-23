@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Abonnementspolitik",
+    "subscription_policy_url": "Link til abonnementspolitik",
+    "subscription_policy_url_info": "Vælg en eksisterende side, eller indsæt et eksternt link for at vise abonnementspolitikken.",
+    "description": "Abonnementswidgetten viser kun produkter, der har en abonnementsordning vedhæftet. [Få mere at vide om temaindstillinger for abonnementet](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Indstillingerne ovenfor viser valgmulighederne for det valgte produkt. Det aktuelle produkt, der er valgt, har en abonnementsordning. ",
+    "colors_title": "Farve",
+    "title": "Abonnementswidget",
+    "product_title": "Produkt",
+    "border_title": "Kant",
+    "border_thickness": "Tykkelse",
+    "border_radius": "Hjørneradius",
+    "colors_text_title": "Titel",
+    "colors_text_body": "Brødtekst",
+    "colors_background_border_title": "Baggrunde og kanter",
+    "colors_background": "Baggrund",
+    "colors_dividers": "Inddelere",
+    "supporting_text_title": "Støttetekst",
+    "supporting_text_subtitle": "Titel",
+    "supporting_text_input_default": "Købsmuligheder"
+  }
+}

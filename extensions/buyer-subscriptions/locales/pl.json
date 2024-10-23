@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Subskrypcje",
+  "manageSubscription": "Zarządzaj subskrypcją",
+  "upcomingOrder": "Kolejne zamówienie",
+  "skip": "Pomiń",
+  "showUpcomingOrders": "Pokaż kolejne zamówienia",
+  "nextOrder": "Następne zamówienie: {{date}}",
+  "lastUpdated": "Ostatnio zaktualizowano {{date}}",
+  "subscriptionDetails": "Szczegóły subskrypcji",
+  "maxOrdersSkipped": "Maksymalna liczba zamówień została pominięta",
+  "skipOrderOverYear": "Nie można pominąć, ponieważ zamówienie jest planowane na ponad rok do przodu",
+  "paymentMethodInvalidBanner": "{{brand}} z końcówką {{lastDigits}} jest nieprawidłowa. Zaktualizuj poniższą metodę płatności, aby nadal otrzymywać zamówienia",
+  "paymentMethodInvalidBannerGeneric": "Karta z końcówką {{lastDigits}} z końcówką jest nieprawidłowa. Zaktualizuj poniższą metodę płatności, aby nadal otrzymywać zamówienia",
+  "paymentMethodInvalidBadge": "Nieprawidłowa metoda płatności",
+  "listItem": {
+    "multipleItemsName": "{{count}} pozycje(-i)",
+    "accessibilityLabel": "Zarządzaj subskrypcją: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktywne",
+    "paused": "Wstrzymane",
+    "cancelled": "Anulowane",
+    "expired": "Wygasłe",
+    "failed": "Nieudane",
+    "stale": "Nieaktualne"
+  },
+  "deliveryInterval": {
+    "day.one": "Dostawa każdego dnia",
+    "day.other": "Dostawa co {{count}} dni",
+    "week.one": "Dostawa co tydzień",
+    "week.other": "Dostawa co {{count}} tygodni(e)",
+    "month.one": "Dostawa co miesiąc",
+    "month.other": "Dostawa co {{count}} miesiące(-ęcy)",
+    "year.one": "Dostawa co rok",
+    "year.other": "Dostawa co {{count}} lat(a)"
+  },
+  "overviewCard": {
+    "overview": "Przegląd",
+    "product": "Produkt",
+    "deliveryFrequency": "Częstotliwość dostaw",
+    "payment": "Płatność",
+    "billingAddress": "Adres rozliczeniowy",
+    "shippingAddress": "Adres wysyłki",
+    "shippingMethod": "Metoda wysyłki",
+    "pickupLocation": "Lokalizacja odbioru",
+    "changePaymentMethodButtonLabel": "Zmień metodę płatności",
+    "editShippingAddressButtonLabel": "Edytuj adres wysyłki",
+    "editPickupAddressButtonLabel": "Edytuj adres odbioru"
+  },
+  "paymentModal": {
+    "title": "Zastąp metodę płatności",
+    "save": "Zapisz",
+    "paymentMethod": "Metoda płatności",
+    "edit": "Edytuj",
+    "close": "Zamknij",
+    "errorBannerTitle": "Nie można aktualizować metody płatności"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Poprzednie zamówienia",
+    "view": "Wyświetl"
+  },
+  "skipNextOrder": {
+    "text": "Pomiń następne zamówienie",
+    "generic": "Czy chcesz pominąć następne zamówienie?",
+    "date": "Czy chcesz pominąć następne zamówienie? Subskrypcja zostanie wznowiona w dniu {{date}}.",
+    "errorBannerTitle": "Nie można pominąć następnego zamówienia",
+    "close": "Zamknij"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Wstrzymaj subskrypcję",
+    "action": "Wstrzymaj subskrypcję",
+    "close": "Zamknij",
+    "description": "Subskrypcja zostanie natychmiast wstrzymana i nie będziesz otrzymywać żadnych dalszych opłat ani kolejnych zamówień. Możesz wznowić subskrypcję w dowolnym momencie.",
+    "errorBannerTitle": "Nie można wstrzymać subskrypcji"
+  },
+  "subscriptionActions": {
+    "pause": "Wstrzymaj subskrypcję",
+    "skip": "Pomiń następne zamówienie",
+    "resume": "Wznów subskrypcję",
+    "cancel": "Anuluj subskrypcję",
+    "manage": "Zarządzaj subskrypcją",
+    "viewSubscriptionDetails": "Wyświetl szczegóły subskrypcji"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Po wznowieniu subskrypcji naliczanie opłat zostanie natychmiast wznowione.",
+    "descriptionWithDate": "Po wznowieniu subskrypcji naliczanie opłat zostanie wznowione dnia {{date}}.",
+    "close": "Zamknij",
+    "descriptionPriceChanged": "Cena tej subskrypcji uległa zmianie i Twoja opłata za kolejne zamówienie wyniesie {{price}}.",
+    "continue": "Kontynuuj",
+    "title": "Wznów subskrypcję",
+    "errorBannerTitle": "Nie można wznowić subskrypcji"
+  },
+  "priceSummary": {
+    "text": "Podsumowanie ceny",
+    "subtotal": "Suma częściowa",
+    "shipping": "Wysyłka",
+    "taxes": "Podatki",
+    "total": "Suma"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Anuluj subskrypcję",
+    "description": "W przypadku anulowania subskrypcji naliczanie opłat i dostawa zostaną natychmiast zakończone. Anulowania subskrypcji nie można cofnąć. Aby tymczasowo przestać otrzymywać zamówienia, wstrzymaj subskrypcję.",
+    "action": "Anuluj subskrypcję",
+    "close": "Zamknij",
+    "errorBannerTitle": "Nie można anulować subskrypcji"
+  },
+  "errorBoundary": {
+    "content": "Coś poszło nie tak. Odśwież stronę."
+  },
+  "addressModal": {
+    "save": "Zapisz",
+    "continue": "Kontynuuj",
+    "cancel": "Anuluj",
+    "title": "Edytuj adres wysyłki",
+    "errorBannerTitle": "Nie można aktualizować metody dostawy",
+    "noDeliveryOptions": "Nie można wysłać tej subskrypcji na podany adres. Sprawdź swój adres, aby upewnić się, że wszystkie pola zostały wprowadzone poprawnie i spróbuj ponownie."
+  },
+  "successBanner": {
+    "paused": "Wstrzymano subskrypcję",
+    "resumed": "Wznowiono subskrypcję",
+    "cancelled": "Anulowano subskrypcję",
+    "skipped": "Pominięto kolejne zamówienie",
+    "paymentUpdated": "Zaktualizowano metodę płatności",
+    "shippingUpdated": "Zaktualizowano metodę wysyłki",
+    "deliveryUpdated": "Zaktualizowano metodę dostawy"
+  },
+  "upcomingOrdersModal": {
+    "title": "Kolejne zamówienia",
+    "close": "Zamknij",
+    "skipOrder": "Pomiń",
+    "skipOrderAccessibilityLabel": "Pomiń zamówienie dnia {{orderDate}}",
+    "unSkipOrder": "Anuluj pominięcie",
+    "unskipOrderAccessibilityLabel": "Anuluj pominięcie zamówienia dnia {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (pominięte)",
+    "skippedSuccessMessage": "Pominięto zamówienie dnia {{orderDate}}",
+    "unskippedSuccessMessage": "Anulowano pominięcie zamówienia dnia {{orderDate}}",
+    "skippedErrorMessage": "Błąd podczas pomijania zamówienia",
+    "unskippedErrorMessage": "Błąd podczas anulowania pominięcia zamówienia"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Wybierz metodę dostawy",
+    "free": "Gratis",
+    "localPickupOption": "Odbiór: {{location}}",
+    "localDeliveryPhoneLabel": "Numer telefonu komórkowego",
+    "localDeliveryInstructionsLabel": "Instrukcje dotyczące dostawy (opcjonalnie)",
+    "localDeliveryPhoneDetails": "Możemy kontaktować się z Tobą w celu aktualizacji statusu dostawy.",
+    "localDeliveryInstructionsDetails": "Wprowadź niezbędne informacje, takie jak kody do drzwi lub instrukcje dotyczące doręczenia."
+  },
+  "notFound": {
+    "title": "Nie znaleziono subskrypcji",
+    "description": "Ta subskrypcja nie istnieje lub nie masz uprawnień do jej wyświetlania."
+  }
+}

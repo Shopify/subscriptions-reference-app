@@ -1,0 +1,33 @@
+{
+  "name": "定期購入",
+  "save": "保存",
+  "cancel": "キャンセル",
+  "merchantCode": {
+    "label": "内部説明",
+    "helpText": "参照用"
+  },
+  "planName": {
+    "label": "タイトル",
+    "placeholder": "お得な定期購入",
+    "helpText": "お客様は、サブスクリプションを提供するストアフロントの商品ページでこれを見ることができます"
+  },
+  "discountAndDelivery": "ディスカウントと配送",
+  "offerDiscount": "ディスカウントを提供する",
+  "discountType": {
+    "percentageOff": "割合オフ",
+    "amountOff": "割引金額",
+    "flatRate": "一定料金"
+  },
+  "deliveryFrequency": "配送頻度",
+  "deliveryInterval": {
+    "label": "配送間隔",
+    "weeks": "週",
+    "months": "月",
+    "years": "年"
+  },
+  "addOptionButton": {
+    "label": "オプション",
+    "accessibilityLabel": "オプションを追加する"
+  },
+  "removeOption": "オプションを削除する"
+}

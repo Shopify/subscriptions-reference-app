@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Política de assinaturas",
+    "subscription_policy_url": "Link da política de assinaturas",
+    "subscription_policy_url_info": "Selecione uma página ou cole um link externo para exibir a política de assinatura.",
+    "description": "O widget de assinatura só será exibido para produtos que têm planos de assinatura vinculados a eles. [Saiba mais sobre as configurações de tema para assinaturas](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "As configurações acima mostram opções para o produto selecionado. O produto selecionado tem um plano de assinatura. ",
+    "colors_title": "Cor",
+    "title": "Widget de assinatura",
+    "product_title": "Produto",
+    "border_title": "Borda",
+    "border_thickness": "Espessura",
+    "border_radius": "Raio dos cantos",
+    "colors_text_title": "Título",
+    "colors_text_body": "Corpo",
+    "colors_background_border_title": "Planos de fundo e bordas",
+    "colors_background": "Plano de fundo",
+    "colors_dividers": "Divisores",
+    "supporting_text_title": "Texto de apoio",
+    "supporting_text_subtitle": "Título",
+    "supporting_text_input_default": "Opções de compra"
+  }
+}

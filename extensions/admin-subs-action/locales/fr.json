@@ -1,0 +1,33 @@
+{
+  "name": "Abonnements",
+  "save": "Enregistrer",
+  "cancel": "Annuler",
+  "merchantCode": {
+    "label": "Description interne",
+    "helpText": "Pour référence uniquement"
+  },
+  "planName": {
+    "label": "Titre",
+    "placeholder": "S’abonner et enregistrer",
+    "helpText": "Les clients verront cette information sur les pages de produit de la boutique en ligne qui comportent des abonnements"
+  },
+  "discountAndDelivery": "Réduction et livraison",
+  "offerDiscount": "Offrir une réduction",
+  "discountType": {
+    "percentageOff": "Pourcentage de réduction",
+    "amountOff": "Montant de réduction",
+    "flatRate": "Tarif forfaitaire"
+  },
+  "deliveryFrequency": "Fréquence de livraison",
+  "deliveryInterval": {
+    "label": "Intervalle de livraison",
+    "weeks": "Semaines",
+    "months": "Mois",
+    "years": "Ans"
+  },
+  "addOptionButton": {
+    "label": "Option",
+    "accessibilityLabel": "Ajouter une option"
+  },
+  "removeOption": "Supprimer l’option"
+}

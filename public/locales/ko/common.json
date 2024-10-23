@@ -1,0 +1,64 @@
+{
+  "navigation": {
+    "home": "홈",
+    "plans": "플랜",
+    "contracts": "계약",
+    "settings": "설정"
+  },
+  "deliveryFrequency": {
+    "multipleDeliveryFrequencies": "배송 빈도 {count}회",
+    "day": {
+      "one": "매일",
+      "other": "{count}일마다"
+    },
+    "week": {
+      "one": "매주",
+      "other": "{count}주마다"
+    },
+    "month": {
+      "one": "매달",
+      "other": "{count}개월마다"
+    },
+    "year": {
+      "one": "매년",
+      "other": "{count}년마다"
+    },
+    "multipleDeliveryFrequenciesNoCount": "다양한 배송 빈도"
+  },
+  "productAndVariants": {
+    "noProduct": "없음",
+    "productsCount": {
+      "one": "제품 {count}개",
+      "other": "제품 {count}개"
+    },
+    "noVariant": "이형 상품 없음",
+    "variantsCount": {
+      "one": "이형 상품 {count}개",
+      "other": "이형 상품 {count}개"
+    }
+  },
+  "pricingPolicy": {
+    "noDiscount": "할인 없음",
+    "amountOff": "{amount} 할인",
+    "percentageOff": "{amount}% 할인",
+    "multipleDiscounts": "여러 할인"
+  },
+  "statusBadge": {
+    "active": "활성",
+    "paused": "일시 중지됨",
+    "cancelled": "취소됨",
+    "expired": "만료됨",
+    "failed": "실패",
+    "stale": "오래됨"
+  },
+  "actions": {
+    "saveButtonText": "저장",
+    "edit": "편집"
+  },
+  "footer": {
+    "learnMore": "{topicName}에 대해 자세히 알아보기",
+    "home": "Shopify Subscriptions",
+    "plans": "가입 요금",
+    "contracts": "구독 계약"
+  }
+}

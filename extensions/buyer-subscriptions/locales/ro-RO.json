@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Abonamente",
+  "manageSubscription": "Gestionează abonamentul",
+  "upcomingOrder": "Comandă viitoare",
+  "skip": "Omite",
+  "showUpcomingOrders": "Afișează comenzile viitoare",
+  "nextOrder": "Următoarea comandă: {{date}}",
+  "lastUpdated": "Ultima actualizare la {{date}}",
+  "subscriptionDetails": "Detaliile abonamentului",
+  "maxOrdersSkipped": "A fost omis numărul maxim de comenzi",
+  "skipOrderOverYear": "Nu se poate omite, deoarece comanda este mai veche de un an",
+  "paymentMethodInvalidBanner": "{{brand}} care se termină cu {{lastDigits}} este nevalid. Actualizează metoda de plată de mai jos pentru a continua să primești comenzi",
+  "paymentMethodInvalidBannerGeneric": "Cardul care se termină cu {{lastDigits}} este nevalid. Actualizează metoda de plată de mai jos pentru a continua să primești comenzi",
+  "paymentMethodInvalidBadge": "Metodă de plată nevalidă",
+  "listItem": {
+    "multipleItemsName": "{{count}} (de) articole",
+    "accessibilityLabel": "Gestionează abonamentul: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Activă",
+    "paused": "Suspendată",
+    "cancelled": "Anulată",
+    "expired": "Expirată",
+    "failed": "Eșuată",
+    "stale": "Perimată"
+  },
+  "deliveryInterval": {
+    "day.one": "Livrare zilnică",
+    "day.other": "Livrare la fiecare {{count}} zile",
+    "week.one": "Livrare săptămânală",
+    "week.other": "Livrare la fiecare {{count}} săptămâni",
+    "month.one": "Livrare lunară",
+    "month.other": "Livrare la fiecare {{count}} luni",
+    "year.one": "Livrare anuală",
+    "year.other": "Livrare al fiecare {{count}} ani"
+  },
+  "overviewCard": {
+    "overview": "Prezentare generală",
+    "product": "Produs",
+    "deliveryFrequency": "Frecvența livrărilor",
+    "payment": "Plată",
+    "billingAddress": "Adresa de facturare",
+    "shippingAddress": "Adresa de expediere",
+    "shippingMethod": "Metoda de expediere",
+    "pickupLocation": "Locația de ridicare",
+    "changePaymentMethodButtonLabel": "Schimbă metoda de plată",
+    "editShippingAddressButtonLabel": "Editează adresa de expediere",
+    "editPickupAddressButtonLabel": "Editează adresa de ridicare"
+  },
+  "paymentModal": {
+    "title": "Înlocuiește metoda de plată",
+    "save": "Salvează",
+    "paymentMethod": "Metodă de plată",
+    "edit": "Editează",
+    "close": "Închide",
+    "errorBannerTitle": "Nu se poate actualiza metoda de plată"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Comenzi anterioare",
+    "view": "Vizualizează"
+  },
+  "skipNextOrder": {
+    "text": "Omite următoarea comandă",
+    "generic": "Vrei să omiți următoarea comandă?",
+    "date": "Vrei să omiți următoarea comandă? Abonamentul tău va fi reluat la {{date}}.",
+    "errorBannerTitle": "Nu se poate omite următoarea comandă",
+    "close": "Închide"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Suspendă abonamentul",
+    "action": "Suspendă abonamentul",
+    "close": "Închide",
+    "description": "Abonamentul tău va fi suspendat imediat și nu vei mai primi alte debitări sau comenzi. Poți relua în orice moment abonamentul.",
+    "errorBannerTitle": "Nu se poate suspenda abonamentul"
+  },
+  "subscriptionActions": {
+    "pause": "Suspendă abonamentul",
+    "skip": "Omite următoarea comandă",
+    "resume": "Reia abonamentul",
+    "cancel": "Anulează abonamentul",
+    "manage": "Gestionează abonamentul",
+    "viewSubscriptionDetails": "Vezi detaliile abonamentului"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Dacă reiei acest abonament, facturarea va fi reluată imediat.",
+    "descriptionWithDate": "Dacă reiei acest abonament, facturarea va fi reluată la {{date}}.",
+    "close": "Închide",
+    "descriptionPriceChanged": "Prețul pentru acest abonament s-a schimbat, astfel că vei fi taxat cu {{price}} pentru fiecare comandă viitoare.",
+    "continue": "Continuă",
+    "title": "Reia abonamentul",
+    "errorBannerTitle": "Nu se poate relua abonamentul"
+  },
+  "priceSummary": {
+    "text": "Rezumat preț",
+    "subtotal": "Subtotal",
+    "shipping": "Expediere",
+    "taxes": "Taxe",
+    "total": "Total"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Anulează abonamentul",
+    "description": "Dacă anulezi abonamentul, facturarea și livrarea vor înceta imediat. Anularea unui abonament este ireversibilă. Pentru a opri temporar primirea comenzilor, suspendă abonamentul.",
+    "action": "Anulează abonamentul",
+    "close": "Închide",
+    "errorBannerTitle": "Nu se poate anula abonamentul"
+  },
+  "errorBoundary": {
+    "content": "A intervenit o problemă, te rugăm să reîmprospătezi pagina"
+  },
+  "addressModal": {
+    "save": "Salvează",
+    "continue": "Continuă",
+    "cancel": "Anulează",
+    "title": "Editează adresa de expediere",
+    "errorBannerTitle": "Nu se poate actualiza metoda de plată",
+    "noDeliveryOptions": "Acest abonament nu poate fi expediat la adresa pe care ai introdus-o. Verifică adresa și asigură-te că ai introdus informații corecte în toate câmpurile, apoi încearcă din nou."
+  },
+  "successBanner": {
+    "paused": "Abonamentul a fost suspendat",
+    "resumed": "Abonamentul a fost reluat",
+    "cancelled": "Abonamentul a fost anulat",
+    "skipped": "Următoarea comandă a fost omisă",
+    "paymentUpdated": "Metoda de plată a fost actualizată",
+    "shippingUpdated": "Metoda de expediere a fost actualizată",
+    "deliveryUpdated": "Metoda de livrare a fost actualizată"
+  },
+  "upcomingOrdersModal": {
+    "title": "Comenzi viitoare",
+    "close": "Închide",
+    "skipOrder": "Omite",
+    "skipOrderAccessibilityLabel": "Omite comanda de pe {{orderDate}}",
+    "unSkipOrder": "Anulează omiterea",
+    "unskipOrderAccessibilityLabel": "Anulează omiterea comenzii de pe {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (omisă)",
+    "skippedSuccessMessage": "S-a omis comanda {{orderDate}}",
+    "unskippedSuccessMessage": "S-a anulat omiterea comenzii de pe {{orderDate}}",
+    "skippedErrorMessage": "Eroare la omiterea comenzii",
+    "unskippedErrorMessage": "Eroare la anulare omiterii comenzii"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Selectează metoda de livrarea",
+    "free": "Gratuit",
+    "localPickupOption": "Preluare: {{location}}",
+    "localDeliveryPhoneLabel": "Numărul de telefon mobil",
+    "localDeliveryInstructionsLabel": "Instrucțiuni de livrare (opțional)",
+    "localDeliveryPhoneDetails": "Este posibil să fii contactat pentru a ți se oferi actualizări privind livrarea.",
+    "localDeliveryInstructionsDetails": "Introdu informațiile necesare, cum ar fi codurile de interfon sau instrucțiunile de predare."
+  },
+  "notFound": {
+    "title": "Abonamentul nu a fost găsit",
+    "description": "Acest abonament nu există sau nu ai permisiunea de a-l vizualiza."
+  }
+}

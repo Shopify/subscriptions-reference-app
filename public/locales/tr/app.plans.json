@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "Abonelik planları",
+    "createPlan": "Yeni plan oluştur"
+  },
+  "emptyState": {
+    "title": "Abonelik planı oluşturun",
+    "description": "Abonelik planı oluşturarak müşterilerinizin tek bir ödeme deneyimiyle ürün ve hizmetleri yinelenecek şekilde satın alabilmesini sağlayabilirsiniz."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Plan başlığı",
+      "products": "Ürünler",
+      "deliveryFrequency": "Teslimat sıklığı",
+      "discount": "İndirim",
+      "view": "Tümü"
+    },
+    "resourceName": {
+      "singular": "Abonelik",
+      "plural": "Abonelik"
+    },
+    "resources": {
+      "allSelected": "Tümü"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Planı sil",
+        "other": "Planları sil"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Bu planı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+          "other": "Bu planları silmek istediğinizden emin misiniz? Bu işlem geri alınamaz. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Planı sil",
+            "other": "Planları sil"
+          },
+          "cancel": "İptal"
+        },
+        "title": {
+          "one": "Abonelik planı silinsin mi?",
+          "other": "Abonelik planları silinsin mi?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Abonelik planı silindi",
+          "other": "Abonelik planları silindi"
+        },
+        "failed": {
+          "one": "Abonelik planı silinemedi",
+          "other": "Abonelik planları silinemedi"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Oluşturulma tarihi",
+        "ascendingLabel": "Eskiden yeniye",
+        "descendingLabel": "Yeniden eskiye"
+      },
+      "UPDATED_AT": {
+        "label": "Güncellenme tarihi",
+        "ascendingLabel": "Eskiden yeniye",
+        "descendingLabel": "Yeniden eskiye"
+      }
+    }
+  }
+}

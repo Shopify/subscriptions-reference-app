@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": "Piani di abbonamento",
+    "createPlan": "Crea nuovo piano"
+  },
+  "emptyState": {
+    "title": "Crea un piano di abbonamento",
+    "description": "Crea un piano di abbonamento che consenta ai tuoi clienti di acquistare prodotti o servizi periodicamente con una singola esperienza di check-out."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Titolo del piano",
+      "products": "Prodotti",
+      "deliveryFrequency": "Frequenza di consegna",
+      "discount": "Sconto",
+      "view": "Tutti"
+    },
+    "resourceName": {
+      "singular": "Abbonamento",
+      "plural": "Abbonamento"
+    },
+    "resources": {
+      "allSelected": "Tutti"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Elimina piano",
+        "other": "Elimina piani",
+        "many": "Elimina piani"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Confermi l'eliminazione di questo piano? L'azione non può essere annullata.",
+          "other": "Confermi l'eliminazione di questi piani? L'azione non può essere annullata. ",
+          "many": "Confermi l'eliminazione di questi piani? L'azione non può essere annullata. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Elimina piano",
+            "other": "Elimina piani",
+            "many": "Elimina piani"
+          },
+          "cancel": "Annulla"
+        },
+        "title": {
+          "one": "Eliminare piano di abbonamento?",
+          "other": "Eliminare piani di abbonamento?",
+          "many": "Eliminare piani di abbonamento?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Piano di abbonamento eliminato",
+          "other": "Piani di abbonamento eliminati",
+          "many": "Piani di abbonamento eliminati"
+        },
+        "failed": {
+          "one": "Impossibile eliminare il piano di abbonamento",
+          "other": "Impossibile eliminare i piani di abbonamento",
+          "many": "Impossibile eliminare i piani di abbonamento"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Creato",
+        "ascendingLabel": "Dal meno recente",
+        "descendingLabel": "Dal più recente"
+      },
+      "UPDATED_AT": {
+        "label": "Aggiornamento effettuato",
+        "ascendingLabel": "Dal meno recente",
+        "descendingLabel": "Dal più recente"
+      }
+    }
+  }
+}

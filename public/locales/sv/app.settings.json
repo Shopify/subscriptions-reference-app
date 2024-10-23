@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Inställningar för betalningsfel",
+    "cardTitle": "Faktureringsomförsök",
+    "retryAttempts": {
+      "label": "Antal nya försök",
+      "helpText": "Min. 0, max. 10 nya försök",
+      "errors": {
+        "min": "Antalet nya försök måste vara fler än 0",
+        "max": "För många nya försök"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Dagar mellan nya betalningsförsök",
+      "helpText": "Min. 1 dag, max. 14 dagar",
+      "errors": {
+        "min": "Dagar mellan betalningsomförsök måste vara fler än 1",
+        "max": "För många dagar mellan betalningsomförsök"
+      }
+    },
+    "onFailure": {
+      "label": "Åtgärd när alla nya försök har misslyckats",
+      "options": {
+        "skip": "Hoppa över prenumerationen och skicka avisering",
+        "cancel": "Avbryt prenumerationen och skicka avisering",
+        "pause": "Pausa prenumerationen och skicka avisering"
+      }
+    },
+    "notifications": "Redigera aviseringar",
+    "inventoryRetryAttempts": {
+      "label": "Antal omförsök när det finns lagerfel",
+      "helpText": "Minst 0, max 10 nya försök",
+      "errors": {
+        "min": "Antalet nya lagerförsök måste vara fler än 0",
+        "max": "För många nya lagerförsök"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Antal dagar mellan betalningsomförsök när det finns lagerfel",
+      "helpText": "Minst 1 dag, max 14 dagar",
+      "errors": {
+        "min": "Antalet dagar mellan omförsök för lager måste vara fler än 1",
+        "max": "För många dagar mellan omförsök för lager"
+      }
+    }
+  },
+  "saveButtonText": "Spara",
+  "actions": {
+    "updateSuccess": "Inställningarna är uppdaterade"
+  },
+  "title": "Inställningar"
+}

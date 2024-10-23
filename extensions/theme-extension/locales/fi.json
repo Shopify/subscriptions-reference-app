@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Kertaostos",
+      "subscription": "Tilaus"
+    }
+  },
+  "policy": {
+    "description": "Automaattiset uusinnat, ohita tai peruuta milloin tahansa.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Näytä tilauskäytäntö</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Lisää tuote ostoskoriin siirtymällä tuotesivulle ja valitsemalla ostovaihtoehto"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "Tilausten pienohjelma näyttää vain tuotteet, joihin on liitetty tilaussopimus."
+  },
+  "no_app_block_found_banner": {
+    "message": "Jotta voit muokata toistuvan tilauksen pienoisohjelman sijoittelua, lisää seuraava koodinpätkä tuotemalliin halutussa sijoittelussa.",
+    "copy_button_text": "Kopioi",
+    "copied_button_text": "Kopioitu",
+    "button_text": "Näytä koodieditori"
+  }
+}

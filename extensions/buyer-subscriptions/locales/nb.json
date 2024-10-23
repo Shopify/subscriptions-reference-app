@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Abonnementer",
+  "manageSubscription": "Administrer abonnement",
+  "upcomingOrder": "Kommende bestilling",
+  "skip": "Hopp over",
+  "showUpcomingOrders": "Vis kommende bestillinger",
+  "nextOrder": "Neste bestilling: {{date}}",
+  "lastUpdated": "Sist oppdatert {{date}}",
+  "subscriptionDetails": "Abonnementsdetaljer",
+  "maxOrdersSkipped": "Det maksimale antallet bestillinger er hoppet over",
+  "skipOrderOverYear": "Kan ikke hoppe over fordi bestillingen er mer enn ett år unna",
+  "paymentMethodInvalidBanner": "{{brand}} som slutter på {{lastDigits}} er ugyldig. Oppdater betalingsmåten under for å fortsette å motta kommende bestillinger",
+  "paymentMethodInvalidBannerGeneric": "Kortet som slutter på {{lastDigits}} er ugyldig. Oppdater betalingsmåten under for å fortsette å motta kommende bestillinger",
+  "paymentMethodInvalidBadge": "Ugyldig betalingsmåte",
+  "listItem": {
+    "multipleItemsName": "{{count}} varer",
+    "accessibilityLabel": "Administrer abonnement: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktiv",
+    "paused": "Satt på pause",
+    "cancelled": "Kansellert",
+    "expired": "Utløpt",
+    "failed": "Mislyktes",
+    "stale": "Foreldet"
+  },
+  "deliveryInterval": {
+    "day.one": "Leveranse hver dag",
+    "day.other": "Leveranse hver {{count}}. dag",
+    "week.one": "Leveranse hver uke",
+    "week.other": "Leveranse hver {{count}}. uke",
+    "month.one": "Leveranse hver måned",
+    "month.other": "Leveranse hver {{count}}. måned",
+    "year.one": "Leveranse hvert år",
+    "year.other": "Leveranse hvert {{count}}. år"
+  },
+  "overviewCard": {
+    "overview": "Oversikt",
+    "product": "Produkt",
+    "deliveryFrequency": "Leveringsfrekvens",
+    "payment": "Betaling",
+    "billingAddress": "Fakturaadresse",
+    "shippingAddress": "Leveringsadresser",
+    "shippingMethod": "Fraktmetode",
+    "pickupLocation": "Hentested",
+    "changePaymentMethodButtonLabel": "Endre betalingsmåte",
+    "editShippingAddressButtonLabel": "Endre leveringsadresse",
+    "editPickupAddressButtonLabel": "Endre henteadresse"
+  },
+  "paymentModal": {
+    "title": "Bytt betalingsmåte",
+    "save": "Lagre",
+    "paymentMethod": "Betalingsmetode",
+    "edit": "Rediger",
+    "close": "Lukk",
+    "errorBannerTitle": "Kan ikke oppdatere betalingsmåte"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Tidligere bestillinger",
+    "view": "Vis"
+  },
+  "skipNextOrder": {
+    "text": "Hopp over neste bestilling",
+    "generic": "Vil du hoppe over neste bestilling?",
+    "date": "Vil du hoppe over neste bestilling? Abonnementet ditt gjenopptas {{date}}.",
+    "errorBannerTitle": "Kan ikke hoppe over neste bestilling",
+    "close": "Lukk"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Sett abonnement på pause",
+    "action": "Sett abonnement på pause",
+    "close": "Lukk",
+    "description": "Abonnementet blir satt på pause umiddelbart, og du blir ikke lenger belastet eller får flere bestillinger. Du kan gjenoppta abonnementet når som helst.",
+    "errorBannerTitle": "Kan ikke sette abonnement på pause"
+  },
+  "subscriptionActions": {
+    "pause": "Sett abonnement på pause",
+    "skip": "Hopp over neste bestilling",
+    "resume": "Gjenoppta abonnement",
+    "cancel": "Avslutt abonnement",
+    "manage": "Administrer abonnement",
+    "viewSubscriptionDetails": "Vis abonnementsdetaljer"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Hvis du gjenopptar dette abonnementet, blir fakturaen gjenopptatt umiddelbart.",
+    "descriptionWithDate": "Hvis du gjenopptar dette abonnementet, gjenopptas faktureringen {{date}}.",
+    "close": "Lukk",
+    "descriptionPriceChanged": "Prisen på dette abonnementet er endret og du blir belastet med {{price}} per kommende bestilling.",
+    "continue": "Fortsett",
+    "title": "Gjenoppta abonnement",
+    "errorBannerTitle": "Kan ikke gjenoppta abonnement"
+  },
+  "priceSummary": {
+    "text": "Prissammendrag",
+    "subtotal": "Delsum",
+    "shipping": "Frakt",
+    "taxes": "Avgifter",
+    "total": "Totalt"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Avslutt abonnement",
+    "description": "Hvis du avslutter abonnementet, avsluttes fakturering og leveranse umiddelbart. Kan ikke angre avslutting av abonnement. Sett abonnementet på pause for å stanse mottakelsen av bestillinger midlertidig.",
+    "action": "Avslutt abonnement",
+    "close": "Lukk",
+    "errorBannerTitle": "Kan ikke avslutte abonnement"
+  },
+  "errorBoundary": {
+    "content": "Noe gikk galt, oppdater siden"
+  },
+  "addressModal": {
+    "save": "Lagre",
+    "continue": "Fortsett",
+    "cancel": "Avbryt",
+    "title": "Endre forsendelsesadresse",
+    "errorBannerTitle": "Kan ikke oppdatere leveringsmåte",
+    "noDeliveryOptions": "Dette abonnementet kan ikke sendes til adressen du skrev inn. Se gjennom adressen for å sikre at alle felter er riktig innskrevet, og prøv på nytt."
+  },
+  "successBanner": {
+    "paused": "Abonnement satt på pause",
+    "resumed": "Abonnementet er gjenopptatt",
+    "cancelled": "Abonnementet ble avsluttet",
+    "skipped": "Neste bestilling hoppes over",
+    "paymentUpdated": "Betalingsmåten er oppdatert",
+    "shippingUpdated": "Fraktmetode er oppdatert",
+    "deliveryUpdated": "Leveringsmåte er oppdatert"
+  },
+  "upcomingOrdersModal": {
+    "title": "Kommende bestillinger",
+    "close": "Lukk",
+    "skipOrder": "Hopp over",
+    "skipOrderAccessibilityLabel": "Hopp over bestillingen den {{orderDate}}",
+    "unSkipOrder": "Angre hopp over",
+    "unskipOrderAccessibilityLabel": "Angre hopp over bestillingen den {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (er hoppet over)",
+    "skippedSuccessMessage": "Bestillingen den {{orderDate}} er hoppet over",
+    "unskippedSuccessMessage": "Angre hopp over av bestillingen den {{orderDate}}",
+    "skippedErrorMessage": "Feil når bestillingen skulle hoppes over",
+    "unskippedErrorMessage": "Feil ved angre hopp over av bestillingen"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Velg leveringsmåte",
+    "free": "Gratis",
+    "localPickupOption": "Henting: {{location}}",
+    "localDeliveryPhoneLabel": "Mobiltelefonnummer",
+    "localDeliveryInstructionsLabel": "Leveringsinstruksjoner (valgfritt)",
+    "localDeliveryPhoneDetails": "Det kan hende du blir kontaktet med oppdateringer om leveransen.",
+    "localDeliveryInstructionsDetails": "Skriv inn nødvendig informasjon som dørkoder eller instruksjoner for pakkeleveranser."
+  },
+  "notFound": {
+    "title": "Fant ikke abonnement",
+    "description": "Dette abonnementet finnes ikke, eller du har ikke tillatelse til å se det."
+  }
+}

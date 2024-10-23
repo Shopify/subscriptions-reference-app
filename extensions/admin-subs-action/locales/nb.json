@@ -1,0 +1,33 @@
+{
+  "name": "Abonnementer",
+  "save": "Lagre",
+  "cancel": "Avbryt",
+  "merchantCode": {
+    "label": "Intern beskrivelse",
+    "helpText": "Bare for referanse"
+  },
+  "planName": {
+    "label": "Tittel",
+    "placeholder": "Abonner og lagre",
+    "helpText": "Kundene ser dette på produktsider på butikkfronten hvis de har abonnementer"
+  },
+  "discountAndDelivery": "Rabatt og leveranse",
+  "offerDiscount": "Tilby rabatt",
+  "discountType": {
+    "percentageOff": "Prosentvis rabatt",
+    "amountOff": "Rabattbeløp",
+    "flatRate": "Fastpris"
+  },
+  "deliveryFrequency": "Leveringsfrekvens",
+  "deliveryInterval": {
+    "label": "Leveringsintervall",
+    "weeks": "Uker",
+    "months": "Måneder",
+    "years": "År"
+  },
+  "addOptionButton": {
+    "label": "Alternativ",
+    "accessibilityLabel": "Legg til alternativ"
+  },
+  "removeOption": "Fjern alternativ"
+}

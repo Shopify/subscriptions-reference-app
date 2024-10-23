@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Ustawienia nieudanej płatności",
+    "cardTitle": "Ponów próbę rozliczenia",
+    "retryAttempts": {
+      "label": "Liczba ponownych prób",
+      "helpText": "Min. 0, maks. 10 ponownych prób",
+      "errors": {
+        "min": "Liczba ponownych prób musi być większa niż 0",
+        "max": "Liczba ponownych prób jest zbyt duża"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Liczba dni między próbami ponowienia płatności",
+      "helpText": "Min. 1, maks. 14 dni",
+      "errors": {
+        "min": "Liczba dni między próbami ponowienia płatności musi być większa niż 1",
+        "max": "Liczba dni między próbami ponowienia płatności jest zbyt duża"
+      }
+    },
+    "onFailure": {
+      "label": "Czynność w przypadku, gdy wszystkie próby zakończyły się niepowodzeniem",
+      "options": {
+        "skip": "Pomiń subskrypcję i wyślij powiadomienie",
+        "cancel": "Anuluj subskrypcję i wyślij powiadomienie",
+        "pause": "Wstrzymaj subskrypcję i wyślij powiadomienie"
+      }
+    },
+    "notifications": "Edytuj powiadomienia",
+    "inventoryRetryAttempts": {
+      "label": "Liczba ponownych prób w przypadku błędów zapasów",
+      "helpText": "Min. 0, maks. 10 ponownych prób",
+      "errors": {
+        "min": "Liczba ponownych prób w przypadku błędów zapasów musi być większa niż 0",
+        "max": "Liczba ponownych prób w przypadku błędów zapasów jest zbyt duża"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Dni między ponownymi próbami płatności w przypadku błędów zapasów",
+      "helpText": "Min. 1, maks. 14 dni",
+      "errors": {
+        "min": "Liczba dni między ponownymi próbami w przypadku błędów zapasów musi być większa niż 1",
+        "max": "Liczba dni między ponownymi próbami w przypadku błędów zapasów jest zbyt duża"
+      }
+    }
+  },
+  "saveButtonText": "Zapisz",
+  "actions": {
+    "updateSuccess": "Zaktualizowano ustawienia"
+  },
+  "title": "Ustawienia"
+}

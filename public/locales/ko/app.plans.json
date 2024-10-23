@@ -1,0 +1,73 @@
+{
+  "page": {
+    "title": "가입 플랜",
+    "createPlan": "새 플랜 생성"
+  },
+  "emptyState": {
+    "title": "가입 플랜 생성",
+    "description": "가입 플랜을 생성하면 고객이 한 번의 결제로 제품이나 서비스를 정기적으로 구매할 수 있습니다."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "플랜 제목",
+      "products": "제품",
+      "deliveryFrequency": "배송 빈도",
+      "discount": "할인",
+      "view": "모두"
+    },
+    "resourceName": {
+      "singular": "구독",
+      "plural": "구독"
+    },
+    "resources": {
+      "allSelected": "모두"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "플랜 삭제",
+        "other": "플랜 삭제"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "이 플랜을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.",
+          "other": "이 플랜을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다. "
+        },
+        "actions": {
+          "delete": {
+            "one": "플랜 삭제",
+            "other": "플랜 삭제"
+          },
+          "cancel": "취소"
+        },
+        "title": {
+          "one": "구독 플랜을 삭제하시겠습니까?",
+          "other": "구독 플랜을 삭제하시겠습니까?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "삭제된 가입 플랜",
+          "other": "삭제된 가입 플랜"
+        },
+        "failed": {
+          "one": "가입 플랜을 삭제하지 못했습니다",
+          "other": "가입 플랜을 삭제하지 못했습니다"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "생성됨",
+        "ascendingLabel": "오래된 순",
+        "descendingLabel": "최신순"
+      },
+      "UPDATED_AT": {
+        "label": "업데이트됨",
+        "ascendingLabel": "오래된 순",
+        "descendingLabel": "최신순"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Jednorazový nákup",
+      "subscription": "Predplatné"
+    }
+  },
+  "policy": {
+    "description": "Možnosť kedykoľvek automaticky obnoviť, preskočiť alebo zrušiť.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Zobraziť pravidlá predplatného</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Ak chcete produkt pridať do košíka, prejdite na jeho stránku a vyberte možnosť nákupu"
+  }
+}

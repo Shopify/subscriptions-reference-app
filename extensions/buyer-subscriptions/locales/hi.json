@@ -1,0 +1,153 @@
+{
+  "subscriptions": "सब्सक्रिप्शन",
+  "manageSubscription": "सदस्यता मैनेज करें",
+  "upcomingOrder": "आने वाले ऑर्डर",
+  "skip": "छोड़ें",
+  "showUpcomingOrders": "आने वाले ऑर्डर दिखाएं",
+  "nextOrder": "अगले ऑर्डर की तारीख: {{date}}",
+  "lastUpdated": "अंतिम अपडेट की तारीख {{date}}",
+  "subscriptionDetails": "सब्सक्रिप्शन का विवरण",
+  "maxOrdersSkipped": "ऑर्डर की अधिकतम संख्या स्किप कर दी गई है",
+  "skipOrderOverYear": "ऑर्डर के एक साल से ज़्यादा दिनों के होने कारण स्किप नहीं किया जा सकता",
+  "paymentMethodInvalidBanner": "{{lastDigits}} से खत्म होने वाला {{brand}} अमान्य है. आगामी ऑर्डर पाते रहने के लिए नीचे भुगतान का तरीका अपडेट करें",
+  "paymentMethodInvalidBannerGeneric": "{{lastDigits}} से खत्म होने वाला कार्ड अमान्य है. आगामी ऑर्डर पाते रहने के लिए नीचे भुगतान का तरीका अपडेट करें",
+  "paymentMethodInvalidBadge": "भुगतान का अमान्य तरीका",
+  "listItem": {
+    "multipleItemsName": "{{count}} आइटम",
+    "accessibilityLabel": "सब्सक्रिप्शन मैनेज करें: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "एक्टिव करें",
+    "paused": "रोके गए",
+    "cancelled": "कैंसल किया गया",
+    "expired": "एक्सपायर हो गया",
+    "failed": "फ़ेल हुआ",
+    "stale": "पुराना"
+  },
+  "deliveryInterval": {
+    "day.one": "हर दिन डिलीवरी",
+    "day.other": "हर {{count}} दिन में डिलीवरी",
+    "week.one": "हर हफ़्ते डिलीवरी",
+    "week.other": "हर {{count}} हफ़्तों में डिलीवरी",
+    "month.one": "हर महीने डिलीवरी",
+    "month.other": "हर {{count}} महीनों में डिलीवरी",
+    "year.one": "हर साल डिलीवरी",
+    "year.other": "हर {{count}} सालों में डिलीवरी"
+  },
+  "overviewCard": {
+    "overview": "ओवरव्यू",
+    "product": "प्रोडक्ट",
+    "deliveryFrequency": "डिलीवरी की फ्रीक्वेंसी",
+    "payment": "भुगतान",
+    "billingAddress": "बिलिंग का पता",
+    "shippingAddress": "शिपिंग पता",
+    "shippingMethod": "शिपिंग का तरीका",
+    "pickupLocation": "पिकअप लोकेशन",
+    "changePaymentMethodButtonLabel": "भुगतान का तरीका बदलें",
+    "editShippingAddressButtonLabel": "शिपिंग पता एडिट करें",
+    "editPickupAddressButtonLabel": "पिकअप पता एडिट करें"
+  },
+  "paymentModal": {
+    "title": "भुगतान के तरीके को रिप्लेस करें",
+    "save": "सेव करें",
+    "paymentMethod": "भुगतान का तरीका",
+    "edit": "एडिट करें",
+    "close": "बंद करें",
+    "errorBannerTitle": "भुगतान के तरीके को अपडेट करने में असमर्थ"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "पिछले ऑर्डर",
+    "view": "देखें"
+  },
+  "skipNextOrder": {
+    "text": "अगला ऑर्डर स्किप करें",
+    "generic": "क्या आप अगला ऑर्डर स्किप करना चाहते हैं?",
+    "date": "क्या आप अगला ऑर्डर स्किप करना चाहते हैं? आपका सब्सक्रिप्शन {{date}} को रिज़्यूम होगा.",
+    "errorBannerTitle": "अगले ऑर्डर को स्किप करने में असमर्थ",
+    "close": "बंद करें"
+  },
+  "pauseSubscriptionModal": {
+    "title": "सब्सक्रिप्शन पॉज़ करें",
+    "action": "सब्सक्रिप्शन पॉज़ करें",
+    "close": "बंद करें",
+    "description": "आपका सब्सक्रिप्शन तत्काल प्रभाव से पॉज़ कर दिया जाएगा और आपसे न तो कोई शुल्क लिया जाएगा न ही आपको आने वाले ऑर्डर मिलेंगे. आप अपना सब्सक्रिप्शन किसी भी समय रिज़्यूम कर सकते हैं.",
+    "errorBannerTitle": "सब्सक्रिप्शन पॉज़ करने में असमर्थ"
+  },
+  "subscriptionActions": {
+    "pause": "सब्सक्रिप्शन पॉज़ करें",
+    "skip": "अगला ऑर्डर स्किप करें",
+    "resume": "सब्सक्रिप्शन रिज़्यूम करें",
+    "cancel": "सब्सक्रिप्शन कैंसल करें",
+    "manage": "सदस्यता मैनेज करें",
+    "viewSubscriptionDetails": "सब्सक्रिप्शन की विस्तृत जानकारी देखें"
+  },
+  "resumeSubscriptionModal": {
+    "description": "अगर आप इस सब्सक्रिप्शन को रिज़्यूम करते हैं, तो बिलिंग तुरंत रिज़्यूम हो जाएगी.",
+    "descriptionWithDate": "अगर आप इस सब्सक्रिप्शन को रिज़्यूम करते हैं, तो बिलिंग {{date}} को रिज़्यूम हो जाएगी.",
+    "close": "बंद करें",
+    "descriptionPriceChanged": "इस सब्सक्रिप्शन की कीमत बदल गई है और हर एक आगामी ऑर्डर के लिए आपसे {{price}} का शुल्क लिया जाएगा.",
+    "continue": "जारी रखें",
+    "title": "सब्सक्रिप्शन रिज़्यूम करें",
+    "errorBannerTitle": "सब्सक्रिप्शन रिज़्यूम करने में असमर्थ"
+  },
+  "priceSummary": {
+    "text": "कीमत का सारांश",
+    "subtotal": "कुल",
+    "shipping": "शिपिंग",
+    "taxes": "कर",
+    "total": "कुल"
+  },
+  "cancelSubscriptionModal": {
+    "title": "सब्सक्रिप्शन कैंसल करें",
+    "description": "अगर आप अपना सब्सक्रिप्शन कैंसल करते हैं, तो बिलिंग और डिलीवरी तुरंत समाप्त हो जाएगी. सब्सक्रिप्शन कैंसल करने की कार्रवाई को वापस नहीं किया जा सकता. आपको ऑर्डर को अस्थायी रूप से न मिले, इसके लिए अपना सब्सक्रिप्शन पॉज़ करें.",
+    "action": "सब्सक्रिप्शन कैंसल करें",
+    "close": "बंद करें",
+    "errorBannerTitle": "सब्सक्रिप्शन कैंसल करने में असमर्थ"
+  },
+  "errorBoundary": {
+    "content": "कुछ गड़बड़ी हुई, कृपया पेज को रिफ्रेश करें"
+  },
+  "addressModal": {
+    "save": "सेव करें",
+    "continue": "जारी रखें",
+    "cancel": "कैंसल करें",
+    "title": "शिपिंग पता एडिट करें",
+    "errorBannerTitle": "डिलीबरी के तरीके को अपडेट नहीं कर सकते",
+    "noDeliveryOptions": "इस सब्सक्रिप्शन को आपके द्वारा दर्ज़ किए गए पते पर शिप नहीं किया जा सकता है. सभी फ़ील्ड सही ढंग से दर्ज किए गए हैं यह तय करने के लिए अपना पता जांच लें और फिर से प्रयास करें."
+  },
+  "successBanner": {
+    "paused": "सब्सक्रिप्शन पॉज़ हुआ",
+    "resumed": "सब्सक्रिप्शन रिज़्यूम हुआ",
+    "cancelled": "सब्सक्रिप्शन कैंसल हुआ",
+    "skipped": "अगला ऑर्डर स्किप हुआ",
+    "paymentUpdated": "भुगतान का तरीका अपडेट हुआ",
+    "shippingUpdated": "शिपिंग का तरीका अपडेट हुआ",
+    "deliveryUpdated": "डिलीवरी का तरीका अपडेट हुआ"
+  },
+  "upcomingOrdersModal": {
+    "title": "आने वाले ऑर्डर",
+    "close": "बंद करें",
+    "skipOrder": "स्किप करें",
+    "skipOrderAccessibilityLabel": "{{orderDate}} को ऑर्डर स्किप करें",
+    "unSkipOrder": "अनस्किप करें",
+    "unskipOrderAccessibilityLabel": "{{orderDate}} को ऑर्डर अनस्किप करें",
+    "skippedOrderLabel": "{{skippedOrderDate}} (स्किप किया गया)",
+    "skippedSuccessMessage": "{{orderDate}} को ऑर्डर स्किप किया गया",
+    "unskippedSuccessMessage": "{{orderDate}} को ऑर्डर अनस्किप किया गया",
+    "skippedErrorMessage": "ऑर्डर स्किप करने में त्रुटि आई",
+    "unskippedErrorMessage": "ऑर्डर अनस्किप करने में त्रुटि आई"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "डिलीवरी का तरीका चुनें",
+    "free": "मुफ़्त",
+    "localPickupOption": "पिक-अप: {{location}}",
+    "localDeliveryPhoneLabel": "मोबाइल फ़ोन नंबर",
+    "localDeliveryInstructionsLabel": "डिलीवरी निर्देश (ऑप्शनल)",
+    "localDeliveryPhoneDetails": "आपकी डिलीवरी के अपडेट्स के साथ आपसे संपर्क किया जा सकता है.",
+    "localDeliveryInstructionsDetails": "ज़रूरी जानकारी जैसे कैश ऑन डिलीवरी या दरवाज़े पर रखने के निर्देशों को दर्ज करें."
+  },
+  "notFound": {
+    "title": "सब्सक्रिप्शन नहीं मिला",
+    "description": "या तो यह सब्सक्रिप्शन मौजूद नहीं है या आपको इसे देखने की अनुमति नहीं है."
+  }
+}

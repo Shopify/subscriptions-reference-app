@@ -1,0 +1,7 @@
+[[extensions]]
+name = "Subscriptions"
+handle = "buyer-subscriptions-collection"
+type = "editor_extension_collection"
+
+# Add the handles of the extensions you want in this collection here
+includes=["buyer-subscriptions", "buyer-subscriptions-oa"]

@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": "Forfaits d’abonnement",
+    "createPlan": "Créer un nouveau forfait"
+  },
+  "emptyState": {
+    "title": "Créer un forfait d’abonnement",
+    "description": "Créer un forfait pour permettre aux clients d’acheter des produits ou des services de manière récurrente avec une seule expérience de paiement."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Titre du forfait",
+      "products": "Produits",
+      "deliveryFrequency": "Fréquence de livraison",
+      "discount": "Réduction",
+      "view": "Tous"
+    },
+    "resourceName": {
+      "singular": "Abonnement",
+      "plural": "Abonnement"
+    },
+    "resources": {
+      "allSelected": "Tous"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Supprimer le forfait",
+        "other": "Supprimer les forfaits",
+        "many": "Supprimer les forfaits"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Souhaitez-vous vraiment supprimer ce forfait ? Cette opération est irréversible.",
+          "other": "Souhaitez-vous vraiment supprimer ces forfaits ? Cette opération est irréversible. ",
+          "many": "Souhaitez-vous vraiment supprimer ces forfaits ? Cette opération est irréversible. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Supprimer le forfait",
+            "other": "Supprimer les forfaits",
+            "many": "Supprimer les forfaits"
+          },
+          "cancel": "Annuler"
+        },
+        "title": {
+          "one": "Supprimer le forfait ?",
+          "other": "Supprimer les forfaits ?",
+          "many": "Supprimer les forfaits ?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Forfait supprimé",
+          "other": "Forfaits supprimés",
+          "many": "Forfaits supprimés"
+        },
+        "failed": {
+          "one": "Impossible de supprimer le forfait",
+          "other": "Impossible de supprimer les forfaits",
+          "many": "Impossible de supprimer les forfaits"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Créé",
+        "ascendingLabel": "Le plus ancien d’abord",
+        "descendingLabel": "Le plus récent d’abord"
+      },
+      "UPDATED_AT": {
+        "label": "Mis à jour",
+        "ascendingLabel": "Le plus ancien d’abord",
+        "descendingLabel": "Le plus récent d’abord"
+      }
+    }
+  }
+}

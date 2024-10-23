@@ -1,0 +1,153 @@
+{
+  "skip": "Salta",
+  "subscriptionDetails": "Dettagli iscrizione",
+  "subscriptions": "Abbonamenti",
+  "manageSubscription": "Gestisci abbonamento",
+  "upcomingOrder": "Ordini in arrivo",
+  "showUpcomingOrders": "Mostra ordini in arrivo",
+  "nextOrder": "Prossimo ordine: {{date}}",
+  "lastUpdated": "Ultimo aggiornamento: {{date}}",
+  "maxOrdersSkipped": "È stato saltato il numero massimo di ordini",
+  "skipOrderOverYear": "Impossibile saltare l'ordine dato che manca più di un anno",
+  "paymentMethodInvalidBanner": "{{brand}} che termina in {{lastDigits}} non è valido. Aggiorna il metodo di pagamento sotto per continuare a ricevere gli ordini in arrivo",
+  "paymentMethodInvalidBannerGeneric": "Carta che termina con {{lastDigits}} non valida. Aggiorna il metodo di pagamento sotto per continuare a ricevere gli ordini in arrivo",
+  "paymentMethodInvalidBadge": "Metodo di pagamento non valido",
+  "listItem": {
+    "multipleItemsName": "{{count}} articoli",
+    "accessibilityLabel": "Gestisci l'abbonamento: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Attiva",
+    "paused": "In pausa",
+    "cancelled": "Annullato",
+    "expired": "Scaduto",
+    "failed": "Non riuscito",
+    "stale": "Non aggiornato"
+  },
+  "deliveryInterval": {
+    "day.one": "Consegna ogni giorno",
+    "day.other": "Consegna ogni {{count}} giorni",
+    "week.one": "Consegna ogni settimana",
+    "week.other": "Consegna ogni {{count}} settimane",
+    "month.one": "Consegna ogni mese",
+    "month.other": "Consegna ogni {{count}} mesi",
+    "year.one": "Consegna ogni anno",
+    "year.other": "Consegna ogni {{count}} anni"
+  },
+  "overviewCard": {
+    "overview": "Panoramica",
+    "product": "Prodotto",
+    "deliveryFrequency": "Frequenza di consegna",
+    "payment": "Pagamento",
+    "billingAddress": "Indirizzo di fatturazione",
+    "shippingAddress": "Indirizzo di spedizione",
+    "shippingMethod": "Modalità di spedizione",
+    "pickupLocation": "Sede di ritiro",
+    "changePaymentMethodButtonLabel": "Cambia metodo di pagamento",
+    "editShippingAddressButtonLabel": "Modifica indirizzo di spedizione",
+    "editPickupAddressButtonLabel": "Modifica indirizzo di ritiro"
+  },
+  "paymentModal": {
+    "title": "Sostituisci metodo di pagamento",
+    "save": "Salva",
+    "paymentMethod": "Metodo di pagamento",
+    "edit": "Modifica",
+    "close": "Chiudi",
+    "errorBannerTitle": "Impossibile aggiornare il metodo di pagamento"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Ordini precedenti",
+    "view": "Visualizza"
+  },
+  "skipNextOrder": {
+    "text": "Salta il prossimo ordine",
+    "generic": "Vuoi saltare il prossimo ordine?",
+    "date": "Vuoi saltare il prossimo ordine? Il tuo abbonamento riprenderà il giorno {{date}}.",
+    "errorBannerTitle": "Impossibile saltare il prossimo ordine",
+    "close": "Chiudi"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Metti in pausa l'abbonamento",
+    "action": "Metti in pausa l'abbonamento",
+    "close": "Chiudi",
+    "description": "Il tuo abbonamento verrà messo in pausa con effetto immediato e non riceverai ulteriori addebiti o ordini in arrivo. Puoi riprendere questo abbonamento in qualsiasi momento.",
+    "errorBannerTitle": "Impossibile mettere in pausa l'abbonamento"
+  },
+  "subscriptionActions": {
+    "pause": "Metti in pausa l'abbonamento",
+    "skip": "Salta il prossimo ordine",
+    "resume": "Riprendi abbonamento",
+    "cancel": "Annulla abbonamento",
+    "manage": "Gestisci abbonamento",
+    "viewSubscriptionDetails": "Visualizza dettagli abbonamento"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Se riprendi questo abbonamento, la fatturazione ricomincerà immediatamente.",
+    "descriptionWithDate": "Se riprendi questo abbonamento, la fatturazione ricomincerà il giorno {{date}}.",
+    "close": "Chiudi",
+    "descriptionPriceChanged": "Il prezzo di questo abbonamento è cambiato e ti verrà addebitato l'importo di {{price}} per i prossimi ordini.",
+    "continue": "Continua",
+    "title": "Riprendi abbonamento",
+    "errorBannerTitle": "Impossibile riprendere abbonamento"
+  },
+  "priceSummary": {
+    "text": "Riepilogo prezzo",
+    "subtotal": "Subtotale",
+    "shipping": "Spedizione",
+    "taxes": "Imposte",
+    "total": "Totale"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Annulla abbonamento",
+    "description": "Se annulli il tuo abbonamento, la fatturazione e la consegna termineranno immediatamente. L'annullamento di un abbonamento non può essere annullato. Per fermare temporaneamente la ricezione degli ordini, metti in pausa il tuo abbonamento.",
+    "action": "Annulla abbonamento",
+    "close": "Chiudi",
+    "errorBannerTitle": "Impossibile annullare l'abbonamento"
+  },
+  "errorBoundary": {
+    "content": "Si è verificato un errore, ricarica la pagina"
+  },
+  "addressModal": {
+    "save": "Salva",
+    "continue": "Continua",
+    "cancel": "Annulla",
+    "title": "Modifica indirizzo di spedizione",
+    "errorBannerTitle": "Impossibile aggiornare il metodo di consegna",
+    "noDeliveryOptions": "Questo abbonamento non può essere spedito all'indirizzo inserito. Controlla l'indirizzo per assicurarti che tutti i campi siano stati inseriti correttamente e riprova."
+  },
+  "successBanner": {
+    "paused": "Abbonamento in pausa",
+    "resumed": "Abbonamento ripreso",
+    "cancelled": "Abbonamento annullato",
+    "skipped": "Prossimo ordine saltato",
+    "paymentUpdated": "Metodo di pagamento aggiornato",
+    "shippingUpdated": "Modalità di spedizione aggiornata",
+    "deliveryUpdated": "Metodo di consegna aggiornato"
+  },
+  "upcomingOrdersModal": {
+    "title": "Ordini in arrivo",
+    "close": "Chiudi",
+    "skipOrder": "Salta",
+    "skipOrderAccessibilityLabel": "Salta l'ordine del giorno {{orderDate}}",
+    "unSkipOrder": "Non saltare",
+    "unskipOrderAccessibilityLabel": "Non saltare ordine del giorno {{orderDate}}",
+    "skippedOrderLabel": "{{skippedOrderDate}} (saltato)",
+    "skippedSuccessMessage": "Ordine del giorno {{orderDate}} saltato",
+    "unskippedSuccessMessage": "Ordine del giorno {{orderDate}} non saltato",
+    "skippedErrorMessage": "Errore nel salto dell'ordine",
+    "unskippedErrorMessage": "Errore nel non salto dell'ordine"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Seleziona metodo di consegna",
+    "free": "Gratis",
+    "localPickupOption": "Ritiro: {{location}}",
+    "localDeliveryPhoneLabel": "Numero di cellulare",
+    "localDeliveryInstructionsLabel": "Istruzioni per la consegna (facoltativo)",
+    "localDeliveryPhoneDetails": "Potrebbero contattarti per fornirti aggiornamenti sulla consegna.",
+    "localDeliveryInstructionsDetails": "Inserisci le informazioni necessarie come i codici di apertura porta o le istruzioni per la consegna."
+  },
+  "notFound": {
+    "title": "Abbonamento non trovato",
+    "description": "Questo abbonamento non esiste o non hai l'autorizzazione per visualizzarlo."
+  }
+}

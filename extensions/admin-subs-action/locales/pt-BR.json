@@ -1,0 +1,33 @@
+{
+  "name": "Assinaturas",
+  "save": "Salvar",
+  "cancel": "Cancelar",
+  "merchantCode": {
+    "label": "Descrição interna",
+    "helpText": "Somente para referência"
+  },
+  "planName": {
+    "label": "Título",
+    "placeholder": "Assinar e salvar",
+    "helpText": "Informação exibida aos clientes nas páginas de produto da vitrine que têm assinaturas"
+  },
+  "discountAndDelivery": "Desconto e entrega",
+  "offerDiscount": "Oferecer desconto",
+  "discountType": {
+    "percentageOff": "Porcentagem de desconto",
+    "amountOff": "Valor do desconto",
+    "flatRate": "Taxa fixa"
+  },
+  "deliveryFrequency": "Frequência de entrega",
+  "deliveryInterval": {
+    "label": "Intervalo de entrega",
+    "weeks": "Semanas",
+    "months": "Meses",
+    "years": "Anos"
+  },
+  "addOptionButton": {
+    "label": "Opção",
+    "accessibilityLabel": "Adicionar opção"
+  },
+  "removeOption": "Remover opção"
+}

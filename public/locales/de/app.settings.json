@@ -1,0 +1,52 @@
+{
+  "paymentFailureSettings": {
+    "title": "Einstellungen für fehlgeschlagene Zahlungen",
+    "cardTitle": "Abrechnungsversuche wiederholen",
+    "retryAttempts": {
+      "label": "Anzahl der Wiederholungsversuche",
+      "helpText": "Mindestens 0, maximal 10 Wiederholungen",
+      "errors": {
+        "min": "Anzahl der Wiederholungsversuche muss höher als 0 sein",
+        "max": "Anzahl der Wiederholungsversuche ist zu hoch"
+      }
+    },
+    "daysBetweenRetryAttempts": {
+      "label": "Tage zwischen Wiederholungsversuche für Zahlungen",
+      "helpText": "Mindestens 1 Tag, maximal 14 Tage",
+      "errors": {
+        "min": "Anzahl der Tage zwischen Wiederholungsversuchen muss höher als 1 sein",
+        "max": "Anzahl der Tage zwischen Wiederholungsversuchen ist zu hoch"
+      }
+    },
+    "onFailure": {
+      "label": "Aktion, wenn alle Wiederholungsversuche fehlgeschlagen sind",
+      "options": {
+        "skip": "Abonnement überspringen und Benachrichtigung senden",
+        "cancel": "Abonnement kündigen und Benachrichtigung senden",
+        "pause": "Abonnement pausieren und Benachrichtigung senden"
+      }
+    },
+    "notifications": "Benachrichtigungen bearbeiten",
+    "inventoryRetryAttempts": {
+      "label": "Anzahl der Wiederholungsversuche bei Inventarfehlern",
+      "helpText": "Mindestens 0, maximal 10 Wiederholungen",
+      "errors": {
+        "min": "Anzahl der Inventarwiederholungsversuche muss höher als 0 sein",
+        "max": "Anzahl der Inventarwiederholungsversuche ist zu hoch"
+      }
+    },
+    "inventoryDaysBetweenRetryAttempts": {
+      "label": "Tage zwischen erneuten Zahlungsversuchen bei Inventarfehlern",
+      "helpText": "Mindestens 1 Tag, maximal 14 Tage",
+      "errors": {
+        "min": "Anzahl der Tage zwischen Inventarwiederholungsversuchen muss höher als 1 sein",
+        "max": "Anzahl der Tage zwischen Inventarwiederholungsversuchen ist zu hoch"
+      }
+    }
+  },
+  "saveButtonText": "Speichern",
+  "actions": {
+    "updateSuccess": "Einstellungen aktualisiert"
+  },
+  "title": "Einstellungen"
+}

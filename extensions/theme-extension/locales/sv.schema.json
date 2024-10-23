@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "subscription_policy_title": "Prenumerationspolicy",
+    "subscription_policy_url": "Länk till prenumerationspolicy",
+    "subscription_policy_url_info": "Välj en befintlig sida eller klistra in en extern länk för att visa prenumerationspolicyn.",
+    "description": "Prenumerationswidgeten visas bara för produkter som har en tillhörande prenumerationsplan. [Mer information om temainställningar för prenumerationer](https://help.shopify.com/en/manual/products/purchase-options/shopify-subscriptions/setup#display-subscriptions-on-your-online-store)",
+    "product_description": "Inställningarna ovan visar alternativ för den valda produkten. Den aktuella valda produkten har en prenumerationsplan. ",
+    "colors_title": "Färg",
+    "title": "Prenumerationswidget",
+    "product_title": "Produkt",
+    "border_title": "Kant",
+    "border_thickness": "Tjocklek",
+    "border_radius": "Hörnradie",
+    "colors_text_title": "Titel",
+    "colors_text_body": "Brödtext",
+    "colors_background_border_title": "Bakgrunder och kanter",
+    "colors_background": "Bakgrund",
+    "colors_dividers": "Avgränsare",
+    "supporting_text_title": "Stödtext",
+    "supporting_text_subtitle": "Titel",
+    "supporting_text_input_default": "Köpalternativ"
+  }
+}

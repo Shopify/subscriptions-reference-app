@@ -1,0 +1,153 @@
+{
+  "subscriptions": "Abonnements",
+  "manageSubscription": "Abonnement verwalten",
+  "upcomingOrder": "Anstehende Bestellung",
+  "skip": "Überspringen",
+  "showUpcomingOrders": "Anstehende Bestellungen anzeigen",
+  "nextOrder": "Nächste Bestellung: {{date}}",
+  "lastUpdated": "Zuletzt aktualisiert am {{date}}",
+  "subscriptionDetails": "Abonnementdetails",
+  "maxOrdersSkipped": "Es wurde die maximale Anzahl an Bestellungen übersprungen",
+  "skipOrderOverYear": "Überspringen nicht möglich, da die Bestellung mehr als ein Jahr in der Zukunft liegt",
+  "paymentMethodInvalidBanner": "{{brand}} auf {{lastDigits}} endend ist ungültig. Aktualisiere unten die Zahlungsmethode, um weiterhin anstehende Bestellungen zu erhalten",
+  "paymentMethodInvalidBannerGeneric": "Karte, die auf {{lastDigits}} endet, ist ungültig. Aktualisiere unten die Zahlungsmethode, um weiterhin anstehende Bestellungen zu erhalten",
+  "paymentMethodInvalidBadge": "Ungültige Zahlungsmethode",
+  "listItem": {
+    "multipleItemsName": "{{count}} Artikel",
+    "accessibilityLabel": "Abonnement verwalten: {{title}}"
+  },
+  "subscriptionStatus": {
+    "active": "Aktiv",
+    "paused": "Pausiert",
+    "cancelled": "Abgebrochen",
+    "expired": "Abgelaufen",
+    "failed": "Fehlgeschlagen",
+    "stale": "Überholt"
+  },
+  "deliveryInterval": {
+    "day.one": "Zustellung jeden Tag",
+    "day.other": "Zustellung alle {{count}} Tage",
+    "week.one": "Zustellung jede Woche",
+    "week.other": "Zustellung alle {{count}} Wochen",
+    "month.one": "Zustellung jeden Monat",
+    "month.other": "Zustellung alle {{count}} Monate",
+    "year.one": "Zustellung jedes Jahr",
+    "year.other": "Zustellung alle {{count}} Jahre"
+  },
+  "overviewCard": {
+    "overview": "Überblick",
+    "product": "Produkt",
+    "deliveryFrequency": "Zustellungsintervall",
+    "payment": "Zahlung",
+    "billingAddress": "Rechnungsadresse",
+    "shippingAddress": "Lieferadresse",
+    "shippingMethod": "Versandart",
+    "pickupLocation": "Abholort",
+    "changePaymentMethodButtonLabel": "Zahlungsmethode ändern",
+    "editShippingAddressButtonLabel": "Lieferadresse bearbeiten",
+    "editPickupAddressButtonLabel": "Abholadresse bearbeiten"
+  },
+  "paymentModal": {
+    "title": "Zahlungsmethode ersetzen",
+    "save": "Speichern",
+    "paymentMethod": "Zahlungsmethode",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "errorBannerTitle": "Zahlungsmethode kann nicht aktualisiert werden"
+  },
+  "pastOrdersCard": {
+    "pastOrders": "Vergangene Bestellungen",
+    "view": "Anzeigen"
+  },
+  "skipNextOrder": {
+    "text": "Nächste Bestellung überspringen",
+    "generic": "Möchtest du die nächste Bestellung überspringen?",
+    "date": "Möchtest du die nächste Bestellung überspringen? Dein Abonnement wird am {{date}} fortgesetzt",
+    "errorBannerTitle": "Nächste Bestellung kann nicht übersprungen werden",
+    "close": "Schließen"
+  },
+  "pauseSubscriptionModal": {
+    "title": "Abonnement pausieren",
+    "action": "Abonnement pausieren",
+    "close": "Schließen",
+    "description": "Dein Abonnement wird ab sofort pausiert. Dir wird nichts weiter in Rechnung gestellt und du erhältst keine weiteren Bestellungen. Du kannst dieses Abonnement jederzeit fortsetzen.",
+    "errorBannerTitle": "Abonnement kann nicht pausiert werden"
+  },
+  "subscriptionActions": {
+    "pause": "Abonnement pausieren",
+    "skip": "Nächste Bestellung überspringen",
+    "resume": "Abonnement fortsetzen",
+    "cancel": "Abonnement stornieren",
+    "manage": "Abonnement verwalten",
+    "viewSubscriptionDetails": "Abonnementdetails anzeigen"
+  },
+  "resumeSubscriptionModal": {
+    "description": "Wenn du dieses Abonnement fortsetzt, wird auch die Abrechnung sofort fortgesetzt.",
+    "descriptionWithDate": "Wenn du dieses Abonnement fortsetzt, wird die Abrechnung am {{date}} fortgesetzt.",
+    "close": "Schließen",
+    "descriptionPriceChanged": "Der Preis für dieses Abonnement hat sich geändert und dir werden pro anstehende Bestellung {{price}} berechnet.",
+    "continue": "Fortfahren",
+    "title": "Abonnement fortsetzen",
+    "errorBannerTitle": "Abonnement kann nicht fortgesetzt werden"
+  },
+  "priceSummary": {
+    "text": "Preisübersicht",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "taxes": "Steuern",
+    "total": "Gesamtsumme"
+  },
+  "cancelSubscriptionModal": {
+    "title": "Abonnement stornieren",
+    "description": "Wenn du dein Abonnement stornierst, erhältst du keine Abrechnungen oder Zustellungen mehr. Die Stornierung eines Abonnement kann nicht rückgängig gemacht werden. Um vorübergehend keine Bestellungen zu erhalten, pausiere dein Abonnement.",
+    "action": "Abonnement stornieren",
+    "close": "Schließen",
+    "errorBannerTitle": "Abonnement kann nicht storniert werden"
+  },
+  "errorBoundary": {
+    "content": "Etwas ist schiefgelaufen. Bitte lade die Seite erneut."
+  },
+  "addressModal": {
+    "save": "Speichern",
+    "continue": "Fortfahren",
+    "cancel": "Abbrechen",
+    "title": "Lieferadresse bearbeiten",
+    "errorBannerTitle": "Zustellmethode kann nicht aktualisiert werden",
+    "noDeliveryOptions": "Dieses Abonnement kann nicht an die von dir angegebene Adresse versendet werden. Überprüfe deine Adresse, um sicherzustellen, dass alle Felder richtig ausgefüllt wurden, und versuche es erneut."
+  },
+  "successBanner": {
+    "paused": "Abonnement pausiert",
+    "resumed": "Abonnement fortgesetzt",
+    "cancelled": "Abonnement gekündigt",
+    "skipped": "Nächste Bestellung übersprungen",
+    "paymentUpdated": "Zahlungsmethode aktualisiert",
+    "shippingUpdated": "Versandart aktualisiert",
+    "deliveryUpdated": "Zustellmethode aktualisiert"
+  },
+  "upcomingOrdersModal": {
+    "title": "Anstehende Bestellung",
+    "close": "Schließen",
+    "skipOrder": "Überspringen",
+    "skipOrderAccessibilityLabel": "Bestellung am {{orderDate}} übersprungen",
+    "unSkipOrder": "Überspringen aufheben",
+    "unskipOrderAccessibilityLabel": "Überspringen von Bestellung am {{orderDate}} aufheben",
+    "skippedOrderLabel": "{{skippedOrderDate}} (übersprungen)",
+    "skippedSuccessMessage": "Bestellung am {{orderDate}} übersprungen",
+    "unskippedSuccessMessage": "Überspringen von Bestellung am {{orderDate}} aufgehoben",
+    "skippedErrorMessage": "Fehler beim Überspringen einer Bestellung",
+    "unskippedErrorMessage": "Fehler beim Aufheben des Überspringens einer Bestellung"
+  },
+  "deliveryMethodSelectModal": {
+    "title": "Zustellmethode auswählen",
+    "free": "Kostenlos",
+    "localPickupOption": "Abholung: {{location}}",
+    "localDeliveryPhoneLabel": "Mobile Rufnummer",
+    "localDeliveryInstructionsLabel": "Zustellungsanweisungen (optional)",
+    "localDeliveryPhoneDetails": "Du erhältst gegebenenfalls aktuelle Informationen zur Zustellung.",
+    "localDeliveryInstructionsDetails": "Gib erforderliche Informationen wie Türcodes oder Anweisungen zur Abgabe ein."
+  },
+  "notFound": {
+    "title": "Abonnement nicht gefunden",
+    "description": "Dieses Abonnement existiert nicht oder du hast keine Berechtigung, es aufzurufen."
+  }
+}

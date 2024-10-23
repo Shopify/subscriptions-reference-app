@@ -1,0 +1,24 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "一度限りの購入",
+      "subscription": "サブスクリプション"
+    }
+  },
+  "policy": {
+    "description": "いつでも自動更新、スキップ、キャンセルできます。",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>サブスクリプションのポリシーを表示する</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "カートに追加するには、商品ページに移動し、購入オプションを選択してください"
+  },
+  "no_subscriptions_warning_banner": {
+    "message": "サブスクリプションウィジェットは、サブスクリプションプランが設定されている商品にのみ表示されます。"
+  },
+  "no_app_block_found_banner": {
+    "message": "サブスクリプションウィジェットの配置を編集するには、以下のコードスニペットを希望する配置の商品テンプレートに追加します。",
+    "copy_button_text": "コピー",
+    "copied_button_text": "コピーしました",
+    "button_text": "コードエディタを表示"
+  }
+}

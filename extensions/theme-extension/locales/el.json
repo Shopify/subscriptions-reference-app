@@ -1,0 +1,15 @@
+{
+  "product": {
+    "purchase_options": {
+      "one_time_purchase": "Εφάπαξ αγορά",
+      "subscription": "Συνδρομή"
+    }
+  },
+  "policy": {
+    "description": "Ανανεώνεται αυτόματα, παράλειψη ή ακύρωση ανά πάσα στιγμή.",
+    "policy_page_html": "<a href={{subscription_policy_url}} title='View subscription policy'>Προβολή πολιτικής συνδρομής</a>"
+  },
+  "error": {
+    "quick_add_selling_plan_only_message": "Για να προσθέσετε ένα καλάθι, μεταβείτε στη σελίδα προϊόντος και επιλέξτε μια επιλογή αγοράς"
+  }
+}

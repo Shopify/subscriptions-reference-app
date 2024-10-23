@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": "Planos de subscrição",
+    "createPlan": "Criar novo plano"
+  },
+  "emptyState": {
+    "title": "Criar um plano de subscrição",
+    "description": "Crie um plano de subscrição para permitir aos seus clientes comprarem produtos ou serviços de forma recorrente com uma única experiência de finalização da compra."
+  },
+  "table": {
+    "headings": {
+      "planTitle": "Título do plano",
+      "products": "Produtos",
+      "deliveryFrequency": "Frequência de entrega",
+      "discount": "Desconto",
+      "view": "Todos"
+    },
+    "resourceName": {
+      "singular": "Subscrição",
+      "plural": "Subscrição"
+    },
+    "resources": {
+      "allSelected": "Tudo"
+    },
+    "bulkActions": {
+      "delete": {
+        "one": "Eliminar plano",
+        "other": "Eliminar planos",
+        "many": "Eliminar planos"
+      }
+    },
+    "deletePlan": {
+      "modal": {
+        "description": {
+          "one": "Tem a certeza de que quer eliminar este plano? Esta ação não pode ser anulada.",
+          "other": "Tem a certeza de que quer eliminar estes planos? Esta ação não pode ser anulada. ",
+          "many": "Tem a certeza de que quer eliminar estes planos? Esta ação não pode ser anulada. "
+        },
+        "actions": {
+          "delete": {
+            "one": "Eliminar plano",
+            "other": "Eliminar planos",
+            "many": "Eliminar planos"
+          },
+          "cancel": "Cancelar"
+        },
+        "title": {
+          "one": "Eliminar plano de subscrição?",
+          "other": "Eliminar planos de subscrição?",
+          "many": "Eliminar planos de subscrição?"
+        }
+      },
+      "toast": {
+        "success": {
+          "one": "Plano de subscrição eliminado",
+          "other": "Planos de subscrição eliminados",
+          "many": "Planos de subscrição eliminados"
+        },
+        "failed": {
+          "one": "Falha ao eliminar o plano de subscrição",
+          "other": "Falha ao eliminar os planos de subscrição",
+          "many": "Falha ao eliminar os planos de subscrição"
+        }
+      }
+    },
+    "sort": {
+      "CREATED_AT": {
+        "label": "Criado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      },
+      "UPDATED_AT": {
+        "label": "Atualizado",
+        "ascendingLabel": "Mais antigo primeiro",
+        "descendingLabel": "Mais recente primeiro"
+      }
+    }
+  }
+}

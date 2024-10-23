@@ -1,0 +1,229 @@
+{
+  "page": {
+    "title": "Abonnementscontracten"
+  },
+  "emptyState": {
+    "title": "Je abonnementscontracten beheren",
+    "description": "Wanneer een klant in je winkel een abonnement koopt, wordt het contract hier weergegeven."
+  },
+  "table": {
+    "headings": {
+      "contract": "Contract",
+      "customer": "Klant",
+      "product": "Product",
+      "price": "Prijs",
+      "deliveryFrequency": "Bezorgfrequentie",
+      "status": "Status"
+    },
+    "resourceName": {
+      "singular": "Contract",
+      "plural": "Contracten"
+    },
+    "tabs": {
+      "all": "Alle",
+      "active": "Actief",
+      "paused": "Gepauzeerd",
+      "cancelled": "Geannuleerd"
+    },
+    "emptyState": {
+      "title": "Geen contracten met deze status",
+      "description": "{status} abonnementscontracten worden hier weergegeven"
+    },
+    "sort": {
+      "sortByPurchasedDateLabel": "Gekocht",
+      "sortByUpdatedDateLabel": "Bijgewerkt",
+      "newestFirstDirectionLabel": "Nieuwste eerst",
+      "oldestFirstDirectionLabel": "Oudste eerst"
+    }
+  },
+  "actions": {
+    "pause": {
+      "title": "Pauzeren",
+      "accessibilityLabel": "Contract pauzeren",
+      "success": "Contract gepauzeerd",
+      "error": "Kan contract niet pauzeren"
+    },
+    "cancel": {
+      "title": "Abonnement opzeggen",
+      "accessibilityLabel": "Abonnement opzeggen",
+      "success": "Contract opgezegd",
+      "error": "Kan contract niet opzeggen",
+      "modalTitle": "Abonnement opzeggen",
+      "modalCancel": "Contract behouden",
+      "modalContent": "Facturering en aankomende bestellingen worden onmiddellijk stopgezet. Opgezegde contracten kunnen niet worden hervat."
+    },
+    "resume": {
+      "title": "Hervatten",
+      "accessibilityLabel": "Contract hervatten",
+      "success": "Contract hervat",
+      "error": "Kan contract niet hervatten"
+    }
+  },
+  "details": {
+    "upcomingOrders": "Aankomende bestellingen",
+    "subscription": "Abonnementsgegevens",
+    "price": "Prijs",
+    "purchaseDate": "Aankoopdatum",
+    "quantity": "Aantal",
+    "orderNumber": "Bestelling {number}",
+    "edit": "Bewerken",
+    "nextOrders": {
+      "title": "Volgende bestellingen",
+      "skip": "Overslaan",
+      "skipped": "Overgeslagen",
+      "resume": "Hervatten",
+      "showMore": "{number} meer weergeven",
+      "skipError": "Kan volgende bestelling niet overslaan/hervatten",
+      "skipSuccess": "Bestelling overgeslagen",
+      "showMoreNoCount": "Meer weergeven",
+      "resumeSuccess": "Bestelling hervat"
+    },
+    "paymentMethods": {
+      "title": "Betaalmethoden"
+    },
+    "customer": {
+      "title": "Klant"
+    },
+    "discount": "Korting",
+    "discountValue": {
+      "multipleDiscounts": "Meerdere kortingen",
+      "percentageOff": "{{value}}% korting",
+      "amountOff": "{{value}} korting",
+      "flatRate": "{{value}} vast tarief"
+    },
+    "delivery": "Bezorging",
+    "pastOrders": "Eerdere bestellingen",
+    "viewOrder": "Bekijken",
+    "localPickup": "{{value}}, afhalen ter plaatse",
+    "orderNotCreated": "Bestelling niet aangemaakt"
+  },
+  "paymentMethodDetails": {
+    "title": "Betaalmethode",
+    "expires": "Verloopt {month}/{year}",
+    "actions": {
+      "sendUpdateLink": "Link sturen om kaart bij te werken",
+      "managePayment": "Betaling op klantpagina beheren"
+    },
+    "paymentInstrumentBrands": {
+      "americanExpress": "American Express",
+      "applePay": "Apple Pay",
+      "bogus": "Bogus",
+      "dankort": "Dankort",
+      "dinersClub": "Diners Club",
+      "discover": "Discover",
+      "elo": "Elo",
+      "forbrugsforeningen": "Forbrugsforeningen",
+      "googlePay": "Google Pay",
+      "hypercard": "HyperCard",
+      "jcb": "JCB",
+      "laser": "Laser",
+      "maestro": "Maestro",
+      "mastercard": "Mastercard",
+      "paypal": "PayPal",
+      "shopPay": "Shop Pay",
+      "unionpay": "UnionPay",
+      "visa": "Visa",
+      "visaelectron": "Visa Electron",
+      "americanexpress": "American Express",
+      "applepay": "Apple Pay",
+      "dinersclub": "Diners Club",
+      "googlepay": "Google Pay",
+      "shoppay": "Shop Pay"
+    },
+    "emailModal": {
+      "title": "Link sturen om kaart te updaten",
+      "descriptionCreditCard": "Stuur een link naar {customerName} om hun creditcard eindigend op {lastDigits} te updaten",
+      "descriptionOther": "Stuur een link naar {customerName} om de betaalmethode te updaten.",
+      "fromField": "Van:",
+      "toField": "Aan:",
+      "subjectField": "Onderwerp:",
+      "subjectMessage": "Werk je betaalmethode bij voor {shopName}",
+      "errorMessage": "Kan de e-mail over updaten van de betaalmethode niet verzenden",
+      "successMessage": "E-mail verzonden",
+      "actions": {
+        "sendEmail": "E-mail verzenden",
+        "cancel": "Annuleren"
+      }
+    },
+    "revoked": "Betaalmethode is verwijderd door klant op {revokedAt}"
+  },
+  "customerDetails": {
+    "title": "Klant",
+    "contactInformation": "Contactinformatie",
+    "shippingAddress": "Bezorgadres",
+    "actions": {
+      "selectAddress": "Selecteer een ander adres",
+      "manageAddress": "Adressen beheren op klantenpagina"
+    },
+    "addressModal": {
+      "title": "Een ander adres selecteren",
+      "actions": {
+        "cancel": "Annuleren",
+        "update": "Bijwerken"
+      }
+    }
+  },
+  "edit": {
+    "title": "Abonnement bewerken",
+    "details": {
+      "title": "Abonnementsgegevens",
+      "searchProducts": "Producten zoeken",
+      "browse": "Bladeren",
+      "removeLine": "Abonnementsregel verwijderen",
+      "oneTimePurchasePrice": "Eenmalige aankoopprijs: {price}",
+      "quantity": "Aantal",
+      "deliveryFrequency": {
+        "title": "Bezorgfrequentie",
+        "warning": "Als je de bezorgfrequentie bijwerkt, wordt automatisch de factureringsfrequentie bijgewerkt.",
+        "interval": "Interval",
+        "intervalCount": "Aantal intervallen"
+      },
+      "deliveryInterval": {
+        "weeks": "weken",
+        "months": "maanden",
+        "years": "jaar"
+      },
+      "paymentSummary": "Betalingsoverzicht",
+      "subtotal": "Subtotaal",
+      "shipping": "Verzending",
+      "tax": "Belasting",
+      "total": "Totaal",
+      "oneTimePurchasePriceChanged": "Bij eenmalige aankoop geldt een andere prijs"
+    },
+    "actions": {
+      "createDraft": {
+        "error": "Kan concept van abonnementscontract niet aanmaken"
+      },
+      "updateDraft": {
+        "error": "Kan concept van abonnementscontract niet bijwerken",
+        "quantityTooLargeError": "Te grote hoeveelheid.",
+        "deliveryFrequencyTooLargeError": "Bezorgfrequentie is te hoog.",
+        "deliveryFrequencyIntegerError": "Bezorgfrequentie dient een geheel getal te zijn."
+      },
+      "updateContract": {
+        "error": "Kan abonnementscontract niet bijwerken",
+        "success": "Contract bijgewerkt"
+      },
+      "selectProducts": {
+        "lineCountError": "Er is tenminste één orderregel vereist voor abonnementscontracten"
+      },
+      "updateAddress": {
+        "error": "Kan adres niet bijwerken",
+        "success": "Adres bijgewerkt"
+      }
+    },
+    "editPriceModal": {
+      "oneTimePurchasePriceChangedWarning": "De eenmalige aankoopprijs van {{title}} is gewijzigd en is nu {{newPrice}}.",
+      "updateSubscriptionPrice": "Abonnementsprijs van {{title}} bijwerken",
+      "title": "Prijs bewerken",
+      "subscriptionPriceLabel": "Abonnementsprijs",
+      "discountLabel": "{{discountAmount}} korting op abonnement toegepast op nieuwprijs van {{lineTitle}}.",
+      "amountTooLargeError": "Te hoog bedrag",
+      "amountNegativeError": "Bedrag mag niet lager zijn dan nul",
+      "actions": {
+        "update": "Bijwerken",
+        "cancel": "Annuleren"
+      }
+    }
+  }
+}

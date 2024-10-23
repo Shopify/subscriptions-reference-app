@@ -1,0 +1,33 @@
+{
+  "name": "Abbonamenti",
+  "save": "Salva",
+  "cancel": "Annulla",
+  "merchantCode": {
+    "label": "Descrizione interna",
+    "helpText": "Solo per tuo riferimento"
+  },
+  "planName": {
+    "label": "Titolo",
+    "placeholder": "Abbonati e risparmia",
+    "helpText": "I clienti lo visualizzeranno sulle pagine dei prodotti della vetrina virtuale che contengono abbonamenti"
+  },
+  "discountAndDelivery": "Sconto e consegna",
+  "offerDiscount": "Offri uno sconto",
+  "discountType": {
+    "percentageOff": "Percentuale di sconto",
+    "amountOff": "Importo dello sconto",
+    "flatRate": "Tariffa forfettaria"
+  },
+  "deliveryFrequency": "Frequenza di consegna",
+  "deliveryInterval": {
+    "label": "Intervallo di consegna",
+    "weeks": "Settimane",
+    "months": "Mesi",
+    "years": "Anni"
+  },
+  "addOptionButton": {
+    "label": "Opzione",
+    "accessibilityLabel": "Aggiungi opzione"
+  },
+  "removeOption": "Rimuovi opzione"
+}
