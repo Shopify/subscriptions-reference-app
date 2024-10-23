@@ -24,9 +24,6 @@
     "graphql-codegen-admin-ext": "pnpm graphql-codegen --project adminSubsActionExtension"
   },
   "dependencies": {
-    "@bugsnag/js": "^8.0.0",
-    "@bugsnag/plugin-react": "^8.0.0",
-    "@bugsnag/web-worker": "^8.0.0",
     "@faker-js/faker": "^9.0.3",
     "@google-cloud/storage": "^7.13.0",
     "@google-cloud/tasks": "^5.5.1",

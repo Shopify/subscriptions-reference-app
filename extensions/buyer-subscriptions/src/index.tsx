@@ -3,7 +3,6 @@ import {reactExtension} from '@shopify/ui-extensions-react/customer-account';
 import {Router} from './App';
 import {ErrorBoundary} from 'foundation/ErrorBoundary';
 import {useExtensionApi, useGraphqlApi} from 'foundation/Api';
-import {BugsnagProvider} from 'foundation/Bugsnag';
 import ShopQuery from 'foundation/graphql/ShopQuery';
 import type {ShopQuery as ShopQueryData} from 'generatedTypes/customer.generated';
 import {useEffect} from 'react';
@@ -26,10 +25,8 @@ function App() {
   }
 
   return (
-    <BugsnagProvider shop={shop} version={version}>
-      <ErrorBoundary>
-        <Router />
-      </ErrorBoundary>
-    </BugsnagProvider>
+    <ErrorBoundary>
+      <Router />
+    </ErrorBoundary>
   );
-}
+  }

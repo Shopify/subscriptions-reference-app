@@ -1,1 +1,0 @@
-export {BugsnagProvider} from './BugsnagProvider';
