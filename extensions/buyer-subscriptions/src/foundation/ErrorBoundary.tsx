@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import {BlockStack, Text} from '@shopify/ui-extensions-react/customer-account';
-import Bugsnag from '@bugsnag/web-worker';
 import {useExtensionApi} from './Api';
 
 export interface Props {
@@ -18,8 +17,7 @@ const ErrorContent = ({error}: ErrorContentProps) => {
   const {i18n} = useExtensionApi();
 
   useEffect(() => {
-    Bugsnag.notify(error);
-
+    
     if (process.env.NODE_ENV === 'development') {
       console.error('ErrorBoundary', error);
     }
