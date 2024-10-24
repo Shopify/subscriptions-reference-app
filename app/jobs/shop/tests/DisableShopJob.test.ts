@@ -19,7 +19,7 @@ describe('DisableShopJob', () => {
   beforeAll(async () => {
     await prisma.billingSchedule.deleteMany();
     await prisma.session.deleteMany();
-      });
+  });
 
   beforeEach(async () => {
     await factories.billingSchedule.create({
@@ -37,12 +37,12 @@ describe('DisableShopJob', () => {
         accessToken: '123qwe',
       },
     });
-      });
+  });
 
   afterEach(async () => {
     await prisma.billingSchedule.deleteMany();
     await prisma.session.deleteMany();
-        vi.restoreAllMocks();
+    vi.restoreAllMocks();
   });
 
   describe('when app is no longer installed on the shop', () => {
@@ -85,8 +85,7 @@ describe('DisableShopJob', () => {
 
       expect(await prisma.session.count()).toEqual(0);
     });
-
-      });
+  });
 
   describe('when app is installed on the shop', () => {
     beforeEach(async () => {
@@ -126,8 +125,7 @@ describe('DisableShopJob', () => {
 
       expect(await prisma.session.count()).toEqual(1);
     });
-
-      });
+  });
 
   describe('when an unexpected error happens', () => {
     it('raises the error', async () => {

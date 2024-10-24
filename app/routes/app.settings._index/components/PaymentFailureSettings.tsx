@@ -4,7 +4,7 @@ import {
   Card,
   FormLayout,
   InlineGrid,
-    Text,
+  Text,
 } from '@shopify/polaris';
 import {useTranslation} from 'react-i18next';
 import {RvfSelect} from '~/components/Select';
@@ -68,7 +68,6 @@ export default function PaymentFailureSettings() {
               options={onFailureOptions}
             />
           </FormLayout>
-          
         </BlockStack>
       </Card>
     </InlineGrid>

@@ -205,5 +205,4 @@ describe('BillingScheduleCalculatorService', () => {
       },
     );
   });
-
-  });
+});

@@ -6,7 +6,10 @@ import {logger} from '~/utils/logger.server';
 export class AddOrderTagsService {
   private log: pino.Logger;
 
-  constructor(private shopDomain: string, private orderId: string) {
+  constructor(
+    private shopDomain: string,
+    private orderId: string,
+  ) {
     this.log = logger.child({shopDomain, orderId});
   }
 

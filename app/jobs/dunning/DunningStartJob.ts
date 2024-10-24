@@ -15,13 +15,12 @@ export class DunningStartJob extends Job<
   async perform(): Promise<void> {
     const {shop, payload} = this.parameters;
 
-
     const {admin_graphql_api_id: billingAttemptId, error_code: failureReason} =
       payload;
 
-    let result = "";
+    let result = '';
     const errorCode = failureReason as SubscriptionBillingAttemptErrorCodeType;
-    switch(errorCode) {
+    switch (errorCode) {
       // Inventory Error
       case SubscriptionBillingAttemptErrorCode.InsufficientInventory:
       case SubscriptionBillingAttemptErrorCode.InventoryAllocationsNotFound:

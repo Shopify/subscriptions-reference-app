@@ -57,7 +57,6 @@ export class JobRunner<T extends Scheduler<R>, R = void> {
         `Error running job ${jobName}`,
       );
 
-      
       throw err;
     }
   }

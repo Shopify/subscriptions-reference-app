@@ -2,9 +2,7 @@ import {useTranslation} from 'react-i18next';
 import {TablePagination} from '~/components';
 
 import type {LoaderFunctionArgs} from '@remix-run/node';
-import {
-  useLoaderData,
-  } from '@remix-run/react';
+import {useLoaderData} from '@remix-run/react';
 import {
   Box,
   Card,
@@ -27,7 +25,7 @@ type SubscriptionContractsLoaderData = {
   subscriptionContracts: SubscriptionContractListItem[];
   subscriptionContractPageInfo: PaginationInfo;
   savedView: boolean;
-  };
+};
 
 export const handle = {
   i18n: 'app.contracts',
@@ -46,7 +44,6 @@ export async function loader({
 
   const getContractResult = await getContractsPromise;
 
-  
   const {subscriptionContracts, subscriptionContractPageInfo} =
     getContractResult;
 
@@ -54,9 +51,8 @@ export async function loader({
     subscriptionContracts,
     subscriptionContractPageInfo,
     savedView: Boolean(savedView),
-      };
+  };
 }
-
 
 export default function Index() {
   const {t, i18n} = useTranslation('app.contracts');
@@ -64,7 +60,6 @@ export default function Index() {
   const {subscriptionContracts, subscriptionContractPageInfo, savedView} =
     loaderData;
 
-  
   const shouldShowPagination =
     (subscriptionContracts.length > 0 &&
       subscriptionContractPageInfo.hasPreviousPage) ||
@@ -79,10 +74,7 @@ export default function Index() {
     useIndexResourceState(formattedContracts);
 
   return (
-    <Page
-      title={t('page.title')}
-          >
-      
+    <Page title={t('page.title')}>
       <Box paddingBlockEnd="400" width="100%">
         {subscriptionContracts?.length === 0 && !savedView ? (
           <Card>
@@ -100,7 +92,7 @@ export default function Index() {
               selectedResources={selectedResources}
               allResourcesSelected={allResourcesSelected}
               handleSelectionChange={handleSelectionChange}
-                          />
+            />
             {shouldShowPagination && (
               <>
                 <Divider />
@@ -110,7 +102,7 @@ export default function Index() {
           </Card>
         )}
       </Box>
-      
+
       <Footer
         page="contracts"
         link={`https://help.shopify.com/${i18n.language}/manual/products/purchase-options/shopify-subscriptions/manage-subscriptions`}

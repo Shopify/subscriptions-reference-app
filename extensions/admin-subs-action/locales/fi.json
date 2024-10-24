@@ -21,13 +21,37 @@
   "deliveryFrequency": "Toimitustiheys",
   "deliveryInterval": {
     "label": "Toimitusväli",
-    "weeks": "Viikkoa",
-    "months": "Kuukautta",
-    "years": "Vuotta"
+    "weeks": "viikkoa",
+    "months": "kuukautta",
+    "years": "vuotta",
+    "day": {
+      "one": "Toimita joka päivä",
+      "other": "{{count}} päivän välein"
+    },
+    "week": {
+      "one": "Toimita joka viikko",
+      "other": "{{count}} viikon välein"
+    },
+    "month": {
+      "one": "Toimita joka kuukausi",
+      "other": "{{count}} kuukauden välein"
+    },
+    "year": {
+      "one": "Toimita joka vuosi",
+      "other": "{{count}} vuoden välein"
+    }
   },
   "addOptionButton": {
     "label": "Valinta",
     "accessibilityLabel": "Lisää vaihtoehto"
   },
-  "removeOption": "Poista vaihtoehto"
+  "removeOption": "Poista vaihtoehto",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % alennusta",
+    "amountOff": "{{amount}} alennusta",
+    "flatRate": "{{amount}} kiinteä hinta"
+  },
+  "success": {
+    "create": "Myyntimalliryhmä luotu"
+  }
 }

@@ -113,10 +113,16 @@ describe('CustomerPaymentMethodDetailsCard', () => {
     };
 
     mountComponentWithRemixStub(
-      <CustomerPaymentMethodDetailsCard {...mockPropsWithRevokedPaymentMethod} />,
+      <CustomerPaymentMethodDetailsCard
+        {...mockPropsWithRevokedPaymentMethod}
+      />,
     );
 
-    expect(screen.getByText(`Payment method was removed by customer on September 1, 2024`)).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        `Payment method was removed by customer on September 1, 2024`,
+      ),
+    ).toBeInTheDocument();
   });
 
   describe('icons', () => {

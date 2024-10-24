@@ -62,11 +62,11 @@ In Prisma Studio, click the `BillingSchedule` or `DunningTracker` tab to view th
 Some background jobs (ie. `CreateSellingPlanTranslationsJob`) use your app ID to filter out all events that are not from your app.
 It's important to update the `APP_GID` environment variable to your app's ID to ensure proper functionality.
 
-* Locate your app GID by opening the [partners dashboard](https://partners.shopify.com/), apps, selecting your app in the list and then
+- Locate your app GID by opening the [partners dashboard](https://partners.shopify.com/), apps, selecting your app in the list and then
   look for the number in the URL after `/apps/` to build the app GID in the following format: `gid://shopify/App/<NUMBER>`
-* Alternatively you can also get this number with an [authenticated client query on the admin api](https://shopify.dev/docs/api/admin-graphql/2024-10/queries/app)
+- Alternatively you can also get this number with an [authenticated client query on the admin api](https://shopify.dev/docs/api/admin-graphql/2024-10/queries/app)
   after the app is installed to a test shop. This number is unique across all Shops.
-* Set `APP_GID=<YOUR_COMPLETE_GID>` in a `.env` file or similar.
+- Set `APP_GID=<YOUR_COMPLETE_GID>` in a `.env` file or similar.
 
 ### Start the application
 

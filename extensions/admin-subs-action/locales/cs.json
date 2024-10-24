@@ -21,13 +21,45 @@
   "deliveryFrequency": "Četnost doručování",
   "deliveryInterval": {
     "label": "Interval doručení",
-    "weeks": "Týdny",
-    "months": "Měsíce",
-    "years": "Roky"
+    "weeks": "týd.",
+    "months": "měs.",
+    "years": "r.",
+    "day": {
+      "one": "Doručení každý den",
+      "other": "Doručení každý {{count}}. den",
+      "few": "Doručení každý {{count}}. den",
+      "many": "Doručení každý {{count}}. den"
+    },
+    "week": {
+      "one": "Doručení každý týden",
+      "other": "Doručení každý {{count}}. týden",
+      "few": "Doručení každý {{count}}. týden",
+      "many": "Doručení každý {{count}}. týden"
+    },
+    "month": {
+      "one": "Doručení každý měsíc",
+      "other": "Doručení každý {{count}}. měsíc",
+      "few": "Doručení každý {{count}}. měsíc",
+      "many": "Doručení každý {{count}}. měsíc"
+    },
+    "year": {
+      "one": "Doručení každý rok",
+      "other": "Doručení každý {{count}}. rok",
+      "few": "Doručení každý {{count}}. rok",
+      "many": "Doručení každý {{count}}. rok"
+    }
   },
   "addOptionButton": {
     "label": "Možnost",
     "accessibilityLabel": "Přidat možnost"
   },
-  "removeOption": "Odebrat možnost"
+  "removeOption": "Odebrat možnost",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% sleva",
+    "amountOff": "sleva {{amount}}",
+    "flatRate": "paušální sazba {{amount}}"
+  },
+  "success": {
+    "create": "Skupina prodejního plánu byla vytvořena"
+  }
 }

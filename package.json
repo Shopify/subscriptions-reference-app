@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "build": "NODE_ENV=production vite build && NODE_ENV=production vite build --ssr",
-    "predev": "dotenv -c development prisma generate && dotenv -c development prisma migrate deploy",
     "dev": "dotenv -c development shopify app dev",
     "local:dev": "SHOPIFY_CLI_1P_DEV=1 shopify app dev",
     "generate": "shopify app generate",
@@ -117,8 +116,5 @@
   },
   "resolutions": {},
   "author": "shopify",
-  "pnpm": {
-    "patchedDependencies": {
-    }
-  }
+  "pnpm": {}
 }

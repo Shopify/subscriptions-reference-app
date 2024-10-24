@@ -256,7 +256,7 @@ declare global {
   interface Window {
     ENV: {
       NODE_ENV: NodeEnv;
-          };
+    };
   }
 }
 
@@ -278,5 +278,4 @@ export interface ShopInfo {
   primaryDomain: {
     url: string;
   };
-  }
-
+}

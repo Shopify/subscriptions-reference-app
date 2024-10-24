@@ -3,9 +3,7 @@ import {faker} from '@faker-js/faker';
 import {composeGid} from '@shopify/admin-graphql-api-utilities';
 import {screen, waitFor} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import type {
-  CurrencyCode,
-  DiscountTargetType} from 'types/admin.types';
+import type {CurrencyCode, DiscountTargetType} from 'types/admin.types';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import {createMockShopContext} from '~/routes/app.contracts.$id._index/tests/Fixtures';
 import SubscriptionDetails, {action, loader} from '../../../route';
@@ -1061,7 +1059,11 @@ describe('EditSubscriptionDetails', () => {
         }),
       );
 
-      const expectedCurrencyText = formatPrice({amount: 40.95, currency: 'CAD', locale: 'en'});
+      const expectedCurrencyText = formatPrice({
+        amount: 40.95,
+        currency: 'CAD',
+        locale: 'en',
+      });
 
       expect(screen.getByText('Subtotal')).toBeInTheDocument();
       expect(screen.getByText(expectedCurrencyText)).toBeInTheDocument();
@@ -1089,7 +1091,11 @@ describe('EditSubscriptionDetails', () => {
         }),
       );
 
-      const expectedCurrencyText = formatPrice({amount: 7.5, currency: 'CAD', locale: 'en'});
+      const expectedCurrencyText = formatPrice({
+        amount: 7.5,
+        currency: 'CAD',
+        locale: 'en',
+      });
 
       expect(screen.getByText('Shipping')).toBeInTheDocument();
       expect(screen.getByText(expectedCurrencyText)).toBeInTheDocument();
@@ -1128,9 +1134,14 @@ describe('EditSubscriptionDetails', () => {
         }),
       );
 
-      const expectedCurrencyText = formatPrice({amount: 0, currency: 'CAD', locale: 'en'});
+      const expectedCurrencyText = formatPrice({
+        amount: 0,
+        currency: 'CAD',
+        locale: 'en',
+      });
 
       expect(screen.getByText('Shipping')).toBeInTheDocument();
       expect(screen.getByText(expectedCurrencyText)).toBeInTheDocument();
     });
-  });});
+  });
+});

@@ -2,13 +2,13 @@ import type {Address} from '@shopify/address';
 import type {TFunction} from 'i18next';
 import type {SubscriptionMailingAddress} from 'types/admin.types';
 import type {PricingPolicy} from '~/routes/app.contracts.$id.edit/validator';
-import type { SubscriptionContractStatusType } from '~/types';
+import type {SubscriptionContractStatusType} from '~/types';
 import type {
   ContractDetailsCycleDiscount,
   CycleDiscount,
 } from '~/types/contracts';
 import {formatPrice} from './money';
-import { SubscriptionContractStatus } from '~/types';
+import {SubscriptionContractStatus} from '~/types';
 
 /**
  * Formats a customer's address into a format that can be used by the
@@ -93,7 +93,6 @@ export function discountTextFromCycleDiscount(
 
 export function formatStatus(status: SubscriptionContractStatusType) {
   if (status == SubscriptionContractStatus.Failed)
-    return SubscriptionContractStatus.Active
-  else
-    return status
+    return SubscriptionContractStatus.Active;
+  else return status;
 }

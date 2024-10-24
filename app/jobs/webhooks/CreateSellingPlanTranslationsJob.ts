@@ -22,34 +22,39 @@ export class CreateSellingPlanTranslationsJob extends Job<
     } = payload;
 
     if (appGid !== env.appGID) {
-      this.logger.info({
-        subscriptionAppID: env.appGID,
-        sourceAppID: appGid,
-      }, 'Not creating translation since event is not from subscriptions app');
+      this.logger.info(
+        {
+          subscriptionAppID: env.appGID,
+          sourceAppID: appGid,
+        },
+        'Not creating translation since event is not from subscriptions app',
+      );
       return;
     }
 
     const {admin} = await unauthenticated.admin(shop);
-    const {shopLocalesWithoutPrimary} = await getShopLocales(
-      admin.graphql,
-    );
+    const {shopLocalesWithoutPrimary} = await getShopLocales(admin.graphql);
 
     const {shop: shopInfo} = await getShopInfos(admin.graphql);
 
     const response = await admin.graphql(SellingPlanTranslations, {
       variables: {
         id: sellingPlanGroupId,
-      }
-    })
+      },
+    });
 
     const json = await response.json();
     const {data} = json;
 
     if (!data || !data.sellingPlanGroup) {
-      this.logger.error(json, "Failed to get selling plan group data.")
-      throw new Error("selling plan group 'data.sellingPlanGroup' field is missing from response")
+      this.logger.error(json, 'Failed to get selling plan group data.');
+      throw new Error(
+        "selling plan group 'data.sellingPlanGroup' field is missing from response",
+      );
     }
-    const sellingPlanNodes = nodesFromEdges(data?.sellingPlanGroup?.sellingPlans.edges || [])
+    const sellingPlanNodes = nodesFromEdges(
+      data?.sellingPlanGroup?.sellingPlans.edges || [],
+    );
 
     const sellingPlans = sellingPlanNodes.map((plan) => ({
       id: plan.id,

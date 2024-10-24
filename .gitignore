@@ -5,8 +5,8 @@ node_modules
 /app/build
 /public/build/
 /app/public/build
-/prisma/dev.sqlite
-/prisma/dev.sqlite-journal
+/prisma/data.db
+/prisma/data.db-journal
 database.sqlite
 /uploads
 /extensions/**/dist/
@@ -21,6 +21,7 @@ database.sqlite
 
 package-lock.json
 yarn.lock
+pnpm-lock.yaml
 yarn-error.log
 .terraform.lock.hcl
 

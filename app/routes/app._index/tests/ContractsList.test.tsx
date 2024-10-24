@@ -1,18 +1,10 @@
 import {
   mockShopifyServer,
   mountRemixStubWithAppContext,
-  wait,
   waitForGraphQL,
 } from '#/test-utils';
-import {
-  screen,
-  } from '@testing-library/react';
-import {
-  beforeEach,
-  describe,
-  expect,
-  it,
-  } from 'vitest';
+import {screen, waitFor} from '@testing-library/react';
+import {beforeEach, describe, expect, it} from 'vitest';
 
 import userEvent from '@testing-library/user-event';
 import SubscriptionContractsQuery from '~/graphql/SubscriptionContractsQuery';
@@ -20,7 +12,6 @@ import ContractsList, {loader} from '../route';
 import {createMockSubscriptionContractsQuery} from './fixtures';
 
 const {graphQL, mockGraphQL} = mockShopifyServer();
-
 
 const defaultContractsListResponses = {
   SubscriptionContracts: {
@@ -86,7 +77,6 @@ describe('ContractsList', () => {
     ).toBeInTheDocument();
   });
 
-  
   describe('sorting', () => {
     it('sorts contracts by most recently created by default', async () => {
       await mountContractsList();
@@ -123,7 +113,9 @@ describe('ContractsList', () => {
 
       userEvent.click(screen.getByLabelText('Sort the results'));
 
-      await wait();
+      await waitFor(() => {
+        expect(screen.getByLabelText('Updated')).toBeInTheDocument();
+      });
 
       userEvent.click(screen.getByLabelText('Updated'));
 
@@ -147,7 +139,9 @@ describe('ContractsList', () => {
 
       userEvent.click(screen.getByLabelText('Sort the results'));
 
-      await wait();
+      await waitFor(() => {
+        expect(screen.getByLabelText('Updated')).toBeInTheDocument();
+      });
 
       userEvent.click(screen.getByLabelText('Updated'));
 
@@ -172,7 +166,9 @@ describe('ContractsList', () => {
 
       userEvent.click(screen.getByLabelText('Sort the results'));
 
-      await wait();
+      await waitFor(() => {
+        expect(screen.getByLabelText('Updated')).toBeInTheDocument();
+      });
 
       userEvent.click(screen.getByLabelText('Updated'));
 

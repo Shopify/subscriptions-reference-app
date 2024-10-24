@@ -21,7 +21,7 @@ export function createMockSubscriptionContractEditDetails(
     id: composeGid('SubscriptionContract', 1),
     status: 'ACTIVE' as SubscriptionContractSubscriptionStatus,
     currencyCode: 'CAD' as CurrencyCode,
-        deliveryPolicy: {
+    deliveryPolicy: {
       interval: SellingPlanInterval.Month,
       intervalCount: faker.number.int({min: 1, max: 12}),
     },
@@ -31,7 +31,8 @@ export function createMockSubscriptionContractEditDetails(
     },
     discounts: {
       edges: [],
-    },    lines: {
+    },
+    lines: {
       edges: [
         {
           node: createMockSubscriptionLine(),

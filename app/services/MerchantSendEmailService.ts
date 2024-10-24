@@ -25,7 +25,6 @@ export class MerchantSendEmailService {
     const log = logger.child({shopDomain, templateInput});
     log.info('Running MerchantSendEmailService');
 
-    
     await unauthenticated.admin(shopDomain);
     return true;
   }

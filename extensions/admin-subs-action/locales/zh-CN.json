@@ -22,12 +22,36 @@
   "deliveryInterval": {
     "label": "配送间隔",
     "weeks": "周",
-    "months": "个月",
-    "years": "年"
+    "months": "月",
+    "years": "年",
+    "day": {
+      "one": "每天配送",
+      "other": "每 {{count}} 天配送"
+    },
+    "week": {
+      "one": "每周配送",
+      "other": "每 {{count}} 周配送"
+    },
+    "month": {
+      "one": "每月配送",
+      "other": "每 {{count}} 月配送"
+    },
+    "year": {
+      "one": "每年配送",
+      "other": "每 {{count}} 年配送"
+    }
   },
   "addOptionButton": {
     "label": "选项",
     "accessibilityLabel": "添加选项"
   },
-  "removeOption": "删除选项"
+  "removeOption": "删除选项",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% 折扣",
+    "amountOff": "{{amount}} 折扣",
+    "flatRate": "{{amount}} 固定费率"
+  },
+  "success": {
+    "create": "已创建销售方案组"
+  }
 }

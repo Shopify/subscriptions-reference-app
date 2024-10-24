@@ -57,7 +57,7 @@ export function DeliverySummary() {
             amount: formatPrice({
               currency: shopCurrencyCode,
               amount: discountValue,
-              locale
+              locale,
             }),
           });
           break;
@@ -71,7 +71,7 @@ export function DeliverySummary() {
             amount: formatPrice({
               currency: shopCurrencyCode,
               amount: discountValue,
-              locale
+              locale,
             }),
           });
           break;

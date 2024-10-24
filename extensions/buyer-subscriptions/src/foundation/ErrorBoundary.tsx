@@ -17,7 +17,6 @@ const ErrorContent = ({error}: ErrorContentProps) => {
   const {i18n} = useExtensionApi();
 
   useEffect(() => {
-    
     if (process.env.NODE_ENV === 'development') {
       console.error('ErrorBoundary', error);
     }

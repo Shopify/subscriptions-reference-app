@@ -147,7 +147,8 @@ export default function ContractsDetailsPage() {
     <Page
       backAction={{
         content: t('table.resourceName.plural'),
-                url: '/app',      }}
+        url: '/app',
+      }}
       title={parseGid(subscriptionContract.id)}
       subtitle={subtitle}
       titleMetadata={

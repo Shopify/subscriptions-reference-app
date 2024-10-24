@@ -23,11 +23,35 @@
     "label": "配送間隔",
     "weeks": "週",
     "months": "月",
-    "years": "年"
+    "years": "年",
+    "day": {
+      "one": "每天配送",
+      "other": "每 {{count}} 天配送"
+    },
+    "week": {
+      "one": "每週配送",
+      "other": "每 {{count}} 週配送"
+    },
+    "month": {
+      "one": "每月配送",
+      "other": "每 {{count}} 個月配送"
+    },
+    "year": {
+      "one": "每年配送",
+      "other": "每 {{count}} 年配送"
+    }
   },
   "addOptionButton": {
     "label": "選項",
     "accessibilityLabel": "新增選項"
   },
-  "removeOption": "移除選項"
+  "removeOption": "移除選項",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% 折扣",
+    "amountOff": "{{amount}} 折扣",
+    "flatRate": "{{amount}} 單一費率"
+  },
+  "success": {
+    "create": "已建立銷售方案群組"
+  }
 }

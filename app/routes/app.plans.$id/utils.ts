@@ -137,7 +137,7 @@ export function getSellingPlansFromDiscountDeliveryOptions(
   offerDiscount: boolean,
   currencyCode: string,
   t: TFunction,
-  locale: string
+  locale: string,
 ) {
   return discountDeliveryOptions.map(
     ({
@@ -206,7 +206,6 @@ export function sellingPlanInformation(
 ) {
   let deliveryInterval;
   let discountText;
-
 
   switch (deliveryIntervalField) {
     case DeliveryFrequencyInterval.Month:

@@ -23,11 +23,35 @@
     "label": "Zustellungsintervall",
     "weeks": "Wochen",
     "months": "Monate",
-    "years": "Jahre"
+    "years": "Jahre",
+    "day": {
+      "one": "Jeden Tag liefern",
+      "other": "Alle {{count}} Tage liefern"
+    },
+    "week": {
+      "one": "Jede Woche liefern",
+      "other": "Alle {{count}} Wochen liefern"
+    },
+    "month": {
+      "one": "Jeden Monat liefern",
+      "other": "Alle {{count}} Monate liefern"
+    },
+    "year": {
+      "one": "Jedes Jahr liefern",
+      "other": "Alle {{count}} Jahre liefern"
+    }
   },
   "addOptionButton": {
     "label": "Option",
     "accessibilityLabel": "Option hinzufügen"
   },
-  "removeOption": "Option entfernen"
+  "removeOption": "Option entfernen",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % Rabatt",
+    "amountOff": "{{amount}} Rabatt",
+    "flatRate": "{{amount}} Flat Rate"
+  },
+  "success": {
+    "create": "Verkaufsplangruppe erstellt"
+  }
 }

@@ -20,7 +20,7 @@ export class DisableShopJob extends Job<Jobs.Parameters<{}>> {
 
   private async disableShop(shop) {
     await db.session.deleteMany({where: {shop}});
-        await db.billingSchedule.updateMany({where: {shop}, data: {active: false}});
+    await db.billingSchedule.updateMany({where: {shop}, data: {active: false}});
   }
 
   private async appInstalled(shop) {

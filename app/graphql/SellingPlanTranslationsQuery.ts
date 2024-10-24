@@ -1,4 +1,4 @@
-const SellingPlanTranslations= `#graphql
+const SellingPlanTranslations = `#graphql
 query SellingPlanTranslations(
   $id: ID!
   $sellingPlanLimit: Int = 31

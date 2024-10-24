@@ -33,7 +33,8 @@ async function initI18n() {
       // @ts-ignore We set ENV in root.tsx
       debug: window.ENV.NODE_ENV === 'development',
       ns: getInitialNamespaces(),
-            backend: {loadPath: '/locales/{{lng}}/{{ns}}.json'},      detection: {
+      backend: {loadPath: '/locales/{{lng}}/{{ns}}.json'},
+      detection: {
         order: ['htmlTag'],
         caches: [],
       },

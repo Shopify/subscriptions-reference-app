@@ -204,9 +204,10 @@ export function createMockSubscriptionContract({
     id: composeGid('SubscriptionContract', generateGidNumber()),
     status: 'ACTIVE' as SubscriptionContractSubscriptionStatus,
     customer: createMockGraphqlCustomer(),
-    currencyCode: 'CAD' as CurrencyCode,    customerPaymentMethod: createMockCustomerPaymentMethod(),
+    currencyCode: 'CAD' as CurrencyCode,
+    customerPaymentMethod: createMockCustomerPaymentMethod(),
     lastPaymentStatus: 'SUCCEEDED' as SubscriptionContractLastPaymentStatus,
-        nextBillingDate: faker.date.future(),
+    nextBillingDate: faker.date.future(),
     billingPolicy: {
       interval: 'MONTH' as SellingPlanInterval,
       intervalCount: 2,
@@ -233,7 +234,7 @@ export function createMockSubscriptionContract({
     },
     discounts: {
       edges: [],
-    },    // extract this into a helper function to make a line
+    }, // extract this into a helper function to make a line
     lines: {
       edges: [
         {

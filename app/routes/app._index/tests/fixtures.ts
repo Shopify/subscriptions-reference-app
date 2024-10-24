@@ -55,11 +55,12 @@ export function createMockSubscriptionContractsQueryContract(
             lineDiscountedPrice: {
               amount: 20,
               currencyCode: 'USD' as CurrencyCode,
-            },          },
+            },
+          },
         },
       ],
     },
-        ...contract,
+    ...contract,
   };
 }
 

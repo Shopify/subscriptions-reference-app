@@ -163,7 +163,10 @@ export function CustomerPaymentMethodDetailsCard({
                 <Text as="span" variant="bodyMd">
                   <Text as="span" variant="bodyMd" tone="subdued">
                     {t('paymentMethodDetails.revoked', {
-                      revokedAt: formatDate(customerPaymentMethod.revokedAt, i18n.language),
+                      revokedAt: formatDate(
+                        customerPaymentMethod.revokedAt,
+                        i18n.language,
+                      ),
                     })}
                   </Text>
                 </Text>

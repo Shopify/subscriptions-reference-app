@@ -13,7 +13,7 @@ import {useDeliveryFrequencyFormatter, useProductCountFormatter} from '~/hooks';
 import type {SubscriptionContractListItem} from '~/types/contracts';
 import {useContractListState} from '../../hooks/useContractListState';
 import styles from './ContractsTable.module.css';
-import { formatStatus } from '~/utils/helpers/contracts';
+import {formatStatus} from '~/utils/helpers/contracts';
 import {formatPrice} from '~/utils/helpers/money';
 
 export interface ContractsTableProps {
@@ -25,14 +25,14 @@ export interface ContractsTableProps {
     isSelecting: boolean,
     selection?: string | [number, number],
   ) => void;
-  }
+}
 
 export function ContractsTable({
   contracts,
   selectedResources,
   allResourcesSelected,
   handleSelectionChange,
-  }: ContractsTableProps) {
+}: ContractsTableProps) {
   const {t, i18n} = useTranslation('app.contracts');
   const locale = i18n.language;
   const navigate = useNavigate();
@@ -52,7 +52,6 @@ export function ContractsTable({
     sortSelected,
   } = useContractListState();
 
-  
   const emptyStateMarkup = (
     <EmptySearchResult
       title={t('table.emptyState.title')}
@@ -140,7 +139,7 @@ export function ContractsTable({
         }
         onSelectionChange={handleSelectionChange}
         emptyState={emptyStateMarkup}
-              >
+      >
         {contractRowsMarkup}
       </IndexTable>
     </>

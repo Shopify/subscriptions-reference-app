@@ -20,7 +20,6 @@ import i18nextServer from './i18n/i18next.server';
 import i18nextOptions from './i18n/i18nextOptions';
 import {addDocumentResponseHeaders} from './shopify.server';
 
-
 const ABORT_DELAY = 5_000;
 
 export function handleError(
@@ -44,8 +43,7 @@ export function handleError(
 
   const {message} = error;
   logger.error({err: error, request, params, context}, message);
-
-  }
+}
 
 export default async function handleRequest(
   request: Request,
@@ -94,7 +92,7 @@ export default async function handleRequest(
           responseHeaders.set('X-Download-Options', 'noopen');
           responseHeaders.set('X-Permitted-Cross-Domain-Policies', 'none');
           responseHeaders.set('Referrer-Policy', 'origin-when-cross-origin');
-                    responseHeaders.set(
+          responseHeaders.set(
             'Content-Security-Policy',
             "default-src 'self'; \
             script-src 'self' 'unsafe-inline' https://cdn.shopify.com; \
@@ -103,7 +101,8 @@ export default async function handleRequest(
             img-src 'self' data: https://cdn.shopify.com; \
             connect-src 'self' https://atlas.shopifysvc.com; \
             upgrade-insecure-requests",
-          );          responseHeaders.set(
+          );
+          responseHeaders.set(
             'Strict-Transport-Security',
             'max-age=631138519; includeSubDomains',
           );

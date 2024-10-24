@@ -11,7 +11,6 @@ const isDevelopment = environment === NODE_ENV.DEVELOPMENT;
 const isTest = environment === NODE_ENV.TEST;
 const appGID = process.env.APP_GID;
 
-
 export const config: Configuration = {
   environment: process.env.NODE_ENV as NodeEnv,
   i18n: {
@@ -24,8 +23,7 @@ export const config: Configuration = {
   },
   logger: (() => {
     if (isProduction) {
-      return {
-              };
+      return {};
     }
 
     if (isTest) {
@@ -47,7 +45,8 @@ export const config: Configuration = {
   jobs: (() => {
     if (isProduction) {
       return {
-                scheduler: 'INLINE',      };
+        scheduler: 'INLINE',
+      };
     }
 
     if (isTest) {
@@ -60,7 +59,7 @@ export const config: Configuration = {
       scheduler: 'INLINE',
     };
   })(),
-  };
+};
 
 export const env = {
   isProduction,

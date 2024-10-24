@@ -8,14 +8,18 @@
     "**/*.test.ts",
     "../../type-definitions/global.d.ts",
     "../../type-definitions/index.d.ts",
-    "../../env.d.ts",
+    "../../env.d.ts"
   ],
   "exclude": ["build", "public", "node_modules/**/*"],
   "compilerOptions": {
     "target": "ES2022",
     "outDir": "./build",
     "baseUrl": "./",
-    "types": ["@shopify/react-testing/matchers", "vitest/globals", "@testing-library/jest-dom"],
+    "types": [
+      "@shopify/react-testing/matchers",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
     "paths": {
       "types": ["src/types"],
       "generatedTypes/*": ["types/*"],

@@ -10,10 +10,7 @@ import {
 
 import * as factories from '#/factories';
 import prisma from '~/db.server';
-import {
-  findOrCreateBy,
-  markCompleted,
-} from '../DunningTracker.server';
+import {findOrCreateBy, markCompleted} from '../DunningTracker.server';
 
 describe('DunningTracker', () => {
   beforeAll(async () => {

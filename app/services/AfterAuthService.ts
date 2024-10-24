@@ -27,8 +27,7 @@ export class AfterAuthService {
         this.session.shop,
       );
     },
-
-      ];
+  ];
 
   // eslint-disable-next-line no-useless-constructor
   constructor(

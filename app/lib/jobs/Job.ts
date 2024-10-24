@@ -38,9 +38,10 @@ export abstract class Job<T = unknown> {
 
   async run(): Promise<void> {
     this.logger.info(`Starting ${this.jobName}`);
-    
+
     try {
-            await this.perform();      this.logger.info(`Completed ${this.jobName}`);
+      await this.perform();
+      this.logger.info(`Completed ${this.jobName}`);
     } catch (err) {
       this.logger.error(err);
 
@@ -49,13 +50,11 @@ export abstract class Job<T = unknown> {
       if (isTerminal(error)) {
         this.logger.warn({error}, `Terminated ${this.jobName}`);
 
-        
         return;
       }
 
       this.logger.warn({error}, `Failed ${this.jobName}`);
 
-      
       throw error;
     }
   }

@@ -1,6 +1,11 @@
 import type {SellingPlanPricingPolicyAdjustmentType} from 'types/admin.types';
 import type {PricingPolicyInput} from '~/routes/app.contracts.$id.edit/validator';
-import type {DeliveryMethod, Money, RecurringPolicy, SubscriptionContractStatusType} from '.';
+import type {
+  DeliveryMethod,
+  Money,
+  RecurringPolicy,
+  SubscriptionContractStatusType,
+} from '.';
 import type {PriceBreakdown, SubscriptionDeliveryMethod} from './contracts';
 
 export interface SubscriptionContractEditDetails {
@@ -10,7 +15,8 @@ export interface SubscriptionContractEditDetails {
   lines: SubscriptionContractEditLine[];
   deliveryPolicy: RecurringPolicy;
   deliveryMethod?: SubscriptionDeliveryMethod | null;
-  deliveryPrice: Money;  priceBreakdownEstimate?: PriceBreakdown | null;
+  deliveryPrice: Money;
+  priceBreakdownEstimate?: PriceBreakdown | null;
 }
 
 export interface SubscriptionContractEditLine {

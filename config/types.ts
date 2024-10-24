@@ -35,4 +35,4 @@ export interface Configuration {
   i18n: I18nConfig;
   shopify: ShopifyAppConfig;
   jobs: JobSchedulerConfig;
-  }
+}

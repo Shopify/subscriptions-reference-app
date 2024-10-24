@@ -48,7 +48,6 @@ export interface SubscriptionContractsCreate {
   status: SubscriptionContractStatus;
 }
 
-
 export interface SubscriptionBillingAttemptFailure {
   id: number;
   admin_graphql_api_id: string;

@@ -108,7 +108,8 @@ describe('getContracts', () => {
             lineDiscountedPrice: {
               amount: 12,
               currencyCode: 'CAD',
-            },          },
+            },
+          },
         },
       ],
     };
@@ -119,7 +120,7 @@ describe('getContracts', () => {
       startCursor: '',
       endCursor: '',
     };
-    
+
     mockGraphQL({
       SubscriptionContracts: {
         data: {
@@ -134,7 +135,7 @@ describe('getContracts', () => {
                   deliveryPolicy,
                   lines,
                   lineCount,
-                                  },
+                },
               },
             ],
             pageInfo,
@@ -165,7 +166,8 @@ describe('getContracts', () => {
               lineDiscountedPrice: {
                 amount: 12,
                 currencyCode: 'CAD',
-              },            },
+              },
+            },
           ],
           lineCount,
         },
@@ -231,7 +233,8 @@ describe('getContractDetails', () => {
               amount: '0.00',
               currencyCode: 'USD',
             },
-          },        },
+          },
+        },
       },
     };
     mockGraphQL({SubscriptionContractDetails: mockResponse});
@@ -285,6 +288,7 @@ describe('getContractEditDetails', () => {
       priceBreakdownEstimate: {
         subtotalPrice: mockEditDetails.lines.edges[0].node.lineDiscountedPrice,
         totalShippingPrice: mockEditDetails.deliveryPrice,
-      },    });
+      },
+    });
   });
 });

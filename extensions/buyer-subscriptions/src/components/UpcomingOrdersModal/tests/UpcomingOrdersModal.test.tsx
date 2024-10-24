@@ -74,7 +74,9 @@ describe('<UpcomingOrdersModal />', () => {
     expect(screen.getByText('Feb 1, 2021')).toBeInTheDocument();
     expect(screen.getByText('Mar 1, 2021')).toBeInTheDocument();
 
-    expect(screen.getAllByRole('button', {name: startsWithSkip})).toHaveLength(3);
+    expect(screen.getAllByRole('button', {name: startsWithSkip})).toHaveLength(
+      3,
+    );
   });
 
   it('renders Skip button for unskipped orders, and Unskip button for skipped orders', async () => {
@@ -106,8 +108,12 @@ describe('<UpcomingOrdersModal />', () => {
       />,
     );
 
-    expect(screen.getAllByRole('button', {name: startsWithSkip})).toHaveLength(2);
-    expect(screen.getByRole('button', {name: startsWithUnskip})).toBeInTheDocument();
+    expect(screen.getAllByRole('button', {name: startsWithSkip})).toHaveLength(
+      2,
+    );
+    expect(
+      screen.getByRole('button', {name: startsWithUnskip}),
+    ).toBeInTheDocument();
   });
 
   it('clicking close button closes the modal', async () => {
@@ -157,7 +163,9 @@ describe('<UpcomingOrdersModal />', () => {
         />,
       );
 
-      await userEvent.click(screen.getAllByRole('button', {name: startsWithSkip})[1]);
+      await userEvent.click(
+        screen.getAllByRole('button', {name: startsWithSkip})[1],
+      );
 
       expect(showToastSpy).toHaveBeenCalledWith('Order on Feb 1, 2021 skipped');
 
@@ -192,7 +200,9 @@ describe('<UpcomingOrdersModal />', () => {
         />,
       );
 
-      await userEvent.click(screen.getAllByRole('button', {name: startsWithSkip})[0]);
+      await userEvent.click(
+        screen.getAllByRole('button', {name: startsWithSkip})[0],
+      );
 
       await waitFor(() => {
         expect(screen.getByText('Error skipping order')).toBeInTheDocument();
@@ -238,7 +248,9 @@ describe('<UpcomingOrdersModal />', () => {
         />,
       );
 
-      await userEvent.click(screen.getByRole('button', {name: startsWithUnskip}));
+      await userEvent.click(
+        screen.getByRole('button', {name: startsWithUnskip}),
+      );
       expect(showToastSpy).toHaveBeenCalledWith(
         'Order on Feb 1, 2021 unskipped',
       );
@@ -274,7 +286,9 @@ describe('<UpcomingOrdersModal />', () => {
         />,
       );
 
-      await userEvent.click(screen.getByRole('button', {name: startsWithUnskip}));
+      await userEvent.click(
+        screen.getByRole('button', {name: startsWithUnskip}),
+      );
 
       await waitFor(() => {
         expect(screen.getByText('Error unskipping order')).toBeInTheDocument();

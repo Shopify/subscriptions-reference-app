@@ -7,7 +7,8 @@ import {
   skipSubscriptionContractEvent,
   cancelledSubscriptionContractEvent,
   newSubscriptionContractEvent,
-  pausedSubscriptionContractEvent, resumedSubscriptionContractEvent,
+  pausedSubscriptionContractEvent,
+  resumedSubscriptionContractEvent,
 } from '~/jobs/email/tests/fixtures';
 import {CustomerSendEmailService} from '~/services/CustomerSendEmailService';
 
@@ -35,8 +36,8 @@ describe('CustomerSendEmailJob#perform', () => {
                 id: 'gid://shopify/Customer/1',
               },
             },
-          }
-        }
+          },
+        },
       });
 
       const job = new CustomerSendEmailJob({
@@ -71,11 +72,12 @@ describe('CustomerSendEmailJob#perform', () => {
         TEST_SHOP,
         cancelledSubscriptionContractEvent.admin_graphql_api_customer_id,
         {
-          subscriptionContractId: cancelledSubscriptionContractEvent.admin_graphql_api_id,
+          subscriptionContractId:
+            cancelledSubscriptionContractEvent.admin_graphql_api_id,
           subscriptionTemplateName: 'SUBSCRIPTION_CANCELED',
         },
       );
-    })
+    });
   });
 
   describe('created subscription contract', () => {
@@ -92,7 +94,8 @@ describe('CustomerSendEmailJob#perform', () => {
           TEST_SHOP,
           newSubscriptionContractEvent.admin_graphql_api_customer_id,
           {
-            subscriptionContractId: newSubscriptionContractEvent.admin_graphql_api_id,
+            subscriptionContractId:
+              newSubscriptionContractEvent.admin_graphql_api_id,
             subscriptionTemplateName: 'NEW_SUBSCRIPTION',
           },
         );
@@ -114,7 +117,8 @@ describe('CustomerSendEmailJob#perform', () => {
         TEST_SHOP,
         pausedSubscriptionContractEvent.admin_graphql_api_customer_id,
         {
-          subscriptionContractId: pausedSubscriptionContractEvent.admin_graphql_api_id,
+          subscriptionContractId:
+            pausedSubscriptionContractEvent.admin_graphql_api_id,
           subscriptionTemplateName: 'SUBSCRIPTION_PAUSED',
         },
       );
@@ -135,7 +139,8 @@ describe('CustomerSendEmailJob#perform', () => {
         TEST_SHOP,
         resumedSubscriptionContractEvent.admin_graphql_api_customer_id,
         {
-          subscriptionContractId: resumedSubscriptionContractEvent.admin_graphql_api_id,
+          subscriptionContractId:
+            resumedSubscriptionContractEvent.admin_graphql_api_id,
           subscriptionTemplateName: 'SUBSCRIPTION_RESUMED',
         },
       );

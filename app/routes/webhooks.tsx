@@ -31,7 +31,7 @@ const skippedEvents = [
   'SUBSCRIPTION_BILLING_ATTEMPTS_FAILURE',
   'APP_UNINSTALLED',
   'SUBSCRIPTION_BILLING_CYCLES_SKIP',
-  ];
+];
 
 export const action = async ({request, context}: ActionFunctionArgs) => {
   const {topic, shop, payload} = await authenticate.webhook(request);

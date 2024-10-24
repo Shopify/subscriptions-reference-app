@@ -21,7 +21,6 @@ const {graphQL, mockGraphQL} = mockShopifyServer();
 
 vi.stubGlobal('shopify', mockShopify);
 
-
 const buildServerRequest = (
   payload: {
     retryAttempts: string;
@@ -128,7 +127,7 @@ const buildGraphQLMock = ({
       },
     },
   },
-  });
+});
 
 describe('loader', () => {
   const request = buildServerRequest();
@@ -163,7 +162,7 @@ describe('loader', () => {
           inventoryOnFailure: 'skip',
           inventoryNotificationFrequency: 'monthly',
         },
-              });
+      });
     });
   });
 });
@@ -389,5 +388,4 @@ describe('SettingsIndex', () => {
       );
     });
   });
-
-  });
+});

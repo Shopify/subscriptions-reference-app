@@ -30,9 +30,10 @@ export const handle = {
 
 export const loader = async ({request}: LoaderFunctionArgs) => {
   const {admin} = await authenticate.admin(request);
-  
+
   const settings = await loadSettingsMetaobject(admin.graphql);
-  return json({settings});};
+  return json({settings});
+};
 
 export async function action({
   request,
@@ -63,7 +64,8 @@ export async function action({
 }
 
 export default function SettingsIndex() {
-    const {settings} = useLoaderData<typeof loader>();  useToasts();
+  const {settings} = useLoaderData<typeof loader>();
+  useToasts();
 
   const {t} = useTranslation('app.settings');
   const validator = useSettingsValidator(t);
@@ -77,7 +79,7 @@ export default function SettingsIndex() {
             <Layout.Section>
               <PaymentFailureSettings />
             </Layout.Section>
-            
+
             <Layout.Section>
               <InlineStack align="end" gap="200">
                 <RvfSubmitButton>{t('saveButtonText')}</RvfSubmitButton>

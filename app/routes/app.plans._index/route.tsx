@@ -24,7 +24,6 @@ import {Footer} from '~/components/Footer';
 import {toast} from '~/utils/toast';
 import {useToasts} from '~/hooks';
 
-
 export const handle = {
   i18n: 'app.plans',
 };

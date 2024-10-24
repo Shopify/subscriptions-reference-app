@@ -21,13 +21,37 @@
   "deliveryFrequency": "Leveringshyppighed",
   "deliveryInterval": {
     "label": "Leveringsinterval",
-    "weeks": "Uger",
-    "months": "Måneder",
-    "years": "År"
+    "weeks": "uger",
+    "months": "måneder",
+    "years": "år",
+    "day": {
+      "one": "Levér hver dag",
+      "other": "Levér hver {{count}}. dag"
+    },
+    "week": {
+      "one": "Levér hver uge",
+      "other": "Levér hver {{count}}. uge"
+    },
+    "month": {
+      "one": "Levér hver måned",
+      "other": "Levér hver {{count}}. måned"
+    },
+    "year": {
+      "one": "Levér hvert år",
+      "other": "Levér hvert {{count}}. år"
+    }
   },
   "addOptionButton": {
     "label": "Valgmulighed",
     "accessibilityLabel": "Tilføj valgmulighed"
   },
-  "removeOption": "Fjern valgmulighed"
+  "removeOption": "Fjern valgmulighed",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % i rabat",
+    "amountOff": "{{amount}} i rabat",
+    "flatRate": "Fast beløb på {{amount}}"
+  },
+  "success": {
+    "create": "Salgsplangruppen blev oprettet"
+  }
 }

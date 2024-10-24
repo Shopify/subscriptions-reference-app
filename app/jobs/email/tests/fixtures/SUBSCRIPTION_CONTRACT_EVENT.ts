@@ -1,6 +1,4 @@
-import type {
-  SubscriptionContractEvent,
-} from '~/types/webhooks';
+import type {SubscriptionContractEvent} from '~/types/webhooks';
 
 export const newSubscriptionContractEvent: SubscriptionContractEvent = {
   admin_graphql_api_id: 'gid://shopify/SubscriptionContract/1',

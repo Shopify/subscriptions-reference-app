@@ -21,13 +21,37 @@
   "deliveryFrequency": "Leveransfrekvens",
   "deliveryInterval": {
     "label": "Leveransintervall",
-    "weeks": "Veckor",
-    "months": "Månader",
-    "years": "År"
+    "weeks": "veckor",
+    "months": "månader",
+    "years": "år",
+    "day": {
+      "one": "Leverera varje dag",
+      "other": "Leverera var {{count}}:e dag"
+    },
+    "week": {
+      "one": "Leverera varje vecka",
+      "other": "Leverera var {{count}}:e vecka"
+    },
+    "month": {
+      "one": "Leverera varje månad",
+      "other": "Leverera var {{count}}:e månad"
+    },
+    "year": {
+      "one": "Leverera varje år",
+      "other": "Leverera vart {{count}}:e år"
+    }
   },
   "addOptionButton": {
     "label": "Alternativ",
     "accessibilityLabel": "Lägg till alternativ"
   },
-  "removeOption": "Ta bort alternativ"
+  "removeOption": "Ta bort alternativ",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % rabatt",
+    "amountOff": "{{amount}} rabatt",
+    "flatRate": "{{amount}} i fast avgift"
+  },
+  "success": {
+    "create": "Försäljningsplansgrupp har skapats"
+  }
 }

@@ -9,7 +9,8 @@ export default defineConfig({
     tsconfigPaths({
       projects: [
         './tsconfig.json',
-                './extensions/admin-subs-action/tsconfig.json',
+        './extensions/buyer-subscriptions/tsconfig.json',
+        './extensions/admin-subs-action/tsconfig.json',
       ],
     }),
     graphql(),
@@ -33,12 +34,10 @@ export default defineConfig({
     ],
     include: [
       './app/**/*.test.[jt]s?(x)',
-      './extensions/buyer-subscriptions/**/*.test.[jt]s?(x)',
       './extensions/admin-subs-action/**/*.test.[jt]s?(x)',
       './config/**/*.test.[jt]s?(x)',
-          ],
-    exclude: [
-      './extensions/**/node_modules/**',
-          ],
+      './extensions/buyer-subscriptions/**/*.test.[jt]s?(x)',
+    ],
+    exclude: ['./extensions/**/node_modules/**'],
   },
 });

@@ -22,12 +22,36 @@
   "deliveryInterval": {
     "label": "배송 주기",
     "weeks": "주",
-    "months": "월",
-    "years": "년"
+    "months": "개월",
+    "years": "년",
+    "day": {
+      "one": "매일 제공",
+      "other": "{{count}}일마다 제공"
+    },
+    "week": {
+      "one": "매주 제공",
+      "other": "{{count}}주마다 제공"
+    },
+    "month": {
+      "one": "매달 제공",
+      "other": "{{count}}달마다 제공"
+    },
+    "year": {
+      "one": "매년 제공",
+      "other": "{{count}}년마다 제공"
+    }
   },
   "addOptionButton": {
     "label": "옵션",
     "accessibilityLabel": "옵션 추가"
   },
-  "removeOption": "옵션 제거"
+  "removeOption": "옵션 제거",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% 할인",
+    "amountOff": "{{amount}} 할인",
+    "flatRate": "균일 요금 {{amount}}"
+  },
+  "success": {
+    "create": "판매 플랜 그룹 생성됨"
+  }
 }

@@ -21,13 +21,37 @@
   "deliveryFrequency": "Bezorgfrequentie",
   "deliveryInterval": {
     "label": "Bezorginterval",
-    "weeks": "Weken",
-    "months": "Maanden",
-    "years": "Jaren"
+    "weeks": "weken",
+    "months": "maanden",
+    "years": "jaar",
+    "day": {
+      "one": "elke dag bezorgen",
+      "other": "elke {{count}} dagen bezorgen"
+    },
+    "week": {
+      "one": "elke week bezorgen",
+      "other": "elke {{count}} weken bezorgen"
+    },
+    "month": {
+      "one": "elke maand bezorgen",
+      "other": "elke {{count}} maanden bezorgen"
+    },
+    "year": {
+      "one": "elk jaar bezorgen",
+      "other": "elke {{count}} jaar bezorgen"
+    }
   },
   "addOptionButton": {
     "label": "Optie",
     "accessibilityLabel": "Optie toevoegen"
   },
-  "removeOption": "Optie verwijderen"
+  "removeOption": "Optie verwijderen",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% korting",
+    "amountOff": "{{amount}} korting",
+    "flatRate": "{{amount}} vast tarief"
+  },
+  "success": {
+    "create": "Verkoopplangroep aangemaakt"
+  }
 }

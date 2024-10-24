@@ -16,7 +16,7 @@ import {
   RebillSubscriptionJob,
   RecurringBillingChargeJob,
   ScheduleShopsToChargeBillingCyclesJob,
-  } from './billing';
+} from './billing';
 
 import {DisableShopJob, DeleteBillingScheduleJob} from './shop';
 
@@ -34,7 +34,7 @@ export {
   RebillSubscriptionJob,
   RecurringBillingChargeJob,
   ScheduleShopsToChargeBillingCyclesJob,
-  } from './billing';
+} from './billing';
 export {DisableShopJob, DeleteBillingScheduleJob} from './shop';
 
 export {
@@ -87,4 +87,4 @@ export const jobs = (() => {
   RecurringWebhookRecoveryJob,
   WebhookSubscriptionRecoveryJob,
   CreateSellingPlanTranslationsJob,
-  );
+);

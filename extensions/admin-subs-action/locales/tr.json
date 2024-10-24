@@ -21,13 +21,37 @@
   "deliveryFrequency": "Teslimat sıklığı",
   "deliveryInterval": {
     "label": "Teslimat aralığı",
-    "weeks": "Hafta",
-    "months": "Ay",
-    "years": "Yıl"
+    "weeks": "hafta",
+    "months": "ay",
+    "years": "yıl",
+    "day": {
+      "one": "Her gün teslim et",
+      "other": "{{count}} günde bir teslim et"
+    },
+    "week": {
+      "one": "Her hafta teslim et",
+      "other": "{{count}} haftada bir teslim et"
+    },
+    "month": {
+      "one": "Her ay teslim et",
+      "other": "Her {{count}} ayda bir teslim et"
+    },
+    "year": {
+      "one": "Her yıl teslim et",
+      "other": "Her {{count}} yılda bir teslim et"
+    }
   },
   "addOptionButton": {
     "label": "Seçenek",
     "accessibilityLabel": "Seçenek ekle"
   },
-  "removeOption": "Seçeneği kaldır"
+  "removeOption": "Seçeneği kaldır",
+  "discountDetails": {
+    "percentageOff": "%{{amount}} indirim",
+    "amountOff": "{{amount}} indirim",
+    "flatRate": "{{amount}} sabit fiyat"
+  },
+  "success": {
+    "create": "Satış planı grubu oluşturuldu"
+  }
 }

@@ -2,8 +2,8 @@ import {ApiType, pluckConfig} from '@shopify/api-codegen-preset';
 import {existsSync, readdirSync} from 'node:fs';
 
 function getConfig() {
-    const host = 'app.myshopify.com';
-    const apiKey = process.env.SHOPIFY_API_KEY;
+  const host = 'app.myshopify.com';
+  const apiKey = process.env.SHOPIFY_API_KEY;
   const apiVersion = 'unstable';
   const customerApiVersion = 'unstable';
   const adminSchemaUrl = `https://${host}/services/graphql/introspection/admin?api_client_api_key=${apiKey}&api_version=${apiVersion}`;

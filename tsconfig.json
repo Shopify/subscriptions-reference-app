@@ -8,12 +8,7 @@
     "type-definitions/global.d.ts",
     "type-definitions/index.d.ts"
   ],
-  "exclude": [
-    "build",
-    "public",
-    "node_modules/**/*",
-    "extensions/*",
-  ],
+  "exclude": ["build", "public", "node_modules/**/*", "extensions/*"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "isolatedModules": true,

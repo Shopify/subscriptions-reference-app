@@ -36,7 +36,6 @@ export class CustomerSendEmailService {
 
     log.info('Running CustomerSendEmailService');
 
-    
     await unauthenticated.admin(shopDomain);
     return true;
   }

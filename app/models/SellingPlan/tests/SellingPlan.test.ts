@@ -6,7 +6,10 @@ import {mockShopifyServer} from '#/test-utils';
 import {composeGid} from '@shopify/admin-graphql-api-utilities';
 import {afterEach, describe, expect, it, vi} from 'vitest';
 import SellingPlanGroupQuery from '~/graphql/SellingPlanGroupQuery';
-import {createSellingPlanTranslations, getSellingPlanGroup} from '../SellingPlan.server';
+import {
+  createSellingPlanTranslations,
+  getSellingPlanGroup,
+} from '../SellingPlan.server';
 import translationsRegisterMutation from '~/graphql/TranslationsRegisterMutation';
 import type {SellingPlanInterval} from '~/types';
 
@@ -176,20 +179,20 @@ describe('SellingPlan', () => {
                         {
                           key: 'name',
                           value: 'Delivery every month, $5 off',
-                          locale: 'en'
+                          locale: 'en',
                         },
                         {
                           key: 'option1',
                           value: 'Delivery every month',
-                          locale: 'en'
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          }
+                          locale: 'en',
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+            },
+          },
         },
         {
           translationsRegister: {
@@ -197,11 +200,11 @@ describe('SellingPlan', () => {
               translationsRegister: {
                 userErrors: [],
                 translations: [],
-              }
-            }
-          }
-        }
-      ]
+              },
+            },
+          },
+        },
+      ];
       sequentiallyMockGraphQL(mockGraphQLResponses);
 
       await createSellingPlanTranslations(
@@ -209,24 +212,24 @@ describe('SellingPlan', () => {
         [
           {
             id: 'gid://shopify/SellingPlan/1',
-            pricingPolicies: [{
-              adjustmentType: 'FIXED_AMOUNT',
-              adjustmentValue: {
-                amount: 5,
-                currencyCode: '',
+            pricingPolicies: [
+              {
+                adjustmentType: 'FIXED_AMOUNT',
+                adjustmentValue: {
+                  amount: 5,
+                  currencyCode: '',
+                },
               },
-            }],
+            ],
             deliveryPolicy: {
               interval: 'MONTH' as SellingPlanInterval,
               intervalCount: 1,
-            }
-          }
+            },
+          },
         ],
-        [
-          {locale: 'de', primary: false}
-        ],
+        [{locale: 'de', primary: false}],
         'USD',
-      )
+      );
 
       expect(graphQL).toHaveBeenCalledWith(translationsRegisterMutation, {
         variables: {
@@ -243,11 +246,11 @@ describe('SellingPlan', () => {
               value: 'Zustellung jeden Monat',
               locale: 'de',
               translatableContentDigest: undefined,
-            }
+            },
           ],
-        }
-      })
-    })
+        },
+      });
+    });
 
     it('creates a translations with percent discount', async () => {
       const mockGraphQLResponses = [
@@ -263,20 +266,20 @@ describe('SellingPlan', () => {
                         {
                           key: 'name',
                           value: 'Delivery every week, 5% off',
-                          locale: 'en'
+                          locale: 'en',
                         },
                         {
                           key: 'option1',
                           value: 'Delivery every week',
-                          locale: 'en'
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          }
+                          locale: 'en',
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+            },
+          },
         },
         {
           translationsRegister: {
@@ -284,11 +287,11 @@ describe('SellingPlan', () => {
               translationsRegister: {
                 userErrors: [],
                 translations: [],
-              }
-            }
-          }
-        }
-      ]
+              },
+            },
+          },
+        },
+      ];
       sequentiallyMockGraphQL(mockGraphQLResponses);
 
       await createSellingPlanTranslations(
@@ -296,23 +299,23 @@ describe('SellingPlan', () => {
         [
           {
             id: 'gid://shopify/SellingPlan/1',
-            pricingPolicies: [{
-              adjustmentType: 'PERCENTAGE',
-              adjustmentValue: {
-                percentage: 5
+            pricingPolicies: [
+              {
+                adjustmentType: 'PERCENTAGE',
+                adjustmentValue: {
+                  percentage: 5,
+                },
               },
-            }],
+            ],
             deliveryPolicy: {
               interval: 'WEEK' as SellingPlanInterval,
               intervalCount: 2,
-            }
-          }
+            },
+          },
         ],
-        [
-          {locale: 'de', primary: false}
-        ],
+        [{locale: 'de', primary: false}],
         'USD',
-      )
+      );
 
       expect(graphQL).toHaveBeenCalledWith(translationsRegisterMutation, {
         variables: {
@@ -329,11 +332,11 @@ describe('SellingPlan', () => {
               value: 'Zustellung alle 2 Wochen',
               locale: 'de',
               translatableContentDigest: undefined,
-            }
+            },
           ],
-        }
-      })
-    })
+        },
+      });
+    });
   });
 
   describe('when the shop does not have a secondary locale', () => {
@@ -351,20 +354,20 @@ describe('SellingPlan', () => {
                         {
                           key: 'name',
                           value: 'Delivery every week, 5% off',
-                          locale: 'en'
+                          locale: 'en',
                         },
                         {
                           key: 'option1',
                           value: 'Delivery every week',
-                          locale: 'en'
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          }
+                          locale: 'en',
+                        },
+                      ],
+                    },
+                  },
+                ],
+              },
+            },
+          },
         },
         {
           translationsRegister: {
@@ -372,11 +375,11 @@ describe('SellingPlan', () => {
               translationsRegister: {
                 userErrors: [],
                 translations: [],
-              }
-            }
-          }
-        }
-      ]
+              },
+            },
+          },
+        },
+      ];
       sequentiallyMockGraphQL(mockGraphQLResponses);
 
       await createSellingPlanTranslations(
@@ -384,28 +387,30 @@ describe('SellingPlan', () => {
         [
           {
             id: 'gid://shopify/SellingPlan/1',
-            pricingPolicies: [{
-              adjustmentType: 'PERCENTAGE',
-              adjustmentValue: {
-                percentage: 5
+            pricingPolicies: [
+              {
+                adjustmentType: 'PERCENTAGE',
+                adjustmentValue: {
+                  percentage: 5,
+                },
               },
-            }],
+            ],
             deliveryPolicy: {
               interval: 'MONTH' as SellingPlanInterval,
               intervalCount: 1,
-            }
-          }
+            },
+          },
         ],
         [],
         'USD',
-      )
+      );
 
       expect(graphQL).toHaveBeenCalledWith(translationsRegisterMutation, {
         variables: {
           resourceId: composeGid('SellingPlan', 1),
           translations: [],
-        }
-      })
-    })
-  })
+        },
+      });
+    });
+  });
 });

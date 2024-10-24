@@ -33,7 +33,8 @@ export async function loader({request}) {
 
   const shopInfos = await getShopInfos(admin.graphql);
   const {shop} = shopInfos;
-  const {primaryDomain, currencyCode, contactEmail, name, email, ianaTimezone} = shop;
+  const {primaryDomain, currencyCode, contactEmail, name, email, ianaTimezone} =
+    shop;
   const shopId = Number(parseGid(shop.id));
   const shopifyDomain = primaryDomain.url as string;
 
@@ -76,27 +77,25 @@ export default function App() {
 
   return (
     <>
-      
-        <AppProvider
-          apiKey={apiKey}
-          i18n={polarisTranslations}
-          features={{
-            polarisSummerEditions2023: true,
-          }}
-        >
-          <ShopContext.Provider value={shopInfo}>
-            <NavMenu>
-              <Link to="/app" rel="home">
-                {t('navigation.home')}
-              </Link>
-              <Link to="/app/plans">{t('navigation.plans')}</Link>
-              
-              <Link to="/app/settings">{t('navigation.settings')}</Link>
-            </NavMenu>
-            <Outlet />
-          </ShopContext.Provider>
-        </AppProvider>
-        
+      <AppProvider
+        apiKey={apiKey}
+        i18n={polarisTranslations}
+        features={{
+          polarisSummerEditions2023: true,
+        }}
+      >
+        <ShopContext.Provider value={shopInfo}>
+          <NavMenu>
+            <Link to="/app" rel="home">
+              {t('navigation.home')}
+            </Link>
+            <Link to="/app/plans">{t('navigation.plans')}</Link>
+
+            <Link to="/app/settings">{t('navigation.settings')}</Link>
+          </NavMenu>
+          <Outlet />
+        </ShopContext.Provider>
+      </AppProvider>
     </>
   );
 }

@@ -10,12 +10,14 @@ import userEvent from '@testing-library/user-event';
 import {mockShopify} from '#/setup-app-bridge';
 import type {
   CurrencyCode,
-  DiscountTargetType,  SellingPlanInterval,
+  DiscountTargetType,
+  SellingPlanInterval,
   SellingPlanPricingPolicyAdjustmentType,
   SubscriptionContractSubscriptionStatus,
 } from 'types/admin.types';
 import {afterEach, describe, expect, it, vi} from 'vitest';
-import {formatPrice} from '~/utils/helpers/money';import {SubscriptionContractStatus} from '~/types';
+import {formatPrice} from '~/utils/helpers/money';
+import {SubscriptionContractStatus} from '~/types';
 import {action as pauseAction} from '../../app.contracts.$id.pause/route';
 import {action as resumeAction} from '../../app.contracts.$id.resume/route';
 import ContractsDetailsPage, {loader} from '../route';
@@ -508,7 +510,11 @@ describe('Contract details', () => {
 
       await mountContractDetails({graphQLResponses});
 
-      const expectedCurrencyText = formatPrice({amount: 40.95, currency: 'CAD', locale: 'en'});
+      const expectedCurrencyText = formatPrice({
+        amount: 40.95,
+        currency: 'CAD',
+        locale: 'en',
+      });
 
       expect(screen.getByText('Subtotal')).toBeInTheDocument();
       expect(screen.getByText(expectedCurrencyText)).toBeInTheDocument();
@@ -524,7 +530,11 @@ describe('Contract details', () => {
 
       await mountContractDetails({graphQLResponses});
 
-      const expectedCurrencyText = formatPrice({amount: 7.5, currency: 'CAD', locale: 'en'});
+      const expectedCurrencyText = formatPrice({
+        amount: 7.5,
+        currency: 'CAD',
+        locale: 'en',
+      });
 
       expect(screen.getByText('Shipping')).toBeInTheDocument();
       expect(screen.getByText(expectedCurrencyText)).toBeInTheDocument();
@@ -551,7 +561,11 @@ describe('Contract details', () => {
 
       await mountContractDetails({graphQLResponses});
 
-      const expectedCurrencyText = formatPrice({amount: 0, currency: 'CAD', locale: 'en'});
+      const expectedCurrencyText = formatPrice({
+        amount: 0,
+        currency: 'CAD',
+        locale: 'en',
+      });
 
       expect(screen.getByText('Shipping')).toBeInTheDocument();
       expect(screen.getByText(expectedCurrencyText)).toBeInTheDocument();

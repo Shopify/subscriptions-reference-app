@@ -1,18 +1,13 @@
 import type {Jobs, Webhooks} from '~/types';
 
 import {Job} from '~/lib/jobs';
-import type {
-  CustomerEmailTemplateInput,
-} from '~/services/CustomerSendEmailService';
-import {
-  CustomerSendEmailService,
-} from '~/services/CustomerSendEmailService';
+import type {CustomerEmailTemplateInput} from '~/services/CustomerSendEmailService';
+import {CustomerSendEmailService} from '~/services/CustomerSendEmailService';
 import {getContractCustomerId} from '~/models/SubscriptionContract/SubscriptionContract.server';
 
 export class CustomerSendEmailJob extends Job<
   Jobs.Parameters<Webhooks.SubscriptionContractEvent>
 > {
-
   public queue: string = 'webhooks';
 
   async perform(): Promise<void> {
@@ -26,10 +21,7 @@ export class CustomerSendEmailJob extends Job<
     } = payload;
 
     if (!customerId) {
-      customerId = await getContractCustomerId(
-        shop,
-        subscriptionContractId,
-      );
+      customerId = await getContractCustomerId(shop, subscriptionContractId);
     }
 
     const templateInput: CustomerEmailTemplateInput = {
@@ -37,7 +29,7 @@ export class CustomerSendEmailJob extends Job<
       subscriptionTemplateName,
     };
 
-    if(billingCycleIndex) {
+    if (billingCycleIndex) {
       templateInput.billingCycleIndex = billingCycleIndex;
     }
     await new CustomerSendEmailService().run(shop, customerId, templateInput);

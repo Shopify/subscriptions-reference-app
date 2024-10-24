@@ -58,20 +58,11 @@ api_version = "unstable"
   topics = [ "selling_plan_groups/create", "selling_plan_groups/update" ]
   uri = "/webhooks/selling_plan_groups/create_or_update"
 
-  # <private-code>
-  [[webhooks.subscriptions]]
-  topics = [ "themes/publish" ]
-  uri = "/webhooks/themes/publish"
-
-  [[webhooks.subscriptions]]
-  topics = [ "customer_payment_methods/update" ]
-  uri = "/webhooks/customer_payment_methods/update"
-  # </private-code>
-
+  
 [webhooks.privacy_compliance]
-customer_deletion_url = "https://example.com/webhooks"
-customer_data_request_url = "https://example.com/webhooks"
-shop_deletion_url = "https://example.com/webhooks"
+customer_deletion_url = "/webhooks"
+customer_data_request_url = "/webhooks"
+shop_deletion_url = "/webhooks"
 
 [pos]
 embedded = false

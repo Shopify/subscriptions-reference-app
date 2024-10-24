@@ -1,18 +1,15 @@
-
 type InventoryServiceResult =
   | 'INSUFFICIENT_INVENTORY'
   | 'INVENTORY_ALLOCATIONS_NOT_FOUND';
 
 interface InventoryServiceArgs {
-    failureReason: string;
-  }
+  failureReason: string;
+}
 
 export class InventoryService {
   failureReason: string;
 
-  constructor({
-    failureReason,
-  }: InventoryServiceArgs) {
+  constructor({failureReason}: InventoryServiceArgs) {
     this.failureReason = failureReason;
   }
 
@@ -21,4 +18,3 @@ export class InventoryService {
     return failureReason as InventoryServiceResult;
   }
 }
-

@@ -91,9 +91,10 @@ export async function getContracts(
       customer,
       deliveryPolicy,
       status,
-            lines,
+      lines,
       linesCount,
-      currencyCode,    }) => {
+      currencyCode,
+    }) => {
       const contractLines = nodesFromEdges(lines.edges || []).map((line) => ({
         ...line,
         productId: line.productId ?? undefined,
@@ -111,7 +112,8 @@ export async function getContracts(
           intervalCount: deliveryPolicy?.intervalCount,
         },
         status,
-                totalPrice: subtotalPrice,        lines: contractLines,
+        totalPrice: subtotalPrice,
+        lines: contractLines,
         lineCount: linesCount?.count ?? 0,
       };
     },
@@ -169,7 +171,8 @@ export async function getContractDetails(
     deliveryMethod,
     currencyCode,
     discounts: {edges: discountsEdges},
-    deliveryPrice,  } = subscriptionContract;
+    deliveryPrice,
+  } = subscriptionContract;
 
   const lines = nodesFromEdges(linesEdges);
 
@@ -213,7 +216,8 @@ export async function getContractDetails(
     priceBreakdownEstimate: {
       subtotalPrice,
       totalShippingPrice,
-    },  };
+    },
+  };
 }
 
 export async function getContractEditDetails(
@@ -240,7 +244,8 @@ export async function getContractEditDetails(
     deliveryPolicy,
     currencyCode,
     discounts: {edges: discountsEdges},
-    deliveryPrice,  } = subscriptionContract;
+    deliveryPrice,
+  } = subscriptionContract;
 
   const lines = await Promise.all(
     nodesFromEdges(subscriptionContract.lines.edges).map(async (line) => ({
@@ -275,7 +280,8 @@ export async function getContractEditDetails(
     priceBreakdownEstimate: {
       subtotalPrice,
       totalShippingPrice,
-    },  };
+    },
+  };
 }
 
 export async function getContractCustomerId(

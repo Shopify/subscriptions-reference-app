@@ -21,13 +21,41 @@
   "deliveryFrequency": "Frequência de entrega",
   "deliveryInterval": {
     "label": "Intervalo de entrega",
-    "weeks": "Semanas",
-    "months": "Meses",
-    "years": "Anos"
+    "weeks": "semanas",
+    "months": "meses",
+    "years": "anos",
+    "day": {
+      "one": "Entrega diária",
+      "other": "Entrega a cada {{count}} dias",
+      "many": "Entrega a cada {{count}} dias"
+    },
+    "week": {
+      "one": "Entrega semanal",
+      "other": "Entrega a cada {{count}} semanas",
+      "many": "Entrega a cada {{count}} semanas"
+    },
+    "month": {
+      "one": "Entrega mensal",
+      "other": "Entrega a cada {{count}} meses",
+      "many": "Entrega a cada {{count}} meses"
+    },
+    "year": {
+      "one": "Entrega anual",
+      "other": "Entrega a cada {{count}} anos",
+      "many": "Entrega a cada {{count}} anos"
+    }
   },
   "addOptionButton": {
     "label": "Opção",
     "accessibilityLabel": "Adicionar opção"
   },
-  "removeOption": "Remover opção"
+  "removeOption": "Remover opção",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% de desconto",
+    "amountOff": "Desconto de {{amount}}",
+    "flatRate": "{{amount}} de taxa fixa"
+  },
+  "success": {
+    "create": "Grupo de plano de venda criado"
+  }
 }

@@ -6,7 +6,7 @@ import {SubscriptionContractStatus} from '~/types';
 import type {SubscriptionContractListItem} from '~/types/contracts';
 import type {ContractsTableProps} from '../ContractsTable';
 import {ContractsTable} from '../ContractsTable';
-import { fail } from 'assert';
+import {fail} from 'assert';
 
 const useNavigationMock = vi.hoisted(() => vi.fn());
 useNavigationMock.mockReturnValue({state: {}});
@@ -29,11 +29,13 @@ async function mountContractsTable({
   mountRemixStubWithAppContext({
     routes: [
       {
-                path: '/app',        Component: () => <ContractsTable {...props} />,
+        path: '/app',
+        Component: () => <ContractsTable {...props} />,
       },
     ],
     remixStubProps: {
-            initialEntries: [`/app?${searchParams || ''}`],    },
+      initialEntries: [`/app?${searchParams || ''}`],
+    },
   });
 
   expect(
@@ -190,7 +192,8 @@ describe('<ContractsTable />', () => {
     it('renders a spinner in <IndexFilters />', async () => {
       useNavigationMock.mockReturnValue({
         state: 'loading',
-                location: {pathname: '/app'},      });
+        location: {pathname: '/app'},
+      });
       await mountContractsTable({
         props: {...defaultProps},
       });
@@ -241,31 +244,31 @@ describe('<ContractsTable />', () => {
     it('shows the appropriate state', async () => {
       await mountContractsTable({props: defaultProps});
 
-      const rows = screen.getAllByRole('row')
+      const rows = screen.getAllByRole('row');
       mockContracts.forEach((mockContract, index) => {
-        const row = rows[index+1]
+        const row = rows[index + 1];
         // assert
-        switch(mockContract.status) {
-            case SubscriptionContractStatus.Active:
-            case SubscriptionContractStatus.Failed:
-              within(row).getByText('Active');
-              break;
-            case SubscriptionContractStatus.Paused:
-              within(row).getByText('Paused');
-              break;
-            case SubscriptionContractStatus.Cancelled:
-              within(row).getByText('Cancelled');
-              break;
-            case SubscriptionContractStatus.Expired:
-              within(row).getByText('Expired');
-              break;
-            case SubscriptionContractStatus.Stale:
-              within(row).getByText('Stale');
-              break;
-            default:
-              fail();
-          }
-      })
+        switch (mockContract.status) {
+          case SubscriptionContractStatus.Active:
+          case SubscriptionContractStatus.Failed:
+            within(row).getByText('Active');
+            break;
+          case SubscriptionContractStatus.Paused:
+            within(row).getByText('Paused');
+            break;
+          case SubscriptionContractStatus.Cancelled:
+            within(row).getByText('Cancelled');
+            break;
+          case SubscriptionContractStatus.Expired:
+            within(row).getByText('Expired');
+            break;
+          case SubscriptionContractStatus.Stale:
+            within(row).getByText('Stale');
+            break;
+          default:
+            fail();
+        }
+      });
     });
   });
 });

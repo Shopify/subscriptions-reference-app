@@ -1,5 +1,5 @@
 import type {SubscriptionContractsQueryVariables} from 'types/admin.generated';
-import { SubscriptionContractStatus } from '~/types';
+import {SubscriptionContractStatus} from '~/types';
 import {getPaginationQueryVariablesFromUrl} from '~/utils';
 
 export const ContractsSortKey = {
@@ -29,9 +29,9 @@ function getContractsSortVariables(url: URL) {
 
 function getQueryParams(view: string) {
   if (view == SubscriptionContractStatus.Active) {
-    return `status:${view} OR status:${SubscriptionContractStatus.Failed}`
+    return `status:${view} OR status:${SubscriptionContractStatus.Failed}`;
   } else {
-    return `status:${view}`
+    return `status:${view}`;
   }
 }
 

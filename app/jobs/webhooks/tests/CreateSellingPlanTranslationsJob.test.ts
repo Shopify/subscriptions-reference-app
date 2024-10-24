@@ -17,14 +17,14 @@ vi.mock('../../../../config', async (importOriginal) => {
     ...original,
     env: {
       ...original.env,
-      appGID: "gid://shopify/App/1111111111"
+      appGID: 'gid://shopify/App/1111111111',
     },
   };
 });
 
 vi.mock('~/models/SellingPlan/SellingPlan.server', async () => {
   return {
-    createSellingPlanTranslations: vi.fn().mockResolvedValue(undefined)
+    createSellingPlanTranslations: vi.fn().mockResolvedValue(undefined),
   };
 });
 
@@ -36,8 +36,8 @@ const mockValidResponses = [
           {locale: 'en', primary: true, published: true},
           {locale: 'de', primary: false, published: true},
         ],
-      }
-    }
+      },
+    },
   },
   {
     Shop: {
@@ -47,10 +47,10 @@ const mockValidResponses = [
           primaryDomain: {
             url: TEST_SHOP,
           },
-          currencyCode: 'CAD'
-        }
-      }
-    }
+          currencyCode: 'CAD',
+        },
+      },
+    },
   },
   {
     SellingPlanTranslations: {
@@ -60,7 +60,7 @@ const mockValidResponses = [
             edges: [
               {
                 node: {
-                  id: "gid://shopify/SellingPlan/1",
+                  id: 'gid://shopify/SellingPlan/1',
                   deliveryPolicy: {
                     intervalCount: 1,
                     interval: 'MONTH',
@@ -70,32 +70,31 @@ const mockValidResponses = [
                       adjustmentValue: {
                         amount: 5.0,
                       },
-                      adjustmentType: "PRICE"
-                    }
+                      adjustmentType: 'PRICE',
+                    },
                   ],
-                }
-              }
-            ]
-          }
-        }
-      }
-    }
-  }
+                },
+              },
+            ],
+          },
+        },
+      },
+    },
+  },
 ];
-
 
 describe('CreateSellingPlanTranslationsJob#perform', () => {
   const {graphQL, sequentiallyMockGraphQL} = mockShopifyServer();
 
   const task: Jobs.Parameters<Webhooks.SellingPlanGroups> = {
     shop: TEST_SHOP,
-    payload: SellingPlanGroupCreateWebhook
-  }
-  const job = new CreateSellingPlanTranslationsJob(task)
+    payload: SellingPlanGroupCreateWebhook,
+  };
+  const job = new CreateSellingPlanTranslationsJob(task);
 
   beforeEach(() => {
     vi.clearAllMocks();
-  })
+  });
 
   it('throws an error when data field is missing in selling plan group query', async () => {
     sequentiallyMockGraphQL([
@@ -106,8 +105,8 @@ describe('CreateSellingPlanTranslationsJob#perform', () => {
               {locale: 'en', primary: true, published: true},
               {locale: 'de', primary: false, published: true},
             ],
-          }
-        }
+          },
+        },
       },
       {
         Shop: {
@@ -117,55 +116,61 @@ describe('CreateSellingPlanTranslationsJob#perform', () => {
               primaryDomain: {
                 url: TEST_SHOP,
               },
-              currencyCode: 'CAD'
-            }
-          }
-        }
+              currencyCode: 'CAD',
+            },
+          },
+        },
       },
       {
         SellingPlanTranslations: {
-          notData: {}
-        }
-      }
-    ])
+          notData: {},
+        },
+      },
+    ]);
 
-    await expect(job.perform()).rejects.toThrowError()
-  })
+    await expect(job.perform()).rejects.toThrowError();
+  });
 
   it('calls the createSellingPlanTranslations mutation with valid params', async () => {
-    sequentiallyMockGraphQL(mockValidResponses)
+    sequentiallyMockGraphQL(mockValidResponses);
     await job.perform();
 
     expect(createSellingPlanTranslations).toHaveBeenCalledWith(
       graphQL,
-      [{
-        id: 'gid://shopify/SellingPlan/1',
-        pricingPolicies: [{
-          adjustmentType: 'PRICE',
-          adjustmentValue: {
-            amount: 5,
+      [
+        {
+          id: 'gid://shopify/SellingPlan/1',
+          pricingPolicies: [
+            {
+              adjustmentType: 'PRICE',
+              adjustmentValue: {
+                amount: 5,
+              },
+            },
+          ],
+          deliveryPolicy: {
+            interval: 'MONTH',
+            intervalCount: 1,
           },
-        }],
-        deliveryPolicy: {
-          interval: 'MONTH',
-          intervalCount: 1,
-        }
-      }],
+        },
+      ],
       [{locale: 'de', primary: false, published: true}],
-      'CAD'
-    )
-  })
+      'CAD',
+    );
+  });
 
   it('returns if selling plan group event is not from subscriptions app', async () => {
     const task: Jobs.Parameters<Webhooks.SellingPlanGroups> = {
       shop: TEST_SHOP,
-      payload: SellingPlanGroupCreateWebhookWithDifferentAppGid
-    }
-    const job = new CreateSellingPlanTranslationsJob(task)
+      payload: SellingPlanGroupCreateWebhookWithDifferentAppGid,
+    };
+    const job = new CreateSellingPlanTranslationsJob(task);
 
     await job.perform();
 
     expect(graphQL).not.toHavePerformedGraphQLOperation(GetShopLocales);
-    expect(graphQL).not.toHavePerformedGraphQLOperation(SellingPlanTranslations);
+    expect(graphQL).not.toHavePerformedGraphQLOperation(
+      SellingPlanTranslations,
+    );
   });
-})
+});

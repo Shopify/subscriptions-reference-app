@@ -23,11 +23,35 @@
     "label": "配送間隔",
     "weeks": "週",
     "months": "月",
-    "years": "年"
+    "years": "年",
+    "day": {
+      "one": "毎日配達",
+      "other": "{{count}}日ごとに配達"
+    },
+    "week": {
+      "one": "毎週配達",
+      "other": "{{count}}週ごとに配達"
+    },
+    "month": {
+      "one": "毎月配達",
+      "other": "{{count}}か月ごとに配達"
+    },
+    "year": {
+      "one": "毎年配達",
+      "other": "{{count}}年ごとに配達"
+    }
   },
   "addOptionButton": {
     "label": "オプション",
     "accessibilityLabel": "オプションを追加する"
   },
-  "removeOption": "オプションを削除する"
+  "removeOption": "オプションを削除する",
+  "discountDetails": {
+    "percentageOff": "{{amount}}%オフ",
+    "amountOff": "{{amount}}オフ",
+    "flatRate": "{{amount}}の一定料金"
+  },
+  "success": {
+    "create": "販売計画グループが作成されました"
+  }
 }

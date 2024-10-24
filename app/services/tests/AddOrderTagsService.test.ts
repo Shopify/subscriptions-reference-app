@@ -17,7 +17,7 @@ function defaultGraphQLResponses() {
       },
     },
   };
-};
+}
 
 function errorGraphQLResponses() {
   return {
@@ -29,7 +29,7 @@ function errorGraphQLResponses() {
       },
     },
   };
-};
+}
 
 const shopDomain = TEST_SHOP;
 const orderId = 'gid://shopify/Order/1';

@@ -21,13 +21,45 @@
   "deliveryFrequency": "Częstotliwość dostaw",
   "deliveryInterval": {
     "label": "Interwał dostaw",
-    "weeks": "Tygodnie",
-    "months": "Miesiące",
-    "years": "Lata"
+    "weeks": "tygodnie",
+    "months": "miesiące(-ęcy)",
+    "years": "lata",
+    "day": {
+      "one": "Dostarczaj codziennie",
+      "other": "Dostarczaj co {{count}} dni",
+      "few": "Dostarczaj co {{count}} dni",
+      "many": "Dostarczaj co {{count}} dni"
+    },
+    "week": {
+      "one": "Dostarczaj co tydzień",
+      "other": "Dostarczaj co {{count}} tygodnie",
+      "few": "Dostarczaj co {{count}} tygodnie",
+      "many": "Dostarczaj co {{count}} tygodnie"
+    },
+    "month": {
+      "one": "Dostarczaj co miesiąc",
+      "other": "Dostarczaj co {{count}} mies.",
+      "few": "Dostarczaj co {{count}} mies.",
+      "many": "Dostarczaj co {{count}} mies."
+    },
+    "year": {
+      "one": "Dostarczaj co rok",
+      "other": "Dostarczaj co {{count}} lat(a)",
+      "few": "Dostarczaj co {{count}} lat(a)",
+      "many": "Dostarczaj co {{count}} lat(a)"
+    }
   },
   "addOptionButton": {
     "label": "Opcja",
     "accessibilityLabel": "Dodaj opcję"
   },
-  "removeOption": "Usuń opcję"
+  "removeOption": "Usuń opcję",
+  "discountDetails": {
+    "percentageOff": "{{amount}}% zniżki",
+    "amountOff": "{{amount}} zniżki",
+    "flatRate": "Stawka zryczałtowana {{amount}}"
+  },
+  "success": {
+    "create": "Utworzono grupę planów sprzedaży"
+  }
 }

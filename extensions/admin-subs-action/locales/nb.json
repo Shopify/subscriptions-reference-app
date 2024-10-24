@@ -21,13 +21,37 @@
   "deliveryFrequency": "Leveringsfrekvens",
   "deliveryInterval": {
     "label": "Leveringsintervall",
-    "weeks": "Uker",
-    "months": "Måneder",
-    "years": "År"
+    "weeks": "uker",
+    "months": "måneder",
+    "years": "år",
+    "day": {
+      "one": "Lever hver dag",
+      "other": "Lever hver {{count}}. dag"
+    },
+    "week": {
+      "one": "Lever hver uke",
+      "other": "Lever hver {{count}}. uke"
+    },
+    "month": {
+      "one": "Lever hver måned",
+      "other": "Lever hver {{count}}. måned"
+    },
+    "year": {
+      "one": "Lever hvert år",
+      "other": "Lever hvert {{count}}. år"
+    }
   },
   "addOptionButton": {
     "label": "Alternativ",
     "accessibilityLabel": "Legg til alternativ"
   },
-  "removeOption": "Fjern alternativ"
+  "removeOption": "Fjern alternativ",
+  "discountDetails": {
+    "percentageOff": "{{amount}} % rabatt",
+    "amountOff": "{{amount}} rabatt",
+    "flatRate": "{{amount}} fastpris"
+  },
+  "success": {
+    "create": "Salgsplangruppe er opprettet"
+  }
 }

@@ -48,7 +48,6 @@ const sellingPlanGroupsPayload = {
   selling_plans: [],
 };
 
-
 vi.mock('~/jobs', async (importOriginal) => {
   const original: any = await importOriginal();
   return {
@@ -120,7 +119,7 @@ describe('when webhook action is triggered', () => {
       SUBSCRIPTION_BILLING_ATTEMPTS_FAILURE: subscriptionBillingAttemptPayload,
       APP_UNINSTALLED: {},
       SUBSCRIPTION_BILLING_CYCLES_SKIP: subscriptionBillingCyclePayload,
-          };
+    };
     it.each(Object.entries(topicPayloads))(
       'returns 200 and skips processing for %s topic',
       async (topic, payload) => {

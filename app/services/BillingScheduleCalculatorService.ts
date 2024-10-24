@@ -15,7 +15,7 @@ import type {DateTime} from 'luxon';
  */
 export class BillingScheduleCalculatorService {
   static BILLING_CHARGE_DAYS_AGO: number = 2;
-  
+
   public readonly record: BillingSchedule;
   public readonly compareToDate: DateTime;
 
@@ -61,7 +61,6 @@ export class BillingScheduleCalculatorService {
     return this.timeLocal.endOf('day').setZone('utc');
   }
 
-  
   /**
    * Should the shop process billing charges or reminders at the given `compareToDate`?
    */

@@ -2,7 +2,11 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "target": "ES2022",
-    "types": ["@shopify/react-testing/matchers", "vitest/globals", "@testing-library/jest-dom"],
+    "types": [
+      "@shopify/react-testing/matchers",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
     "jsx": "react-jsx",
     "resolveJsonModule": true,
     "noEmit": true,

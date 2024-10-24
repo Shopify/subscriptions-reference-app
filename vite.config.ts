@@ -40,11 +40,7 @@ export default defineConfig({
     hmr: hmrConfig,
     fs: {
       // See https://vitejs.dev/config/server-options.html#server-fs-allow for more information
-      allow: [
-        'app',
-        'config/index.ts',
-                'node_modules',
-      ],
+      allow: ['app', 'config/index.ts', 'node_modules'],
       // cachedChecks: false,
     },
   },

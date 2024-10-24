@@ -30,10 +30,11 @@ describe('MerchantSendEmailJob#perform', () => {
       expect(MerchantSendEmailService.prototype.run).toHaveBeenCalledWith(
         TEST_SHOP,
         {
-          subscriptionContractId: cancelledSubscriptionContractEvent.admin_graphql_api_id,
+          subscriptionContractId:
+            cancelledSubscriptionContractEvent.admin_graphql_api_id,
           subscriptionTemplateName: 'SUBSCRIPTION_CANCELED__MERCHANT_',
         },
       );
     });
   });
-})
+});

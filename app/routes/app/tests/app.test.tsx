@@ -71,7 +71,6 @@ describe('component', () => {
     expect(link).toHaveAttribute('href', '/app/plans');
   });
 
-  
   it('renders a link to settings', async () => {
     mountComponentWithRemixStub(<App />);
 

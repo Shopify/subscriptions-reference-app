@@ -68,7 +68,7 @@ export function UpdatePaymentMethodModal({
     paymentMethodsResponse.data?.customer.creditCards.edges || [],
   );
 
-    const filteredPaymentMethods = paymentMethods.filter(
+  const filteredPaymentMethods = paymentMethods.filter(
     (paymentMethod) =>
       paymentMethod.walletType !== 'SHOP_PAY' ||
       paymentMethod.id === currentPaymentInstrumentId,
@@ -117,7 +117,7 @@ export function UpdatePaymentMethodModal({
   function navigateToAccountPage() {
     overlay.close(UPDATE_PAYMENT_MODAL_ID);
 
-        setTimeout(() => {
+    setTimeout(() => {
       navigate('shopify:/customer-account/profile');
     }, 750);
   }
