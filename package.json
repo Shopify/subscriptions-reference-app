@@ -43,7 +43,7 @@
     "@shopify/api-codegen-preset": "1.1.2",
     "@shopify/app-bridge-react": "4.1.5",
     "@shopify/app-bridge-types": "0.0.15",
-    "@shopify/cli": "3.70.0",
+    "@shopify/cli": "3.72.0",
     "@shopify/dates": "2.1.0",
     "@shopify/i18next-shopify": "0.2.9",
     "@shopify/polaris": "13.9.1",

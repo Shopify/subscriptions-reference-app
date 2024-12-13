@@ -96,7 +96,7 @@ describe('CreateSellingPlanTranslationsJob#perform', () => {
     vi.clearAllMocks();
   });
 
-  it('throws an error when data field is missing in selling plan group query', async () => {
+  it('terminates when data field is missing in selling plan group query', async () => {
     sequentiallyMockGraphQL([
       {
         getShopLocales: {
@@ -128,7 +128,7 @@ describe('CreateSellingPlanTranslationsJob#perform', () => {
       },
     ]);
 
-    await expect(job.perform()).rejects.toThrowError();
+    await expect(job.perform()).resolves.toBeUndefined();
   });
 
   it('calls the createSellingPlanTranslations mutation with valid params', async () => {

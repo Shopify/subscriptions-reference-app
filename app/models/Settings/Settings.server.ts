@@ -34,7 +34,7 @@ export const SETTINGS_METAOBJECT_DEFINITION: MetaobjectDefinitionCreateMutationV
       description: 'Subscription app settings',
       type: SETTINGS_METAOBJECT_HANDLE.type,
       access: {
-        admin: 'PRIVATE' as MetaobjectAdminAccessInput,
+        admin: 'MERCHANT_READ' as MetaobjectAdminAccessInput,
         storefront: 'NONE' as MetaobjectStorefrontAccess,
       },
       fieldDefinitions: [
@@ -148,12 +148,9 @@ export async function ensureSettingsMetaobjectDefinitionExists(
   graphqlClient: GraphQLClient,
 ) {
   const repository = new MetaobjectRepository(graphqlClient);
-  await repository.createOrUpdateMetaobjectDefinition({
-    type: SETTINGS_METAOBJECT_DEFINITION.definition.type,
-    name: SETTINGS_METAOBJECT_DEFINITION.definition.name,
-    fieldDefinitions:
-      SETTINGS_METAOBJECT_DEFINITION.definition.fieldDefinitions,
-  });
+  await repository.createOrUpdateMetaobjectDefinition(
+    SETTINGS_METAOBJECT_DEFINITION.definition,
+  );
   await repository.createOrUpdateMetaobjectFields({
     handle: SETTINGS_METAOBJECT_HANDLE,
     fields: SETTINGS_METAOBJECT_FIELDS,

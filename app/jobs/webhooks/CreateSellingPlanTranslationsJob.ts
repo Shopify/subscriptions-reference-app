@@ -47,10 +47,8 @@ export class CreateSellingPlanTranslationsJob extends Job<
     const {data} = json;
 
     if (!data || !data.sellingPlanGroup) {
-      this.logger.error(json, 'Failed to get selling plan group data.');
-      throw new Error(
-        "selling plan group 'data.sellingPlanGroup' field is missing from response",
-      );
+      this.logger.warn({sellingPlanGroupId}, 'No selling plan group found');
+      return;
     }
     const sellingPlanNodes = nodesFromEdges(
       data?.sellingPlanGroup?.sellingPlans.edges || [],
