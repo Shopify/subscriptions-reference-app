@@ -95,7 +95,7 @@
        */
       const forms = Array.from(this.shopifySection.querySelectorAll('[action*="/cart/add"]'));
 
-      return forms.filter((form) => form.elements['product-id']?.value === this.productId);
+      return forms.filter((form) => form.elements['product-id'] === undefined || form.elements['product-id']?.value === this.productId);
     }
 
     appendSellingPlanInputs() {
