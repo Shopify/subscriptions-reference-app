@@ -4,7 +4,7 @@
 %}
 
 {% if product.selling_plan_groups.size > 0 %}
-  <div class="shopify_subscriptions_app_container" data-section-id='{{ section.id }}'>
+  <div class="shopify_subscriptions_app_container" data-section-id='{{ section.id }}' data-product-id='{{ product.id }}'>
     <script src="{{ 'app-block.js' | asset_url }}" defer></script>
     <link href="{{ 'styles.css' | asset_url }}" rel='stylesheet' type="text/css"/>
     {% for variant in product.variants %}

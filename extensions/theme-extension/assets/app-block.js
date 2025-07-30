@@ -45,6 +45,10 @@
       return this.subscriptionWidgetContainer.getAttribute('data-section-id');
     }
 
+    get productId() {
+      return this.subscriptionWidgetContainer.getAttribute('data-product-id');
+    }
+
     get shopifySection() {
       return document.querySelector(`#shopify-section-${this.sectionId}`);
     }
@@ -83,7 +87,15 @@
     }
 
     get addToCartForms() {
-      return this.shopifySection.querySelectorAll('[action*="/cart/add"]');
+      /** 
+       * A section might contain multiple forms, some unrelated to the product represented by this widget. This is frequent
+       * for instance in the product section containing a complementary product blocks with quick buy. Each complementary product
+       * quick buy will have its own form, so we need to filter them. By default, the {% form 'product' %} Liquid tag will add the
+       * "product-id" attribute, so we can filter the forms that are not related to the product represented by this widget.
+       */
+      const forms = Array.from(this.shopifySection.querySelectorAll('[action*="/cart/add"]'));
+
+      return forms.filter((form) => form.elements['product-id']?.value === this.productId);
     }
 
     appendSellingPlanInputs() {
