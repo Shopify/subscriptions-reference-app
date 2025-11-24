@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Subscrições",
+    "subtitle": {
+      "available": {
+        "none": "Nenhuma subscrição disponível",
+        "singular": "Subscrição disponível para {{count}} item",
+        "plural": "Subscrição disponível para {{count}} itens"
+      }
+    },
+    "unavailable": {
+      "title": "Subscrições indisponíveis",
+      "subtitle": "Requer POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Nenhuma subscrição disponível",
+        "singular": "Subscrição disponível para {{count}} item",
+        "plural": "Subscrição disponível para {{count}} itens"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Plano de compra necessário",
+        "purchasePlanAvailable": "Plano de compra disponível"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Compra única",
+    "noSubscriptionsAvailable": "Nenhuma subscrição disponível para este grupo de planos de venda",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% de desconto",
+      "amount": "{{amount}} de desconto"
+    },
+    "save": "Guardar",
+    "errorView": {
+      "title": "Não foi possível carregar os planos de compra",
+      "body": "Verifique a sua ligação e tente novamente",
+      "retry": "Tentar novamente"
+    },
+    "emptyView": {
+      "title": "Não há opções de compra disponíveis",
+      "body": "Experimente outra aplicação para obter opções de compra",
+      "goBack": "Voltar"
+    }
+  }
+}

@@ -10,7 +10,7 @@ automatically_update_urls_on_dev = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "customer_read_orders,read_locales,read_locations,read_themes,write_metaobject_definitions,write_metaobjects,write_orders,write_products,write_translations"
+scopes = "customer_read_customers,customer_read_orders,customer_read_own_subscription_contracts,customer_write_customers,customer_write_own_subscription_contracts,read_all_orders,read_locales,read_locations,read_themes,write_customer_payment_methods,write_customers,write_metaobject_definitions,write_metaobjects,write_orders,write_own_subscription_contracts,write_products,write_translations, read_analytics"
 
 [auth]
 redirect_urls = [
@@ -67,4 +67,4 @@ api_version = "unstable"
   compliance_topics = [ "shop/redact" ]
 
 [pos]
-embedded = false
+embedded = true

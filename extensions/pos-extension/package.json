@@ -1,0 +1,17 @@
+{
+  "name": "pos-extension",
+  "private": true,
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@shopify/ui-extensions": "2025.10.0",
+    "@preact/signals": "1.3.0",
+    "preact": "10.27.x"
+  },
+  "devDependencies": {
+    "@testing-library/preact": "3.2.4"
+  },
+  "overrides": {
+    "@shopify/ui-extensions": "~2025.10.0"
+  }
+}

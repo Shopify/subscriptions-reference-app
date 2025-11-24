@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abonnements",
+    "subtitle": {
+      "available": {
+        "none": "Keine Abonnements verfügbar",
+        "singular": "Abonnement verfügbar für {{count}} Artikel",
+        "plural": "Abonnement verfügbar für {{count}} Artikel"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions nicht verfügbar",
+      "subtitle": "Erfordert POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Keine Abonnements verfügbar",
+        "singular": "Abonnement verfügbar für {{count}} Artikel",
+        "plural": "Abonnement verfügbar für {{count}} Artikel"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Kaufplan erforderlich",
+        "purchasePlanAvailable": "Kaufplan verfügbar"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Einmaliger Kauf",
+    "noSubscriptionsAvailable": "Für diese Verkaufsplangruppe sind keine Abonnements verfügbar.",
+    "pricingPolicy": {
+      "percentage": "{{percentage}} % Rabatt",
+      "amount": "{{amount}} gespart"
+    },
+    "save": "Speichern",
+    "errorView": {
+      "title": "Abonnementpläne können nicht geladen werden",
+      "body": "Überprüfe deine Verbindung und versuche es erneut",
+      "retry": "Erneut versuchen"
+    },
+    "emptyView": {
+      "title": "Keine Kaufoptionen verfügbar",
+      "body": "Probiere eine andere App für Kaufoptionen",
+      "goBack": "Zurück"
+    }
+  }
+}

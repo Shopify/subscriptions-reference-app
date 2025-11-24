@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abonelikler",
+    "subtitle": {
+      "available": {
+        "none": "Abonelik mevcut değil",
+        "singular": "{{count}} ürün için abonelik mevcut",
+        "plural": "{{count}} ürün için abonelik mevcut"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions kullanılamıyor",
+      "subtitle": "POS {{version}}+ sürümü gerekir"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Abonelik mevcut değil",
+        "singular": "{{count}} ürün için abonelik mevcut",
+        "plural": "{{count}} ürün için abonelik mevcut"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Satın alım planı gerekli",
+        "purchasePlanAvailable": "Satın alım planı mevcut"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Tek seferlik satın alım",
+    "noSubscriptionsAvailable": "Bu satış planı grubu için abonelik mevcut değil",
+    "pricingPolicy": {
+      "percentage": "%{{percentage}} indirim",
+      "amount": "{{amount}} indirim"
+    },
+    "save": "Kaydet",
+    "errorView": {
+      "title": "Satın alım planları yüklenemiyor",
+      "body": "Bağlantınızı kontrol edin ve tekrar deneyin",
+      "retry": "Tekrar deneyin"
+    },
+    "emptyView": {
+      "title": "Mevcut satın alma seçeneği yok",
+      "body": "Satın alma seçenekleri için farklı bir app deneyin",
+      "goBack": "Geri dön"
+    }
+  }
+}

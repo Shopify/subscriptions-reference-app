@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Předplatná",
+    "subtitle": {
+      "available": {
+        "none": "Nejsou k dispozici žádná předplatná",
+        "singular": "U {{count}} položky je k dispozici předplatné",
+        "plural": "U  položek ({{count}}) je k dispozici předplatné"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions není k dispozici",
+      "subtitle": "Vyžaduje POS ve verzi {{version}} a novější"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Nejsou k dispozici žádná předplatná",
+        "singular": "U {{count}} položky je k dispozici předplatné",
+        "plural": "U  položek ({{count}}) je k dispozici předplatné"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Je vyžadován nákupní plán",
+        "purchasePlanAvailable": "Je k dispozici nákupní plán"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Jednorázový nákup",
+    "noSubscriptionsAvailable": "Pro tuto skupinu prodejního plánu nejsou k dispozici žádná předplatná",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% sleva",
+      "amount": "Sleva {{amount}}"
+    },
+    "save": "Uložit",
+    "errorView": {
+      "title": "Nelze načíst plány nákupu",
+      "body": "Zkontrolujte propojení a zkuste to znovu",
+      "retry": "Zkusit znovu"
+    },
+    "emptyView": {
+      "title": "Nejsou k dispozici žádné možnosti nákupu",
+      "body": "Zkuste jinou aplikaci s možnostmi nákupu",
+      "goBack": "Zpět"
+    }
+  }
+}

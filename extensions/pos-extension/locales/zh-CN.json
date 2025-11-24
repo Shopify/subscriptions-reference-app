@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "订阅",
+    "subtitle": {
+      "available": {
+        "none": "无可用订阅",
+        "singular": "可订阅 {{count}} 件商品",
+        "plural": "可订阅 {{count}} 件商品"
+      }
+    },
+    "unavailable": {
+      "title": "订阅不可用",
+      "subtitle": "需要 POS {{version}} 及以上版本"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "无可用订阅",
+        "singular": "可订阅 {{count}} 件商品",
+        "plural": "可订阅 {{count}} 件商品"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "需要购买套餐",
+        "purchasePlanAvailable": "可用购买套餐"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "一次性购买",
+    "noSubscriptionsAvailable": "此销售方案组没有可用的订阅",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% 折扣",
+      "amount": "立减 {{amount}}"
+    },
+    "save": "保存",
+    "errorView": {
+      "title": "无法加载购买方案",
+      "body": "请检查您的网络连接并重试",
+      "retry": "重试"
+    },
+    "emptyView": {
+      "title": "无可用购买选项",
+      "body": "尝试使用其他应用获取购买选项",
+      "goBack": "返回"
+    }
+  }
+}

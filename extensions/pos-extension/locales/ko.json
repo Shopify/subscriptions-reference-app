@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "구독",
+    "subtitle": {
+      "available": {
+        "none": "구독을 이용할 수 없음",
+        "singular": "{{count}}개 항목 구독 가능",
+        "plural": "{{count}}개 항목 구독 가능"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions 사용 불가",
+      "subtitle": "POS 버전 {{version}} 이상 필요"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "구독을 이용할 수 없음",
+        "singular": "{{count}}개 항목 구독 가능",
+        "plural": "{{count}}개 항목 구독 가능"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "구매 플랜 필요",
+        "purchasePlanAvailable": "구매 플랜 이용 가능"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "일회성 구매",
+    "noSubscriptionsAvailable": "이 판매 계획 그룹에는 사용 가능한 구독이 없습니다",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% 할인",
+      "amount": "{{amount}} 할인"
+    },
+    "save": "저장",
+    "errorView": {
+      "title": "구독 플랜을 로드할 수 없습니다",
+      "body": "연결을 확인하고 다시 시도해 주세요",
+      "retry": "다시 시도"
+    },
+    "emptyView": {
+      "title": "사용 가능한 구매 옵션이 없습니다.",
+      "body": "구매 옵션은 다른 앱을 이용해 보세요.",
+      "goBack": "뒤로 가기"
+    }
+  }
+}

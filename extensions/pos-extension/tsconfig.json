@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "typeRoots": ["./", "../../node_modules/@types"],
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": ["shopify.d.ts", "src/**/*", "types/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

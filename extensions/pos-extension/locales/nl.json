@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abonnementen",
+    "subtitle": {
+      "available": {
+        "none": "Geen abonnementen beschikbaar",
+        "singular": "Abonnement beschikbaar voor {{count}} artikel",
+        "plural": "Abonnement beschikbaar voor {{count}} artikelen"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions niet beschikbaar",
+      "subtitle": "Vereist POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Geen abonnementen beschikbaar",
+        "singular": "Abonnement beschikbaar voor {{count}} artikel",
+        "plural": "Abonnement beschikbaar voor {{count}} artikelen"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Aankoopabonnement vereist",
+        "purchasePlanAvailable": "Aankoopabonnement beschikbaar"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Eenmalige aankoop",
+    "noSubscriptionsAvailable": "Geen abonnementen beschikbaar voor deze verkoopplangroep",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% korting",
+      "amount": "{{amount}} korting"
+    },
+    "save": "Opslaan",
+    "errorView": {
+      "title": "Kan abonnementsplannen niet laden",
+      "body": "Controleer je verbinding en probeer het opnieuw",
+      "retry": "Opnieuw proberen"
+    },
+    "emptyView": {
+      "title": "Geen aankoopopties beschikbaar",
+      "body": "Probeer een andere app voor aankoopopties",
+      "goBack": "Terug"
+    }
+  }
+}

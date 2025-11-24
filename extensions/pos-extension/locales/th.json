@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "การสมัครใช้งาน",
+    "subtitle": {
+      "available": {
+        "singular": "มีการสมัครใช้งานพร้อมใช้งานสำหรับ {{count}} รายการ",
+        "plural": "มีการสมัครใช้งานพร้อมใช้งานสำหรับ {{count}} รายการ",
+        "none": "ไม่มีการสมัครใช้งานที่ใช้ได้"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions ไม่พร้อมใช้งาน",
+      "subtitle": "ต้องใช้ POS {{version}} ขึ้นไป"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "singular": "มีการสมัครใช้งานพร้อมใช้งานสำหรับ {{count}} รายการ",
+        "plural": "มีการสมัครใช้งานพร้อมใช้งานสำหรับ {{count}} รายการ",
+        "none": "ไม่มีการสมัครใช้งานที่ใช้ได้"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "ต้องระบุแผนการซื้อ",
+        "purchasePlanAvailable": "มีแผนการซื้อพร้อมใช้งาน"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "การซื้อแบบครั้งเดียว",
+    "noSubscriptionsAvailable": "ไม่มีการสมัครใช้งานสำหรับกลุ่มแผนการขายนี้",
+    "pricingPolicy": {
+      "percentage": "ส่วนลด {{percentage}}%",
+      "amount": "ส่วนลด {{amount}}"
+    },
+    "save": "บันทึก",
+    "errorView": {
+      "title": "โหลดแผนการซื้อไม่ได้",
+      "body": "โปรดตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง",
+      "retry": "ลองอีกครั้ง"
+    },
+    "emptyView": {
+      "title": "ไม่มีตัวเลือกการซื้อ",
+      "body": "ลองใช้แอปอื่นสำหรับตัวเลือกการซื้อ",
+      "goBack": "ย้อนกลับ"
+    }
+  }
+}

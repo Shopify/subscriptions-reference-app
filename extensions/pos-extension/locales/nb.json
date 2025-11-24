@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abonnementer",
+    "subtitle": {
+      "available": {
+        "none": "Ingen abonnementer tilgjengelige",
+        "singular": "Abonnement tilgjengelig for {{count}} vare",
+        "plural": "Abonnement tilgjengelig for {{count}} varer"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions utilgjengelig",
+      "subtitle": "Krever POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Ingen abonnementer tilgjengelige",
+        "singular": "Abonnement tilgjengelig for {{count}} vare",
+        "plural": "Abonnement tilgjengelig for {{count}} varer"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Kjøpsplan nødvendig",
+        "purchasePlanAvailable": "Kjøpsplan tilgjengelig"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Éngangskjøp",
+    "noSubscriptionsAvailable": "Ingen abonnementer er tilgjengelige for denne salgsplangruppen",
+    "pricingPolicy": {
+      "percentage": "{{percentage}} % rabatt",
+      "amount": "{{amount}} i avslag"
+    },
+    "save": "Lagre",
+    "errorView": {
+      "title": "Kan ikke laste abonnementsalternativer",
+      "body": "Sjekk forbindelsen og prøv igjen",
+      "retry": "Prøv igjen"
+    },
+    "emptyView": {
+      "title": "Ingen kjøpsmuligheter tilgjengelig",
+      "body": "Prøv en annen app for kjøpsmuligheter",
+      "goBack": "Gå tilbake"
+    }
+  }
+}

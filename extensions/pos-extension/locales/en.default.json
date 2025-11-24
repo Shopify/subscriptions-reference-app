@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Subscriptions",
+    "subtitle": {
+      "available": {
+        "none": "No subscriptions available",
+        "singular": "Subscription available for {{count}} item",
+        "plural": "Subscription available for {{count}} items"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions unavailable",
+      "subtitle": "Requires POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "No subscriptions available",
+        "singular": "Subscription available for {{count}} item",
+        "plural": "Subscription available for {{count}} items"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Purchase plan required",
+        "purchasePlanAvailable": "Purchase plan available"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "save": "Save",
+    "oneTimePurchase": "One-time purchase",
+    "noSubscriptionsAvailable": "No subscriptions available for this selling plan group",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% off",
+      "amount": "{{amount}} off"
+    },
+    "emptyView": {
+      "title": "No purchase options available",
+      "body": "Try a different app for purchase options",
+      "goBack": "Go back"
+    },
+    "errorView": {
+      "title": "Can’t load purchase plans",
+      "body": "Check your connection and try again",
+      "retry": "Retry"
+    }
+  }
+}

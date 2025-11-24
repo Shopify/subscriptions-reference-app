@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abonnements",
+    "subtitle": {
+      "available": {
+        "none": "Aucun abonnement disponible",
+        "singular": "Abonnement disponible pour {{count}} article",
+        "plural": "Abonnement disponible pour {{count}} articles"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions indisponible",
+      "subtitle": "Nécessite POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Aucun abonnement disponible",
+        "singular": "Abonnement disponible pour {{count}} article",
+        "plural": "Abonnement disponible pour {{count}} articles"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Forfait d’achat obligatoire",
+        "purchasePlanAvailable": "Forfait d’achat disponible"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Achat ponctuel",
+    "noSubscriptionsAvailable": "Aucun abonnement disponible pour ce groupe de forfaits de vente",
+    "pricingPolicy": {
+      "percentage": "{{percentage}} % de réduction",
+      "amount": "{{amount}} de réduction"
+    },
+    "save": "Enregistrer",
+    "errorView": {
+      "title": "Impossible de charger les plans d’abonnement",
+      "body": "Vérifiez votre connexion et réessayez",
+      "retry": "Réessayer"
+    },
+    "emptyView": {
+      "title": "Aucune option d’achat disponible",
+      "body": "Essayez une autre appli pour les options d’achat",
+      "goBack": "Retour"
+    }
+  }
+}

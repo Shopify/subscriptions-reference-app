@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Prenumerationer",
+    "subtitle": {
+      "available": {
+        "none": "Inga prenumerationer tillgängliga",
+        "singular": "Prenumeration tillgänglig för {{count}} artikel",
+        "plural": "Prenumeration tillgänglig för {{count}} artiklar"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions otillgängliga",
+      "subtitle": "Kräver Kassasystem {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Inga prenumerationer tillgängliga",
+        "singular": "Prenumeration tillgänglig för {{count}} artikel",
+        "plural": "Prenumeration tillgänglig för {{count}} artiklar"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Inköpsplan krävs",
+        "purchasePlanAvailable": "Inköpsplan tillgänglig"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Engångsköp",
+    "noSubscriptionsAvailable": "Inga prenumerationer tillgängliga för den här försäljningsplansgruppen",
+    "pricingPolicy": {
+      "percentage": "{{percentage}} % rabatt",
+      "amount": "{{amount}} rabatt"
+    },
+    "save": "Spara",
+    "errorView": {
+      "title": "Det gick inte att läsa in prenumerationsplaner",
+      "body": "Kontrollera anslutningen och försök igen",
+      "retry": "Försök igen"
+    },
+    "emptyView": {
+      "title": "Inga köpalternativ tillgängliga",
+      "body": "Prova en annan app för köpalternativ",
+      "goBack": "Gå tillbaka"
+    }
+  }
+}

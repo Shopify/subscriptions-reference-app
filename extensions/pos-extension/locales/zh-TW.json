@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "訂閱",
+    "subtitle": {
+      "available": {
+        "none": "沒有可用的訂閱",
+        "singular": "訂閱適用於 {{count}} 個品項",
+        "plural": "訂閱適用於 {{count}} 個品項"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions 無法使用",
+      "subtitle": "需要 POS 版本 {{version}} 或以上"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "沒有可用的訂閱",
+        "singular": "訂閱適用於 {{count}} 個品項",
+        "plural": "訂閱適用於 {{count}} 個品項"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "需要購買方案",
+        "purchasePlanAvailable": "有可用的購買方案"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "一次性購買",
+    "noSubscriptionsAvailable": "此銷售方案群組沒有可用的訂閱",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% 折扣",
+      "amount": "優惠 {{amount}}"
+    },
+    "save": "儲存",
+    "errorView": {
+      "title": "無法載入訂閱方案",
+      "body": "請檢查您的網路連線後再試一次。",
+      "retry": "重試"
+    },
+    "emptyView": {
+      "title": "沒有可用的購買選項",
+      "body": "若要使用購買選項，請您改用其他 App",
+      "goBack": "返回"
+    }
+  }
+}

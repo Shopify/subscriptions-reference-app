@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abonnementer",
+    "subtitle": {
+      "available": {
+        "none": "Der er ingen tilgængelige abonnementer",
+        "singular": "Abonnement tilgængeligt for {{count}} vare",
+        "plural": "Abonnement tilgængeligt for {{count}} varer"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions er ikke tilgængeligt",
+      "subtitle": "Kræver POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Der er ingen tilgængelige abonnementer",
+        "singular": "Abonnement tilgængeligt for {{count}} vare",
+        "plural": "Abonnement tilgængeligt for {{count}} varer"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Kræver købsabonnement",
+        "purchasePlanAvailable": "Købsabonnement tilgængeligt"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Engangskøb",
+    "noSubscriptionsAvailable": "Der er ingen abonnementer tilgængelige for denne salgsplangruppe",
+    "pricingPolicy": {
+      "percentage": "{{percentage}} % rabat",
+      "amount": "{{amount}} rabat"
+    },
+    "save": "Gem",
+    "errorView": {
+      "title": "Kan ikke indlæse købsplaner",
+      "body": "Tjek din forbindelse, og prøv igen.",
+      "retry": "Prøv igen"
+    },
+    "emptyView": {
+      "title": "Ingen tilgængelige købsmuligheder",
+      "body": "Prøv en anden app med købsmuligheder",
+      "goBack": "Gå tilbage"
+    }
+  }
+}

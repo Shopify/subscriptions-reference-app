@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Assinaturas",
+    "subtitle": {
+      "available": {
+        "none": "Nenhuma assinatura disponível",
+        "singular": "Assinatura disponível para {{count}} item",
+        "plural": "Assinatura disponível para {{count}} itens"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions indisponível",
+      "subtitle": "Requer o POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Nenhuma assinatura disponível",
+        "singular": "Assinatura disponível para {{count}} item",
+        "plural": "Assinatura disponível para {{count}} itens"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Apenas para plano de compra",
+        "purchasePlanAvailable": "Plano de compra disponíveis"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Compra única",
+    "noSubscriptionsAvailable": "Não há assinaturas disponíveis para este grupo de plano de venda",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% de desconto",
+      "amount": "{{amount}} de desconto"
+    },
+    "save": "Salvar",
+    "errorView": {
+      "title": "Não foi possível carregar os planos de compra",
+      "body": "Verifique sua conexão e tente novamente",
+      "retry": "Tentar novamente"
+    },
+    "emptyView": {
+      "title": "Nenhuma opção de compra disponível",
+      "body": "Experimente outro app para opções de compra",
+      "goBack": "Voltar"
+    }
+  }
+}
