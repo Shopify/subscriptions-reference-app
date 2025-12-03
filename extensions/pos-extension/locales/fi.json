@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Toistuvat tilaukset",
+    "subtitle": {
+      "available": {
+        "none": "Ei toistuvia tilauksia saatavilla",
+        "singular": "Toistuva tilaus saatavilla {{count}} tuotteelle",
+        "plural": "Toistuva tilaus saatavilla {{count}} tuotteelle"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions ei saatavilla",
+      "subtitle": "Vaatii POS-version {{version}} tai uudemman"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Ei toistuvia tilauksia saatavilla",
+        "singular": "Toistuva tilaus saatavilla {{count}} tuotteelle",
+        "plural": "Toistuva tilaus saatavilla {{count}} tuotteelle"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Edellyttää maksullista sopimusta",
+        "purchasePlanAvailable": "Maksullinen sopimus saatavilla"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Kertaostos",
+    "noSubscriptionsAvailable": "Tälle myyntimalliryhmälle ei ole saatavilla toistuvia tilauksia",
+    "pricingPolicy": {
+      "percentage": "{{percentage}} % alennusta",
+      "amount": "{{amount}} alennusta"
+    },
+    "save": "Tallenna",
+    "errorView": {
+      "title": "Ostovaihtoehtoja ei voitu ladata",
+      "body": "Tarkista yhteytesi ja yritä uudelleen",
+      "retry": "Yritä uudelleen"
+    },
+    "emptyView": {
+      "title": "Ostovaihtoehtoja ei ole saatavilla",
+      "body": "Kokeile toista sovellusta ostovaihtoehtoja varten",
+      "goBack": "Takaisin"
+    }
+  }
+}

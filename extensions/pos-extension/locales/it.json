@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Abbonamenti",
+    "subtitle": {
+      "available": {
+        "none": "Non sono disponibili abbonamenti",
+        "singular": "Abbonamento disponibile per {{count}} articolo",
+        "plural": "Abbonamento disponibile per {{count}} articoli"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions non disponibili",
+      "subtitle": "Richiede POS {{version}}+"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Non sono disponibili abbonamenti",
+        "singular": "Abbonamento disponibile per {{count}} articolo",
+        "plural": "Abbonamento disponibile per {{count}} articoli"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Piano di acquisto richiesto",
+        "purchasePlanAvailable": "Piano di acquisto disponibile"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Acquisto singolo",
+    "noSubscriptionsAvailable": "Non sono disponibili abbonamenti per questo gruppo di piani di vendita",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% di sconto",
+      "amount": "Sconto di {{amount}}"
+    },
+    "save": "Salva",
+    "errorView": {
+      "title": "Impossibile caricare i piani di acquisto",
+      "body": "Controlla la tua connessione e riprova",
+      "retry": "Riprova"
+    },
+    "emptyView": {
+      "title": "Nessuna opzione di acquisto disponibile",
+      "body": "Prova un'applicazione diversa per le opzioni di acquisto",
+      "goBack": "Torna indietro"
+    }
+  }
+}

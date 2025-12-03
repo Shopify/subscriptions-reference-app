@@ -1,0 +1,28 @@
+# The version of APIs your extension will receive. Learn more:
+# https://shopify.dev/docs/api/usage/versioning
+api_version = "2025-10"
+
+[[extensions]]
+type = "ui_extension"
+name = "pos-extension"
+
+handle = "pos-extension"
+description = "Subscriptions"
+
+# Controls where in POS your extension will be injected,
+# and the file that contains your extension’s source code.
+[[extensions.targeting]]
+module = "./src/MenuItemModal.tsx"
+target = "pos.cart.line-item-details.action.render"
+
+[[extensions.targeting]]
+module = "./src/MenuItem.tsx"
+target = "pos.cart.line-item-details.action.menu-item.render"
+
+[[extensions.targeting]]
+module = "./src/Tile.tsx"
+target = "pos.home.tile.render"
+
+[[extensions.targeting]]
+module = "./src/TileModal.tsx"
+target = "pos.home.modal.render"

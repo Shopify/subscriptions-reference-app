@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "Subskrypcje",
+    "subtitle": {
+      "available": {
+        "none": "Brak dostępnych subskrypcji",
+        "singular": "Subskrypcja dostępna dla {{count}} pozycji",
+        "plural": "Subskrypcja dostępna dla {{count}} pozycji"
+      }
+    },
+    "unavailable": {
+      "title": "Subscriptions niedostępne",
+      "subtitle": "Wymaga POS w wersji {{version}} lub nowszej"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "Brak dostępnych subskrypcji",
+        "singular": "Subskrypcja dostępna dla {{count}} pozycji",
+        "plural": "Subskrypcja dostępna dla {{count}} pozycji"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "Wymagany plan zakupu",
+        "purchasePlanAvailable": "Dostępny plan zakupu"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "Zakup jednorazowy",
+    "noSubscriptionsAvailable": "Brak dostępnych subskrypcji dla tej grupy planów sprzedaży",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}% zniżki",
+      "amount": "{{amount}} taniej"
+    },
+    "save": "Zapisz",
+    "errorView": {
+      "title": "Nie można załadować planów subskrypcji",
+      "body": "Sprawdź połączenie i spróbuj ponownie",
+      "retry": "Spróbuj ponownie"
+    },
+    "emptyView": {
+      "title": "Brak dostępnych opcji zakupu",
+      "body": "Spróbuj znaleźć opcje zakupu w innej aplikacji.",
+      "goBack": "Wróć"
+    }
+  }
+}

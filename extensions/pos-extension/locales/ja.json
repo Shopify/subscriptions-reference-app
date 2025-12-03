@@ -1,0 +1,50 @@
+{
+  "Tile": {
+    "title": "サブスクリプション",
+    "subtitle": {
+      "available": {
+        "none": "利用可能なサブスクリプションはありません",
+        "singular": "{{count}}アイテムのサブスクリプションを利用できます",
+        "plural": "{{count}}アイテムのサブスクリプションを利用できます"
+      }
+    },
+    "unavailable": {
+      "title": "サブスクリプション利用不可",
+      "subtitle": "POS {{version}}以上が必要です"
+    }
+  },
+  "ElegibleLineItems": {
+    "header": {
+      "available": {
+        "none": "利用可能なサブスクリプションはありません",
+        "singular": "{{count}}アイテムのサブスクリプションを利用できます",
+        "plural": "{{count}}アイテムのサブスクリプションを利用できます"
+      }
+    },
+    "row": {
+      "subtitle": {
+        "purchasePlanRequired": "購入プランが必要です",
+        "purchasePlanAvailable": "購入プランあり"
+      }
+    }
+  },
+  "SubscriptionScreen": {
+    "oneTimePurchase": "一度限りの購入",
+    "noSubscriptionsAvailable": "この販売計画グループで利用可能なサブスクリプションはありません",
+    "pricingPolicy": {
+      "percentage": "{{percentage}}%オフ",
+      "amount": "{{amount}}割引"
+    },
+    "save": "保存",
+    "errorView": {
+      "title": "購入プランを読み込めません",
+      "body": "接続を確認してから、もう一度お試しください。",
+      "retry": "再試行"
+    },
+    "emptyView": {
+      "title": "利用できる購入オプションはありません",
+      "body": "購入オプションについては、別のアプリをお試しください。",
+      "goBack": "戻る"
+    }
+  }
+}
