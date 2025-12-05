@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Gantikan kaedah pembayaran",
     "paymentMethod": "Kaedah pembayaran",
-    "edit": "Edit",
-    "errorBannerTitle": "Tidak dapat mengemas kini kaedah pembayaran"
+    "edit": "Gunakan kaedah pembayaran yang baharu",
+    "errorBannerTitle": "Tidak dapat mengemas kini kaedah pembayaran",
+    "fetchError": "Tidak boleh mendapatkan semula kaedah pembayaran, sila cuba lagi"
   },
   "pastOrdersCard": {
     "pastOrders": "Pesanan lalu",
@@ -149,5 +150,9 @@
   "delayed": "Pesanan seterusnya mungkin tertangguh",
   "close": "Tutup",
   "cancel": "Batal",
-  "save": "Simpan"
+  "save": "Simpan",
+  "subscriptionDetailsError": "Gagal mendapatkan semula butiran langganan, sila cuba lagi",
+  "subscriptionList": {
+    "fetchError": "Gagal mendapatkan semula langganan, sila cuba lagi"
+  }
 }

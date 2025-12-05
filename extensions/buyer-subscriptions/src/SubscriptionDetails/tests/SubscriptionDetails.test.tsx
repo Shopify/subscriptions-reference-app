@@ -38,12 +38,16 @@ describe('<SubscriptionDetails />', () => {
     ).toBeInTheDocument();
   });
 
-  it('throws an error when the API call fails', async () => {
+  it('shows an error state when the API call fails', async () => {
     mockSubscription({error: true});
 
-    await expect(
-      mountWithAppContext(<SubscriptionDetails id="1" />),
-    ).rejects.toThrow('test error from mockSubscription');
+    await mountWithAppContext(<SubscriptionDetails id="1" />);
+
+    expect(
+      screen.getByText(
+        'Failed to retrieve subscription details, please try again',
+      ),
+    ).toBeInTheDocument();
   });
 
   it('renders Manage subscription title for non-cancelled contracts', async () => {

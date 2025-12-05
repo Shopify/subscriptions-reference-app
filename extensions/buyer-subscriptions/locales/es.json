@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Reemplazar forma de pago",
     "paymentMethod": "Forma de pago",
-    "edit": "Editar",
-    "errorBannerTitle": "No se puede modificar la forma de pago"
+    "edit": "Utilizar nueva forma de pago",
+    "errorBannerTitle": "No se puede modificar la forma de pago",
+    "fetchError": "No se pudieron recuperar las formas de pago. Inténtalo de nuevo"
   },
   "pastOrdersCard": {
     "pastOrders": "Pedidos anteriores",
@@ -149,5 +150,9 @@
   "delayed": "El próximo pedido puede demorarse",
   "close": "Cerrar",
   "cancel": "Cerrar",
-  "save": "Guardar"
+  "save": "Guardar",
+  "subscriptionDetailsError": "No se pudo recuperar la información de las suscripciones. Inténtalo de nuevo",
+  "subscriptionList": {
+    "fetchError": "No se pudieron recuperar las suscripciones. Inténtalo de nuevo"
+  }
 }

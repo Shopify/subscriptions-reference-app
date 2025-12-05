@@ -8,6 +8,7 @@ import {
   View,
   Style,
   Page,
+  Banner,
 } from '@shopify/ui-extensions-react/customer-account';
 import {getBillingCycleInfo} from 'utilities';
 
@@ -39,7 +40,7 @@ export function SubscriptionDetails({id}: SubscriptionDetailsProps) {
   }
 
   if (error) {
-    throw error;
+    return <SubscriptionDetailsErrorState />;
   }
 
   if (data?.subscriptionContract === null || !data) {
@@ -248,5 +249,15 @@ function SubscriptionDetailsSkeleton() {
         </GridItem>
       </Grid>
     </Page>
+  );
+}
+
+function SubscriptionDetailsErrorState() {
+  const {i18n} = useExtensionApi();
+
+  return (
+    <Banner status="critical">
+      {i18n.translate('subscriptionDetailsError')}
+    </Banner>
   );
 }

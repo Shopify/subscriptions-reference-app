@@ -1,25 +1,27 @@
 {
-  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "ES2022",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "target": "ES2020",
+    "checkJs": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
     "types": [
       "@shopify/react-testing/matchers",
       "vitest/globals",
       "@testing-library/jest-dom"
     ],
-    "jsx": "react-jsx",
-    "resolveJsonModule": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
     "baseUrl": "./",
-    "outDir": "./build",
     "paths": {
       "foundation/*": ["src/foundation/*"],
       "tests/*": ["src/tests/*"],
       "mocks/*": ["src/tests/mocks/*"]
     }
   },
-  "include": ["./src", "./types", "src/tests/mocks"],
+  "include": ["./src", "./shopify.d.ts"],
   "exclude": ["dist", "public", "node_modules/**/*"]
 }

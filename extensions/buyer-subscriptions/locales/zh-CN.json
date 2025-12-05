@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "更换付款方式",
     "paymentMethod": "付款方式",
-    "edit": "编辑",
-    "errorBannerTitle": "无法更新付款方式"
+    "edit": "使用新付款方式",
+    "errorBannerTitle": "无法更新付款方式",
+    "fetchError": "无法检索付款方式，请重试"
   },
   "pastOrdersCard": {
     "pastOrders": "过去的订单",
@@ -149,5 +150,9 @@
   "delayed": "下一笔订单可能会延迟",
   "close": "关闭",
   "cancel": "取消",
-  "save": "保存"
+  "save": "保存",
+  "subscriptionDetailsError": "无法检索订阅详细信息，请重试",
+  "subscriptionList": {
+    "fetchError": "无法检索订阅，请重试"
+  }
 }

@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Bytt betalingsmåte",
     "paymentMethod": "Betalingsmetode",
-    "edit": "Rediger",
-    "errorBannerTitle": "Kan ikke oppdatere betalingsmåte"
+    "edit": "Bruk en ny betalingsmåte",
+    "errorBannerTitle": "Kan ikke oppdatere betalingsmåte",
+    "fetchError": "Kan ikke hente betalingsmåter. Prøv på nytt"
   },
   "pastOrdersCard": {
     "pastOrders": "Tidligere bestillinger",
@@ -149,5 +150,9 @@
   "delayed": "Neste bestilling er muligens forsinket",
   "close": "Lukk",
   "cancel": "Avbryt",
-  "save": "Lagre"
+  "save": "Lagre",
+  "subscriptionDetailsError": "Klarte ikke å hente abonnementsinformasjon. Prøv på nytt",
+  "subscriptionList": {
+    "fetchError": "Klarte ikke å hente abonnementer. Prøv på nytt"
+  }
 }

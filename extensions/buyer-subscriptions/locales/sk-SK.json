@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Nahradiť spôsob platby",
     "paymentMethod": "Spôsob platby",
-    "edit": "Upraviť",
-    "errorBannerTitle": "Nepodarilo sa aktualizovať spôsob platby"
+    "edit": "Použiť nový spôsob platby",
+    "errorBannerTitle": "Nepodarilo sa aktualizovať spôsob platby",
+    "fetchError": "Nepodarilo sa načítať spôsoby platby, skúste to neskôr"
   },
   "pastOrdersCard": {
     "pastOrders": "Predchádzajúce objednávky",
@@ -149,5 +150,9 @@
   "delayed": "Nasledujúca objednávka sa môže oneskoriť",
   "close": "Zavrieť",
   "cancel": "Zrušiť",
-  "save": "Uložiť"
+  "save": "Uložiť",
+  "subscriptionDetailsError": "Nepodarilo sa načítať podrobnosti o predplatnom, skúste to neskôr",
+  "subscriptionList": {
+    "fetchError": "Nepodarilo sa načítať predplatné, skúste to neskôr"
+  }
 }

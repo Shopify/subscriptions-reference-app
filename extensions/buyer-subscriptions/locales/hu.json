@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Fizetési mód cseréje",
     "paymentMethod": "Fizetési mód",
-    "edit": "Szerkesztés",
-    "errorBannerTitle": "Nem sikerült frissíteni a fizetési módot"
+    "edit": "Új fizetési mód használata",
+    "errorBannerTitle": "Nem sikerült frissíteni a fizetési módot",
+    "fetchError": "A fizetési módok lekérése sikertelen, próbáld újra"
   },
   "pastOrdersCard": {
     "pastOrders": "Korábbi megrendelések",
@@ -149,5 +150,9 @@
   "delayed": "Előfordulhat, hogy a következő megrendelés késni fog",
   "close": "Bezárás",
   "cancel": "Mégse",
-  "save": "Mentés"
+  "save": "Mentés",
+  "subscriptionDetailsError": "Az előfizetési részletek lekérése sikertelen, próbáld újra",
+  "subscriptionList": {
+    "fetchError": "Az előfizetések lekérése sikertelen, próbáld újra"
+  }
 }

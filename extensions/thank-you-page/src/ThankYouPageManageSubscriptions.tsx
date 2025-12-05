@@ -1,52 +1,38 @@
-import {
-  useApi,
-  useTranslate,
-  useSubscription,
-  reactExtension,
-  Button,
-  BlockStack,
-  Text,
-  View,
-  Heading,
-  Banner,
-} from '@shopify/ui-extensions-react/checkout';
-
-export default reactExtension('purchase.thank-you.block.render', () => (
-  <ThankYouPageManageSubscriptions />
-));
+import '@shopify/ui-extensions/preact';
+import {render} from 'preact';
 
 export function ThankYouPageManageSubscriptions() {
-  const translate = useTranslate();
-  const {lines, shop, extension} = useApi();
-  const currentLines = useSubscription(lines);
-  const defaultAccountURL = `${shop.storefrontUrl}/account`;
-
-  const isEditor = extension.editor;
-  const hasSubscription = currentLines.some(
-    (line) => line.merchandise.sellingPlan?.recurringDeliveries,
-  );
-
+  const shop = shopify.shop;
+  const isEditor = shopify.extension.editor;
+  const defaultAccountURL = `${shop?.storefrontUrl || ''}/account`;
+  const hasSubscription =
+    shopify.lines?.value?.some(
+      (line) => line.merchandise?.sellingPlan?.recurringDeliveries,
+    ) ?? false;
   if (!hasSubscription && !isEditor) {
     return null;
   }
-
+  const translate = shopify.i18n.translate;
   return (
-    <BlockStack spacing="base">
+    <s-stack direction="block" gap="base">
       {isEditor ? (
-        <Banner status="info">
+        <s-banner tone="info">
           This extension is only visible for orders with subscriptions.
-        </Banner>
+        </s-banner>
       ) : null}
-
-      <BlockStack padding="base" border="base" borderRadius="base">
-        <Heading>{translate('title')}</Heading>
-        <Text>{translate('content')}</Text>
-        <View>
-          <Button kind="secondary" to={defaultAccountURL}>
+      <s-box padding="base" border="base" borderRadius="base">
+        <s-stack direction="block" gap="base">
+          <s-heading>{translate('title')}</s-heading>
+          <s-text>{translate('content')}</s-text>
+          <s-button variant="secondary" href={defaultAccountURL}>
             {translate('manageSubscriptionLink')}
-          </Button>
-        </View>
-      </BlockStack>
-    </BlockStack>
+          </s-button>
+        </s-stack>
+      </s-box>
+    </s-stack>
   );
 }
+
+export default async () => {
+  render(<ThankYouPageManageSubscriptions />, document.body);
+};

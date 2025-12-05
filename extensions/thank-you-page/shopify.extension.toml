@@ -1,7 +1,7 @@
-api_version = "2025-04"
+api_version = "2025-10"
 
 [[extensions]]
-name = "Thank you page"
+name = "Manage subscription link"
 handle = "thank-you-page"
 type = "ui_extension"
 

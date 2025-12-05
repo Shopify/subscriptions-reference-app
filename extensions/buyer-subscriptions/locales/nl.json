@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Betaalmethode vervangen",
     "paymentMethod": "Betaalmethode",
-    "edit": "Bewerken",
-    "errorBannerTitle": "Kan betaalmethode niet bijwerken"
+    "edit": "Gebruik nieuwe betaalmethode",
+    "errorBannerTitle": "Kan betaalmethode niet bijwerken",
+    "fetchError": "Kan betaalmethoden niet ophalen. Probeer het opnieuw."
   },
   "pastOrdersCard": {
     "pastOrders": "Eerdere bestellingen",
@@ -149,5 +150,9 @@
   "delayed": "De volgende bestelling kan vertraagd zijn",
   "close": "Sluiten",
   "cancel": "Annuleren",
-  "save": "Opslaan"
+  "save": "Opslaan",
+  "subscriptionDetailsError": "Kan abonnementsgegevens niet ophalen. Probeer het opnieuw.",
+  "subscriptionList": {
+    "fetchError": "Kan abonnementen niet ophalen. Probeer het opnieuw."
+  }
 }

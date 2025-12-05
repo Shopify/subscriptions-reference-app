@@ -2,7 +2,7 @@ api_version = "2025-01"
 
 [[extensions]]
 type = "ui_extension"
-name = "Subscription management"
+name = "Management page"
 handle = "buyer-subscriptions"
 
   [[extensions.targeting]]

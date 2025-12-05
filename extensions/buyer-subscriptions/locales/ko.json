@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "결제 방법 교체",
     "paymentMethod": "결제 방법",
-    "edit": "편집",
-    "errorBannerTitle": "결제 방법을 업데이트할 수 없음"
+    "edit": "새 결제 방법 사용",
+    "errorBannerTitle": "결제 방법을 업데이트할 수 없음",
+    "fetchError": "결제 방법을 검색할 수 없습니다. 다시 시도해 주세요"
   },
   "pastOrdersCard": {
     "pastOrders": "지난 주문",
@@ -149,5 +150,9 @@
   "delayed": "다음 주문이 지연될 수 있습니다.",
   "close": "닫기",
   "cancel": "취소",
-  "save": "저장"
+  "save": "저장",
+  "subscriptionDetailsError": "구독 세부 정보를 검색할 수 없습니다. 다시 시도해 주세요",
+  "subscriptionList": {
+    "fetchError": "구독 내역을 검색할 수 없습니다. 다시 시도해 주세요"
+  }
 }

@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Thay phương thức thanh toán",
     "paymentMethod": "Phương thức thanh toán",
-    "edit": "Chỉnh sửa",
-    "errorBannerTitle": "Không thể cập nhật phương thức thanh toán"
+    "edit": "Sử dụng phương thức thanh toán mới",
+    "errorBannerTitle": "Không thể cập nhật phương thức thanh toán",
+    "fetchError": "Không thể truy xuất phương thức thanh toán, vui lòng thử lại"
   },
   "pastOrdersCard": {
     "pastOrders": "Đơn hàng cũ",
@@ -149,5 +150,9 @@
   "delayed": "Đơn hàng tiếp theo có thể bị chậm trễ",
   "close": "Đóng",
   "cancel": "Hủy",
-  "save": "Lưu"
+  "save": "Lưu",
+  "subscriptionDetailsError": "Không thể truy xuất chi tiết gói đăng ký, vui lòng thử lại",
+  "subscriptionList": {
+    "fetchError": "Không thể truy xuất các gói đăng ký, vui lòng thử lại"
+  }
 }

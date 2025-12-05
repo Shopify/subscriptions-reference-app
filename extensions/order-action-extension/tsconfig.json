@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "target": "ES2020",
+    "checkJs": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*", "locales/**/*.json"],
+  "exclude": ["node_modules", "dist"]
+}
