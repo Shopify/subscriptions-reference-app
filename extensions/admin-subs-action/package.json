@@ -5,8 +5,8 @@
   "license": "UNLICENSED",
   "dependencies": {
     "react": "18.3.1",
-    "@shopify/ui-extensions": "2025.7.0",
-    "@shopify/ui-extensions-react": "2025.7.0"
+    "@shopify/ui-extensions": "2025.7.1",
+    "@shopify/ui-extensions-react": "2025.7.1"
   },
   "devDependencies": {
     "react-reconciler": "0.29.2"

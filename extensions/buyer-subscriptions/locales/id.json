@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Ganti metode pembayaran",
     "paymentMethod": "Metode pembayaran",
-    "edit": "Edit",
-    "errorBannerTitle": "Tidak dapat memperbarui metode pembayaran"
+    "edit": "Gunakan metode pembayaran baru",
+    "errorBannerTitle": "Tidak dapat memperbarui metode pembayaran",
+    "fetchError": "Tidak dapat memperoleh metode pembayaran, coba lagi"
   },
   "pastOrdersCard": {
     "pastOrders": "Pesanan sebelumnya",
@@ -149,5 +150,9 @@
   "delayed": "Pesanan berikutnya mungkin tertunda",
   "close": "Tutup",
   "cancel": "Batal",
-  "save": "Simpan"
+  "save": "Simpan",
+  "subscriptionDetailsError": "Gagal memperoleh detail langganan, coba lagi",
+  "subscriptionList": {
+    "fetchError": "Gagal memperoleh langganan, coba lagi"
+  }
 }

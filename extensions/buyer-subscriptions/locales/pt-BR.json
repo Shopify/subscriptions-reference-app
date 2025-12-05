@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Substituir forma de pagamento",
     "paymentMethod": "Forma de pagamento",
-    "edit": "Editar",
-    "errorBannerTitle": "Não foi possível atualizar a forma de pagamento"
+    "edit": "Usar nova forma de pagamento",
+    "errorBannerTitle": "Não foi possível atualizar a forma de pagamento",
+    "fetchError": "Não foi possível recuperar as formas de pagamento, tente de novo"
   },
   "pastOrdersCard": {
     "pastOrders": "Pedidos anteriores",
@@ -149,5 +150,9 @@
   "delayed": "Pode haver um atraso no próximo pedido",
   "close": "Fechar",
   "cancel": "Cancelar",
-  "save": "Salvar"
+  "save": "Salvar",
+  "subscriptionDetailsError": "Falha ao recuperar as informações da assinatura, tente de novo",
+  "subscriptionList": {
+    "fetchError": "Falha ao recuperar as assinaturas, tente de novo"
+  }
 }

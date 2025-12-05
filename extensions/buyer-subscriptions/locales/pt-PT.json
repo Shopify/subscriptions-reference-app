@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Substituir método de pagamento",
     "paymentMethod": "Método de pagamento",
-    "edit": "Editar",
-    "errorBannerTitle": "Não foi possível atualizar o método de pagamento"
+    "edit": "Utilizar novo método de pagamento",
+    "errorBannerTitle": "Não foi possível atualizar o método de pagamento",
+    "fetchError": "Não foi possível obter métodos de pagamento, tente novamente"
   },
   "pastOrdersCard": {
     "pastOrders": "Encomendas anteriores",
@@ -149,5 +150,9 @@
   "delayed": "A próxima encomenda pode sofrer atrasos",
   "close": "Fechar",
   "cancel": "Cancelar",
-  "save": "Guardar"
+  "save": "Guardar",
+  "subscriptionDetailsError": "Falha ao obter os detalhes da subscrição, tente novamente",
+  "subscriptionList": {
+    "fetchError": "Falha ao obter subscrições, tente novamente"
+  }
 }

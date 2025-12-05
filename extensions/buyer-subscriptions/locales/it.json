@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Sostituisci metodo di pagamento",
     "paymentMethod": "Metodo di pagamento",
-    "edit": "Modifica",
-    "errorBannerTitle": "Impossibile aggiornare il metodo di pagamento"
+    "edit": "Utilizza nuovo metodo di pagamento",
+    "errorBannerTitle": "Impossibile aggiornare il metodo di pagamento",
+    "fetchError": "Impossibile recuperare i metodi di pagamento; riprova"
   },
   "pastOrdersCard": {
     "pastOrders": "Ordini precedenti",
@@ -149,5 +150,9 @@
   "delayed": "Il prossimo ordine potrebbe subire un ritardo",
   "close": "Chiudi",
   "cancel": "Annulla",
-  "save": "Save"
+  "save": "Save",
+  "subscriptionDetailsError": "Impossibile recuperare i dettagli dell'abbonamento; riprova",
+  "subscriptionList": {
+    "fetchError": "Impossibile recuperare gli abbonamenti; riprova"
+  }
 }

@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Ersätt betalningsmetod",
     "paymentMethod": "Betalningsmetod",
-    "edit": "Redigera",
-    "errorBannerTitle": "Det gick inte att uppdatera betalningsmetoden"
+    "edit": "Använd ny betalningsmetod",
+    "errorBannerTitle": "Det gick inte att uppdatera betalningsmetoden",
+    "fetchError": "Det går inte att hämta betalningsmetoder. Försök igen"
   },
   "pastOrdersCard": {
     "pastOrders": "Tidigare ordrar",
@@ -149,5 +150,9 @@
   "delayed": "Nästa order kan bli försenad",
   "close": "Stäng",
   "cancel": "Avbryt",
-  "save": "Spara"
+  "save": "Spara",
+  "subscriptionDetailsError": "Det gick inte att hämta prenumerationsuppgifter. Försök igen",
+  "subscriptionList": {
+    "fetchError": "Det gick inte att hämta prenumerationer. Försök igen"
+  }
 }

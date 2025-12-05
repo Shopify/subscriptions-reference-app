@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Erstat betalingsmetode",
     "paymentMethod": "Betalingsmetode",
-    "edit": "Rediger",
-    "errorBannerTitle": "Betalingsmetoden kunne ikke opdateres"
+    "edit": "Brug ny betalingsmetode",
+    "errorBannerTitle": "Betalingsmetoden kunne ikke opdateres",
+    "fetchError": "Kan ikke hente betalingsmetoder. Prøv igen."
   },
   "pastOrdersCard": {
     "pastOrders": "Tidligere ordrer",
@@ -149,5 +150,9 @@
   "delayed": "Næste ordre kan blive forsinket",
   "close": "Luk",
   "cancel": "Opsig",
-  "save": "Gem"
+  "save": "Gem",
+  "subscriptionDetailsError": "Kunne ikke hente abonnementsoplysninger. Prøv igen.",
+  "subscriptionList": {
+    "fetchError": "Kunne ikke hente abonnementer. Prøv igen."
+  }
 }

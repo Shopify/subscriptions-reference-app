@@ -93,9 +93,20 @@ export function MockTextField({
 }
 
 export function MockLink(props: LinkProps) {
+  const handleClick = () => {
+    if (props.onPress) {
+      props.onPress();
+    }
+  };
+
   return (
     <>
-      <div>{props.children}</div>
+      <div
+        onClick={handleClick}
+        style={{cursor: props.onPress ? 'pointer' : 'default'}}
+      >
+        {props.children}
+      </div>
     </>
   );
 }

@@ -45,6 +45,10 @@
       return this.subscriptionWidgetContainer.getAttribute('data-section-id');
     }
 
+    get productId() {
+      return this.subscriptionWidgetContainer.getAttribute('data-product-id');
+    }
+
     get shopifySection() {
       return document.querySelector(`#shopify-section-${this.sectionId}`);
     }
@@ -83,7 +87,13 @@
     }
 
     get addToCartForms() {
-      return this.shopifySection.querySelectorAll('[action*="/cart/add"]');
+      const forms = Array.from(
+        this.shopifySection.querySelectorAll('[action*="/cart/add"]'),
+      );
+      return forms.filter((form) => {
+        const productIdInput = form.elements['product-id'];
+        return !productIdInput || productIdInput.value === this.productId;
+      });
     }
 
     appendSellingPlanInputs() {

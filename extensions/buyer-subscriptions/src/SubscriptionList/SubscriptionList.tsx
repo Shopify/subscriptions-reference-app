@@ -7,6 +7,7 @@ import {
   Card,
   View,
   Page,
+  Banner,
 } from '@shopify/ui-extensions-react/customer-account';
 
 import {useSubscriptionListData} from './hooks/useSubscriptionListData';
@@ -24,7 +25,7 @@ export function SubscriptionList() {
   }
 
   if (error) {
-    throw new Error(error.message);
+    return <SubscriptionListErrorState />;
   }
 
   if (data?.subscriptionContracts.length === 0) {
@@ -117,5 +118,15 @@ export function SubscriptionListLoadingState() {
         </View>
       </Grid>
     </Page>
+  );
+}
+
+function SubscriptionListErrorState() {
+  const {i18n} = useExtensionApi();
+
+  return (
+    <Banner status="critical">
+      {i18n.translate('subscriptionList.fetchError')}
+    </Banner>
   );
 }

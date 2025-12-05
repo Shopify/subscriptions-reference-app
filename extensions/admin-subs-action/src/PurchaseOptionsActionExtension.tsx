@@ -149,11 +149,10 @@ export default function PurchaseOptionsActionExtension() {
 
     setErrors([]);
 
-    const validationResult = validator.safeParse({
-      merchantCode,
-      planName,
-      deliveryOptions,
-    });
+    const validationResult = validator.safeParse(
+      {merchantCode, planName, deliveryOptions},
+      {jitless: true},
+    );
 
     if (!validationResult.success) {
       const {error} = validationResult;

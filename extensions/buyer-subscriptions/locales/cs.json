@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Nahraďte platební metodu",
     "paymentMethod": "Platební metoda",
-    "edit": "Upravit",
-    "errorBannerTitle": "Není možné aktualizovat platební metodu"
+    "edit": "Použít novou platební metodu",
+    "errorBannerTitle": "Není možné aktualizovat platební metodu",
+    "fetchError": "Není možné načíst platební metody, zkuste to prosím znovu"
   },
   "pastOrdersCard": {
     "pastOrders": "Minulé objednávky",
@@ -149,5 +150,9 @@
   "delayed": "Další objednávka může být zpožděna",
   "close": "Zavřít",
   "cancel": "Zrušit",
-  "save": "Uložit"
+  "save": "Uložit",
+  "subscriptionDetailsError": "Nezdařilo se načíst údaje o předplatném, zkuste to prosím znovu",
+  "subscriptionList": {
+    "fetchError": "Nezdařilo se načíst předplatné, zkuste to prosím znovu"
+  }
 }

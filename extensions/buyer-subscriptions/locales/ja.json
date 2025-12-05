@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "決済方法を変更する",
     "paymentMethod": "決済方法",
-    "edit": "編集",
-    "errorBannerTitle": "決済方法を更新できません"
+    "edit": "新しい決済方法を使用する",
+    "errorBannerTitle": "決済方法を更新できません",
+    "fetchError": "決済方法を取得できませんでした。もう一度お試しください"
   },
   "pastOrdersCard": {
     "pastOrders": "過去の注文",
@@ -149,5 +150,9 @@
   "delayed": "次回の注文が遅れる可能性があります",
   "close": "閉じる",
   "cancel": "キャンセル",
-  "save": "保存"
+  "save": "保存",
+  "subscriptionDetailsError": "サブスクリプションの詳細を取得できませんでした。もう一度お試しください",
+  "subscriptionList": {
+    "fetchError": "サブスクリプションを取得できませんでした。もう一度お試しください"
+  }
 }

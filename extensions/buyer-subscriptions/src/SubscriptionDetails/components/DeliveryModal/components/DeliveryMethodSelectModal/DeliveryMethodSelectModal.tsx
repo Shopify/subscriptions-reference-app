@@ -191,7 +191,7 @@ export function DeliveryMethodSelectModal({
   return (
     <BlockStack>
       {errorMessageDisplay ? (
-        <Banner status="critical" title={errorMessageDisplay} />
+        <Banner status="critical">{errorMessageDisplay}</Banner>
       ) : null}
       <ChoiceList
         name="deliveryOptionsChoiceList"

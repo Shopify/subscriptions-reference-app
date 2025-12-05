@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Zahlungsmethode ersetzen",
     "paymentMethod": "Zahlungsmethode",
-    "edit": "Bearbeiten",
-    "errorBannerTitle": "Zahlungsmethode kann nicht aktualisiert werden"
+    "edit": "+ Neue Zahlungsmethode verwenden",
+    "errorBannerTitle": "Zahlungsmethode kann nicht aktualisiert werden",
+    "fetchError": "Zahlungsmethoden können nicht abgerufen werden. Bitte versuche es erneut"
   },
   "pastOrdersCard": {
     "pastOrders": "Vergangene Bestellungen",
@@ -149,5 +150,9 @@
   "delayed": "Die nächste Bestellung ist möglicherweise verspätet.",
   "close": "Schließen",
   "cancel": "Schließen",
-  "save": "Speichern"
+  "save": "Speichern",
+  "subscriptionDetailsError": "Abrufen der Abonnementdetails fehlgeschlagen. Bitte versuche es erneut",
+  "subscriptionList": {
+    "fetchError": "Abrufen der Abonnements fehlgeschlagen. Bitte versuche es erneut"
+  }
 }

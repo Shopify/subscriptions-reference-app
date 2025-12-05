@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Korvaa maksutapa",
     "paymentMethod": "Maksutapa",
-    "edit": "Muokkaa",
-    "errorBannerTitle": "Maksutapaa ei voida päivittää"
+    "edit": "Käytä uutta maksutapaa",
+    "errorBannerTitle": "Maksutapaa ei voida päivittää",
+    "fetchError": "Maksutapojen nouto epäonnistui. Yritä uudelleen."
   },
   "pastOrdersCard": {
     "pastOrders": "Aiemmat tilaukset",
@@ -149,5 +150,9 @@
   "delayed": "Seuraava tilaus voi viivästyä",
   "close": "Sulje",
   "cancel": "Peruuta",
-  "save": "Tallenna"
+  "save": "Tallenna",
+  "subscriptionDetailsError": "Toistuvien tilausten tietojen nouto epäonnistui. Yritä uudelleen.",
+  "subscriptionList": {
+    "fetchError": "Toistuvien tilausten nouto epäonnistui. Yritä uudelleen."
+  }
 }

@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Remplacer le moyen de paiement",
     "paymentMethod": "Moyen de paiement",
-    "edit": "Modifier",
-    "errorBannerTitle": "Impossible de mettre à jour le moyen de paiement"
+    "edit": "Utiliser un nouveau moyen de paiement",
+    "errorBannerTitle": "Impossible de mettre à jour le moyen de paiement",
+    "fetchError": "Impossible de récupérer les moyens de paiement. Veuillez réessayer"
   },
   "pastOrdersCard": {
     "pastOrders": "Commandes précédentes",
@@ -149,5 +150,9 @@
   "delayed": "La prochaine commande pourrait être retardée.",
   "close": "Fermer",
   "cancel": "Annuler",
-  "save": "Enregistrer"
+  "save": "Enregistrer",
+  "subscriptionDetailsError": "Échec lors de la récupération des détails de l’abonnement. Veuillez réessayer",
+  "subscriptionList": {
+    "fetchError": "Échec lors de la récupération des abonnements. Veuillez réessayer"
+  }
 }

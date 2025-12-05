@@ -2,6 +2,7 @@
   "subscriptions": "Subscriptions",
   "manageSubscription": "Manage subscription",
   "subscriptionDetails": "Subscription details",
+  "subscriptionDetailsError": "Failed to retrieve subscription details, please try again",
   "upcomingOrder": "Upcoming order",
   "skip": "Skip",
   "close": "Close",
@@ -14,6 +15,9 @@
   "showUpcomingOrders": "Show upcoming orders",
   "maxOrdersSkipped": "The maximum number of orders have been skipped",
   "skipOrderOverYear": "Unable to skip due to order being more than a year away",
+  "subscriptionList": {
+    "fetchError": "Failed to retrieve subscriptions, please try again"
+  },
   "subscriptionStatus": {
     "active": "Active",
     "paused": "Paused",
@@ -50,8 +54,9 @@
   "paymentModal": {
     "title": "Replace payment method",
     "paymentMethod": "Payment method",
-    "edit": "Edit",
-    "errorBannerTitle": "Unable to update payment method"
+    "edit": "Use new payment method",
+    "errorBannerTitle": "Unable to update payment method",
+    "fetchError": "Unable to retrieve payment methods, please try again"
   },
   "pastOrdersCard": {
     "pastOrders": "Past orders",

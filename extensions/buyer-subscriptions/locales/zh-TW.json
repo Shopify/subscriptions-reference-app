@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "更換付款方式",
     "paymentMethod": "付款方式",
-    "edit": "編輯",
-    "errorBannerTitle": "無法更新付款方式"
+    "edit": "使用新的付款方式",
+    "errorBannerTitle": "無法更新付款方式",
+    "fetchError": "無法擷取付款方式，請再試一次"
   },
   "pastOrdersCard": {
     "pastOrders": "過去的訂單",
@@ -149,5 +150,9 @@
   "delayed": "下一筆訂單可能會延遲",
   "close": "關閉",
   "cancel": "取消",
-  "save": "儲存"
+  "save": "儲存",
+  "subscriptionDetailsError": "無法擷取訂閱詳細資訊，請再試一次",
+  "subscriptionList": {
+    "fetchError": "無法擷取訂閱，請再試一次"
+  }
 }

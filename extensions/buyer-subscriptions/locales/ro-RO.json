@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Înlocuiește metoda de plată",
     "paymentMethod": "Metodă de plată",
-    "edit": "Editează",
-    "errorBannerTitle": "Nu se poate actualiza metoda de plată"
+    "edit": "Folosește o metodă de plată nouă",
+    "errorBannerTitle": "Nu se poate actualiza metoda de plată",
+    "fetchError": "Nu se pot recupera metodele de plată, te rugăm să reîncerci"
   },
   "pastOrdersCard": {
     "pastOrders": "Comenzi anterioare",
@@ -149,5 +150,9 @@
   "delayed": "Este posibil ca următoarea comandă să întârzie",
   "close": "Închide",
   "cancel": "Anulează",
-  "save": "Salvează"
+  "save": "Salvează",
+  "subscriptionDetailsError": "Nu se pot recupera detaliile abonamentului, te rugăm să reîncerci",
+  "subscriptionList": {
+    "fetchError": "Nu se pot recupera abonamentele, te rugăm să reîncerci"
+  }
 }

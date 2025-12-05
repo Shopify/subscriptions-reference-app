@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Uredi način plaćanja",
     "paymentMethod": "Način plaćanja",
-    "edit": "Uredi",
-    "errorBannerTitle": "Nije moguće promijeniti način plaćanja"
+    "edit": "Upotrijebite novi način plaćanja",
+    "errorBannerTitle": "Nije moguće promijeniti način plaćanja",
+    "fetchError": "Nije moguće dohvatiti metode plaćanja, pokušajte ponovno"
   },
   "pastOrdersCard": {
     "pastOrders": "Prošle narudžbe",
@@ -149,5 +150,9 @@
   "delayed": "Sljedeća će narudžba možda kasniti",
   "close": "Zatvori",
   "cancel": "Odustani",
-  "save": "Spremi"
+  "save": "Spremi",
+  "subscriptionDetailsError": "Dohvaćanje detalja o pretplati nije uspjelo, pokušajte ponovno",
+  "subscriptionList": {
+    "fetchError": "Dohvaćanje pretplata nije uspjelo, pokušajte ponovno"
+  }
 }

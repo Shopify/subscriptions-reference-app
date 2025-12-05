@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "preact": "10.10.x",
+    "@preact/signals": "2.3.x",
+    "@shopify/ui-extensions": "2025.10.x"
+  },
+  "devDependencies": {
+    "@testing-library/preact": "3.2.3",
+    "vitest": "1.0.0"
+  }
+}

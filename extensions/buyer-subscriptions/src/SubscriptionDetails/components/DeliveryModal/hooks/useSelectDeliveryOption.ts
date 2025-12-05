@@ -1,6 +1,6 @@
 import type {CountryCode} from 'generatedTypes/customer.types';
 import type {Address} from '@shopify/address';
-import {useGraphqlApi} from 'foundation/Api';
+import {useExtensionApi, useGraphqlApi} from 'foundation/Api';
 
 import {
   deliveryOptionIsShipping,
@@ -14,10 +14,11 @@ import type {
   SelectDeliveryMethodMutation as SelectDeliveryMethodMutationData,
   SelectDeliveryMethodMutationVariables,
 } from 'generatedTypes/customer.generated';
-import type {DeliveryOption} from 'types';
+import type {DeliveryOption, UserError} from 'types';
 
 export function useSelectDeliveryOption() {
-  const [selectDeliveryMethod] = useGraphqlApi<
+  const {i18n} = useExtensionApi();
+  const [selectDeliveryMethod, {error}] = useGraphqlApi<
     SelectDeliveryMethodMutationData,
     SelectDeliveryMethodMutationVariables
   >();
@@ -67,11 +68,18 @@ export function useSelectDeliveryOption() {
       },
     });
 
+    let errors: UserError[] | undefined;
+    if (result?.subscriptionContractSelectDeliveryMethod?.userErrors) {
+      errors = result.subscriptionContractSelectDeliveryMethod.userErrors;
+    } else if (error) {
+      errors = [{message: i18n.translate('addressModal.errorBannerTitle')}];
+    }
+
     return {
       deliveryMethod:
         result?.subscriptionContractSelectDeliveryMethod?.contract
           ?.deliveryMethod,
-      errors: result?.subscriptionContractSelectDeliveryMethod?.userErrors,
+      errors,
     };
   }
 

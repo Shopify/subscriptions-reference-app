@@ -122,7 +122,7 @@ describe('<DeliveryMethodSelectModal />', () => {
       await clickSaveButton();
 
       await waitFor(() => {
-        expect(screen.getByTitle(mockError)).toBeInTheDocument();
+        expect(screen.getByText(mockError)).toBeInTheDocument();
       });
     });
   });

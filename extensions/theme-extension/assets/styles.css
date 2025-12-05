@@ -4,6 +4,10 @@
   padding: 1rem 1.4rem;
 }
 
+.shopify_subscriptions_app_block_one_time_purchase_option {
+  margin-left: 0;
+}
+
 .shopify_subscriptions_purchase_option_wrapper {
   display: flex;
   justify-content: space-between;

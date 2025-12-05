@@ -83,7 +83,11 @@ export function mockApis() {
   }
 
   function mockExtensionApi(options?: {
-    mocks: {closeOverlay?: () => void; showToast?: () => void};
+    mocks: {
+      closeOverlay?: () => void;
+      showToast?: () => void;
+      navigate?: () => void;
+    };
   }) {
     mockUseExtensionApi.mockReturnValue({
       i18n: createMockI18n({...translations, ...orderActionTranslations}),
@@ -96,7 +100,7 @@ export function mockApis() {
         },
       },
       navigation: {
-        navigate: vi.fn(),
+        navigate: options?.mocks.navigate ?? vi.fn(),
       },
       localization: {
         extensionLanguage: {

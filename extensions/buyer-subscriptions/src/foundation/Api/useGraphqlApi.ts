@@ -31,7 +31,7 @@ export function useGraphqlApi<Data, Variables = undefined>(): UseApi<
   const customerApiFetch = useCallback(
     async (query: string, variables?: Variables) => {
       setLoading(true);
-      let resp;
+      let resp: Response;
 
       try {
         resp = await fetch(
@@ -48,7 +48,8 @@ export function useGraphqlApi<Data, Variables = undefined>(): UseApi<
         setError(err as Error);
         setLoading(false);
         setFirstFetchComplete(true);
-        throw err;
+
+        return;
       }
 
       const {data}: {data: Data} = await resp.json();

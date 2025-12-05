@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Pakeisti mokėjimo būdą",
     "paymentMethod": "Mokėjimo būdas",
-    "edit": "Redaguoti",
-    "errorBannerTitle": "Nepavyksta atnaujinti mokėjimo būdo"
+    "edit": "Naudoti naują mokėjimo būdą",
+    "errorBannerTitle": "Nepavyksta atnaujinti mokėjimo būdo",
+    "fetchError": "Nepavyksta gauti mokėjimo būdų, pabandykite dar kartą"
   },
   "pastOrdersCard": {
     "pastOrders": "Ankstesni užsakymai",
@@ -149,5 +150,9 @@
   "delayed": "Kitas užsakymas gali vėluoti",
   "close": "Uždaryti",
   "cancel": "Atšaukti",
-  "save": "Išsaugoti"
+  "save": "Išsaugoti",
+  "subscriptionDetailsError": "Nepavyko gauti prenumeratos informacijos, pabandykite dar kartą",
+  "subscriptionList": {
+    "fetchError": "Nepavyko gauti prenumeratų, pabandykite dar kartą"
+  }
 }

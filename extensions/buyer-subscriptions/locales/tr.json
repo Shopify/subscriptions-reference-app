@@ -49,8 +49,9 @@
   "paymentModal": {
     "title": "Ödeme yöntemini bir başkasıyla değiştir",
     "paymentMethod": "Ödeme yöntemi",
-    "edit": "Düzenle",
-    "errorBannerTitle": "Ödeme yöntemi güncellenemedi"
+    "edit": "Yeni ödeme yöntemini kullanın",
+    "errorBannerTitle": "Ödeme yöntemi güncellenemedi",
+    "fetchError": "Ödeme yöntemleri alınamıyor, lütfen tekrar deneyin"
   },
   "pastOrdersCard": {
     "pastOrders": "Geçmiş siparişler",
@@ -149,5 +150,9 @@
   "delayed": "Sonraki sipariş gecikebilir",
   "close": "Kapat",
   "cancel": "İptal et",
-  "save": "Kaydet"
+  "save": "Kaydet",
+  "subscriptionDetailsError": "Abonelik bilgileri alınamadı, lütfen tekrar deneyin",
+  "subscriptionList": {
+    "fetchError": "Abonelikler alınamadı, lütfen tekrar deneyin"
+  }
 }
