@@ -6,6 +6,6 @@
   },
   "devDependencies": {
     "@testing-library/preact": "3.2.3",
-    "vitest": "1.0.0"
+    "vitest": "1.6.1"
   }
 }
