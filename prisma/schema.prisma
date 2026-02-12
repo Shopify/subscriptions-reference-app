@@ -51,3 +51,14 @@ model DunningTracker {
   @@unique([shop, contractId, billingCycleIndex, failureReason], name: "uniqueBillingCycleFailure")
   @@index([completedAt])
 }
+
+model PostPurchaseOffer {
+  id              Int      @id @default(autoincrement())
+  shop            String   @unique
+  enabled         Boolean  @default(false)
+  variantId       String   @default("")
+  discountPercent Int      @default(10)
+  sellingPlanId   String   @default("")
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
