@@ -1,4 +1,4 @@
-import {useState, useCallback, useMemo} from 'react';
+import {useState, useCallback, useMemo, useEffect} from 'react';
 import {
   BlockStack,
   Box,
@@ -17,7 +17,7 @@ import {
 } from '@shopify/polaris';
 import {ImageIcon} from '@shopify/polaris-icons';
 import {useAppBridge} from '@shopify/app-bridge-react';
-import {Form, useNavigation} from '@remix-run/react';
+import {Form, useNavigation, useFetcher} from '@remix-run/react';
 
 interface SellingPlanInfo {
   id: string;
@@ -44,56 +44,12 @@ interface PostPurchaseUpsellSettingsProps {
   offer: PostPurchaseOfferData;
 }
 
-const SELLING_PLANS_QUERY = `
-  query ProductSellingPlans($id: ID!) {
-    product(id: $id) {
-      sellingPlanGroups(first: 5) {
-        nodes {
-          sellingPlans(first: 10) {
-            nodes {
-              id
-              name
-            }
-          }
-        }
-      }
-    }
-  }
-`;
-
-async function fetchSellingPlans(
-  productGid: string,
-): Promise<SellingPlanInfo[]> {
-  const response = await fetch('shopify:admin/api/2025-04/graphql.json', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({
-      query: SELLING_PLANS_QUERY,
-      variables: {id: productGid},
-    }),
-  });
-
-  const json = await response.json();
-  const data = json.data;
-  const plans: SellingPlanInfo[] = [];
-
-  for (const group of data?.product?.sellingPlanGroups?.nodes || []) {
-    for (const plan of group.sellingPlans?.nodes || []) {
-      plans.push({
-        id: plan.id.replace('gid://shopify/SellingPlan/', ''),
-        name: plan.name,
-      });
-    }
-  }
-
-  return plans;
-}
-
 export function PostPurchaseUpsellSettings({
   offer,
 }: PostPurchaseUpsellSettingsProps) {
   const shopify = useAppBridge();
   const navigation = useNavigation();
+  const sellingPlansFetcher = useFetcher<{sellingPlans: SellingPlanInfo[]}>();
   const isSubmitting =
     navigation.state === 'submitting' &&
     navigation.formData?.get('_action') === 'postPurchaseOffer';
@@ -108,14 +64,14 @@ export function PostPurchaseUpsellSettings({
   // Local product info from resource picker (overrides loader data when user picks a new product)
   const [pickedProduct, setPickedProduct] = useState<ProductInfo | null>(null);
 
-  // Selling plans fetched for the picked product (null = using loader data)
-  const [pickedSellingPlans, setPickedSellingPlans] = useState<
-    SellingPlanInfo[] | null
-  >(null);
-  const [loadingSellingPlans, setLoadingSellingPlans] = useState(false);
+  // Selling plans: use fetcher data when a new product is picked, otherwise loader data
+  const [pickedProductId, setPickedProductId] = useState<string | null>(null);
+
+  const loadingSellingPlans = pickedProductId !== null && sellingPlansFetcher.state === 'loading';
+  const fetchedSellingPlans = pickedProductId !== null ? sellingPlansFetcher.data?.sellingPlans : null;
+  const availableSellingPlans = fetchedSellingPlans ?? (pickedProductId !== null ? [] : offer.sellingPlans);
 
   const productInfo = pickedProduct || offer.productInfo;
-  const availableSellingPlans = pickedSellingPlans ?? offer.sellingPlans;
 
   // Track dirty state
   const isDirty = useMemo(() => {
@@ -145,11 +101,11 @@ export function PostPurchaseUpsellSettings({
           : null;
 
       if (variant) {
-        const numericId = variant.id?.replace(
+        const numericVariantId = variant.id?.replace(
           'gid://shopify/ProductVariant/',
           '',
         );
-        setVariantId(numericId || '');
+        setVariantId(numericVariantId || '');
         setPickedProduct({
           title: product.title,
           variantTitle: variant.title || 'Default',
@@ -158,20 +114,18 @@ export function PostPurchaseUpsellSettings({
         });
         setSellingPlanId('');
 
-        // Fetch selling plans for the newly picked product
-        setLoadingSellingPlans(true);
-        try {
-          const plans = await fetchSellingPlans(product.id);
-          setPickedSellingPlans(plans);
-        } catch (e) {
-          console.error('Failed to fetch selling plans:', e);
-          setPickedSellingPlans([]);
-        } finally {
-          setLoadingSellingPlans(false);
-        }
+        // Fetch selling plans via server route
+        const productNumericId = product.id.replace(
+          'gid://shopify/Product/',
+          '',
+        );
+        setPickedProductId(productNumericId);
+        sellingPlansFetcher.load(
+          `/app/selling-plans?productId=${productNumericId}`,
+        );
       }
     }
-  }, [shopify]);
+  }, [shopify, sellingPlansFetcher]);
 
   const sellingPlanOptions = [
     {label: 'None (one-time only)', value: ''},
@@ -272,13 +226,15 @@ export function PostPurchaseUpsellSettings({
                 suffix="%"
                 autoComplete="off"
                 disabled={!enabled}
-                helpText="Percentage off the original price for one-time purchases."
+                helpText="Percentage off the original price applied to the post-purchase offer."
               />
 
               {productInfo && (
                 loadingSellingPlans ? (
                   <BlockStack gap="200">
-                    <Text as="p" variant="bodySm">Subscription selling plan</Text>
+                    <Text as="p" variant="bodySm">
+                      Subscription selling plan
+                    </Text>
                     <InlineStack gap="200" blockAlign="center">
                       <Spinner size="small" />
                       <Text as="span" tone="subdued" variant="bodySm">
