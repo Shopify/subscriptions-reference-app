@@ -1,14 +1,16 @@
-import {useState, useCallback} from 'react';
+import {useState, useCallback, useMemo} from 'react';
 import {
   BlockStack,
   Box,
   Button,
   Card,
   Checkbox,
+  Divider,
   FormLayout,
   InlineGrid,
   InlineStack,
   Select,
+  Spinner,
   Text,
   TextField,
   Thumbnail,
@@ -42,6 +44,51 @@ interface PostPurchaseUpsellSettingsProps {
   offer: PostPurchaseOfferData;
 }
 
+const SELLING_PLANS_QUERY = `
+  query ProductSellingPlans($id: ID!) {
+    product(id: $id) {
+      sellingPlanGroups(first: 5) {
+        nodes {
+          sellingPlans(first: 10) {
+            nodes {
+              id
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+
+async function fetchSellingPlans(
+  productGid: string,
+): Promise<SellingPlanInfo[]> {
+  const response = await fetch('shopify:admin/api/2025-04/graphql.json', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      query: SELLING_PLANS_QUERY,
+      variables: {id: productGid},
+    }),
+  });
+
+  const json = await response.json();
+  const data = json.data;
+  const plans: SellingPlanInfo[] = [];
+
+  for (const group of data?.product?.sellingPlanGroups?.nodes || []) {
+    for (const plan of group.sellingPlans?.nodes || []) {
+      plans.push({
+        id: plan.id.replace('gid://shopify/SellingPlan/', ''),
+        name: plan.name,
+      });
+    }
+  }
+
+  return plans;
+}
+
 export function PostPurchaseUpsellSettings({
   offer,
 }: PostPurchaseUpsellSettingsProps) {
@@ -59,14 +106,26 @@ export function PostPurchaseUpsellSettings({
   const [sellingPlanId, setSellingPlanId] = useState(offer.sellingPlanId);
 
   // Local product info from resource picker (overrides loader data when user picks a new product)
-  const [pickedProduct, setPickedProduct] = useState<{
-    title: string;
-    variantTitle: string;
-    imageUrl: string;
-    price: string;
-  } | null>(null);
+  const [pickedProduct, setPickedProduct] = useState<ProductInfo | null>(null);
+
+  // Selling plans fetched for the picked product (null = using loader data)
+  const [pickedSellingPlans, setPickedSellingPlans] = useState<
+    SellingPlanInfo[] | null
+  >(null);
+  const [loadingSellingPlans, setLoadingSellingPlans] = useState(false);
 
   const productInfo = pickedProduct || offer.productInfo;
+  const availableSellingPlans = pickedSellingPlans ?? offer.sellingPlans;
+
+  // Track dirty state
+  const isDirty = useMemo(() => {
+    return (
+      enabled !== offer.enabled ||
+      variantId !== offer.variantId ||
+      discountPercent !== String(offer.discountPercent) ||
+      sellingPlanId !== offer.sellingPlanId
+    );
+  }, [enabled, variantId, discountPercent, sellingPlanId, offer]);
 
   const selectProduct = useCallback(async () => {
     const selected = await shopify.resourcePicker({
@@ -97,15 +156,26 @@ export function PostPurchaseUpsellSettings({
           imageUrl: product.images?.[0]?.originalSrc || '',
           price: String(variant.price || '0.00'),
         });
-        // Clear selling plan since product changed — save first to load new selling plans
         setSellingPlanId('');
+
+        // Fetch selling plans for the newly picked product
+        setLoadingSellingPlans(true);
+        try {
+          const plans = await fetchSellingPlans(product.id);
+          setPickedSellingPlans(plans);
+        } catch (e) {
+          console.error('Failed to fetch selling plans:', e);
+          setPickedSellingPlans([]);
+        } finally {
+          setLoadingSellingPlans(false);
+        }
       }
     }
   }, [shopify]);
 
   const sellingPlanOptions = [
     {label: 'None (one-time only)', value: ''},
-    ...offer.sellingPlans.map((sp) => ({
+    ...availableSellingPlans.map((sp) => ({
       label: sp.name,
       value: sp.id,
     })),
@@ -142,34 +212,54 @@ export function PostPurchaseUpsellSettings({
               onChange={setEnabled}
             />
 
+            <Divider />
+
             <Text as="h2" variant="headingSm">
               Product
             </Text>
 
             {productInfo ? (
               <InlineStack gap="400" blockAlign="center" wrap={false}>
-                <Box width="1500">
-                  <Thumbnail
-                    source={productInfo.imageUrl || ImageIcon}
-                    alt={productInfo.title}
-                    size="medium"
-                  />
-                </Box>
-                <div style={{flexGrow: 1}}>
+                <Thumbnail
+                  source={productInfo.imageUrl || ImageIcon}
+                  alt={productInfo.title}
+                  size="medium"
+                />
+                <Box minWidth="0" width="100%">
                   <BlockStack>
-                    <Text as="span" fontWeight="semibold">
+                    <Text as="span" fontWeight="semibold" truncate>
                       {productInfo.title}
                     </Text>
                     <Text as="span" tone="subdued">
                       {productInfo.variantTitle} — ${productInfo.price}
                     </Text>
                   </BlockStack>
-                </div>
-                <Button onClick={selectProduct}>Change</Button>
+                </Box>
+                <Button onClick={selectProduct} disabled={!enabled}>
+                  Change
+                </Button>
               </InlineStack>
             ) : (
-              <Button onClick={selectProduct}>Select product</Button>
+              <Box
+                padding="400"
+                borderWidth="025"
+                borderColor="border"
+                borderRadius="200"
+              >
+                <InlineStack align="center">
+                  <BlockStack gap="200" inlineAlign="center">
+                    <Text as="p" tone="subdued" alignment="center">
+                      No product selected
+                    </Text>
+                    <Button onClick={selectProduct} disabled={!enabled}>
+                      Select product
+                    </Button>
+                  </BlockStack>
+                </InlineStack>
+              </Box>
             )}
+
+            <Divider />
 
             <FormLayout>
               <TextField
@@ -181,27 +271,51 @@ export function PostPurchaseUpsellSettings({
                 max={100}
                 suffix="%"
                 autoComplete="off"
+                disabled={!enabled}
+                helpText="Percentage off the original price for one-time purchases."
               />
 
-              {offer.sellingPlans.length > 0 && (
-                <Select
-                  label="Subscription selling plan"
-                  options={sellingPlanOptions}
-                  value={sellingPlanId}
-                  onChange={setSellingPlanId}
-                  helpText="Select a selling plan to enable subscription upsells. Save after selecting a new product to load its selling plans."
-                />
-              )}
-
-              {pickedProduct && offer.sellingPlans.length === 0 && (
-                <Text as="p" tone="subdued" variant="bodySm">
-                  Save to load selling plans for the selected product.
-                </Text>
+              {productInfo && (
+                loadingSellingPlans ? (
+                  <BlockStack gap="200">
+                    <Text as="p" variant="bodySm">Subscription selling plan</Text>
+                    <InlineStack gap="200" blockAlign="center">
+                      <Spinner size="small" />
+                      <Text as="span" tone="subdued" variant="bodySm">
+                        Loading selling plans…
+                      </Text>
+                    </InlineStack>
+                  </BlockStack>
+                ) : (
+                  <Select
+                    label="Subscription selling plan"
+                    options={
+                      availableSellingPlans.length > 0
+                        ? sellingPlanOptions
+                        : [{label: 'None (one-time only)', value: ''}]
+                    }
+                    value={
+                      availableSellingPlans.length > 0 ? sellingPlanId : ''
+                    }
+                    onChange={setSellingPlanId}
+                    disabled={!enabled || availableSellingPlans.length === 0}
+                    helpText={
+                      availableSellingPlans.length > 0
+                        ? 'Select a selling plan to offer a subscription option alongside one-time purchase.'
+                        : 'This product has no selling plans. Add a selling plan to the product to enable subscription upsells.'
+                    }
+                  />
+                )
               )}
             </FormLayout>
 
             <InlineStack align="end">
-              <Button submit loading={isSubmitting} variant="primary">
+              <Button
+                submit
+                loading={isSubmitting}
+                variant="primary"
+                disabled={!isDirty}
+              >
                 Save
               </Button>
             </InlineStack>
