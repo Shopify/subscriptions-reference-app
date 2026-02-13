@@ -18,8 +18,8 @@ import {
   BuyerConsent,
 } from "@shopify/post-purchase-ui-extensions-react";
 
-// For local development, replace APP_URL with your local tunnel URL.
-const APP_URL = "https://clips-latinas-walls-odds.trycloudflare.com";
+// Automatically set by Shopify CLI during `shopify app dev`
+const APP_URL = process.env.SHOPIFY_APP_URL;
 
 const INTERVAL_LABELS = {
   DAY: { singular: "day", plural: "days" },
