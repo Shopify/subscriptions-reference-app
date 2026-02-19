@@ -49,9 +49,24 @@ extend(
       }),
     }).then((response) => response.json());
 
+    const hasOffers = postPurchaseOffer.offers && postPurchaseOffer.offers.length > 0;
+
+    if (!hasOffers) {
+      return { render: false };
+    }
+
+    const hasSubscriptionOffer = postPurchaseOffer.offers.some(
+      (offer) => offer.hasSubscriptionOption
+    );
+    const hasEmail = Boolean(inputData.initialPurchase?.customerInfo?.email);
+
+    if (hasSubscriptionOffer && !hasEmail) {
+      return { render: false };
+    }
+
     await storage.update(postPurchaseOffer);
 
-    return { render: postPurchaseOffer.offers && postPurchaseOffer.offers.length > 0 };
+    return { render: true };
   }
 );
 
