@@ -1,141 +1,51 @@
-import {ApiType, pluckConfig} from '@shopify/api-codegen-preset';
+import {ApiType, shopifyApiProject} from '@shopify/api-codegen-preset';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
 
-function getConfig() {
-  const host = 'app.myshopify.com';
+const apiVersion = 'unstable';
 
+// No public schema endpoint exists for the Customer Account API; the preset introspects it with the app's API key.
+function customerApiProject() {
   const apiKey = process.env.SHOPIFY_API_KEY;
   if (!apiKey) {
-    console.log(
-      'The SHOPIFY_API_KEY environment variable is required. You can obtain it by running this command:\n\n  shopify app env show\n',
+    console.warn(
+      'SHOPIFY_API_KEY is not set, so the shopifyCustomerApi project is unavailable. Run `shopify app env show` to get it.',
     );
-    process.exit(1);
+    return {};
   }
 
-  const apiVersion = 'unstable';
-  const customerApiVersion = 'unstable';
-
-  const adminSchemaUrl = `https://${host}/services/graphql/introspection/admin?api_client_api_key=${apiKey}&api_version=${apiVersion}`;
-
-  const config = {
-    projects: {
-      adminSubsActionExtension: {
-        schema: [
-          {
-            [adminSchemaUrl]: {
-              method: 'GET',
-            },
-          },
-        ],
-        documents: [
-          './extensions/admin-subs-action/**/*.{graphql,js,ts,jsx,tsx}',
-        ],
-        extensions: {
-          codegen: {
-            pluckConfig,
-            generates: {
-              './extensions/admin-subs-action/types/admin.types.d.ts': {
-                plugins: ['typescript'],
-              },
-              './extensions/admin-subs-action/types/admin.generated.d.ts': {
-                preset: '@shopify/api-codegen-preset',
-                presetConfig: {
-                  apiType: ApiType.Admin,
-                },
-              },
-            },
-          },
-        },
-      },
-      shopifyAdminApi: {
-        schema: [
-          {
-            [adminSchemaUrl]: {
-              method: 'GET',
-            },
-          },
-        ],
-        documents: ['./app/**/*.{graphql,js,ts,jsx,tsx}'],
-      },
-      shopifyCustomerApi: {
-        schema: [
-          {
-            [`https://${host}/services/graphql/introspection/customer?api_client_api_key=${apiKey}&api_version=${customerApiVersion}`]:
-              {
-                method: 'GET',
-              },
-          },
-        ],
-        documents: [
-          './extensions/buyer-subscriptions/**/*.{graphql,js,ts,jsx,tsx}',
-          '!./extensions/buyer-subscriptions/dist/**',
-        ],
-        extensions: {
-          codegen: {
-            pluckConfig,
-            generates: {
-              './extensions/buyer-subscriptions/types/customer.schema.json': {
-                plugins: ['introspection'],
-                config: {minify: true},
-              },
-              './extensions/buyer-subscriptions/types/customer.types.d.ts': {
-                plugins: ['typescript'],
-              },
-              './extensions/buyer-subscriptions/types/customer.generated.d.ts':
-                {
-                  preset: '@shopify/api-codegen-preset',
-                  presetConfig: {
-                    apiType: ApiType.Customer,
-                    module: '@shopify/customer-api-client',
-                  },
-                },
-            },
-          },
-        },
-      },
-      // To produce variable / return types for Admin API operations
-      default: {
-        schema: [
-          {
-            [`https://${host}/services/graphql/introspection/admin?api_client_api_key=${apiKey}&api_version=${apiVersion}`]:
-              {
-                method: 'GET',
-              },
-          },
-        ],
-        documents: [
-          './app/**/*.{graphql,js,ts,jsx,tsx}',
-          '!./app/**/*.public.{graphql,js,ts,jsx,tsx}',
-          '!./extensions/buyer-subscriptions/**/*.{graphql,js,ts,jsx,tsx}',
-        ],
-        extensions: {
-          codegen: {
-            // Enables support for `#graphql` tags, as well as `/* GraphQL */`
-            pluckConfig,
-            generates: {
-              './types/admin.schema.json': {
-                plugins: ['introspection'],
-                config: {minify: true},
-              },
-              './types/admin.types.d.ts': {
-                plugins: ['typescript'],
-              },
-              './types/admin.generated.d.ts': {
-                preset: '@shopify/api-codegen-preset',
-                presetConfig: {
-                  apiType: ApiType.Admin,
-                },
-              },
-            },
-          },
-        },
-      },
-    },
+  return {
+    shopifyCustomerApi: shopifyApiProject({
+      apiType: ApiType.Customer,
+      apiVersion,
+      apiKey,
+      outputDir: './extensions/buyer-subscriptions/types',
+      documents: [
+        './extensions/buyer-subscriptions/**/*.{graphql,js,ts,jsx,tsx}',
+        '!./extensions/buyer-subscriptions/dist/**',
+      ],
+      module: '@shopify/customer-api-client',
+    }),
   };
-
-  return config;
 }
 
-module.exports = getConfig();
+export default {
+  projects: {
+    adminSubsActionExtension: shopifyApiProject({
+      apiType: ApiType.Admin,
+      apiVersion,
+      outputDir: './extensions/admin-subs-action/types',
+      documents: [
+        './extensions/admin-subs-action/**/*.{graphql,js,ts,jsx,tsx}',
+      ],
+    }),
+    ...customerApiProject(),
+    default: shopifyApiProject({
+      apiType: ApiType.Admin,
+      apiVersion,
+      outputDir: './types',
+      documents: ['./app/**/*.{graphql,js,ts,jsx,tsx}'],
+    }),
+  },
+};
