@@ -106,11 +106,8 @@ export function createMockAddress(
     provinceCode,
     coordinatesValidated: true,
     formatted: [address1, address2, city, provinceCode, zip, countryCode],
-    isShopifyOffice: false,
     latitude: faker.location.latitude(),
     longitude: faker.location.longitude(),
-    suggestedAddresses: [],
-    verified: true,
     ...address,
   };
 }

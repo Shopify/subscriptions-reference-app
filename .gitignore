@@ -25,7 +25,7 @@ yarn-error.log
 
 # Generated GraphQL Types
 /types/admin.generated.d.ts
-/types/admin.schema.json
+/types/admin*.schema.json
 /types/admin.types.d.ts
 /graphql/schema.json
 /extensions/**/types/*.generated.d.ts
